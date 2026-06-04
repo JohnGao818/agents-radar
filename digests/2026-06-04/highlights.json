@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.162 发布，修复多项信任问题",
+      "OpenAI Codex rust-v0.137.0 正式版发布",
+      "Token 消耗不透明引发 600+ 评论讨论",
+      "会话管理智能化成社区核心诉求",
+      "付费账户禁用致信任危机 (Issue #5088)",
+      "Agent 行为可塑性与 Hooks 框架需求上升"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.1 发布，提升 Agent 恢复能力",
+      "v2026.6.2-beta.1 改革插件安装策略",
+      "WhatsApp 频道热配置修复 (PR #87965)",
+      "Telegram 回复状态计数修复 (PR #90123)",
+      "macOS 伴侣应用思考层级配置修复",
+      "核心会话 SQLite 迁移引发 17 条讨论"
+    ],
+    "ai-trending": [
+      "headroom 今日新增 3530 星，令牌压缩工具登顶",
+      "ECC 新增 2141 星，Agent 性能优化爆发",
+      "Hermes Agent 新增 1735 星，成长型框架受捧",
+      "airllm 实现 4GB 单卡运行 70B 模型",
+      "supermemory 构建 Agent 记忆引擎",
+      "ollama 今日支持 Kimi、GLM 等新模型"
+    ],
+    "ai-web": [
+      "Anthropic 承认 Agent 已获信任可访问生产环境",
+      "发布 AI 网络威胁年度映射，攻击进入半自主阶段",
+      "Claude 合作伙伴网络数万人获认证",
+      "GPT Rosalind 新能力更新暗示模型突破",
+      "Claude Mythos Preview 因爆炸半径过高未发布",
+      "Anthropic 详述跨产品约束 Claude 工程方法"
+    ],
+    "ai-hn": [
+      "78 分帖子：花 1500 美元测试 LLM 攻击自己应用",
+      "60 分帖子：Anthropic 分享如何约束 Claude",
+      "32 分帖子：Mnemo 开源本地 AI 记忆层 (Rust+SQLite)",
+      "27 分帖子：Claude Opus 4.8 Max 对空消息怪异响应",
+      "11 分帖子：Google Gemma 4 12B 可运行于 16GB 笔记本",
+      "5 分帖子：图解 LLM 工作原理教程"
+    ],
+    "ai-arxiv": [
+      "STRIDE 提出稀疏恢复训练数据归因新方法",
+      "失败推理轨迹包含可修复信号，挑战缩放策略",
+      "基础 LLM 内隐自评估能力仅需少量示例",
+      "StreamMA 实现流式多智能体推理通信",
+      "Distributional DAgger 扩展丰富反馈强化学习",
+      "Fast & Faithful Function Vectors 快速提取任务表示"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 下载量超 581 万，性能标杆",
+      "Qwen3.6-27B 成为社区微调母版模型",
+      "NVIDIA LocateAnything-3B 通用定位模型",
+      "LiquidAI LFM2.5-8B-A1B 高效 MoE 边缘利器",
+      "MiniCPM5-1B 小参数强性能，适合本地部署",
+      "JetBrains Mellum2-12B 专注编程与深度推理"
+    ],
+    "ai-community": [
+      "webMCP Live Demo 展示 MCP 协议操控前端",
+      "Docker Sandbox 安全隔离 AI 编码 Agent",
+      "自费测试 LLM 攻击应用获 78 分热议",
+      "公司花 47 万 AI 却不给员工加薪引讨论",
+      "AI agent 安全与可复现性成社区焦点",
+      "后训练和 LLM 约束获 Lobste.rs 高分讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.162 patch released",
+      "Codex rust‑v0.137.0 + alpha pre‑release",
+      "597 comments on Codex token burn issue",
+      "116 👍 for Claude Code session continuation",
+      "133 👍 for Codex Windows installer request",
+      "Billing bug top issue at 173 comments"
+    ],
+    "ai-agents": [
+      "OpenClaw: 383 issues, 401 PRs open in 24h",
+      "Three new releases: v2026.6.2-beta.1 and more",
+      "Plugin installs switch to operator install policy",
+      "P1 regressions in session state reported",
+      "117 issues closed, 99 PRs merged today",
+      "SQLite session migration underway"
+    ],
+    "ai-trending": [
+      "headroom compresses tokens 60–95% (3,530 stars)",
+      "ECC agent harness crosses 1,700+ stars today",
+      "Hermes Agent: self-growing agent core surges",
+      "Microsoft markitdown nears 2,000 stars",
+      "supermemory: memory engine for AI agents",
+      "Open-LLM-VTuber: voice-based LLM interaction"
+    ],
+    "ai-web": [
+      "Anthropic reveals 'Claude Mythos Preview' too risky",
+      "How we contain Claude across products published",
+      "832 banned accounts analyzed over 12 months",
+      "OpenAI hints at 'New Capabilities To Gpt Rosalind'",
+      "Anthropic pushes enterprise ecosystem expansion",
+      "Safety‑release calculus exposed in rare detail"
+    ],
+    "ai-hn": [
+      "$1,500 experiment: LLMs struggle to hack app",
+      "Anthropic containing Claude article scores 60",
+      "UC Berkeley: AI usage linked to CS failure rise",
+      "New tools: Hyper, Mnemo, OpenSOP, Ano",
+      "Claude Opus 4.8 responds to empty prompt",
+      "Google Gemma 4 12B runs on any laptop"
+    ],
+    "ai-arxiv": [
+      "STRIDE: training data attribution via sparse recovery",
+      "Self-evaluation latent judge in base LLMs",
+      "StreamMA breaks latency in multi-agent reasoning",
+      "GeM-NR: geometry-aware editing for LLMs",
+      "AutoLab: long-horizon auto-research benchmark",
+      "Distributional DAgger for rich feedback signals"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro: 4,604 likes, 5.8M downloads",
+      "Qwen 3.6 35B MoE and 27B variants trending",
+      "Nvidia Cosmos3 suite: omnimodal generation",
+      "Google Gemma 4 12B any‑to‑any model",
+      "ByteDance Lance: another any‑to‑any entry",
+      "Intense quantization activity (GGUF, NVFP4)"
+    ],
+    "ai-community": [
+      "$470K AI spend vs $500/month request sparks debate",
+      "Self-correcting systems series on agent memory",
+      "Post-training discussion on Lobste.rs draws attention",
+      "webMCP demo: websites adapting to AI interactions",
+      "Ben Halpern questions coding agent shoehorning",
+      "Developers share hard-won agent reproducibility lessons"
+    ]
+  }
+}
