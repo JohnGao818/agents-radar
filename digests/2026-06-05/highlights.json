@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.163 发布，侧重企业管控",
+      "OpenAI Codex 连发4个Rust版alpha迭代",
+      "API Key 禁用订阅问题引发116条评论",
+      "Codex Linux桌面请求获477个👍成最大痛点",
+      "WSL和原生Linux支持是两大工具共性短板",
+      "双方加速构建插件生态，但标准仍不成熟"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时内涌现500条Issue与PR",
+      "修复Mattermost斜杠命令503回归问题",
+      "修复OpenAI ChatGPT SSE流处理错误",
+      "Codex-vs-Pi运行时一致性QA框架关闭",
+      "修复模型Fallback机制回归问题",
+      "Feishu消息分发崩溃Bug已被修复"
+    ],
+    "ai-trending": [
+      "hermes-agent 今日新增1913星，Agent生态爆发",
+      "headroom 新增3142星，号称减少60-95% token",
+      "NVIDIA cosmos世界模型持续吸引关注",
+      "ECC 项目今日新增1750星，Agent优化工具",
+      "ollama 以173K星领跑本地LLM部署",
+      "firecrawl 128K星，为Agent提供实时数据"
+    ],
+    "ai-web": [
+      "Anthropic 官网今日无任何新内容发布",
+      "OpenAI 集中更新“ChatGPT Memory Dreaming”",
+      "Memory Dreaming 暗示记忆从存储走向整合",
+      "OpenAI 可能推出记忆回放或重组功能",
+      "Anthropic 静默期或为重大发布积蓄力量",
+      "两家官方发布呈现鲜明信息不对称态势"
+    ],
+    "ai-hn": [
+      "Anthropic 递归自我改进长文引474条讨论",
+      "开源漏洞发现框架获299票，安全议题升温",
+      "NSA被曝使用Anthropic Mythos进行网络攻击",
+      "Timnit Gebru 2020年警告被指全部成真",
+      "Boxes.dev 云端运行Claude Code获85票",
+      "阿里巴巴开源代码审查CLI工具获69票"
+    ],
+    "ai-community": [
+      "AI代理生产失败主因在基础设施而非模型",
+      "MCP生态爆发，注册表大合并成焦点",
+      "GitHub Copilot新计费24倍价差引热议",
+      "Headroom可削减95% LLM Token消耗",
+      "后训练阶段重要性长文获60分热度",
+      "Transformer注意力与Hopfield网络理论联系"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code stable v2.1.163",
+      "OpenAI Codex 4 Rust alpha builds",
+      "Claude Code billing issue #8327",
+      "Codex Linux app request (477 👍)",
+      "Claude Code PRs: internal tooling",
+      "Codex PRs outpace Claude Code"
+    ],
+    "ai-agents": [
+      "500 issues, 500 PRs in 24h",
+      "103 PRs merged/closed",
+      "New memory.rerank toggle (#90304)",
+      "ReplyPayload.origin metadata (#90527)",
+      "Persist error replies in chat (#89483)",
+      "Fix missing content-type header (#90399)"
+    ],
+    "ai-trending": [
+      "ECC gains 1,750 stars today",
+      "hermes-agent hits 1,913 stars",
+      "headroom token proxy (3,100+ stars)",
+      "NVIDIA Cosmos physical AI platform",
+      "vllm: 81,960 stars",
+      "open-webui: 140,079 stars"
+    ],
+    "ai-hn": [
+      "Anthropic recursive self-improvement paper",
+      "Timnit Gebru vindication (106 points)",
+      "NSA using Anthropic models (FT)",
+      "Community worry about AI control",
+      "Anthropic open-source vulnerability tool",
+      "Intense debate on AI timelines"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro: 4,632 likes",
+      "DeepSeek-V4-Flash: 1,402 likes",
+      "LiquidAI LFM2.5-8B-A1B MoE",
+      "JetBrains Mellum2 thinking model",
+      "NVIDIA Cosmos3 omni ecosystem",
+      "Uncensored Qwen3.6 fine-tune"
+    ],
+    "ai-community": [
+      "AI agents fail in production",
+      "Headroom cuts token costs 95%",
+      "Copilot billing 24x price gap",
+      "MCP ecosystem maturation",
+      "Schema-first prompting pattern",
+      "GPU interconnect discussion"
+    ]
+  }
+}
