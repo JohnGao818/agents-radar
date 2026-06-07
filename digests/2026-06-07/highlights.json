@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.168 发布，修复多项 Bug",
+      "社区热议多 Agent 自主架构（Opus+Sonnet）",
+      "MCP OAuth 尾随斜杠兼容性问题引关注",
+      "Gmail MCP 连接器提案增加标签管理",
+      "“Tool call could not be parsed”高优先级Bug",
+      "Cowork 功能创建 10GB VM 包引优化讨论"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.5-beta.2 发布",
+      "修复QQBot思维链泄露的隐私问题",
+      "Google Vertex AI 图像/视频生成修复",
+      "飞书消息增加发送重试机制",
+      "Discord 搜索功能稳定性修复",
+      "子沙箱环境隔离改进避免嵌套"
+    ],
+    "ai-trending": [
+      "CopilotKit 单日新增 631 stars",
+      "MemPalace 单日新增 446 stars",
+      "open-notebook +794 stars 登顶今日热度",
+      "obra/superpowers 单日 +700 stars",
+      "Agent-Reach 单日 +683 stars",
+      "vllm 累计 82k stars，推理引擎首选"
+    ],
+    "ai-hn": [
+      "S&P 500 拒绝 SpaceX 及多家 AI 公司入市",
+      "Meta 证实数千 Instagram 账号因 AI 被黑",
+      "OpenAI 推出 Lockdown Mode 防提示注入",
+      "Anthropic 让 Claude 成为化学家",
+      "特朗普签署 AI 预测试行命令",
+      "开发者用 Claude 修复 41TB BTRFS 文件系统"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 周 +4,681 赞，下载 551 万",
+      "DeepSeek-V4-Flash 周 +1,421 赞",
+      "SulphurAI 视频模型 +1,581 赞，下载 170 万",
+      "NVIDIA Cosmos3 多模态视频系列上榜",
+      "Top 30 中 8 个模型采用 MoE 架构",
+      "Unsloth 为 Gemma-4 提供 GGUF 量化版"
+    ],
+    "ai-community": [
+      "碳感知训练：按电网碳强度调度 GPU",
+      "Agent 生产化三检查：安全、可观测、容错",
+      "AI Slop 成为真实工程负债引治理讨论",
+      "LLM Cost Attribution 追踪 API 花费",
+      "Lobste.rs 热议后训练数据才是关键",
+      "AI 蠕虫安全威胁引发社区关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Opus 4.7/4.8 thinking blocks regression",
+      "Codex has 2x open PRs than Claude Code",
+      "Claude Code v2.1.168 bug-fix release",
+      "#22543 Cowork VM perf top issue (201👍)",
+      "#13018 thread deletion top issue (103👍)",
+      "Demand for autonomous multi-agent workflows"
+    ],
+    "ai-agents": [
+      "OpenClaw 296 issues updated in 24h",
+      "Two beta releases v2026.6.5-beta.1/2",
+      "QQBot thinking-strip safety fix",
+      "MCP tool result coercion added",
+      "#91073 fix OpenRouter streamed cost",
+      "High-severity regressions from 2026.6.1"
+    ],
+    "ai-trending": [
+      "MemPalace +446 stars, best memory system",
+      "CopilotKit +631 stars, AG-UI Protocol",
+      "open-notebook +794 stars, NotebookLM alt",
+      "Agent-Reach zero-fee social scraper +683",
+      "Microsoft VibeVoice +216 stars voice AI",
+      "vllm 82k stars high-throughput inference"
+    ],
+    "ai-hn": [
+      "S&P 500 blocks SpaceX, OpenAI, Anthropic",
+      "Meta: Instagram accounts hacked via AI bot",
+      "OpenAI Lockdown Mode vs prompt injection",
+      "Making Claude a Chemist fine-tuning",
+      "Tenure Project: 95% AI memory error rate",
+      "Community mood skeptical and security-aware"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 4,681 weekly likes",
+      "DeepSeek-V4-Flash 1,421 likes",
+      "Nvidia LocateAnything-3B object detection",
+      "Qwen3.6-35B-A3B MoE quantized",
+      "Gemma-4 any-to-any multimodal pipeline",
+      "LiquidAI LFM2.5-8B-A1B efficiency"
+    ],
+    "ai-community": [
+      "Carbon-aware GPU scheduling guide",
+      "Production agents vs demos article",
+      "AI slop software engineering problem",
+      "aislop quality gate for AI code",
+      "LLMs compared to Age of Empires II satire",
+      "Tension: shipping demos vs reliable agents"
+    ]
+  }
+}
