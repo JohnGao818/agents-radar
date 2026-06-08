@@ -1,4 +1,22 @@
 {
-  "zh": {},
-  "en": {}
+  "zh": {
+    "ai-weekly": [
+      "Anthropic IPO+650亿美元H轮融资，估值9650亿",
+      "Claude Opus 4.8发布，引入Effort Control与Fast Mode",
+      "OpenAI推出ChatGPT Memory Dreaming主动记忆整合",
+      "ECC和Hermes Agent霸榜GitHub，单日1700+ Stars",
+      "Headroom压缩Token引轰动，单日狂揽3000+ Stars",
+      "Linux桌面支持呼声最高，两工具请求累计超500👍"
+    ]
+  },
+  "en": {
+    "ai-weekly": [
+      "Anthropic files IPO at $965B valuation",
+      "Claude Opus 4.8: Effort Control & Fast Mode",
+      "Hermes Agent & ECC top GitHub stars",
+      "Headroom token compressor reduces tokens 60-95%",
+      "OpenAI \"Memory Dreaming\" for ChatGPT memory",
+      "Stanford CS336 first academic AI agent policy"
+    ]
+  }
 }
