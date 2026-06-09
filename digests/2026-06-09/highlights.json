@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.169 发布，社区讨论计费不满",
+      "OpenAI Codex rust-v0.138.0 与多个 alpha 并行迭代",
+      "用户强烈要求多窗口/多标签/会话分支功能",
+      "MCP/Hooks 自动化扩展成为生态分化关键",
+      "模型可用性差：假性可用、胡言乱语、上下文丢失",
+      "Windows+WSL 平台兼容性及性能问题突出"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.5-beta.5 修复 QQBot 思考链泄漏",
+      "MCP 工具结果类型强制转换提升跨协议兼容性",
+      "社区请求中英文编码统一、技能市场、多会话架构",
+      "内存向量搜索因 sqlite-vec ABI 不匹配问题修复",
+      "飞书流式卡片打字机效果异常及内容截断已修复",
+      "过去24小时 500 条 Issues 和 472 条 PR 高度活跃"
+    ],
+    "ai-trending": [
+      "turbovec 向量索引库今日新增 1729 stars",
+      "last30days-skill 跨平台研究技能模块 +3558 stars",
+      "google/skills 官方 Agent 技能集合发布",
+      "whichllm 一键评测本地 LLM 性能工具",
+      "aaif-goose/goose 开源可扩展 AI Agent",
+      "CopilotKit 面向 Agent 的前端框架获 378 stars"
+    ],
+    "ai-web": [
+      "Anthropic 研究：生物数据需确定性检索层适配 Agent",
+      "OpenAI 提交 S-1 表格，暗示 IPO 进程加速",
+      "OpenAI 发布 Economic Research Exchange 项目",
+      "Anthropic 博客直接对比 Claude 与 GPT 生物检索性能",
+      "OpenAI 同日新增三条索引页面含战略规划文",
+      "Anthropic 研究合作包括 Broad Institute 知名生物学家"
+    ],
+    "ai-hn": [
+      "OpenAI 提交 IPO 申请登顶 HN 305 分 220 评论",
+      "Anthropic Project Glasswing 更新引发安全讨论",
+      "微软遭黑客攻击被用于向 Claude/Gemini 用户投毒",
+      "“Chat is dead” 文章预示 ChatGPT 界面重大变革",
+      "Show HN: Command Center 专注代码质量的 AI 编程环境",
+      "Show HN: Rayline 路由 Claude Code 子代理到便宜模型"
+    ],
+    "ai-arxiv": [
+      "Trellis 用 LLM 增量精化自然语言证明实现 Lean 自动形式化",
+      "端到端 KV 缓存压缩大幅降低长上下文推理内存开销",
+      "PRISM 从 LLM 激活中恢复指令用于 Agent 安全监控",
+      "SpatialWorld 首个交互式空间推理多模态基准",
+      "ReCoVLA 用外部 VLM 引导机器人故障恢复策略",
+      "SecureClaw 提出控制 LLM Agent 的框架"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 周增 4723 赞，下载超 539 万",
+      "Sulphur-2-base 视频生成模型一周 1601 赞 170 万下载",
+      "NVIDIA LocateAnything-3B 图像定位模型上榜",
+      "Unsloth 和 Google 发布 Gemma-4/DeepSeek-V4 GGUF 量化版",
+      "JetBrains Mellum2-12B 代码思考 MoE 模型仅激活 2.5B",
+      "LiquidAI LFM2.5-8B 稀疏 MoE 在效率与效果间平衡"
+    ],
+    "ai-community": [
+      "被 AI 取代后因系统崩溃被高薪召回的真实故事",
+      "Prompt Engineering 已死，系统工程师是未来",
+      "RAG with Postgres pgvector 完整 TypeScript 教程",
+      "9 家 Serverless GPU 提供商实测对比冷启动与定价",
+      "揭示 Agent RTT 操纵攻击新威胁及防御思路",
+      "对抗性评估框架攻击 5 个 LLM 全部失败"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.169 stable released",
+      "OpenAI Codex rust-v0.138.0 stable",
+      "Multi-window Desktop request for Claude Code",
+      "Disable auto .txt conversion request for Codex",
+      "Claude Code leads in raw customization surface",
+      "Codex closing gap with own hook system"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.5-beta.5 and beta.3 released",
+      "QQBot strips raw thinking content from replies",
+      "MCP tool results coerce unexpected content types",
+      "Transcript image redaction fix PR #91529",
+      "64 issues closed, 141 PRs merged in 24h",
+      "Project in bumpy but moving state"
+    ],
+    "ai-trending": [
+      "turbovec: Rust vector index gains 1,729 stars",
+      "roboflow/supervision: 1,288 stars for CV toolkit",
+      "google/skills: official agent skills for Google products",
+      "aaif-goose/goose: extensible AI agent with 699 stars",
+      "last30days-skill: 3,558 stars for web research skill",
+      "MemPalace: best-benchmarked AI memory system"
+    ],
+    "ai-web": [
+      "Anthropic: paving way for agents in biology",
+      "OpenAI filed confidential S-1 for IPO",
+      "OpenAI publishes 'Built To Benefit Everyone' plan",
+      "OpenAI launches Economic Research Exchange",
+      "Deterministic tooling boosts biology retrieval accuracy",
+      "Agent-friendly biological data infrastructure push"
+    ],
+    "ai-hn": [
+      "OpenAI S-1 IPO filing sparks broad debate",
+      "Anthropic's Project Glasswing and Claude Fable 5",
+      "Community demands filters for AI slop on platforms",
+      "Apple quietly releases third-gen foundation models",
+      "Anthropic studies LLMs impact on exploit timelines",
+      "Skepticism about unknown LLM behaviors persists"
+    ],
+    "ai-arxiv": [
+      "Context compression for long-context LLMs proposed",
+      "Study reveals tradeoffs in chain-of-thought reasoning",
+      "PRISM recovers hidden instructions from activations",
+      "Recursive self-design for AI architectures",
+      "Optical Reasoning challenges text-centric paradigm",
+      "SpatialWorld benchmarks interactive spatial reasoning"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4 Pro leads with 4,723 likes",
+      "DeepSeek-V4 Flash: 1,449 likes, fast variant",
+      "NVIDIA Nemotron-3 Ultra 550B MoE model",
+      "Google Gemma 4 spawns many quantized versions",
+      "unsloth releases optimized Gemma 4 variants",
+      "NVIDIA LocateAnything-3B multimodal model"
+    ],
+    "ai-community": [
+      "Agent security warnings dominate Dev.to",
+      "Prompt Engineering Is Dead article trends",
+      "RAG with pgvector TypeScript pipeline tutorial",
+      "Cautionary tale: AI skill extraction leads to layoff",
+      "Satirical paper equates LLMs to Age of Empires II",
+      "Community focus on safe, measurable AI systems"
+    ]
+  }
+}
