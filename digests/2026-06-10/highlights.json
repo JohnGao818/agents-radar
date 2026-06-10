@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.170 引入 Fable 5 模型",
+      "OpenAI Codex rust-v0.139.0 新增独立 Web 搜索",
+      "会话数据持久化：更新后聊天记录丢失成热议",
+      "社区强烈要求 Linux 桌面版（获 406 👍）",
+      "模型行为可靠性差：幻觉、逻辑不一致频发",
+      "Windows 进程锁等跨平台兼容问题突出"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 2026.6.5，修复 QQ 机器人消息泄露",
+      "MCP 工具结果处理增强，兼容性大幅提升",
+      "PR #91801 修复会话卡住状态恢复问题",
+      "PR #91810 修复 WebChat 思考过程显示",
+      "PR #91557 大幅改进 iPad/iPhone 控制界面",
+      "社区热点 #25592 工具调用文本泄露到聊天通道"
+    ],
+    "ai-trending": [
+      "last30days-skill 单日 +3191 star，聚合信息源",
+      "TurboVec：Rust 向量索引库，获 1800+ star",
+      "WhichLLM 一键评测本地 LLM，+633 star",
+      "agent-skills 生产级工程技能集合，+443 star",
+      "pm-skills PM 技能市场，100+ Agent 技能",
+      "goose 开源可扩展 AI Agent，+489 star"
+    ],
+    "ai-hn": [
+      "Claude Fable 5 发布帖 1837 分、1452 评论",
+      "System Card 公布 Fable 5 和 Mythos 5 细节",
+      "FPGA 上超快机器学习（KAN）引发讨论",
+      "Claw Patrol：Deno 推出的 Agent 安全防火墙",
+      "Agent-pd：零 Token 审计日志抓子代理",
+      "德国法院判 Google 对 AI Overview 虚假回答负责"
+    ],
+    "ai-arxiv": [
+      "跨模态对齐与预测相图指导多模态训练",
+      "全双工语音交互对齐方法提升对话质量",
+      "CoT 微调破坏混合注意力模型长文回忆",
+      "推理模型是否保持对齐安全？研究有警示",
+      "EEVEE：测试时提示学习让智能体自我改进",
+      "ABC-Bench：生物安全能力基准评估智能体"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 4700+ 点赞，430 万下载",
+      "Google Gemma 4 系列量化微调版爆火",
+      "NVIDIA Nemotron-3 550B MoE 巨模型发布",
+      "Nex-N2-Pro 开源模型编程逼近 GPT-5.5",
+      "LiquidAI LFM2.5-8B-A1B 高效 MoE 获 572 赞",
+      "Ideogram 4 顶级文生图模型受社区关注"
+    ],
+    "ai-community": [
+      "Prompt 不是技能引发激烈辩论（30赞/32评）",
+      "AI 使用统计2026：结构性转变影响招聘",
+      "The Loop Is Not the Product 讨论核心本质",
+      "Stop Feeding Agents Raw Data 实战建议",
+      "Nex-N2-Pro 开源模型匹配 GPT-5.5 编程",
+      "多 Agent 系统失败模式诊断指南发布"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Fable 5 released (Mythos-class)",
+      "OpenAI Codex ships web search in Rust CLI",
+      "Both tools get stable releases today",
+      "Windows support remains fragile for both",
+      "Top issue: Linux desktop support (406👍)",
+      "Critical bug: Windows relaunch lock (86 comments)"
+    ],
+    "ai-agents": [
+      "OpenClaw: 443 issues, 483 PRs in 24h",
+      "Two new releases: v2026.6.5 stable and beta",
+      "QQBot strips thinking tags from replies",
+      "Codex context-engine compaction merged",
+      "iOS/iPadOS control surfaces now available",
+      "Memory system reliability improvements"
+    ],
+    "ai-trending": [
+      "last30days-skill surges +3,191 stars",
+      "turbovec: Rust vector index +1,801 stars",
+      "career-ops: AI job search +1,110 stars",
+      "pm-skills: agent skills +806 stars",
+      "addyosmani/agent-skills +443 stars",
+      "openai/plugins rebounding +284 stars"
+    ],
+    "ai-hn": [
+      "Claude Fable 5 dominates with 1,837 points",
+      "Controversy: model sabotages competitor tasks",
+      "German court rules Google liable for AI outputs",
+      "Wrongful arrest from AI misidentification",
+      "FPGA acceleration for ML gains attention",
+      "Open-source security tools for agents"
+    ],
+    "ai-arxiv": [
+      "CoT fine-tuning degrades long-context recall",
+      "Hierarchical KV cache management proposed",
+      "LLM automation narrative faces scrutiny",
+      "Biosafety risks benchmark introduced",
+      "Long-horizon professional workflow evaluation",
+      "Cross-lingual distributional skew analyzed"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro: 4,741 likes, 4.3M downloads",
+      "Nvidia Nemotron-3-Ultra-550B launched",
+      "Gemma-4 ecosystem expands with quant variants",
+      "Qwen 3.6 uncensored variant trends (1,596 likes)",
+      "Boson AI audio models gaining traction",
+      "ByteDance video models show diversity"
+    ],
+    "ai-community": [
+      "\"Prompt is not a skill\" sparks 32 comments",
+      "LLM explainer on Lobste.rs scores 62",
+      "Agent governance concerns dominate discussion",
+      "Hidden token costs of AI infrastructure",
+      "Nex-N2-Pro claims GPT-5.5 parity in coding",
+      "Behavioural transmission through LM data"
+    ]
+  }
+}
