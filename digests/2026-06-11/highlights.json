@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.172发布子智能体递归嵌套",
+      "OpenAI Codex rust-v0.140.0-alpha.7迭代",
+      "内存泄漏#11315引发64条激烈讨论",
+      "令牌消耗过快#14593有604条评论",
+      "MCP OAuth Token未发送#46140致命",
+      "Windows平台兼容性问题报告密集"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.6-beta.1安全加固发布",
+      "PR #90128修复会话模型覆盖丢失",
+      "PR #84938修复推理内容转发问题",
+      "PR #92072修复Gemini CLI图片支持",
+      "PR #92005新增click force参数",
+      "469个活跃Issue积压维护压力大"
+    ],
+    "ai-trending": [
+      "last30days-skill日增2535星成最大黑马",
+      "Agent技能类项目集体爆发",
+      "MoneyPrinterTurbo日增1389星视频生成",
+      "supervision日增695星计算机视觉工具",
+      "ollama本地LLM方案173k星",
+      "RAG知识库claude-mem受关注"
+    ],
+    "ai-web": [
+      "Anthropic文章:Agent在生物学瓶颈在基础设施",
+      "引入gget virus检索层准确率近100%",
+      "呼吁设计Agent友好生物数据基础设施",
+      "Anthropic转向领域适配Agent混合架构",
+      "OpenAI今日无实质内容更新",
+      "AI Agent在生物领域应用新范式"
+    ],
+    "ai-hn": [
+      "Claude Desktop每次启动创建1.8GB VM",
+      "安全研究者不满Fable护栏过于严格",
+      "Fable 5刚发布就被越狱成功",
+      "Anthropic命名规则遭社区调侃",
+      "AI代理在Fedora上失控执行意外",
+      "OpenAI被曝正在酝酿大幅降价"
+    ],
+    "ai-arxiv": [
+      "Doc-to-Atom提出记忆原子解决长上下文瓶颈",
+      "TAHOE自动优化Text-to-SQL提示",
+      "APPO改进多轮工具使用强化学习",
+      "DIRECT揭示VLM具身规划计算收益递减",
+      "Ambient Diffusion Policy从次优数据学习",
+      "INT8/FP8量化对比指南部署实践"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro获4762赞霸榜",
+      "NVIDIA LocateAnything-3B视觉定位",
+      "Google Gemma-4系列多模态发布",
+      "Ideogram-4量化版本受社区关注",
+      "JetBrains Mellum2-12B代码思维链",
+      "LiquidAI LFM2.5-8B高效MoE模型"
+    ],
+    "ai-community": [
+      "代理忘记上下文催生AgentLiar检测工具",
+      "MCP作为AI的USB-C被广泛讨论",
+      "Claude Fable5与Mythos5权重相同引质疑",
+      "RAG测试系列教程填补工程空白",
+      "AI工具数据外泄路由到中国隐患",
+      "日志费用失控和密钥管理问题凸显"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.172 with 5-deep sub-agents",
+      "OpenAI Codex Rust alpha releases v0.140.0",
+      "Memory leak up to 129 GB reported",
+      "Windows Tool loss and ARM64 Cowork failure",
+      "Token burn anxiety dominates user sentiment",
+      "Claude Code Skills repo on GitHub"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.6-beta.1 security release",
+      "469 open issues indicate massive backlog",
+      "Breaking changes in security boundaries",
+      "Message leaks and session bugs reported",
+      "High user demand for cost controls",
+      "Community bug reporting intense"
+    ],
+    "ai-trending": [
+      "Agent skill marketplaces gain 800+ stars daily",
+      "Apple container tool spikes with 1611 stars",
+      "MoneyPrinterTurbo gains 1389 stars today",
+      "vllm-project/vllm at 82,476 stars",
+      "ollama/ollama at 173,809 stars",
+      "RAG and vector databases dominate interest"
+    ],
+    "ai-web": [
+      "Anthropic research on agents in biology",
+      "Deterministic retrieval essential for accuracy",
+      "NCBI Virus database as case study",
+      "OpenAI announces Oracle Cloud partnership",
+      "Focus on agent reliability via structured retrieval",
+      "Infrastructure scaling for production AI"
+    ],
+    "ai-hn": [
+      "AWS Bedrock requires data sharing for Mythos",
+      "Claude Desktop loads 1.8GB Hyper-V VM",
+      "Fable guardrails criticized by researchers",
+      "OpenAI planning drastic price cuts",
+      "Model naming satire gets 290 score",
+      "Community skeptical of Big AI privacy"
+    ],
+    "ai-arxiv": [
+      "Recoverable visual token routing for VLMs",
+      "Context-driven incremental compression for dialogue",
+      "Auditing invisible dependencies in LLMs",
+      "Agentic reinforcement learning for LLMs",
+      "Epistemic resilience under misleading context",
+      "Impossibility of perfectly eliciting latent knowledge"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 4,762 weekly likes",
+      "Gemma-4 ecosystem expands with quantizations",
+      "Nvidia Nemotron-3 Ultra 550B released",
+      "LocateAnything-3B vision-language model",
+      "ByteDance Bernini-R image-text-to-video",
+      "Unsloth GGUF quantizations for Gemma-4"
+    ],
+    "ai-community": [
+      "AgentLiar Detector catches false task claims",
+      "Claude Fable 5 and Mythos 5 share weights",
+      "Sycophancy bias in AI assistants",
+      "RAG-based testing series on retrieval quality",
+      "Debate on anthropomorphic language for LLMs",
+      "Fundamental issues like memory ignored"
+    ]
+  }
+}
