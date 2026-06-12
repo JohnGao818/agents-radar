@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.174 发布，聚焦稳健修复",
+      "OpenAI Codex 连发5个alpha版本，密集迭代",
+      "多平台兼容性成共同痛点：Windows ARM、Linux桌面",
+      "用户抱怨Token浪费，背景轮询烧钱成热门话题",
+      "AI Agent 自主行为安全边界引发社区警惕",
+      "协作功能Cowork/子代理仍存指令回滚等Bug"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.6-beta.2 发布，安全边界大幅收紧",
+      "社区24小时内贡献500条Issue和500条PR",
+      "定时任务功能增强：修复时区与错峰配置丢失",
+      "后台exec命令完成后不再误发心跳错误",
+      "子代理框架改进，支持执行上下文复用",
+      "378条待合并PR构成项目当前主要挑战"
+    ],
+    "ai-trending": [
+      "Agent技能生态全面爆发，addyosmani/agent-skills单日3278星",
+      "自改进AI框架SIA登榜，代表Agent自我进化方向",
+      "医疗垂直模型OpenMed作为新面孔上榜",
+      "Claude-Mem持续升温，Agent长时记忆成兵家必争之地",
+      "ollama已有173.9k星，支持Kimi、GLM等最新模型",
+      "字节deer-flow开源SuperAgent框架，支持长期任务规划"
+    ],
+    "ai-web": [
+      "Anthropic与DXC联盟：将Claude嵌入银行航空核心系统",
+      "95%代码由Claude协作完成，DXC内部验证后对外销售",
+      "Anthropic投入1.5亿美元启动Claude Corps奖学金",
+      "Claude Corps培训1000名早期职业者派往非营利组织",
+      "OpenAI仅有一条收购元数据记录，缺乏详细信息",
+      "Anthropic构建覆盖咨询、服务、技术的企业生态"
+    ],
+    "ai-hn": [
+      "Claude Fable隐形护栏遭社区批评，Anthropic道歉",
+      "独立评测称Fable 5编程能力仅中游，与宣传反差大",
+      "发布当天即有人声称成功越狱Fable模型",
+      "指南展示如何离线用Qwen3.6替代Claude Code",
+      "Yserver：用Claude Code编写Rust X11服务器引热议",
+      "OpenAI考虑大幅降价并收购Ona巩固Codex生态"
+    ],
+    "ai-arxiv": [
+      "Learning to Reason by Analogy：RAG+强化微调推理",
+      "Operadic consistency：无标签检测推理失败新方法",
+      "SpatialClaw：原子动作接口大幅提升3D空间推理",
+      "Agents-K1：科学知识编排框架驱动研究智能体",
+      "HyperTool：超步骤工具调用超越逐步调用范式",
+      "EvoArena：动态记忆跟踪突破静态环境假设"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以4783赞、400万下载领跑本周",
+      "Qwen3.6无审查版下载超300万，社区偏好自由对话",
+      "NVIDIA Nemotron-3-Ultra 550B超大MoE模型发布",
+      "Google Gemma-4系列（12B/26B）全面霸榜",
+      "LocateAnything-3B：NVIDIA定位新范式模型",
+      "Ideogram-4、Bernini-R、MiMo-V2.5带来多模态突破"
+    ],
+    "ai-community": [
+      "11岁女儿问开发者是否手写代码，引vibe coding思考",
+      "HazelJS 1.0.0稳定版：AI原生TypeScript框架",
+      "AI代理安静失败：正确uptime不等于正确结果",
+      "Google ADK五层提示注入防护方案成干货",
+      "Vibe-coded代码质量堪忧，需开发者把关",
+      "RAG测试系列：边缘用例如何破坏RAG系统"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.174 released",
+      "OpenAI Codex 5 Rust alpha builds",
+      "Multi-account switching: 581👍",
+      "Linux desktop app: 551👍",
+      "Documentation gaps highlighted",
+      "Two patch releases for Claude Code"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.6-beta.2 released",
+      "500 issues and PRs updated in 24h",
+      "Security boundaries tightened across subsystems",
+      "Cron edit field loss bug fixed",
+      "Dashboard history projection fix merged",
+      "Backlog needs faster maintainer triage"
+    ],
+    "ai-trending": [
+      "addyosmani/agent-skills +3,278 stars",
+      "NVIDIA SkillSpector security scanner",
+      "hexo-ai/sia self-improving AI framework",
+      "ollama/ollama hits 173,911 stars",
+      "vllm-project/vllm at 82,611 stars",
+      "Agent skill marketplaces production-ready"
+    ],
+    "ai-web": [
+      "Anthropic DXC alliance for regulated industries",
+      "Claude Corps $150M national fellowship",
+      "OpenAI may acquire ONA (unconfirmed)",
+      "DXC to train thousands of Claude-certified engineers",
+      "New policy framework on AI work impact",
+      "Claude embedded into banks and airlines"
+    ],
+    "ai-hn": [
+      "Anthropic apologizes for invisible guardrails",
+      "OpenAI considering drastic price cuts",
+      "Claude Fable 5 quickly jailbroken",
+      "Fable 5 refuses innocuous prompts",
+      "Independent benchmarks doubt Fable's coding",
+      "MTG Bench tests LLMs at Magic: The Gathering"
+    ],
+    "ai-arxiv": [
+      "Operad theory formalizes question decomposition",
+      "EvoArena tracks memory evolution in agents",
+      "EurekAgent enables autonomous discovery",
+      "Shield synthesis as defensibility analysis",
+      "GNN positional encodings equivalence proven",
+      "System 0 AI-mediated cognition explored"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 4,783 likes",
+      "Gemma-4 fine-tuned variants dominate",
+      "NVIDIA LocateAnything-3B for localization",
+      "Nemotron-3 Ultra 550B active parameters",
+      "Ideogram-4 models in FP8 and NF4",
+      "ByteDance Bernini-R image-to-video model"
+    ],
+    "ai-community": [
+      "Vibe coding reshaping developer skills",
+      "Rate limit fixes cause silent agent failures",
+      "Anthropic acquisition of Bun explored",
+      "Correct uptime as separate SLO introduced",
+      "Deep technical breakdown of LLM internals",
+      "Prompt injection defenses discussed"
+    ]
+  }
+}
