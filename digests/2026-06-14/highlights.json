@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code社区要求禁用VS Code自动附加功能",
+      "OpenAI Codex发布两个alpha版本迭代加速",
+      "Codex重点解决WSL集成路径错误问题",
+      "模型幻觉导致数据丢失成为核心痛点",
+      "Agent系统精细化管理需求增长",
+      "权限与安全机制确定性成焦点话题"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.6.8-beta.1与v2026.6.7-beta.1",
+      "Telegram/WhatsApp渠道交付大幅增强",
+      "修复iOS Safari聊天视图和输入缩放问题",
+      "修复Slug生成器拒绝错误载荷转换",
+      "修复memory-core索引后回退FTS问题",
+      "飞书插件内存泄漏等严重问题受关注"
+    ],
+    "ai-trending": [
+      "NVIDIA SkillSpector Agent安全扫描器新增804星",
+      "LMCache实现10倍LLM推理速度提升",
+      "Andrew Ng的aiSuite统一多模型接口",
+      "addosmani/agent-skills单日获1514星",
+      "本地Agent分析工具agentsview新增190星",
+      "ollama与transformers持续领跑基础工具榜"
+    ],
+    "ai-web": [
+      "Claude Fable 5发布数天后被美国政府禁止",
+      "Anthropic与TCS合作攻金融医疗合规",
+      "首份美国公众AI调查结果发布",
+      "Anthropic回应称政府行动过度",
+      "OpenAI今日无任何新内容更新",
+      "Fable 5内置安全保护仅影响5%会话"
+    ],
+    "ai-hn": [
+      "Amazon CEO与白宫沟通触发Anthropic封禁",
+      "GLM 5.2发布获411分223条评论热议",
+      "Meta AI团队内部混乱曝光",
+      "OpenAI遭多州检察长调查",
+      "社区担忧出口管制监管升级",
+      "Claude Fable 5规划能力胜过GPT-5.5"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro获4813赞下载325万",
+      "Google Gemma-4系列生态持续壮大",
+      "Nvidia LocateAnything-3B精准定位获1964赞",
+      "Ideogram-4高质量图像生成受追捧",
+      "Moonshot Kimi-K2.7-Code代码模型亮相",
+      "文生音频视频模型Magenta-2等崭露头角"
+    ],
+    "ai-community": [
+      "Fable 5被政府撤回引发营销泡沫讨论",
+      "开发者实测便宜模型成本反贵8.6倍",
+      "五类Agent生产失败模式总结警示",
+      "Agent日志误导问题追踪指南发布",
+      "Spring Boot AI提示泄露与注入区分",
+      "量化感知训练Gemma 4实战分享"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code session data loss bug (#66734)",
+      "OpenAI Codex Windows app non-launchable (#27979)",
+      "Codex 2 alpha releases (v0.140.0-alpha.18/.19)",
+      "Claude Code top issue #24726: 159 👍",
+      "OpenAI Codex macOS malware alerts (#24246)",
+      "Claude Code PR activity low (1 meaningful PR)"
+    ],
+    "ai-agents": [
+      "OpenClaw 500 issues and 500 PRs in 24h",
+      "OpenClaw v2026.6.8-beta.1 released",
+      "High-severity memory leaks unresolved",
+      "213 merged/closed PRs today",
+      "Telegram channel delivery enhanced",
+      "WhatsApp channel delivery improved"
+    ],
+    "ai-trending": [
+      "addyosani/agent-skills +1,514 stars today",
+      "NVIDIA SkillSpector +804 stars",
+      "LMCache +238 stars for KV cache",
+      "Production-grade agent tooling shift",
+      "kenn-io/agentsview +190 stars",
+      "vllm at 82,788 total stars"
+    ],
+    "ai-web": [
+      "Anthropic launches Claude Fable 5 & Mythos 5",
+      "US export controls suspend Claude models",
+      "TCS partnership for regulated industries",
+      "First export control on foreign nationals",
+      "OpenAI publishes 0 new articles",
+      "Claude Opus 4.8 as fallback for sensitive queries"
+    ],
+    "ai-hn": [
+      "Export controls on Fable 5: 585 points",
+      "GLM 5.2 release with 411 points",
+      "Meta internal AI chaos discussed",
+      "Multi-state AG investigation into OpenAI",
+      "Debate on corporate influence in policy",
+      "Chinese AI progress contrasts with ban"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads: 4,813 weekly likes",
+      "Google Gemma-4 fine-tunes explode",
+      "ByteDance Bernini-R video generation model",
+      "MoE architectures in 9 of top 30",
+      "Unsloth contributes 4 GGUF quantizations",
+      "Nex-N2-Pro 35B-A3B MoE trending"
+    ],
+    "ai-community": [
+      "Claude Fable 5 pulled by govt in 3 days",
+      "Cheaper model costs 8.6× more",
+      "AI agent reliability debate intensifies",
+      "Cost management and observability focus",
+      "Growing need for AI gateways",
+      "System Architect vs AI Architect roles"
+    ]
+  }
+}
