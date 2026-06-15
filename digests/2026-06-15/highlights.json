@@ -1,0 +1,110 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code递归子代理内核泄漏严重Bug",
+      "OpenAI Codex PR活跃，新增10个",
+      "社区要求印度区定价，按消息选模型",
+      "子代理递归深度限制成社区焦点",
+      "macOS内核泄漏、Windows文件截断问题",
+      "虚假限频导致错误计费受关注"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.6.8-beta.1增强Telegram和WhatsApp",
+      "新增cron dry-run预览命令",
+      "修复越界加载系统目录安全漏洞",
+      "Telegram消息重复Bug引热议",
+      "会话中断问题成社区焦点",
+      "Cron任务交付路由修复"
+    ],
+    "ai-trending": [
+      "NVIDIA推出AI Agent安全扫描器SkillSpector日增964星",
+      "Andrew Ng的aisuite统一多模型接口获291星",
+      "金融大模型Kronos亮相日增244星",
+      "自主机器人教科书项目日增293星",
+      "本地模型ollama持续热，star 174k",
+      "RAG生态dify等保持高活跃度"
+    ],
+    "ai-web": [
+      "OpenAI推出Partner Network构建平台生态",
+      "Anthropic持续沉默或专注重大发布",
+      "OpenAI战略从卖模型转向建平台",
+      "Partner Network整合第三方服务商",
+      "AI双巨头战略节奏分化",
+      "OpenAI今日仅一份生态公告"
+    ],
+    "ai-hn": [
+      "Anthropic多重危机：模型突变、出口管制",
+      "里约LLM被曝是现有模型合并遭嘲讽",
+      "HN热议Claude变得暴躁行为",
+      "白宫紧急会晤Anthropic讨论AI安全",
+      "OpenAI Codex辅助模拟黑洞案例",
+      "AI记忆增强方案系统梳理"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro登顶本周最热，周赞4836",
+      "Google Gemma-4系列多模态霸榜下载超百万",
+      "Ideogram-4文生图模型表现亮眼",
+      "Qwen3.6无审查版下载量251万",
+      "GGUF量化覆盖近半热门模型",
+      "Higgs Audio v3 TTS音频生成升温"
+    ],
+    "ai-community": [
+      "开发者分享Claude Code与Codex分工策略",
+      "本地LLM取代云API Mac Mini方案受关注",
+      "MCP提示注入攻击检测漏洞揭示",
+      "构建AI Agent三大挑战：状态、可靠性",
+      "AI记忆系统痛点：语义相似不等于有效",
+      "Anthropic发布Fable 5与Mythos 5"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code subagent regressions cause token waste.",
+      "OpenAI Codex suffers Windows crashes and data loss.",
+      "Users demand India-specific pricing for Claude Code.",
+      "Codex improves sandboxing and rate-limit visibility.",
+      "No new releases from either tool in 24 hours.",
+      "Both communities seek cost and rate-limit transparency."
+    ],
+    "ai-agents": [
+      "OpenClaw releases v2026.6.8-beta.1 for Telegram/WhatsApp.",
+      "P1 regressions: duplicate messages and session takeover.",
+      "79 PRs merged in 24 hours, including cron fix.",
+      "Duplication and truncation bugs draw community focus.",
+      "Telegram gets structured rich text and safer boundaries.",
+      "WhatsApp channel delivery improved with fewer edge cases."
+    ],
+    "ai-trending": [
+      "NVIDIA/SkillSpector scores +964 stars for agent safety.",
+      "andrewyng/aisuite unifies GenAI APIs (+291 stars).",
+      "Kronos foundation model targets financial markets.",
+      "vllm and ollama lead AI infrastructure projects.",
+      "Agent frameworks like autoGPT dominate star counts.",
+      "RAG infrastructure (ragflow, llama_index) matures."
+    ],
+    "ai-web": [
+      "Anthropic published zero new articles today.",
+      "OpenAI launched the Partner Network initiative.",
+      "Only metadata available for OpenAI's new article.",
+      "Anthropic's pause may indicate internal development.",
+      "No details on OpenAI Partner Network scope yet.",
+      "Asymmetrical content cadence between the two labs."
+    ],
+    "ai-hn": [
+      "Claude called difficult and hostile by HN users.",
+      "EU decision and India suspension discussed on HN.",
+      "Rio de Janeiro's LLM is a merge of existing model.",
+      "jqwik project bans all AI-assisted contributions.",
+      "Claude's behavior seen as safety or rushed deployment.",
+      "Debate on open-source vs AI tooling reignited."
+    ],
+    "ai-community": [
+      "Developers frustrated with agent amnesia and sycophancy.",
+      "Local LLMs on Mac Mini reduce AI subscription costs.",
+      "Claude Code and Codex side-by-side workflow shared.",
+      "AI system design coach built and open-sourced.",
+      "Anthropic's Claude Fable 5: pick smallest model.",
+      "Vibecoding philosophical debate on Lobste.rs."
+    ]
+  }
+}
