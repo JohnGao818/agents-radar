@@ -55,6 +55,14 @@
       "构建AI Agent三大挑战：状态、可靠性",
       "AI记忆系统痛点：语义相似不等于有效",
       "Anthropic发布Fable 5与Mythos 5"
+    ],
+    "ai-weekly": [
+      "Anthropic发布Fable5，遭美国政府出口管制断流",
+      "Agent Skills生态爆发，addyosmani/agent-skills日增数千星",
+      "OpenAI提交IPO申请，推出合作伙伴网络加速商业化",
+      "Fable5隐形护栏与越狱事件引发社区信任危机",
+      "Anthropic与TCS、DXC达成战略合作，深入强监管行业",
+      "CLI工具稳定性阵痛：内存泄漏、会话丢失、模型失控"
     ]
   },
   "en": {
@@ -105,6 +113,14 @@
       "AI system design coach built and open-sourced.",
       "Anthropic's Claude Fable 5: pick smallest model.",
       "Vibecoding philosophical debate on Lobste.rs."
+    ],
+    "ai-weekly": [
+      "Anthropic Fable 5/Mythos 5 launched, then shut down.",
+      "Agent Skills ecosystem explodes on GitHub trending.",
+      "OpenAI submits confidential S-1 for IPO.",
+      "OpenAI launches Partner Network, acquires Ona.",
+      "German court holds Google liable for AI Overviews.",
+      "Last30days-skill project gains 3,191 stars."
     ]
   }
 }
