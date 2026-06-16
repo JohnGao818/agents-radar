@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.178 正式版发布，修复多项安全漏洞",
+      "OpenAI Codex v0.140.0 加5个alpha，版本迭代激进",
+      "跨平台兼容性成最大痛点：macOS/Windows均爆严重Bug",
+      "会话持久化功能呼声最高，两个社区均强烈要求",
+      "资源占用失控：1.8GB虚拟机、CPU飙升、内存耗尽",
+      "安全权限精细控制：新增Tool语法和默认审批模式"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.8-beta.2 发布，电报/WhatsApp通道大升级",
+      "24小时内481条活跃Issue，413个待合并PR",
+      "热度最高Issue #75：要求Linux/Windows桌面应用",
+      "修复插件会话注册表不固定，多人会话稳定性提升",
+      "Telegram原生草稿迁移，破坏性变更需用户适配",
+      "新增image generate --file参数，与edit命令对齐"
+    ],
+    "ai-trending": [
+      "NVIDIA 发布 SkillSpector，专攻Agent技能安全扫描",
+      "Agent-Reach 单日新增+1100 stars，零API费用数据抓取",
+      "Kronos 金融基础模型与 TradingAgents 同时登榜",
+      "trycua/cua 开源桌面操控Agent沙箱，支持多平台",
+      "ollama 继续领跑：174,263 stars，支持Kimi/DeepSeek",
+      "vllm 82,993 stars，PagedAttention成企业部署标准"
+    ],
+    "ai-web": [
+      "Anthropic 发布情感机制论文：Claude 4.5内部神经元模式",
+      "Claude 4.5情感表征与人类情绪维度高度吻合",
+      "Anthropic 与化学家合作，训练Claude解读NMR波谱",
+      "OpenAI 今日无新内容发布，议题设置节奏落后",
+      "战略信号：AI从通用助理向化学、制药等专家演化",
+      "可解释性里程碑：监控模型内部情绪可防止欺骗行为"
+    ],
+    "ai-hn": [
+      "Anthropic安全超能力深度分析文章获205分185评论",
+      "白宫封杀Anthropic引起社区广泛讨论与担忧",
+      "Claude Code VS Code插件支持原生diff接受/拒绝",
+      "Anthropic暂停信用额度调整，用户抗议胜利",
+      "Microsoft因GitHub算力不足转向AWS，产业信号强烈",
+      "WSJ报道AI价格战引发行业资源分配讨论"
+    ],
+    "ai-arxiv": [
+      "LLM内部发现'价值轴'，表征是否走在正确轨迹上",
+      "ContextRL用上下文感知强化学习提升工具调用",
+      "DEEPRUBRIC用证据树规则高效训练深度研究Agent",
+      "ExpRL提出探索性中训练，提升稀疏奖励RL效果",
+      "十年开放科学分析：AI可重复性实践仍有差距",
+      "KV缓存编辑与智能体上下文管理突破长会话效率"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 登顶，4,868点赞，293万下载",
+      "NVIDIA LocateAnything-3B 万物定位模型受追捧",
+      "Google diffusiongemma-26B 混合扩散语言模型亮相",
+      "MiniMax-M3 多模态大模型快速挖掘应用潜力",
+      "Unsloth团队密集量化Gemma 4、Kimi K2.7等热模",
+      "ideogram-4-fp8量化版降低高质量生成门槛"
+    ],
+    "ai-community": [
+      "AI幻觉归因于架构而非模型本身，引发深度讨论",
+      "MCP预发布检查清单与Python示例开源，生态成熟",
+      "Gemini计费模型与实际调用差异，成本优化案例",
+      "Chrome扩展教开发者有意识地使用AI调用",
+      "Fable 5因政府命令宕机，警示单点依赖风险",
+      "Gemma 4微调古籍翻译教程，实战fine-tuning案例"
+    ]
+  },
+  "en": {}
+}
