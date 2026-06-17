@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.179 小版本发布",
+      "OpenAI Codex rust-v0.141.0-alpha.3 预发布",
+      "Windows 兼容问题成最大痛点",
+      "MCP 插件生态稳定性引发社区抱怨",
+      "模型质量退化与 Token 消耗异常高频",
+      "社区要求 TUI 增强：禁用流式、修复中文"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.8 发布，增强 Telegram/WhatsApp",
+      "PR #68936 合并自动化审查流水线",
+      "修复 mcporter 日志干扰导致的崩溃",
+      "子代理完成丢失问题引发 19 条讨论",
+      "Linux/Windows 桌面客户端需求获 109 评论",
+      "社区 PR 积压 409 条，合并效率待提升"
+    ],
+    "ai-trending": [
+      "OpenBMB VoxCPM2 无 tokenizer 模型登顶 Trending",
+      "阿里巴巴 zvec 轻量向量数据库 +156 stars",
+      "NousResearch hermes-agent 领跑，19.5 万 stars",
+      "RAGFlow、anything-llm 等 RAG 项目超 5 万 stars",
+      "中文 AI 社区教程 shareAI-lab/learn-claude-code 火热",
+      "vllm 83k stars，ollama 174k，基础工具持续更新"
+    ],
+    "ai-web": [
+      "Anthropic 发布 40 万次 Claude Code 经济学分析",
+      "专业知识在智能体编程中产生复利效应",
+      "TCS 与 Anthropic 合作，5 万员工部署 Claude",
+      "OpenAI 更新仅一篇《Deployment Simulation》",
+      "调试时间占比减少近一半，任务价值增长 25%",
+      "人机协作分工：人类主导做什么，AI 主导怎么做"
+    ],
+    "ai-hn": [
+      "HN 热议 Anthropic 与美国政府政治纷争",
+      "OpenAI 2025 年亏损暴增 8 倍至 34 亿美元",
+      "DeepSeek V4 Pro 以 5% 成本对标 Claude",
+      "GLM-5.2 开放权重引发开源 vs 闭源讨论",
+      "Wolfram 15 集成 AI 助手，符号计算新尝试",
+      "自托管搜索 Memento Show HN 获好评"
+    ],
+    "ai-arxiv": [
+      "循环架构 LoopWM 实现固定点推理，不增参数",
+      "VERITAS 框架让机器人自主视觉验证并改进",
+      "ReproRepo 用 GitHub Issues 驱动可复现性审计",
+      "Anthropic F5/Opus 4.8 红队测试 7826 个有害意图",
+      "灾难性遗忘本质是低秩，函数空间理论新视角",
+      "Kolmogorov 回归：函数空间扩散模型长程一致"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 登顶，4.9k 点赞 283 万下载",
+      "Google DiffusionGemma-26B-A4B-it 多模态模型",
+      "zai-org/GLM-5.2 未下载已获 528 赞",
+      "Microsoft FastContext-1.0-4B-SFT 长上下文",
+      "NVIDIA LocateAnything-3B 视觉定位突破",
+      "nex-agi Nex-N2-Pro 基于 Qwen3.5 MoE 对话模型"
+    ],
+    "ai-community": [
+      "Sloan AI 误判作者文章，引发平台信任讨论",
+      "AI 审核系统 347 次标记大量误判",
+      "AI 伴侣真实感来自交互设计而非模型",
+      "SDLC 变革综述：Vibe Coding 与代理工程",
+      "30 天无 AI 编程实验反思依赖影响",
+      "单一 AI 供应商单点故障风险警示"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.179 stable release",
+      "Codex alpha rust-v0.141.0-alpha.3/.4",
+      "Windows stability issues dominate both",
+      "Community engagement high (87 comments)",
+      "Extensibility (MCP/plugin) trending",
+      "AZERDSQ131 contributed 6+ PRs merged"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs updated",
+      "Release v2026.6.8 improves Telegram/WhatsApp",
+      "91 PRs merged today",
+      "Autofix pipeline PR #68936",
+      "Telegram fix for silent turns",
+      "Agent scope toggle in skill workshop"
+    ],
+    "ai-trending": [
+      "VoxCPM tokenizer-free TTS (408 stars)",
+      "Alibaba's zvec vector database (156 stars)",
+      "Agent frameworks like Hermes Agent boom",
+      "RAG stacks (RAGFlow, mem0) in demand",
+      "vllm hits 83K stars",
+      "ollama reaches 174K stars"
+    ],
+    "ai-web": [
+      "Claude Code study of 400K sessions",
+      "Domain expertise amplifies AI productivity",
+      "Agentic coding value rose 25%",
+      "Anthropic partners TCS for 50K employees",
+      "Only OpenAI deployment simulation landing page",
+      "Claude targets regulated-industry compliance"
+    ],
+    "ai-hn": [
+      "Anthropic outages from government ban",
+      "OpenAI $34B spending burn leaked",
+      "DeepSeek V4 Pro at 5% Claude cost",
+      "GLM-5.2 open-weight model gains traction",
+      "Wolfram Language Version 15 launches",
+      "Skepticism about frontier AI business model"
+    ],
+    "ai-arxiv": [
+      "VERITAS: robot policy self-improvement",
+      "PseudoBench detects pseudoscience generation",
+      "Looped World Models (LoopWM) introduced",
+      "Fixed-Point Reasoners for deep reasoning",
+      "Ternary Mamba quantization with W1.58A16",
+      "Red-teaming Fable 5 and Opus 4.8"
+    ],
+    "ai-community": [
+      "AI flagged human article as low quality",
+      "Sloan bot flagged known community member",
+      "Developer lost $1,800 to API bug",
+      "Tailwind Labs laid off 75% citing AI",
+      "Token usage as new productivity metric",
+      "BrowserAct vs Playwright anti-bot friction"
+    ]
+  }
+}
