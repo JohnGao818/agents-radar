@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code #36151 多账户切换获 357 赞引爆社区",
+      "OpenAI Codex 一天发布 4 个 Rust Alpha 版本",
+      "用户投诉成本透明度差，Token 消耗暴涨 10-20 倍",
+      "Claude Code 子代理递归 bug 被标为 Critical",
+      "OpenAI Codex 全访问权限弹窗故障（#28988）高赞",
+      "两工具均攻关会话上下文溢出和窗口管理"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.9-beta.1 预览版",
+      "Telegram 交付增强：支持富 HTML 和 sticker 路径",
+      "子代理纯文本兜底修复活跃请求者唤醒失败",
+      "Ollama 模型在 /think 菜单显示完整思维级别",
+      "macOS 26 系统版本映射错误已修复",
+      "内存泄漏等 P0/P1 Bug 持续引发维护者关注"
+    ],
+    "ai-trending": [
+      "headroom 单日 +4005 stars，智能压缩节省 60-95% token",
+      "obra/superpowers +1110，Agent 技能框架方法论爆火",
+      "DeusData/codebase-memory-mcp 获 1058 stars",
+      "google-research/timesfm 开源时间序列基础模型",
+      "BuilderIO/agent-native 聚焦人机协作应用开发",
+      "国产 GLM-5 与 MiniMax M3 带动多模态 Agent 热潮"
+    ],
+    "ai-web": [
+      "Anthropic 研究基于 40 万次 Claude Code 会话",
+      "专家经验溢价未因 AI 消失，高阶用户收益更大",
+      "调试会话比例 7 个月下降近一半",
+      "任务价值平均提升约 25%",
+      "开发者正从 AI 辅助编码转向 AI 代理协作",
+      "Anthropic 主动定义人机生产关系叙事"
+    ],
+    "ai-hn": [
+      "AlphaFold 诺奖得主 John Jumper 加入 Anthropic",
+      "黑客利用 Claude 和 Codex 进行企业渗透分析",
+      "GLM-5.2 在网站设计任务上击败 Fable 5",
+      "Claude Artifacts 功能发布，提升 Agent 可维护性",
+      "MiniMax M3 vs GLM-5.2 自主编码对比引热议",
+      "OpenAI \"删除即遗忘\"被质疑，审慎情绪弥漫"
+    ],
+    "ai-arxiv": [
+      "DiffusionGemma 透明度研究揭示潜在空间解释瓶颈",
+      "鼠标眼动隐式偏好可低成本对齐 LLM",
+      "Contagion Networks 量化多智能体偏差级联效应",
+      "UltraQuant 实现长上下文智能体 4-bit KV 缓存",
+      "多语言 LiveCodeBench 扩展代码智能体评估",
+      "微软 FastContext-1.0-4B 专注长上下文 Agent"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 霸榜，点赞 4969 下载超 300 万",
+      "NVIDIA LocateAnything-3B 通用定位模型位居第二",
+      "Google DiffusionGemma-26B MoE 扩散架构多模态",
+      "Microsoft FastContext-1.0-4B 专为长上下文设计",
+      "国产模型军团占半壁江山，生态自主性增强",
+      "社区微调/量化爆发，uncensored 和代码专项成热点"
+    ],
+    "ai-community": [
+      "AI 让写代码变容易，但不降低软件工程难度",
+      "Agent 缺失停止条件导致无限迭代灾难",
+      "AI 修复一个 bug 却暗中改了四个变量",
+      "Agent 缓慢漂移 (drift) 难以被传统告警捕获",
+      "Prompt caching 将成本从 $1.32 降至 $0.04",
+      "离线优先 AI 成为全球南方市场刚需"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex 4 alpha releases",
+      "Claude Code stable v2.1.183",
+      "Billing unpredictability top pain point",
+      "Codex had 10 active PRs last 24h",
+      "High engagement on Claude Code features",
+      "Both tools improving Windows support"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.9-beta.1 released",
+      "Gateway memory leak marked P0 critical",
+      "Silent data loss in Dreaming pipeline",
+      "43 PRs merged in last 24 hours",
+      "Telegram delivery now supports rich HTML",
+      "452 open issues, 457 open PRs"
+    ],
+    "ai-trending": [
+      "headroom token compressor +4,005 stars",
+      "codebase-memory-mcp indexes codebases fast",
+      "Google timesfm for time series forecasting",
+      "BuilderIO agent-native redefines agent apps",
+      "Zhipu AI released GLM-5",
+      "firecrawl reaches 135,377 stars"
+    ],
+    "ai-web": [
+      "Anthropic study of 400k Claude sessions",
+      "Domain experts get 2x output from Claude",
+      "Debugging time halved over seven months",
+      "Task value rose ~25% across categories",
+      "OpenAI published no new content today",
+      "Expertise amplifies with agentic tools"
+    ],
+    "ai-hn": [
+      "John Jumper (AlphaFold) joins Anthropic",
+      "Amazon drops Sam Altman biopic",
+      "MiniMax M3 vs GLM 5.2 coding benchmark",
+      "LMSys on speculative decoding DFlash",
+      "Claude Artifacts blog post on HN",
+      "Personal essay on AI mystery fatigue"
+    ],
+    "ai-arxiv": [
+      "DiffusionGemma mechanistic audit revealed",
+      "Calibrated MoE under distribution shift",
+      "Multi-task Bayesian in-context learning",
+      "Certificate-bound authority for agents",
+      "4-bit KV-cache compression for efficiency",
+      "Multi-turn red-teaming for LLM agents"
+    ],
+    "ai-community": [
+      "Debate on AI-generated 'API slop'",
+      "AI doesn't make engineering easier",
+      "Cutting OpenAI bills with local RAG",
+      "Agentic exhaustion and system drift",
+      "Specs over code trend emerges",
+      "Private inference privacy questioned"
+    ]
+  }
+}
