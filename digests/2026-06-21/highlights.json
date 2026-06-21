@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.185，优化流式响应与超时策略",
+      "OpenAI Codex 热门 Issue #2847：敏感文件排除获 409 赞",
+      "Codex 最热 Bug #29189：sandboxPolicy 缺失致核心瘫痪",
+      "用户强烈需求多 Agent 编排与事件驱动异步通知",
+      "Claude Code vs Codex 横向对比：生态全景与差异化",
+      "跨平台兼容性仍是痛点：Android Termux 崩溃与 Windows 权限"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.9，增强 Telegram 富文本交付",
+      "大量 P0/P1 严重 Bug 积压，稳定性成最大瓶颈",
+      "PR #95467 修复会话丢失频道身份，提升交付可靠性",
+      "PR #95471 修复子代理模型路由，解决 #91171",
+      "社区对回归问题焦虑，期待稳定性修复",
+      "新版本未解决网关内存泄漏等核心 Bug"
+    ],
+    "ai-trending": [
+      "LLM 成本优化项目 headroom 成今日 Star 增长冠军",
+      "编码代理赛道爆发：Skills、Kilocode 等 5 项目上榜",
+      "社区对降低大模型使用成本诉求强烈",
+      "开源模型逼近闭源？GLM vs Opus 基准测试争议",
+      "Hugging Face 模型量化活跃，GGUF 版本大量涌现",
+      "DeepSeek-V4-Pro 以 4,987 周赞领跑语言模型"
+    ],
+    "ai-hn": [
+      "AlphaFold 核心科学家 John Jumper 从 DeepMind 跳至 Anthropic",
+      "渗透测试专用模型发布：不拒绝攻击指令引争议",
+      "开发者反思：拒绝 AI 代码因可维护性差",
+      "Claude Code 被曝扫描用户硬盘，隐私争议升级",
+      "开源模型逼近闭源？社区对 GLM vs Opus 观点分裂",
+      "AI 代码信任危机：从‘什么都用’转向‘审慎使用’"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 周赞 4,987，本周最强通用语言模型",
+      "Google DiffusionGemma-26B-A4B-it：扩散架构图文对话",
+      "MiniMax 第三代多模态模型 M3 稳定积累关注",
+      "NVIDIA LocateAnything-3B：视觉定位获 2,217 赞",
+      "Qwen3.6-35B-A3B 社区无审查版下载超 380 万",
+      "大量 Qwen3.6、GLM-5.2、Gemma-4 的 GGUF 版本涌现"
+    ],
+    "ai-community": [
+      "LLM 网关路由与语义缓存：生产级调用架构指南",
+      "AI 记忆应作为产品状态而非提示技巧，避免脆弱性",
+      "KV cache 与 PagedAttention 详解：LLM 推理优化必读",
+      "自建 RAG 添加验证层防止幻觉，真实案例分享",
+      "Agent 评估层应内嵌为 Agent 的一部分，非独立工具",
+      "Goodhart's Law 警告：Agent 评估指标可能被操控"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.185 released",
+      "OpenAI Codex 668 upvotes on top issues",
+      "Termux/Android regression 50 days unresolved",
+      "sandboxPolicy field bug in Codex",
+      "Claude Code Skills plugin extensibility",
+      "Multi-agent orchestration convergence"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.9 released",
+      "500 issues and 500 PRs updated",
+      "Autofix PR review pipeline merged",
+      "Telegram rich HTML delivery",
+      "High-severity bug reports",
+      "84 PRs merged in 24h"
+    ],
+    "ai-trending": [
+      "DeepSeek-V4-Pro trending on Hugging Face",
+      "OpenHands AI agent project",
+      "LangChain and Dify in trending",
+      "RAG techniques repository popular",
+      "vllm and ollama infrastructure",
+      "AutoGPT still active"
+    ],
+    "ai-hn": [
+      "AlphaFold lead joins Anthropic",
+      "Show HN: model does pen testing",
+      "Open-source frontier debate heats up",
+      "Claude Code scanning user drives",
+      "Project Fetch Phase Two announced",
+      "Developer rejects AI code despite utility"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 4,987 likes",
+      "GLM-5.2 MoE from Zhipu",
+      "Google DiffusionGemma-26B",
+      "NVIDIA LocateAnything-3B",
+      "Microsoft FastContext-1.0",
+      "GGUF quantizations surging"
+    ],
+    "ai-community": [
+      "LLM interpretability series starts",
+      "LLM gateways routing and caching",
+      "Vector DB privacy concerns",
+      "gzip as language model debate",
+      "AI security at conferences",
+      "Private inference not truly private"
+    ]
+  }
+}
