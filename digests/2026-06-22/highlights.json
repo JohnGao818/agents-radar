@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex配额成本飙升10-20倍，社区焦虑",
+      "Claude Code Android兼容性破坏引发愤怒",
+      "Claude Code PTY泄漏严重Bug",
+      "MCP权限弹窗失效，权限治理短板",
+      "Claude Max周配额异常消耗引担忧",
+      "OpenAI Codex 24小时连发3个alpha版本"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.6.10-beta.1，修复会话状态",
+      "24小时处理超500条Issue，关闭率仅5%",
+      "PR#68936添加Windows守护进程及自动化流水线",
+      "整合iOS通知权限UX改善体验",
+      "升级可能静默变更memory store路径需备份",
+      "项目活跃度极高但稳定性风险大"
+    ],
+    "ai-trending": [
+      "headroom暴涨2624⭐，减少60-95% token",
+      "codebase-memory-mcp毫秒级代码知识图谱",
+      "字节跳动deer-flow登榜，长周期自主Agent",
+      "OpenMontage开源首个Agentic视频制作系统",
+      "mattpocock/skills推动“技能即代码”范式",
+      "system_prompts_leaks收集最新系统提示词"
+    ],
+    "ai-web": [
+      "OpenAI与三星电子达成企业级部署合作",
+      "三星背书OpenAI在制造业的可信度",
+      "Anthropic官网连续静默，可能酝酿大发布",
+      "OpenAI企业市场商业化势头强劲",
+      "合作显示AI深度嵌入顶级电子巨头工作流",
+      "无法获取合作细节，仅元数据"
+    ],
+    "ai-hn": [
+      "Claude强制身份验证引爆617分热议",
+      "Recall项目将Claude Code记忆完全本地化",
+      "社区强烈转向开放模型，警惕AI锁仓",
+      "NSA局长警告AI可数小时攻破机密系统",
+      "Claude多款模型同时报错的服务事故",
+      "科技术工人联合限制AI政治行动"
+    ],
+    "ai-community": [
+      "Vibe coding被重新定义：可检查状态更重要",
+      "不要用LLM决定AI代理权限，应确定性规则",
+      "Kitana项目用字典遍历替代token预测",
+      "15篇AI翻车故事后的坦诚反思",
+      "Shadow Deployments：金丝雀测试prompt变更",
+      "Anthropic量化与实操者agent控制面汇聚"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code Termux bug: 53 comments",
+      "Codex rate-limit issue: 195 upvotes",
+      "Codex 3 alpha releases in 24 hours",
+      "Claude Code Skills repo emerging",
+      "MCP connectors gaining traction",
+      "Sandbox execution becomes critical"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.10-beta.1 released",
+      "111 PRs merged in 24 hours",
+      "CI shards reduced from 95 to 51",
+      "Agent harness activation fix merged",
+      "Telegram duplicate replies regression",
+      "Memory store relocation issues persist"
+    ],
+    "ai-trending": [
+      "Headroom +2,624 stars today",
+      "DeerFlow 72,693 total stars",
+      "Codebase-Memory-MCP +1,032 stars",
+      "System Prompts Leaks trending",
+      "OpenMontage agentic video production",
+      "Rig Rust framework 7,705 stars"
+    ],
+    "ai-hn": [
+      "Claude ID verification: 541 comments",
+      "Switch to open models argument: 95",
+      "NSA Mythos AI breached networks",
+      "Fine-tuning Qwen 3:0.6B guide",
+      "Sakana Fugu new model announced",
+      "China Z.ai open-sourced coding model"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 4,999 likes",
+      "Qwen3.6-35B-A3B 2,198 likes",
+      "NVIDIA LocateAnything-3B 2,248 likes",
+      "GLM-5.2 from Zhipu AI trending",
+      "Kimi-K2.7-Code code model 946 likes",
+      "GGUF quantizations dominating hub"
+    ],
+    "ai-community": [
+      "Turing's Mirror game jam submission",
+      "15 AI stories honest reflections",
+      "Judgment bottleneck in AI workflows",
+      "CrankGPT satire project",
+      "gzip compression as language model",
+      "Future of the Con AI insecurity"
+    ]
+  }
+}
