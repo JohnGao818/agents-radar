@@ -47,6 +47,14 @@
       "15篇AI翻车故事后的坦诚反思",
       "Shadow Deployments：金丝雀测试prompt变更",
       "Anthropic量化与实操者agent控制面汇聚"
+    ],
+    "ai-weekly": [
+      "领域知识使AI编程调试时间降近50%",
+      "Claude Mythos Preview网络安全代际跨越",
+      "OpenAI与三星达成企业部署整合ChatGPT和Codex",
+      "Claude Code定价争议：Issue #16157获691👍",
+      "OpenAI 2025年亏损34亿美元烧钱模式受质疑",
+      "HN社区抗议Anthropic强制身份验证帖子617分"
     ]
   },
   "en": {
@@ -97,6 +105,14 @@
       "CrankGPT satire project",
       "gzip compression as language model",
       "Future of the Con AI insecurity"
+    ],
+    "ai-weekly": [
+      "White House blocks Anthropic's Mythos model",
+      "Claude Code Max users face credit depletion crisis",
+      "Hermes Agent reaches 200k GitHub stars",
+      "Anthropic study: AI amplifies domain expertise",
+      "OpenClaw beta release addresses session corruption",
+      "HN erupts over government overreach vs AI safety"
     ]
   }
 }
