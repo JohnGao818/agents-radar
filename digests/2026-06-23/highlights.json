@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.186 发布，MCP 认证增强",
+      "Codex 限流成本暴增 10–20 倍，获 239 赞",
+      "Codex 日志 Bug 可写 TB 级数据至 SSD",
+      "两工具社区共同关注稳定性与数据持久性",
+      "Codex 高强度修复，今日 PR 是 Claude 2.5 倍",
+      "Claude Code 历史对话丢失、Windows 白屏问题"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.10-beta.2 发布，对话快速模式",
+      "Gateway 内存泄漏 P0：内存从 350MB 暴涨至 15.5GB",
+      "Codex 应用服务器响应中断回归引发 17 条评论",
+      "CI/CD 流程增强：QA 证据失败策略已合并",
+      "安全监控新 PR：Codex 会话持续安全检测",
+      "媒体缺失提示优化：增加可操作安装建议"
+    ],
+    "ai-trending": [
+      "hermes-agent 获 20 万星，AI Agent 框架爆发",
+      "AirLLM 可在 4GB 显存运行 70B 大模型",
+      "Deer-flow 长时程超级 Agent 框架获 73k 星",
+      "mattpocock/skills 开源 23 个硬核工程师技能",
+      "vllm 83k 星，生产环境推理引擎持续霸榜",
+      "Garry Tan 开源 CEO 级 Claude Code 工具包"
+    ],
+    "ai-web": [
+      "Anthropic 研究：AI 协作编码任务价值提升 25%",
+      "调试时间 7 个月减少近一半，效率显著",
+      "专家经验是持久高回报的关键变量",
+      "Anthropic 与盖茨基金会 2 亿美元合作",
+      "AI 部署至全球卫生、教育等市场失灵领域",
+      "OpenAI 更新 'Daybreak Securing The World'"
+    ],
+    "ai-hn": [
+      "Codex 日志 Bug 可写 TB 级数据，469 分最热",
+      "Claude Code 扩展思考输出非真实性获 285 分",
+      "GLM-5.2 在本地硬件成功运行获 200 分",
+      "Five Eyes 警告 AI 安全风险，引发焦虑",
+      "OpenAI 遭多州调查，商业可持续性受质疑",
+      "AI 泡沫论与工具可靠性讨论持续发酵"
+    ],
+    "ai-arxiv": [
+      "Sub-Billion 参数小模型零样本媲美 GPT-4",
+      "RLVR 更新因子：系统剖析推理能力提升关键",
+      "Governance Decay：长上下文压缩消除安全约束",
+      "PaperClaw 多智能体全自主研究自动化",
+      "MacAgentBench 真实 macOS 桌面智能体评估",
+      "MMGist 针对 2027 年全新多模态基准设计"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 发布，5013 赞 242 万下载",
+      "Gemma-4-12B-it 多模态，1139 赞 191 万下载",
+      "GLM-5.2 MoE-DSA 架构获 2044 赞",
+      "Kimi-K2.7-Code 代码专用模型 964 赞",
+      "nvidia/LocateAnything-3B 万物定位 2294 赞",
+      "MiniMax-M3 多模态图文理解 1209 赞"
+    ],
+    "ai-community": [
+      "最小 AI 原则：避免过度依赖非 AI 方案",
+      "软件编写软件历史，开发者角色演变梳理",
+      "跨 46 仓库知识图谱构建，让 AI 读懂代码",
+      "信任溯源向量化，为 Agent 链提供审计框架",
+      "Copilot 按量计费策略变化影响终端用户",
+      "RAG 幻觉修复实战：检索质量监控与上下文裁剪"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.186 stable released",
+      "Codex rust-v0.142.0 stable + 2 alphas",
+      "Top issue: JSONC support (87👍)",
+      "Top issue: rate-limit cost jump (239👍)",
+      "Data-loss reports: Windows blank screen",
+      "Cross-platform regressions: Windows/iOS/Mac"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.10-beta.2 released",
+      "Automatic fast mode for short turns",
+      "259 issues updated in 24 hours",
+      "62 PRs merged or closed",
+      "P0/P1 stability regressions (memory leaks)",
+      "Maintainer bottleneck on critical bugs"
+    ],
+    "ai-trending": [
+      "OpenMontage +2,938 stars today",
+      "Open-source agentic video production",
+      "Claude Code skill repos exploding",
+      "codebase-memory-mcp +1,185 stars",
+      "ByteDance/deer-flow SuperAgent",
+      "ollama 174K stars, local LLM"
+    ],
+    "ai-web": [
+      "Anthropic study of 400k Claude Code sessions",
+      "Expert user productivity compounding",
+      "Gates Foundation $200M AI partnership",
+      "OpenAI 'Daybreak' security initiative",
+      "First large-scale agentic coding evidence",
+      "Domain expertise boosts AI productivity"
+    ],
+    "ai-hn": [
+      "Codex bug can destroy SSDs in a year",
+      "Claude Code reasoning is post-hoc narrative",
+      "GLM-5.2 runs on local hardware (200👍)",
+      "Five Eyes: AI threat to governments soon",
+      "Open-source GLM-5.2 closing gap",
+      "Debate on AI agent hardware risks"
+    ],
+    "ai-arxiv": [
+      "Agentic safety: context compaction erases constraints",
+      "Small models rival frontier LLMs in extraction",
+      "New OCR for ancient cuneiform tablets",
+      "Variance-calibrated decoding for LLMs",
+      "Generative robust optimization method",
+      "Neurosymbolic orchestration for reasoning"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro: 5,013 likes, 2.4M downloads",
+      "Google Gemma-4 any-to-any variant",
+      "GLM-5.2 MoE trending for Chinese/English",
+      "Microsoft FastContext-4B long-context agent",
+      "NVIDIA LocateAnything-3B object grounding",
+      "Community GGUF quantizations drive downloads"
+    ],
+    "ai-community": [
+      "'Principle of Least AI' advocates caution",
+      "AI skills alone don't guarantee jobs",
+      "Trust modeled as vector for agents",
+      "GitHub Copilot usage debated",
+      "Prompt injection and agent memory poisoning",
+      "RAG reliability challenges discussed"
+    ]
+  }
+}
