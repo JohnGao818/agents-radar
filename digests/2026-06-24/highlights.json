@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.187 发布企业安全更新",
+      "OpenAI Codex 发布 Rust 核心 Alpha v0.143.x",
+      "Android 原生崩溃 Issue 引发用户反弹",
+      "SQLite 日志写入量惊人，SSD 寿命担忧",
+      "deep-research 工作流浪费数百万代币",
+      "社区互动极高，单个 Issue 评论达 84 条"
+    ],
+    "ai-agents": [
+      "PR #88968 修复内存刷新失败致会话中断",
+      "PR #89045 修复群聊会话卡死在 failed 状态",
+      "端口检测修复 #94949 已合并，提高启动可靠性",
+      "多个托管市场相关 PR 提交，构建插件基础设施",
+      "核心会话 SQLite 迁移讨论成昨日热点",
+      "iMessage 源回复延迟 Issue 引发用户关注"
+    ],
+    "ai-trending": [
+      "DeerFlow 超代理框架，执行长任务获 739 star",
+      "codebase-memory-mcp 单日涨 1300+ star",
+      "OpenMontage 开源多智能体视频系统涨 3592 star",
+      "NousResearch/hermes-agent 涨 936 star",
+      "ollama 174k star 持续支持最新模型",
+      "vllm 83k star 生产级推理引擎热度不减"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude Tag 新协作范式",
+      "内部 65% 代码由 Claude Tag 生成",
+      "Claude Tag 实现主动记忆与任务规划",
+      "OpenAI 同日无新内容发布，处于静默",
+      "Claude Tag 将 AI 从工具变为团队协作者",
+      "战略转型：从对话助手到长期协作伙伴"
+    ],
+    "ai-hn": [
+      "Claude Tag 上线引发社区褒贬讨论",
+      "Claude 服务大规模故障获 205 分 253 评论",
+      "Anthropic 更新隐私条款要求年龄身份验证",
+      "RLM 本地调试器 Halo 开源获关注",
+      "MCP 生态持续升温，多个服务器项目涌现",
+      "AI 泡沫担忧蔓延，Meta 重组失败加剧悲观"
+    ],
+    "ai-arxiv": [
+      "SAFARI 主动式故障归因解决长周期诊断瓶颈",
+      "MEMPROBE 框架探测智能体长期记忆准确性",
+      "AdversaBench 自动化多裁判红队测试",
+      "African Language Tax 量化语言分词不平等",
+      "Rare Disease Diagnosis 罕见病诊断模型创新",
+      "NatureBench 高难度科学推理基准测试"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以 5031 赞高居榜首",
+      "NVIDIA LocateAnything-3B 视觉定位模型",
+      "MiniMax-M3 多模态模型获 1221 赞",
+      "Google diffusiongemma-26B 多模基础模型",
+      "百度 Unlimited-OCR 专用模型上线引关注",
+      "GGUF 量化生态活跃，Gemma-4 等社区版"
+    ],
+    "ai-community": [
+      "80/20 法则：AI 代码最后 20% 耗时 80%",
+      "智能体记忆缺失问题成跨平台焦点",
+      "开源替代 LLM 监控工具，节省 $79/月",
+      "AI Agent 权限绕过真实案例引发反思",
+      "评估优先开发流程填补 AI 测试方法论空白",
+      "开发者警惕供应商锁定，追捧本地 LLM"
+    ]
+  },
+  "en": {}
+}
