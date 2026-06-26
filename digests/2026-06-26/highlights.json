@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.193 稳定版发布",
+      "OpenAI Codex rust-v0.142.2 稳定版",
+      "费用失控：Claude Code 6天$500+",
+      "Rate-limit消耗飙升10-20倍",
+      "内存泄漏每小时增348MB",
+      "多账户切换需求获380👍"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h关闭/合并91个PR",
+      "高优Bug内存泄漏待修复",
+      "PR#68936引入PR autofix流水线",
+      "PR#96776修复图片生成OOM漏洞",
+      "社区热议文件名编码工具#48788",
+      "Cron agent发送错误参数致400错误"
+    ],
+    "ai-trending": [
+      "OpenMontage单日+3434 stars，开源视频制作",
+      "Design.md +1475 stars，Agent UI标准化",
+      "gstack +767 stars，封装YC CEO的Claude Code",
+      "aws agent-toolkit-for-aws 官方发布",
+      "MinerU +644 stars，文档处理RAG利器",
+      "Claude Code Best Practice +287 stars"
+    ],
+    "ai-web": [
+      "Anthropic今日静默，或为重大发布蓄力",
+      "OpenAI发文《How Agents Are Transforming Work》",
+      "OpenAI系统性将Agent推向市场",
+      "战略重心分野：底层 vs 应用",
+      "OpenAI文章仅元数据模式无正文",
+      "两家公司发布节奏差异明显"
+    ],
+    "ai-hn": [
+      "OpenKnowledge获215分最高赞，开源AI笔记",
+      "GPT-5.6被要求分阶段发布成焦点",
+      "AI生成恐怖童话引发伦理讨论",
+      "挪威小学禁用AI讨论激烈",
+      "中国AI模型追赶报道引发关注",
+      "DeepSeek Flash改变Agent产品成本"
+    ],
+    "ai-arxiv": [
+      "RiVER框架无需真值答案的RL训练",
+      "多模型组合存在共同失败率上限",
+      "意图感知训练提升LLM安全分类",
+      "GUI智能体自主探索与事后经验利用",
+      "E-TTS机器人操作测试时缩放框架",
+      "稀疏自编码器用于时间序列预测"
+    ],
+    "ai-hf": [
+      "DeepSeek V4-Pro以5062赞登顶",
+      "GLM-5.2 MoE-DSA架构受关注",
+      "Gemma-4-12B-it下载量达218万",
+      "社区微调Gemma-4代码版GGUF流行",
+      "VibeThinker-3B轻量推理模型发布",
+      "Qwen-AgentWorld-35B-A3B 发布"
+    ],
+    "ai-community": [
+      "多Agent协作“缝隙问题”成焦点",
+      "开发者不信任LLM直接决策",
+      "“LLM只能提供特征，不能做分类”",
+      "AWS账单因AI应用飙升引警示",
+      "AI Agent可观测性与治理需求上升",
+      "AI编译器与本地推理热度上升"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.193 released",
+      "OpenAI Codex rust-v0.142.2 alpha",
+      "$506 silent upgrade bug in Claude Code",
+      "10-20x cost jump in OpenAI Codex",
+      "Cost transparency demanded by both",
+      "Platform regressions on ARM64, Windows"
+    ],
+    "ai-agents": [
+      "OpenClaw 500 issues/PRs in 24h",
+      "91 PRs merged in OpenClaw",
+      "OOM vulnerability patched in image-gen",
+      "Autofix PR review pipeline added",
+      "Memory slot architecture gaps persist",
+      "473 open issues need maintainer review"
+    ],
+    "ai-trending": [
+      "OpenMontage top trending +3,434 stars",
+      "design.md aligns coding agents to specs",
+      "Anthropic Cybersecurity Skills released",
+      "AWS releases official agent-toolkit",
+      "Alibaba page-agent for GUI control",
+      "Dify production agent platform 146k stars"
+    ],
+    "ai-web": [
+      "OpenAI publishes 'How Agents Transform Work'",
+      "Anthropic no new articles today",
+      "OpenAI continues agentic AI focus",
+      "Crawl metadata limited, no text",
+      "OpenAI 852 total sitemap entries",
+      "Anthropic 401 total sitemap entries"
+    ],
+    "ai-hn": [
+      "OpenAI injects ads into ChatGPT paid plans",
+      "Trump admin asks stagger GPT-5.6 release",
+      "OpenKnowledge open-source AI notes #1",
+      "AI kids books turn to body horror",
+      "Chinese AI models close gap to frontier",
+      "Ornith-1.0 self-scaffolding LLM for coding"
+    ],
+    "ai-arxiv": [
+      "RiVER extends RLVR without ground-truth",
+      "Co-failure ceiling limits model ensembles",
+      "Hallucination predictable and preventable",
+      "Harmful video understanding benchmark released",
+      "Language-based digital twin detects MCI",
+      "Safety classification via user intent modeling"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 5,062 likes",
+      "GLM-5.2 MoE gains 2,483 likes",
+      "VibeThinker-3B strong math performance",
+      "NVIDIA releases LocateAnything-3B vision",
+      "Abliterated Gemma-4 fine-tunes surge",
+      "Microsoft FastContext-1.0 4B SFT"
+    ],
+    "ai-community": [
+      "One agent vs many orchestration insights",
+      "LLM provides reasoning, deterministic classifier",
+      "14 visitors caused huge AWS bill",
+      "Munich 1991: historical AI roots",
+      "Reverse engineered Qualcomm NPU compiler",
+      "New abstractions for dynamic megakernels"
+    ]
+  }
+}
