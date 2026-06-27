@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.195发布，新增禁用鼠标点击功能",
+      "OpenAI Codex配额异常获326赞，Pro用户额度被吞噬",
+      "Codex工程开发活动远超Claude，10个重要PR推进",
+      "Claude Code封号与数据丢失Issue引发177条评论",
+      "两者均面临配额透明和模型行为不一致痛点",
+      "Codex迭代节奏快，Claude偏向修复而非创新"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时500条Issue和PR，合并率11.6%",
+      "PR#96883修复Cron作业权限隔离，增强多租户安全",
+      "PR#97092修复流式Agent工具调用不完整的关键问题",
+      "Linux/Windows客户端需求获81赞，社区呼声最高",
+      "Android APK预构建需求强烈引发25条评论",
+      "无新版本发布，但大量PR排队等待合并"
+    ],
+    "ai-trending": [
+      "Agent-Reach获42.4k星，一行CLI访问全网零API费用",
+      "design.md定义DESIGN.md规范，让AI理解设计系统",
+      "MinerU将PDF转LLM-ready格式，获960今日新增星",
+      "vllm保持84k星，成LLM推理部署事实标准",
+      "OpenHands 78k星，AI驱动全流程软件研发",
+      "ai-berkshire多Agent对抗用于价值投资获得关注"
+    ],
+    "ai-web": [
+      "Claude Tag上线Slack，65%代码由内部版本创建",
+      "Claude Corps投入1.5亿美元培训1000名AI人才",
+      "DXC与TCS将Claude嵌入银行航空核心系统",
+      "Claude从对话助手升级为团队协作者角色",
+      "Mythos模型安全评测论文发布，聚焦代理评估",
+      "OpenAI今日仅2篇元数据，缺乏有效内容"
+    ],
+    "ai-hn": [
+      "GPT-5.6 Sol预览获866分，白宫要求限制发布范围",
+      "Anthropic Mythos仅向可信合作伙伴发布引争议",
+      "开源vs闭源LLM差距扩大，社区热议追赶空间",
+      "Smart model routing工具获151分，可智能切换模型",
+      "自托管LLM网关Mantis发布，适合企业私有化",
+      "OCaml 5.5.0发布在Lobste.rs获极高关注"
+    ],
+    "ai-arxiv": [
+      "RiVER框架实现无需真实答案的强化学习训练",
+      "Co-Failure Ceiling证明多模型组合增益存在上限",
+      "世界模型幻觉可预测且可预防，基于低覆盖区域",
+      "首次系统研究简历筛选中的提示注入攻击",
+      "GUI Agent通过自主探索增强小模型规划能力",
+      "E-TTS框架系统研究具身操作测试时缩放"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE-DSA架构登顶，获2602赞",
+      "Qwen3.6-35B-A3B NVFP4量化版下载480万次",
+      "Ornith系列397B/35B/9B全尺寸MoE家族亮相",
+      "FastContext-1.0-4B-SFT专为Agent子任务优化",
+      "LiquidAI LFM2.5-230M极轻量模型适合边缘部署",
+      "微软FastContext小模型4B参数但响应快"
+    ],
+    "ai-community": [
+      "AI生成代码“能运行但不正确”吸引17赞27评论",
+      "Guardrails介绍AI Agent安全护栏设置方法",
+      "Claude Code成本优化错误清单与速查表汇总",
+      "Vibe Coding缺乏工程严谨性，安全性堪忧",
+      "停用模型作为内存，仓库才是记忆关键原则",
+      "OCaml 5.5.0发布，Lobste.rs社区高度关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.195 stable patch released",
+      "OpenAI Codex rust-v0.142.3 maintenance patch",
+      "Opus 4.8 tool-call malformation concerns",
+      "Rate-limit cost spike 10-20x for Codex",
+      "Issue #5088: account disabled after payment",
+      "Issue #28879: 175 comments on cost jump"
+    ],
+    "ai-agents": [
+      "500 issues and 500 PRs updated in 24h",
+      "58 PRs merged/closed today",
+      "Long-standing Clawdbot Apps request #75",
+      "Cron operations scoped to calling agent (#96883)",
+      "Ignored truncated tool calls (#97140)",
+      "Autofix pipeline for PR reviews (#68936)"
+    ],
+    "ai-trending": [
+      "design.md +2,407 stars today",
+      "OpenMontage +1,754 stars",
+      "ai-berkshire +1,274 stars",
+      "AWS agent-toolkit-for-aws launch",
+      "vllm 84.5k stars, production backbone",
+      "Shift to agentic multi-tool frameworks"
+    ],
+    "ai-web": [
+      "Anthropic launches Claude Tag on Slack",
+      "65% of product code via Claude Tag",
+      "Claude Corps $150M national fellowship",
+      "Mythos Preview cybersecurity assessment",
+      "Red team research on autonomous cyber ops",
+      "OpenAI only metadata entries this cycle"
+    ],
+    "ai-hn": [
+      "GPT-5.6 Sol preview sparks skepticism",
+      "US government to vet GPT-5.6 users",
+      "866 score thread on Sol model",
+      "848 score debate on government control",
+      "Productivity gap favoring open-weight models",
+      "Smart routing tools gain interest"
+    ],
+    "ai-arxiv": [
+      "RiVER: RL without ground-truth answers",
+      "Co-failure ceiling for multi-model systems",
+      "Linear models rival transformers for forecasting",
+      "World model hallucinations predictable",
+      "Analog hardware for diffusion models",
+      "67 frontier models tested in ensemble study"
+    ],
+    "ai-hf": [
+      "Baidu Unlimited-OCR 1,046 likes",
+      "NVIDIA LocateAnything-3B 2,385 likes",
+      "Gemma-4 fine-tunes explode in downloads",
+      "Ornith family from 9B to 397B",
+      "GLM-5.2 trending MoE-DSA model",
+      "Microsoft FastContext-1.0-4B-SFT"
+    ],
+    "ai-community": [
+      "Guardrails framework for AI agents",
+      "Functional doesn't mean correct debate",
+      "Vibe Coding criticized as dangerous",
+      "Repos as memory pattern for agents",
+      "Read-only reviewer agent pattern",
+      "Chatbot environmental costs discussed"
+    ]
+  }
+}
