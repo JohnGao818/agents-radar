@@ -1,0 +1,94 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code Opus 4.7 Bug引发社区高热度讨论",
+      "OpenAI Codex配额异常影响付费用户体验",
+      "两大工具均面临Windows ARM64兼容问题",
+      "MCP协议和OAuth重构成为PR集中方向",
+      "社区呼吁更透明的日志与资源管理机制",
+      "AI CLI工具从功能炫技转向工程化稳定期"
+    ],
+    "ai-agents": [
+      "OpenClaw单日500条Issues但合并率极低",
+      "智能体空承诺问题成今日最热Issue",
+      "会话存储向SQLite重构PR正在推进",
+      "SSRF安全策略细化至agent粒度配置",
+      "网关重启后角色同步修复已合并",
+      "ACP任务取消生命周期漏洞待修复"
+    ],
+    "ai-trending": [
+      "AI编码Agent生态爆发，gstack等日增500+星",
+      "cognee记忆平台日增780星，聚焦Agent上下文",
+      "ollama已支持Kimi-K2.6、GLM-5.1等模型",
+      "Fission-AI/OpenSpec推动规范驱动开发",
+      "google-labs-code/design.md让Agent理解设计系统",
+      "commaai/openpilot自动驾驶项目+322星"
+    ],
+    "ai-hn": [
+      "亚洲AI初创推出Mythos对标模型引163分热议",
+      "农民因数据中心会议超时被捕引算力焦虑嘲讽",
+      "Adrafinil工具让合盖Mac仅Agent运行时唤醒",
+      "llama.cpp经Patch后提示处理TPS提升20%",
+      "AMD Strix Halo RDMA集群部署指南获高分",
+      "Robin Williams对AI垃圾内容的回应获68分"
+    ],
+    "ai-community": [
+      "Nemotron Floor探索极小型代理模型边界",
+      "自建AI API网关解决多供应商集成痛点",
+      "揭露AI代理表面成功下的隐蔽陷阱",
+      "架构确定性系统对抗LLM不确定性模式",
+      "OpenAI与博通定制推理ASIC Jalapeño详解",
+      "团队不需要更好模型，工作流契约才是瓶颈"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code thinking summaries broken",
+      "OpenAI Codex rate-limit spike 10-20x",
+      "Codex 3 alpha releases today",
+      "Cowork ARM64 blocker in Claude Code",
+      "MCP OAuth serialization progress",
+      "Codex #28879: 334 👍, 186 comments"
+    ],
+    "ai-agents": [
+      "OpenClaw backlog grows; 500 issues",
+      "No new releases since 2026.4.x",
+      "Lock contention bugs fixed",
+      "Telegram streaming improved",
+      "Memory index performance fix",
+      "Stability challenges persist"
+    ],
+    "ai-trending": [
+      "vllm leading LLM inference",
+      "ollama popular local runner",
+      "NousResearch hermes-agent trending",
+      "firecrawl API for agent web data",
+      "browser-use enables agent browsing",
+      "AutoGPT remains active"
+    ],
+    "ai-hn": [
+      "U.S.-China AI rivalry escalates",
+      "Anthropic export ban spurs Asian models",
+      "Alibaba allegedly mined Claude with 25k accounts",
+      "Farmer arrested at data center meeting",
+      "macOS utility keeps machine awake for AI",
+      "llama.cpp 20% prompt processing gain"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE model trending",
+      "Qwen-AgentWorld-35B-A3B for agents",
+      "DeepSeek-V4-Pro-DSpark released",
+      "baidu Unlimited-OCR: 212k downloads",
+      "NVIDIA LocateAnything-3B popular",
+      "GGUF quantizations half of top-30"
+    ],
+    "ai-community": [
+      "Dev.to posts on agent memory and context",
+      "Lobste.rs reflects on AI boom roots",
+      "Reliability concerns for AI agents",
+      "OpenAI custom ASIC discussed",
+      "Running LLMs on old GPUs",
+      "Local voice assistant experiments"
+    ]
+  }
+}
