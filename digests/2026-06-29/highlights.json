@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "子代理无限递归致成本漏洞(#68619)",
+      "SQLite日志写入量或达640TB/年(#29524)",
+      "会话fork实现中断恢复(#30399)",
+      "一键保存会话为可复用技能(#72121)",
+      "工具调用解析失败破坏信任(#63875)",
+      "推理token聚类异常影响性能(#30364)"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.11-beta.2发布",
+      "频道控制增强，Slack中继模式上线",
+      "MCP工具调用审批增强安全边界",
+      "SQLite运行时迁移解决OOM问题",
+      "修复model_not_found故障转移链",
+      "修复Discord陈旧快照冲突(#97642)"
+    ],
+    "ai-trending": [
+      "DeusData/codebase-memory-mcp单日+2190⭐",
+      "金融Agent xbtlin/ai-berkshire +1445⭐",
+      "vllm 84.7k⭐成生产级部署标准",
+      "NousResearch/hermes-agent 205.1k⭐",
+      "firecrawl 140.9k⭐赋能Agent实时搜索",
+      "cupy +174⭐，GPU加速NumPy需求回归"
+    ],
+    "ai-web": [
+      "OpenAI与HP达成'Frontier Partnership'",
+      "Anthropic今日无更新，或处发布前静默期",
+      "合作指向AI PC与本地化企业计算",
+      "OpenAI从API商转向端到端生态",
+      "HP覆盖个人到企业客户，战略意义重大",
+      "连续两日无更新，Anthropic聚焦安全迭代"
+    ],
+    "ai-hn": [
+      "GLM 5.2在安全基准超越Claude（544分）",
+      "Claude Code分析MRI获366分+476评论",
+      "Codex敏感文件排除issue长期未解决(181分)",
+      "Ford因AI效果不佳回聘资深工程师",
+      "央行官员警告AI泡沫可能引发金融危机",
+      "Google限制Meta使用Gemini引发争议"
+    ],
+    "ai-hf": [
+      "GLM-5.2周下载118k，最热门语言模型",
+      "Ornith-1.0-35B-GGUF下载79k，量化部署",
+      "Qwen-AgentWorld专为工具调用优化",
+      "VibeThinker-3B以3B参数专注数学推理",
+      "DeepSeek-V4-Pro-DSpark代表开源前沿",
+      "HauhauCS Qwen3.6-35B量化版周下载324万"
+    ],
+    "ai-community": [
+      "Agent token浪费50k+引热议",
+      "硬编码密钥致AI应用被Pwned",
+      "Pinecone vs Weaviate等向量库选型指南",
+      "零后端AI Chrome扩展架构公开",
+      "MCP服务器烧token，需优化",
+      "RTX 3090跑LLM成本地部署新宠"
+    ]
+  },
+  "en": {}
+}
