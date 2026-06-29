@@ -55,7 +55,24 @@
       "零后端AI Chrome扩展架构公开",
       "MCP服务器烧token，需优化",
       "RTX 3090跑LLM成本地部署新宠"
+    ],
+    "ai-weekly": [
+      "OpenAI Codex 日志写入Bug可损坏SSD，HN评分469",
+      "GLM-5.2在安全基准测试中超越Claude",
+      "美国政府要求OpenAI分阶段发布GPT-5.6 Sol",
+      "Anthropic推出Claude Tag，AI嵌入协作平台",
+      "开源23角色CEO工具包gstack引关注",
+      "OpenMontage多智能体视频系统成GitHub之星"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-weekly": [
+      "Codex SSD bug could write 640 TB/year",
+      "Codex users face 10-20x rate limit spikes",
+      "Claude Tag turns AI into Slack collaborator",
+      "GPT-5.6 preview requires US government vetting",
+      "Anthropic Mythos limited to trusted partners",
+      "US government to stagger GPT-5.6 release"
+    ]
+  }
 }
