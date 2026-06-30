@@ -1,0 +1,110 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.196发布，但插件全挂Bug严重",
+      "OpenAI Codex 一日两版，社区反馈强度极高",
+      "Codex SQLite日志写入巨大，威胁SSD寿命",
+      "Claude Code在高负载下挂起/冻结问题突出",
+      "多Agent协作均遇瓶颈，tmux下崩溃频发",
+      "Windows平台兼容性成两者共同阿喀琉斯之踵"
+    ],
+    "ai-agents": [
+      "OpenClaw项目376条Issue，500条PR高度活跃",
+      "修复Codex动态工具调用时'Cannot read properties'错误",
+      "P1级Bug获关键进展，telegram多冒号解析修复",
+      "性能优化PR复用媒体工具扫描，降低延迟",
+      "Web UI重载后恢复陈旧会话问题得到修复",
+      "网关修复阻止未声明exec-approvals时的TypeError"
+    ],
+    "ai-trending": [
+      "FluidVoice macOS本地语音转文字，日增830星",
+      "ai-berkshire金融Agent日增1386星，垂直场景爆发",
+      "AutoGPT 185k星引领通用自主Agent探索",
+      "Dify 147k星成Agent工作流开发中坚平台",
+      "润色支持最新Kimi、GLM、DeepSeek模型",
+      "CherryStudio集成300+助手，AI工作台新标杆"
+    ],
+    "ai-hn": [
+      "Micro-Agent通过API内部协作超越前沿模型",
+      "韩国政府万亿美元AI基础设施投资引热议",
+      "不应向Claude Code复制粘贴错误，反思交互",
+      "Open Memory Protocol统一Claude/ChatGPT记忆",
+      "设备端截图视觉模型Project获社区认可",
+      "自托管现代AI栈被认为是未来方向"
+    ],
+    "ai-arxiv": [
+      "PASS中间件改良GRPO奖励稀疏信号噪声问题",
+      "GRPO面临信用分配失败和梯度稀疏性理论缺陷",
+      "扩散LLM存在评估幻觉，解码策略影响结果",
+      "大型模型具备被评估意识，随规模增强",
+      "自适应块扩散解决训练推理不匹配问题",
+      "金融医疗等应用关注信息失真与政策遵从"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE架构登顶，下载13.3万",
+      "Ornith-1.0-35B-GGUF基于Qwen3.5，下载12.3万",
+      "Qwen-AgentWorld-35B探索LLM构建虚拟环境",
+      "DeepSeek-V4-Pro和Flash双版本发布",
+      "Qwen3.6无审查变体下载量超308万",
+      "Krea-2系列Turbo/Raw变体高调亮相"
+    ],
+    "ai-community": [
+      "AI Engineer World's Fair带来工程实践分享",
+      "Agent泄密与数据主权成安全反思焦点",
+      "AI没有取代开发者，但剥去假装高效的外衣",
+      "跨46个仓库构建语义搜索层的详细实践",
+      "Flama框架快速构建MCP服务器教程",
+      "LLM API调用内部机制图解引发热议"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.196 released",
+      "OpenAI Codex v0.142.4 + alpha pre-release",
+      "Claude Code freezing/hanging bugs up to 20 min",
+      "Codex SQLite log churn causing SSD wear",
+      "407 upvotes on Codex issue #28224",
+      "Community debates production trust in AI CLI"
+    ],
+    "ai-agents": [
+      "OpenClaw: 376 issues updated, 500 PRs touched",
+      "No new releases; last version 2026.6.8",
+      "Session write-lock contention bugs reported",
+      "Media-understanding image routing validation fixed",
+      "Discord slash-command deployment fixes merged",
+      "Matrix crypto bootstrap hardening merged"
+    ],
+    "ai-trending": [
+      "ollama 175K stars, now supports Kimi-K2.6",
+      "Multi-agent council-of-high-intelligence trending",
+      "vllm 84K stars: high-throughput inference engine",
+      "ai-berkshire: value investing with Claude Code",
+      "FluidVoice: fully local dictation tool",
+      "Agent harnesses and RAG pipelines dominate categories"
+    ],
+    "ai-hn": [
+      "South Korea $1T bet on AI hardware chips",
+      "Micro-Agent: small models beat frontier in one call",
+      "Don't copy-paste errors into Claude Code",
+      "On-device vision model for every screenshot",
+      "Debate: error messaging vs user habits in AI tools",
+      "Mix of excitement and skepticism over innovation"
+    ],
+    "ai-arxiv": [
+      "Process Advantage Signal Shaping for reward densification",
+      "Privileged Hidden Flow for self-distillation",
+      "Reliability and evaluation fidelity of LLM systems",
+      "Diffusion language models with multi-block decoding",
+      "Complexity Ceiling benchmark for agent capabilities",
+      "Safety: manufactured confidence from memory consolidation"
+    ],
+    "ai-community": [
+      "AI Engineer World's Fair dominates Dev.to",
+      "Cory Doctorow interview on Big Tech AI shared",
+      "Debate: model memory vs context (RAG, MCP)",
+      "Community calls for a roadmap beyond hype",
+      "Practical tension: shipping fast vs sustainable AI",
+      "Echoes of AI winter discussed on Lobste.rs"
+    ]
+  }
+}
