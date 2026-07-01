@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.197，默认模型更新",
+      "OpenAI Codex 发布 rust-v0.142.5，修复安全漏洞",
+      "Claude Code 社区活跃度远超 Codex，Bug 报告尖锐",
+      "模型行为不可控成最大痛点：Claude Code 无视指令编辑文件",
+      "Windows 兼容性问题严重，两大工具均存在",
+      "Token 浪费和 SSD 寿命引担忧，安全漏洞被修复"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.11，修复回复错位等问题",
+      "修复心跳机制作用域问题，提升定时任务可靠性",
+      "修复 Android TLS 超时，提升连接稳定性",
+      "社区强烈要求预构建 Android APK，简化部署",
+      "Anthropic 模型“思考”签名验证失败致长对话中断",
+      "Steer 模式功能异常，引起广泛关注"
+    ],
+    "ai-trending": [
+      "agency-agents 单日增 1791 星，多智能体协作爆发",
+      "ai-berkshire 增 969 星，垂直场景 Agent 热潮",
+      "OmniRoute 免费 AI 网关，支持 231+ 提供商和 95% Token 压缩",
+      "Google 发布 agents-cli，将任意编程助手变 Agent 专家",
+      "NousResearch/hermes-agent 以 20.6 万星登顶主题搜索",
+      "本地模型工具 ollama 已支持 Kimi、GLM 等新模型"
+    ],
+    "ai-web": [
+      "Claude Fable 5 解禁恢复，7月1日起全球可用",
+      "Claude Sonnet 5 发布，最经济 Agent 模型，性能接近 Opus",
+      "Anthropic 推出 Claude Science，专为科学家设计 AI 工作台",
+      "OpenAI 今日仅 3 篇无内容条目，数据缺失",
+      "Sonnet 5 成为 Free 和 Pro 套餐默认模型",
+      "Claude Science 集成 PubMed、Jupyter、R 等工具"
+    ],
+    "ai-hn": [
+      "Claude Sonnet 5 发布成焦点，930 分 522 评论",
+      "用户揭 Cursor 安装 iOS 版不可逆改隐私设置",
+      "安全社区指控 Claude Code 嵌入间谍软件代码",
+      "Claude Code 价格暴涨 5 倍，引发用户质疑",
+      "美国商务部解除对 Claude Fable 5 和 Mythos 5 管制",
+      "第三方基准测试质疑 Sonnet 5 性能提升真实性"
+    ],
+    "ai-arxiv": [
+      "FARS: 全自动科研系统，从假设生成到论文撰写端到端",
+      "研究揭示 LLM “表演性合规”，高估安全水平",
+      "优化器选择可放大或抑制涌现性失配现象",
+      "提出 DEW 水印方案，对改写和翻译攻击鲁棒",
+      "ECHO: 选择性轮次记忆优化长程工具使用智能体",
+      "多假设归因方法提升自主科研智能体失败恢复能力"
+    ],
+    "ai-hf": [
+      "GLM-5.2 登顶，点赞超 3000，中文社区影响力强",
+      "DeepSeek V4 系列发布，Pro/Flash/DSpark 版本",
+      "Ornith-1.0-35B 基于 Qwen 3.5 MoE，社区热门",
+      "LiquidAI LFM2.5-230M 轻量模型受关注",
+      "社区微调量化活跃，围绕 Gemma 4、Qwen 3.5 产出 GGUF",
+      "NVIDIA NVFP4 量化技术输出企业级优化模型"
+    ],
+    "ai-community": [
+      "“软件界的iPhone时刻”类比，AI 颠覆开发角色",
+      "揭示 AI 访问隐藏商业模式：API 费用可能被用于训练竞品",
+      "本地开源模型是打破云锁定的关键",
+      "观点：真正的 agent 是日志，不是模型本身",
+      "解读 Anthropic“当AI构建自己”，工程师转向架构师",
+      "Chain-of-Thought 劫持：AI 思维链可能被攻击"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.197: Sonnet 5 default, 1M context",
+      "OpenAI Codex rust-v0.142.5: WebSocket trace fix",
+      "Top issue: Linux desktop app (668 upvotes)",
+      "Model reliability regressions plague Claude Code",
+      "Codex faces massive log-performance issues",
+      "Both communities demand cross-platform parity"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.11: fixes misplaced replies, stuck sends",
+      "298 issues, 500 PRs in 24 hours",
+      "PR #98346: prevents skill-creator bypassing proposals",
+      "PR #98169: fixes heartbeat commitment prompts",
+      "Memory-wiki data loss fixes in progress",
+      "iOS duplicate replies and Android TLS fixes"
+    ],
+    "ai-trending": [
+      "agency-agents: +1,791 stars today",
+      "AI-berkshire: +969 stars, value investing agents",
+      "Vibe-Trading: +721 stars, algorithmic trading",
+      "herdr: terminal-based agent multiplexer (+486)",
+      "superpowers: skills framework for agents",
+      "FluidVoice: on-device AI dictation with custom models"
+    ],
+    "ai-web": [
+      "Claude Fable 5 redeployed after export control lift",
+      "Claude Sonnet 5: near-Opus performance, lower cost",
+      "Claude Science: dedicated AI workbench for researchers",
+      "Frontier Red Team aggressive safety testing",
+      "OpenAI publishes 'Introducing Genebench Pro' pages",
+      "OpenAI also publishes 'Core Dump Epidemiology Bug'"
+    ],
+    "ai-hn": [
+      "Claude Sonnet 5: 930 points, 522 comments on HN",
+      "Export controls lifted on Fable 5 and Mythos 5",
+      "Claude Code accused of embedded spyware",
+      "Claude Code price increased 5x, users outraged",
+      "Transcript deletions after 30 days reported",
+      "Community awaits independent evaluations of Sonnet 5"
+    ],
+    "ai-arxiv": [
+      "FARS: fully automated research system",
+      "AutoTrainess: LLMs recursively improving themselves",
+      "Moral Safety: performative compliance exposed",
+      "Evil Spectra: fine-tuning triggers emergent misalignment",
+      "RaBitQCache: rotated binary KV cache quantization",
+      "First robotic manipulation robustness survey"
+    ],
+    "ai-community": [
+      "AI Engineer World's Fair dominates Dev.to",
+      "'This Is Software’s iPhone Moment' (47 reactions)",
+      "'Someone Else Pays for Your AI Access' sparks debate",
+      "'Future of AI Is Local And Open' argues for local models",
+      "Cory Doctorow's take on Big Tech on Lobste.rs",
+      "Chain-of-thought hijacking security discussion"
+    ]
+  }
+}
