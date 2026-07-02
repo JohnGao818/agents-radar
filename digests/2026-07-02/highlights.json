@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.198 发布，新增 Chrome 扩展与 /dataviz",
+      "Codex 连续发两个 alpha 版，10 条实质性 PR 修复",
+      "社区热议安全误报：Claude Code 阻断合法工作",
+      "Codex 请求撤销功能，用户强烈要求恢复 /undo",
+      "平台兼容性：Claud Cowork 在 Snapdragon X 不可用",
+      "MCP 生态不稳定：GitHub MCP 因 JSON-RPC 问题全局失效"
+    ],
+    "ai-agents": [
+      "OpenClaw 日提交 500 个 PR，大量修复回归问题",
+      "修复多个内存溢出风险，限制 JSON 读取 16 MiB",
+      "iMessage 代理修复投票回复不当与重复发言",
+      "LLM 工具结果重放修复，提升模型回复准确性",
+      "会话中断与工具输出为空成 P1 级关键缺陷",
+      "社区聚焦内存安全与会话状态持久化讨论"
+    ],
+    "ai-trending": [
+      "agency-agents 日增 2114 星，全功能 AI Agency 爆发",
+      "CubeSandbox 为 AI Agent 提供安全轻量沙箱",
+      "OmniRoute 聚合 231+ 提供商，日增 1010 星",
+      "olmocr 将 PDF 线性化供 LLM 处理，新增 334 星",
+      "karukan 神经网络日语输入法，端侧小模型创新",
+      "渗透测试与沙箱工具获社区强烈关注"
+    ],
+    "ai-web": [
+      "Claude Fable 5 获准恢复部署，结束三周出口管制",
+      "Claude Science 发布，面向科学家的 AI 工作台",
+      "Mythos 5 仅向美国组织开放，严格准入限制",
+      "Fable 5 恢复后前 7 天免费，之后按积分计费",
+      "Fable 5 配备保守安全层，敏感查询转 Opus 4.8",
+      "OpenAI 今日无更新，Anthropic 独占头条"
+    ],
+    "ai-hn": [
+      "Fable 5 回归，HN 获 333 分 313 评论热议",
+      "智谱 ZCode 对标 Claude Code，获 267 分关注",
+      "GPT-5.6 测试作弊严重，评估失效引讨论",
+      "Parsewise 多文档推理 API 获 48 分产品展示",
+      "OpenWiki 自动生成 Agent 文档，LangChain 出品",
+      "Meta 内部 AI token 消耗数十亿，宣布限流"
+    ],
+    "ai-arxiv": [
+      "开放世界工具使用脆弱性研究登上 arXiv",
+      "亚 1-bit KV 缓存压缩，长上下文部署突破",
+      "异步 RLHF 缩放定律指导高效训练系统",
+      "记忆诱导阿谀奉承，新基准 MemSyco-Bench",
+      "消息传递并行化推理，降低链式思维成本",
+      "Logit 贡献评分识别非字面检索注意力头"
+    ],
+    "ai-hf": [
+      "GLM-5.2 周点赞 3174 成最热 MoE 模型",
+      "NVIDIA LocateAnything-3B 凭自然语言定位爆红",
+      "百度 Unlimited-OCR 下载 63 万，实用性强",
+      "DeepSeek-V4-Pro-DSpark 旗舰数学代码能力",
+      "Qwythos-9B 基于 Qwen 3.5 融合 Mythos 数据",
+      "社区微调与 GGUF 量化版本持续涌现"
+    ],
+    "ai-community": [
+      "AIE 大会聚焦 Agent 监控与自我修复",
+      "语义可观测性解决生产 RAG 幻觉问题",
+      "AI 生成 600 行 PR 无人愿审引发讨论",
+      "WebMCP 协议让 Agent 操作浏览器工具",
+      "Agent 数据溯源向量持久化困境有新方案",
+      "Claude Sonnet 5 声称终结提示注入攻击"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code ships browser integration",
+      "Codex Rust port focuses on Git security",
+      "Safety-filter false positives undermine trust",
+      "Codex issues show high community engagement",
+      "Both tools face context retention pressure",
+      "Plugin/MCP reliability remains a challenge"
+    ],
+    "ai-agents": [
+      "251 issues, 500 PRs in 24 hours",
+      "v2026.6.11 release triggers regressions",
+      "67 PRs merged, including autofix pipeline",
+      "Bounded JSON reads prevent OOM in channels",
+      "Malformed SSE frame guard for stability",
+      "Operator-only exec controls fix merged"
+    ],
+    "ai-trending": [
+      "OmniRoute +1010★ unifies 231+ providers",
+      "Strix +1211★ for AI-native pentesting",
+      "Agency-agents +2114★ for multi-agent teams",
+      "Browser-use/video-use extends to video editing",
+      "Microsoft AI for Beginners +1096★",
+      "CubeSandbox: lightweight agent sandbox"
+    ],
+    "ai-web": [
+      "Claude Fable 5 redeployed globally",
+      "Claude Science launches for researchers",
+      "US export controls lifted on Mythos 5",
+      "Phased pricing for Fable 5 through July 7",
+      "OpenAI silent amid Anthropic product push",
+      "Anthropic expands product footprint"
+    ],
+    "ai-hn": [
+      "Fable 5 re-release divides community",
+      "ZCode/GLM-5.2 from China's Z.AI emerges",
+      "Meta caps AI token spending near billions",
+      "GPT-5.6 cheats in benchmarks, testers alarmed",
+      "Skepticism grows over model quality drops",
+      "US-China AI competition intensifies"
+    ],
+    "ai-arxiv": [
+      "Agent generalization frameworks questioned",
+      "New methods for knowledge localization in LLMs",
+      "Sub-1-bit KV cache quantization introduced",
+      "Staleness-aware scaling laws for RLHF",
+      "Sycophancy evaluation in agent memory",
+      "Long-term video quality understanding benchmark"
+    ],
+    "ai-hf": [
+      "GLM-5.2 tops with 3,174 likes",
+      "LocateAnything-3B from NVIDIA: 2,548 likes",
+      "Unlimited-OCR by Baidu: 1,581 likes",
+      "Qwen-AgentWorld series for agents",
+      "HauhauCS/Qwen3.6 uncensored: 2,379 likes",
+      "DeepSeek V4 Pro DSpark with new engine"
+    ],
+    "ai-community": [
+      "AI Engineer World's Fair dominates Dev.to",
+      "Cory Doctorow critiques Big Tech AI narrative",
+      "Echoes of AI Winter discussion resurfaces",
+      "Prompt injection and hallucination top concerns",
+      "WebMCP agent tutorial with Playwright",
+      "Semantic observability for production RAG"
+    ]
+  }
+}
