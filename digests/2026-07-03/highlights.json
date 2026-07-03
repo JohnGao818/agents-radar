@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 会话配额异常 Issue #38335 获 467 赞",
+      "OpenAI Codex v0.143.0-alpha.34/35 发布，强化安全",
+      "OpenAI Codex Linux 桌面支持需求 (#11023) 680 赞",
+      "两工具社区共诉会话/数据控制权缺失",
+      "Claude Code 子代理嵌套等待 Bug 突出",
+      "Windows 兼容性是 Codex 独有重灾区"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.1-beta.1 支持 OpenAI GPT-5.6",
+      "P1 级 Bug：工具间文本泄漏至消息渠道 (#25592)",
+      "Codex 应用服务器卡死回归引发 19 条评论 (#88312)",
+      "PR #99024 收紧 CSP 策略降低数据泄露风险",
+      "新增 Cloudflare Sandbox 自动环境检测",
+      "Signal 频道状态反应功能待合并"
+    ],
+    "ai-trending": [
+      "agency-agents 单日涨星 3032，智能体生态爆发",
+      "caveman 用原始人风格减少 65% Token 消耗",
+      "headroom 将 RAG 块压缩 60-95%",
+      "browser-use/video-use 实现视频编辑代码化",
+      "openai/codex-plugin-cc 跨 Agent 协作新品获 352 星",
+      "ChromeDevTools/chrome-devtools-mcp 新项目涨 104 星"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude Sonnet 5，性能逼近 Opus 4.8",
+      "Sonnet 5 定位最具代理能力的 Sonnet 模型",
+      "Anthropic 公开 Fable 5 网络安全分类器细节",
+      "联合 Glasswing 提出 AI 越狱严重性分级框架草案",
+      "Sonnet 5 成为免费和 Pro 计划的默认模型",
+      "OpenAI 官网今日无可追踪增量更新"
+    ],
+    "ai-hn": [
+      "OpenAI 向美国政府让渡 5% 股份引争议",
+      "No LLM Code in Dependencies 工程伦理讨论 115 分",
+      "Claude-real-video 开源让 LLM 能看视频",
+      "Claude AskUserQuestion 超时 60 秒自动跳过引安全担忧",
+      "LMDB 1.0 发布获 AI 工程社区关注",
+      "Launch HN: Manufact (YC S25) MCP Cloud 获 101 分"
+    ],
+    "ai-arxiv": [
+      "多智能体安全鲁棒成焦点：Copewell、UA-ChatDev 等",
+      "线性注意力海马体精确记忆解决长序列覆盖问题",
+      "纯化自蒸馏保留推理过程提升长链推理",
+      "AgenticSTS 有限记忆测试床评估长周期智能体",
+      "扩散模型推理时控制 ART 值得关注",
+      "AnyGroundBench 视频 grounding 专业基准发布"
+    ],
+    "ai-community": [
+      "AI Engineer World's Fair（AIE）成今日最大热点",
+      "LLM 写测试看似正确实则无效的务实反思",
+      "Google VP 称已放弃编码，AI 取代开发者争论再起",
+      "MCP 协议持续发酵：智能体生态快速演进",
+      "Lobste.rs 侧重 AI 社会与哲学影响，态度更审慎",
+      "Let Us Be Free 尖锐批评闭源模型与平台锁定"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.199 patch released",
+      "Codex merges security PRs, active fix",
+      "Claude Code top issue has 789 comments",
+      "Codex has 680 👍 on top issue",
+      "Both tools face Windows friction issues",
+      "Community frustrated by long-standing bugs"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.1-beta.1 adds GPT-5.6",
+      "New external harness attachment feature",
+      "196 issues updated, 500 PRs active",
+      "75 PRs merged/closed in last 24h",
+      "P1 regressions on session state loss",
+      "OAuth authentication instability persists"
+    ],
+    "ai-trending": [
+      "Caveman reduces tokens by 65%",
+      "Strix for AI penetration testing trending",
+      "OpenAI codex-plugin-cc gains 352 stars",
+      "NousResearch/hermes-agent hits 208K stars",
+      "Agent skill specification movement emerges",
+      "Ollama now supports Kimi-K2.6"
+    ],
+    "ai-web": [
+      "Anthropic announces Claude Sonnet 5",
+      "Sonnet 5 closest agentic to Opus 4.8",
+      "Fable 5 cyber safeguards transparency post",
+      "Jailbreak severity framework proposed",
+      "OpenAI published no new content today",
+      "Anthropic sets agenda on capability and safety"
+    ],
+    "ai-hn": [
+      "OpenAI proposes 5% stake for US government",
+      "Ban on AI-generated code in dependencies",
+      "Claude Code accused of spyware",
+      "Claude-real-video enables LLM video understanding",
+      "Claude stalls silently after 60s no response",
+      "Community prioritizes sovereignty and security"
+    ],
+    "ai-arxiv": [
+      "Hippocampus module fixes linear attention forgetting",
+      "Purified OPSD solves self-distillation forgetting",
+      "Papers on autonomous scientific discovery",
+      "Multiturn testbeds for agentic systems",
+      "Risk taxonomies for AI audits proposed",
+      "Auto-generated benchmarks immune to leakage"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE model tops 3,257 likes",
+      "Nvidia LocateAnything-3B with 1M+ downloads",
+      "Baidu Unlimited-OCR enterprise-grade trending",
+      "DeepSeek V4 Pro DSpark for high-throughput",
+      "Qwen3.6 uncensored GGUF has 3M weekly downloads",
+      "Google tabfm-1.0.0 for tabular foundation models"
+    ],
+    "ai-community": [
+      "AIE World's Fair sparks local AI debates",
+      "DeepMind VP 'given up on coding' draws reactions",
+      "LLM security and prompt injection concerns",
+      "Cory Doctorow on Big Tech and AI labor",
+      "AI-powered worms discussed on Lobste.rs",
+      "Practical posts on model routing and test gen"
+    ]
+  }
+}
