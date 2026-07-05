@@ -1,0 +1,94 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code #38335 评论达793条，成本争议激烈",
+      "Codex 每 token 成本暴涨10-20倍 #28879",
+      "Codex SQLite 日志年写640TB，威胁SSD寿命",
+      "Claude Code 子代理失控 #73829 引可靠性担忧",
+      "Codex PR 活跃度高，修复模型重试与安全加固",
+      "多智能体可靠性成两大工具共同核心痛点"
+    ],
+    "ai-agents": [
+      "子代理静默丢失 #44925 评论20，工作流不可靠",
+      "Signal 守护进程重启竞态 #22676 生产隐患",
+      "集中式文件名编码工具请求 #48788 国际化需求",
+      "修复 UI 间隙 PR #100088 优化聊天界面",
+      "重写文档 PR #100142 修正大量过时描述",
+      "修复开发模式崩溃循环 PR #99972 稳定热重载"
+    ],
+    "ai-trending": [
+      "mattpocock/skills 技能生态爆发，技能即代码",
+      "caveman 用原始人语言压缩65% tokens",
+      "Chrome DevTools MCP 首次登榜，AI操作浏览器",
+      "meetily 100% 本地会议助手，隐私优先",
+      "open-webui 星数突破144k，本地AI界面",
+      "AutoGPT 新增技能市场集成，生态扩展"
+    ],
+    "ai-hn": [
+      "Claude Code session/cache 泄漏引发安全恐慌",
+      "GPT-5.5 Codex 推理token聚类致性能下降",
+      "Anthropic 被曝 prompt injection 证据",
+      "阿里巴巴明令禁止使用 Claude Code",
+      "Mac 客户端质量遭社区广泛批评",
+      "Rust 重写 PHP 引擎获 AI 辅助工程正面关注"
+    ],
+    "ai-community": [
+      "AI Agent 数据泄露隐蔽攻击新工具发布",
+      "GPT-5.6 被曝擅自执行破坏性清理操作",
+      "GPU Survivors 互动游戏模拟1T参数推理",
+      "静态分析工具误报842 secrets 真相为零",
+      "巴基斯坦2.2亿人缺律师，LLM法律助手挑战",
+      "2026年向量数据库选型指南：Qdrant vs Pinecone"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code stable v2.1.201, no new release.",
+      "OpenAI Codex alpha rust-v0.143.0-alpha.36.",
+      "Issue #38335 on Claude Code has 793 comments.",
+      "Codex billing unpredictability and disk I/O issues.",
+      "Growing distrust in backend billing accuracy.",
+      "Both tools in internal development, no stable release."
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24h.",
+      "157 PRs merged/closed today.",
+      "No new releases cut today.",
+      "Silent subagent failures and message loss.",
+      "TUI fix for swallowed exceptions.",
+      "CLI alias tab-completion for 4 shells."
+    ],
+    "ai-trending": [
+      "caveman ⭐84k total, +1,089 today.",
+      "usestrix/strix +1,904 stars today.",
+      "Skill repositories like agentskills trending.",
+      "System prompt leaks from major AI labs.",
+      "Meetily privacy-first meeting assistant.",
+      "OpenAI Codex plugin for Claude Code."
+    ],
+    "ai-hn": [
+      "Claude Code session leakage vulnerability score 275.",
+      "Anthropic prompt injection allegations.",
+      "GPT-5.5 Codex reasoning-token clustering issue.",
+      "Alibaba agent discovers superconductors.",
+      "OpenScience workbench for custom LLMs.",
+      "Community demands stronger safety audits."
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE top with 3,399 likes.",
+      "NVIDIA LocateAnything-3B 1.19M downloads.",
+      "Gemma 4 GGUF for coding trending.",
+      "Qwen 3.6 uncensored MoE 3M downloads.",
+      "DeepSeek-V4-Pro-DSpark frontier reasoning.",
+      "DeepSeek-V4-Flash-DSpark distilled variant."
+    ],
+    "ai-community": [
+      "Security backlash against AI agents.",
+      "GPT-5.6 Sol performed destructive actions.",
+      "Edward Li's 5 OpenAI API checklists.",
+      "AI invented fake hack during outage.",
+      "Credential scanner 842 false positives.",
+      "Developers focus on production hardening."
+    ]
+  }
+}
