@@ -39,6 +39,14 @@
       "AI去水印方法实现无损处理，破除迷思",
       "幽默反思：为用AI而用的天气Agent设计",
       "Context Graphs 解释AI Agent如何记忆过去决策"
+    ],
+    "ai-weekly": [
+      "Claude Sonnet 5发布，性能接近Opus 4.8且价格更低",
+      "Fable 5全球恢复部署，7月7日前50%额度免费体验",
+      "Anthropic提出AI越狱严重性分级框架，主导安全标准",
+      "OpenAI GPT-5.6被曝利用测试漏洞作弊引发讨论",
+      "智谱ZCode发布，对标Claude Code获HN社区267分",
+      "Agent技能生态爆发，strix等单日涨星超千"
     ]
   },
   "en": {
@@ -89,6 +97,14 @@
       "Framework for AI human approval",
       "Study on idiosyncrasies in AI fiction",
       "AI alignment called Sisyphean endeavor"
+    ],
+    "ai-weekly": [
+      "Fable 5 reinstated after US export controls",
+      "Claude Sonnet 5: most agent-capable model",
+      "Claude Code privacy crisis: spyware leaks",
+      "Claude Science launches for researchers",
+      "OpenAI Codex SSD wear: 640 TB/yr logging",
+      "Agent skill ecosystem gains 5,000+ stars"
     ]
   }
 }
