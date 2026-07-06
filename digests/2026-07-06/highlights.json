@@ -1,0 +1,94 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code安全过滤器误判合规操作，用户焦虑",
+      "OpenAI Codex资源泄漏和容量错误引发愤怒",
+      "两者均要求强化交互确认机制（AskUserQuestion等）",
+      "Claude Code权限模式缺陷阻碍无头代理工作",
+      "OpenAI Codex模型性能退化与Windows稳定性问题",
+      "社区对比：Claude担忧过度干预，Codex担忧基础设施不足"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.1-beta.2发布，支持GPT-5.6",
+      "新增 openclaw attach 命令挂载外部执行环境",
+      "跨平台应用需求 Issue #75 获110条评论",
+      "自动回复上下文质量改进 PR #100366 审查中",
+      "Android网络重连稳定性 PR #100347 待合并",
+      "解决AI幻觉的嵌入式 runner 问题受关注"
+    ],
+    "ai-trending": [
+      "Claude Code 生态爆发，半数 Trending 项目围绕其展开",
+      "Agent共享内存工具 planning-with-files 成热点",
+      "AI安全工具 strix 获千星级增长（渗透测试）",
+      "caveman 以原始风格减少65% token 受追捧",
+      "vllm 稳居85k stars，高性能推理引擎",
+      "page-agent 用自然语言操控网页获805今日新增"
+    ],
+    "ai-hn": [
+      "Claude Design System Prompt 获116分，提示词工程热度高",
+      "sqlite-utils 4.0rc2 主要由Claude编写，成本仅$149",
+      "加拿大AI战略涉及Palantir秘密法案，引发争议",
+      "微软Copilot涨价42%，社区担忧“AI税”",
+      "论文指出美国出口管制加速中国开源AI生态",
+      "Teaching Claude to Write Like Zweig 展示精细prompt效果"
+    ],
+    "ai-community": [
+      "构建LLM替代方案：8个月200次失败实验真实记录",
+      "自建Agent记忆系统，弥补因果推理缺失",
+      "Jetson Nano运行LLM的量化调优实战指南",
+      "AI去水印方法实现无损处理，破除迷思",
+      "幽默反思：为用AI而用的天气Agent设计",
+      "Context Graphs 解释AI Agent如何记忆过去决策"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.201 regressions reported",
+      "OpenAI Codex has 10 open PRs with fixes",
+      "Community demands Linux desktop support",
+      "Rate-limit metering requested",
+      "Markdown export feature requested",
+      "Low PR activity for Claude Code today"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.1-beta.2 adds GPT-5.6",
+      "328 PRs merged today in OpenClaw",
+      "Heavy bug backlog with P0/P1 regressions",
+      "Maintainer review queue congested for weeks",
+      "External harness attachment command added",
+      "Windows daemon PR autofix pipeline"
+    ],
+    "ai-trending": [
+      "caveman cuts LLM token usage by 65%",
+      "strix AI penetration testing +1,114 stars",
+      "meetily privacy-first assistant +1,409 stars",
+      "vllm project reaches 85,444 stars",
+      "googleworkspace/cli with 29,425 stars",
+      "LancerLab/croqtile new AI-native kernel DSL"
+    ],
+    "ai-hn": [
+      "Design system prompt for Claude published",
+      "Simon Willison spent $149.25 on Claude",
+      "Canada AI strategy sparks Palantir debate",
+      "LLMs as non-human intelligence discussed",
+      "Context graphs for agent memory architecture",
+      "Cost of AI-assisted open source maintenance"
+    ],
+    "ai-hf": [
+      "GLM-5.2 leads with 3,470 likes",
+      "LocateAnything-3B from Nvidia 2,618 likes",
+      "GGUF quantizations top downloads",
+      "DeepSeek-V4-Pro-DSpark released",
+      "Gemma-4-12B-coder fine-tune popular",
+      "Qwen3.6 uncensored variant 2,488 likes"
+    ],
+    "ai-community": [
+      "AI speed leads to technical debt",
+      "Build verification layer for AI code",
+      "Quantization safe for tool-calling",
+      "Framework for AI human approval",
+      "Study on idiosyncrasies in AI fiction",
+      "AI alignment called Sisyphean endeavor"
+    ]
+  }
+}
