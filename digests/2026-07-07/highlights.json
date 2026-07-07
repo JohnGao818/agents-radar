@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.202发布，新增动态工作流与OTel扩展。",
+      "OpenAI Codex rust-v0.143.0-alpha.37，PR侧重可观测性。",
+      "#18435多账户管理获635👍，社区强烈需求。",
+      "#75062安全过滤器误报系列，用户要求干预开关。",
+      "Opus 4.8推理退化引发法律投诉情绪。",
+      "PR #74857澄清MCP配置作用域，生态扩展推进。"
+    ],
+    "ai-agents": [
+      "OpenClaw社区日更500条Issue/PR，高热活跃。",
+      "PR #101246修复skills install可能修改/tmp权限安全漏洞。",
+      "PR #101024修复断网重连后消息永久丢失。",
+      "PR #100272优化提示缓存，提升响应速度降低成本。",
+      "#75 Linux/Windows Clawdbot Apps获81👍，跨平台诉求。",
+      "\"Text between tool calls\"数据泄露严重安全Bug受关注。"
+    ],
+    "ai-trending": [
+      "Agent Skills爆发，addyosmani/agent-skills日增1112星。",
+      "firecrawl ⭐146k，AI网页抓取基础设施。",
+      "NousResearch/hermes-agent ⭐210k，关注度极高。",
+      "gastownhall/gastown多代理工作区，日增291星。",
+      "vllm-project/vllm ⭐85k，生产级推理标准。",
+      "本地优先工具走红：Meetily、RuView强调100%本地处理。"
+    ],
+    "ai-web": [
+      "Anthropic发布用户“个人指导”研究，发现25%奉承行为。",
+      "全局工作空间研究：发现模型内部J-space协调机制。",
+      "Claude Opus 4.7基于研究改进，闭环安全策略。",
+      "政府级网络安全合作案例，树立标杆。",
+      "Anthropic今日4篇重磅内容，节奏显著加速。",
+      "OpenAI官网无增量更新，保持静默。"
+    ],
+    "ai-hn": [
+      "全局工作空间研究获283分，社区高度评价。",
+      "AI利润崩溃文章190分，讨论开源低成本冲击。",
+      "Anthropic追踪中国用户引发隐私批评。",
+      "小模型在离线场景受关注，务实趋势。",
+      "Show HN: Pulpie模型清理网页，工具创新。",
+      "GLM 5.2和AI margin collapse引发热议。"
+    ],
+    "ai-hf": [
+      "GLM-5.2以3535点赞登顶周榜，MoE架构。",
+      "Qwen 3.5/3.6系列霸榜，微调版下载破百万。",
+      "NVIDIA LocateAnything-3B获2635赞，通用定位。",
+      "Ornith-1.0-35B基于Qwen3.5 MoE，社区微调热门。",
+      "百度Unlimited-OCR下载超百万，专业OCR。",
+      "GGUF量化格式成为本地部署标配。"
+    ],
+    "ai-community": [
+      "AI Agent 17天内5次“假完成”，提出无聊检查方案。",
+      "RAG“说谎”问题：表格误读、投毒防御局限。",
+      "OpenAI Assistants API即将关闭，引发成本风暴。",
+      "可观测性设计：LLM调用链个例化形状。",
+      "PagedAttention游戏化模拟GPU内存碎片。",
+      "LLM API密钥安全检查清单，适合团队。"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.202 released with dynamic workflow sizing.",
+      "OpenAI Codex rust-v0.143.0-alpha.37 in early alpha.",
+      "Safety filter false positives dominate Claude Code issues.",
+      "Reasoning model bugs plague OpenAI Codex.",
+      "Agent cost management is a shared pain point.",
+      "Cross-platform sandbox consistency concerns both tools."
+    ],
+    "ai-agents": [
+      "OpenClaw active with 500 issues and 500 PRs.",
+      "202 pull requests merged in last 24 hours.",
+      "Anthropic thinking budget fixed in PR #101283.",
+      "Temp workspace security fix in PR #101246.",
+      "CJK-friendly emphasis parsing added.",
+      "Discord outbound delivery resilience improved."
+    ],
+    "ai-trending": [
+      "Meetily privacy-first meeting assistant gains top stars.",
+      "Leaked system prompts from major AI labs trend.",
+      "Firecrawl API for web scraping gets 867 stars.",
+      "OpenAI plugin codex-plugin-cc for cross-model tasks.",
+      "CodexBar macOS menu bar for usage stats.",
+      "herdr agent multiplexer manages multiple AI agents."
+    ],
+    "ai-web": [
+      "Alberta government used Claude Code to audit code.",
+      "Anthropic's 'global workspace in language models' paper.",
+      "Personal guidance study on sycophancy in high-stakes.",
+      "Safeguards infrastructure post details multi-layer safety.",
+      "Anthropic published four pieces today.",
+      "OpenAI had no new content published."
+    ],
+    "ai-hn": [
+      "Anthropic's global workspace research gets 283 points.",
+      "GLM 5.2 analysis sparks margin collapse debate.",
+      "Small AI models for unreliable networks gain traction.",
+      "Show HN projects highlight practical open-source tools.",
+      "Anthropic faces community critique over tracking and pricing.",
+      "Strong distrust toward Big Labs' commercial moves."
+    ],
+    "ai-hf": [
+      "Qwen 3.5/3.6 dominates community fine-tuning and quantization.",
+      "Nvidia pushes NVFP4 quantization and vision tools.",
+      "Ornith-35B GGUF trends with 436k downloads.",
+      "Abliterated uncensored variants of GLM-5.2 gain traction.",
+      "Tabular models like Google's tabfm break into trending.",
+      "GLM-5.2 from zai-org is highest-liked model."
+    ],
+    "ai-community": [
+      "Repeated fabrication incidents in LLM agents.",
+      "RAG system pitfalls shared as hard-won lessons.",
+      "API key hygiene and exposure risks highlighted.",
+      "'Text-safe is not tool-safe' safety argument.",
+      "Sycophancy remains a core flaw in AI assistants.",
+      "Preprint analyzes idiosyncrasies in AI fiction."
+    ]
+  }
+}
