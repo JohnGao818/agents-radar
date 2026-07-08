@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.204 发布，修复 worktree 误删目录 bug。",
+      "OpenAI Codex v0.143.0 发布，含 alpha 版本。",
+      "社区强烈要求 Claude 提供 `claude usage` 命令查看用量。",
+      "Codex 报告推理 token 聚集问题（#30364）获 252 赞。",
+      "两工具均存在 Windows/WSL2 兼容性问题。",
+      "MCP 插件生态稳定性问题多发，Advisor 功能不可用。"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日 500 条 Issue 更新，活跃度极高。",
+      "P1 Diamond 级别漏洞：工具间文本泄漏到 Slack 通道。",
+      "子代理完成无声丢失问题引发社区担忧。",
+      "合并 139 个 PR，修复 MCP 配置和缓存泄漏。",
+      "高优先级 PR：会话初始化冲突自修复避免死锁。",
+      "Android 聊天绑定专属会话，避免上下文混淆。"
+    ],
+    "ai-trending": [
+      "Ollama 以 175,674 星居 AI 工具榜首位。",
+      "TencentCloud CubeSandbox 今日新增 664 星，专为 AI Agent 设计。",
+      "Steipete/CodexBar 实时显示 Codex 和 Claude 用量。",
+      "Browser-use 登榜，与 Claude Code 生态联动紧密。",
+      "RAG 项目 RAGFlow 和 Mem0 持续火爆。",
+      "TradingAgents 多 Agent 交易框架进入视野。"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude Sonnet 5，代理能力逼近 Opus。",
+      "Sonnet 5 定价更低，推动代理能力平权。",
+      "新研究揭示 Claude 内部“J-space”类似人类全局工作空间。",
+      "这是 AI 可解释性领域的重大理论突破。",
+      "OpenAI 官网今日无新增内容，或为重大发布积蓄力量。",
+      "Anthropic 将 Sonnet 5 设为所有计划的默认模型。"
+    ],
+    "ai-hn": [
+      "Rowboat 开源本地优先替代 Claude Desktop，获 99 高分。",
+      "Shellular 在手机上运行 Claude Code 和 Codex。",
+      "Claude Code 开发内幕文章获 52 分热议。",
+      "Anthropic 公布 Claude 内部推理机制 J-Space。",
+      "Codex 生成 bug 更少但 Claude 用户量领先。",
+      "Fable 5 付费计划延长至 7 月 12 日。"
+    ],
+    "ai-arxiv": [
+      "多智能体协作在生物医学问答中展现出强大能力。",
+      "Danus 框架协调多个数学推理智能体并行证明。",
+      "Spider 2.0 扩展 Text-to-SQL 至 AI 原生 SQL 函数。",
+      "LongCrafter 用证据图合成长上下文训练数据。",
+      "RuBench 发布首个俄语仓库级编码基准。",
+      "低资源语音识别跨语言迁移从僧伽罗语到迪维希语。"
+    ],
+    "ai-hf": [
+      "GLM-5.2 以 3,595 点赞登顶 Hugging Face 总榜。",
+      "NVIDIA 发布多款优化与定位模型。",
+      "Qwen 系列衍生模型与 MoE 架构热度集中。",
+      "GGUF 量化版本占据下载量前列，部署成本降低。",
+      "Unsloth 和 llama.cpp 工具链驱动低成本部署。",
+      "百度、腾讯等大厂均有新模型发布。"
+    ],
+    "ai-community": [
+      "Dev.to 文章指出 RAG 系统对表格数据误读风险。",
+      "嵌入向量可能泄露原始文本，RAG 安全需评估。",
+      "AI 编码工具正成为招聘信号，影响求职选型。",
+      "AI 生成线程安全代码因缓存行伪共享慢 5 倍。",
+      "Lobste.rs 聚焦谷歌 AI 扩张的环境代价。",
+      "语言模型内部 global workspace 研究引发深度讨论。"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code faces 3–5× token cost spikes",
+      "Codex top issue has 156 comments",
+      "Claude shipped patches v2.1.203/204",
+      "Codex released rust-v0.143.0 and alphas",
+      "Both communities demand usage observability",
+      "Codex has higher PR velocity than Claude"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs updated",
+      "139 PRs merged or closed today",
+      "Diamond lobster bugs remain unassigned",
+      "Fix for --mcp-config variadic argument",
+      "Self-healing fix for session wedge conflict",
+      "No new releases; last is 2026.5.20"
+    ],
+    "ai-trending": [
+      "agent-skills gained 1,317 stars today",
+      "CubeSandbox: secure sandbox for AI agents",
+      "CodexBar tracks Codex/Claude usage stats",
+      "dotnet/skills brings .NET to agent era",
+      "ollama hits 175,674 stars",
+      "Local AI tools meetily and pocket-tts rise"
+    ],
+    "ai-web": [
+      "Anthropic launches Claude Sonnet 5",
+      "Sonnet 5 claims near Opus performance",
+      "Global workspace paper reveals J-space",
+      "Interpretability findings for AI safety",
+      "No new content from OpenAI today",
+      "Sonnet 5 is most agentic Sonnet yet"
+    ],
+    "ai-hn": [
+      "Claude Cowork launches on mobile/web",
+      "Rowboat: local-first Claude Desktop alternative",
+      "J-Space reasoning mechanism revealed",
+      "Chinese AI models gain US traction",
+      "Anthropic files lawsuit against Abnormal.ai",
+      "Debate: LLMs making companies dysfunctional"
+    ],
+    "ai-arxiv": [
+      "Papers shift toward agentic orchestration",
+      "World model roadmap paper published",
+      "Concept unlearning in diffusion models",
+      "NTK theory explains compositional tasks",
+      "Quantum RL generalization from entanglement",
+      "Multicultural risk benchmarks for VLMs"
+    ],
+    "ai-hf": [
+      "GLM-5.2 top liked with 3,595 likes",
+      "LocateAnything-3B gets 2,657 likes",
+      "Qwen3.6-35B-A3B uncensored: 2.8M downloads",
+      "DeepSeek-V4-Pro-DSpark draws research interest",
+      "Tencent/Hy3 open-weight model trending",
+      "GGUF quantized models dominate downloads"
+    ],
+    "ai-community": [
+      "Developers share AI agent failure stories",
+      "99.97% accuracy model missed all edge cases",
+      "RAG systems hallucinate on structured data",
+      "Lobste.rs criticizes Google AI bloat",
+      "Agent loop costs rise as concern",
+      "Argument: AI shouldn't replace reading docs"
+    ]
+  }
+}
