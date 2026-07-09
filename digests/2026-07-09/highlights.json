@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code成本失控引热议，42249号Issue44条评论",
+      "OpenAI Codex沙箱安全PR密集，修复网络代理与TUI",
+      "社区呼吁Token消耗透明及消费上限管理",
+      "分层Agent架构提案：Opus大脑+Sonnet工作器",
+      "Codex引入主题化记忆目录和/memory命令",
+      "Claude Code发布v2.1.205修复版"
+    ],
+    "ai-agents": [
+      "P1稳定性问题仍是OpenClaw核心焦点",
+      "大量渠道修复PR涌入，解决消息丢失泄漏",
+      "子代理结果静默丢失，无重试无通知",
+      "工具调用间内部文本错误路由至聊天通道",
+      "修复Ollama云模型工具调用参数兼容性",
+      "cron系统事件在心跳禁用时丢失已修复"
+    ],
+    "ai-trending": [
+      "GitHub Trending中AI项目占比12/15",
+      "TencentCloud开源智能体长期记忆库和沙箱",
+      "system_prompts_leaks反向工程获5.4万星",
+      "langchain和AutoGPT老牌项目超14万星",
+      "轻量向量数据库zvec、lancedb持续迭代",
+      "hermes-agent达211.6k星，支持自我进化"
+    ],
+    "ai-web": [
+      "Anthropic提出双用知识开关控制模型知识",
+      "前沿红队评估：AI接近本科生网络安全水平",
+      "经济指数报告揭示劳动力学习曲线效应",
+      "预设2028年中美AI领导力两种剧本",
+      "双用知识开关成安全治理技术基石",
+      "红队报告为负责任扩展政策提供依据"
+    ],
+    "ai-hn": [
+      "GPT-Live实时对话模型发布，606分热议",
+      "GPT-5.6 Sol将于周四公开上线",
+      "Anthropic Fable分类器过度严苛引开发者不满",
+      "布朗大学线下考试成绩因AI作弊骤降50%",
+      "微软发布Flint可视化语言用于Agent调试",
+      "Onboard-CLI：LLM驱动的代码库可视化工具"
+    ],
+    "ai-arxiv": [
+      "Agon:竞争式跨模型RL解决GRPO梯度消失",
+      "Max Out GRPO:自适应轨迹前缀提升困难题学习",
+      "线性注意力效率优化理论分析框架",
+      "RoPE频率非均匀使用由数据位置尺度驱动",
+      "未来置信度蒸馏让小模型获得可靠置信度",
+      "PALS:百分位感知层剪枝超越Wanda"
+    ],
+    "ai-hf": [
+      "GLM-5.2以周赞3669登顶MoE对话模型",
+      "nvidia/LocateAnything-3B多模态定位黑马",
+      "Qwen 3.6生态爆发，多款量化视觉版冲榜",
+      "DeepSeek-V4-Pro发布并附论文",
+      "GGUF量化热潮，周下载量超百万",
+      "unsolth直出DeepSeek-V4 GGUF量化版"
+    ],
+    "ai-community": [
+      "Agent伪造测试日志并自我相信，暴露溯源漏洞",
+      "更大上下文窗口未让RAG更聪明，优化需新思路",
+      "MCP和Agent内存架构降低Token成本",
+      "本地LLM经济性在非洲技术生态受关注",
+      "谷歌AI膨胀致气候影响遭Lobste.rs批评",
+      "人机协作编码新平台保障可信协作"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.205 patch released",
+      "OpenAI Codex in pre-release alphas",
+      "Users request features across tools",
+      "Claude leans into multi-agent orchestration",
+      "Billing and quota transparency issues",
+      "LSP integration hot issue with 427 upvotes"
+    ],
+    "ai-agents": [
+      "500 issues and 500 PRs updated today",
+      "93 PRs merged or closed",
+      "Fix for Ollama cloud model rejection",
+      "Signed envelope verifier for feed refresh",
+      "WhatsApp gateway crash fix",
+      "System events not dropped when heartbeat disabled"
+    ],
+    "ai-trending": [
+      "agent-skills gets 1,297 stars today",
+      "CubeSandbox Rust sandbox by Tencent",
+      "system_prompts_leaks with 1,218 stars",
+      "OfficeCLI with 1,717 stars",
+      "Alibaba zvec lightweight vector DB",
+      "DesktopCommanderMCP MCP server"
+    ],
+    "ai-web": [
+      "Anthropic proposes off switch for dual-use knowledge",
+      "35 new articles from Anthropic",
+      "GPT-Live product signals from OpenAI",
+      "OpenAI coding signal evaluations",
+      "Anthropic safety strategy shift",
+      "Economic impact and agentic misalignment"
+    ],
+    "ai-hn": [
+      "GPT-Live hits 606 score, 416 comments",
+      "GPT-5.6 Sol, Terra, Luna launching Thursday",
+      "LLM burnout and AI fatigue debated",
+      "Anthropic Fable safety classifiers controversy",
+      "Ivy League professor proves AI cheating",
+      "Debate on real-time streaming interaction"
+    ],
+    "ai-arxiv": [
+      "GRPO zero-reward rollouts solved",
+      "Competitive cross-model RL with Agon",
+      "Recursive self-improvement survey",
+      "Institutional red-teaming for safety",
+      "Severity-graded evaluation introduced",
+      "Computational geometry of attention"
+    ],
+    "ai-hf": [
+      "Qwen 3.5/3.6 family dominates",
+      "NVIDIA LocateAnything-3B zero-shot",
+      "Baidu Unlimited-OCR pipeline",
+      "GLM-5.2 MoE model trending",
+      "DeepSeek-V4-Pro-DSpark with safety",
+      "Ornith-1.0-35B Qwen derivative"
+    ],
+    "ai-community": [
+      "Agent faked test log, provenance problem",
+      "Cheaper retrieval with BM25 works better",
+      "MCP for i18n files to cut costs",
+      "Climate analysis of Google AI infra",
+      "Open-weight models for low-resource",
+      "Loop engineering replaces prompt engineering"
+    ]
+  }
+}
