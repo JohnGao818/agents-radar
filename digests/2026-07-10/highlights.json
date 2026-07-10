@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.206 发布，社区聚焦多账户切换（642👍）",
+      "OpenAI Codex 单日5个版本更新，模型行为可控性成焦点",
+      "社区热议企业级功能：权限继承、认证稳定性",
+      "模型黑盒不确定性成最大痛点，要求精细调控",
+      "MCP生态安全与稳定性成为新战场",
+      "付费系统可靠性引社区强烈反应（180评论）"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时处理500条Issue与PR更新",
+      "子代理会话丢失Bug引21条评论热议",
+      "Gateway大消息阻塞修复（1MB消息异步处理）",
+      "新增Computer Use插件静态清单合约",
+      "XSS修复、CI加固、性能调优多管齐下",
+      "子代理无声失败：用户需手动刷新才能察觉"
+    ],
+    "ai-trending": [
+      "ai-job-search 日增3716星，AI求职框架爆火",
+      "vxcontrol/pentagi 自主渗透测试Agent引关注",
+      "DesktopCommanderMCP 为Claude提供终端控制",
+      "NousResearch/hermes-agent 21万星稳定Agent框架",
+      "DeepSeek-Reasonix 专为DeepSeek优化编码Agent",
+      "OfficeCLI 获1929星，办公自动化Agent崛起"
+    ],
+    "ai-web": [
+      "Anthropic任命前美联储主席伯南克加入长期信托",
+      "Claude进入物理AI：与UST合作制造业质量检测",
+      "OpenAI GPT-5-6系列索引密集出现，或预示新模型",
+      "Golden Gate Claude 可解释性里程碑：精确神经调控",
+      "OpenAI新模型发布窗口开启，引发社区期待",
+      "Anthropic治理结构再强调：长期利益信托制度"
+    ],
+    "ai-hn": [
+      "GPT-5.6发布以1082分登顶，790条评论热议",
+      "GLM 5.2在记账任务上准确率接近人类会计师",
+      "纽约时报指控OpenAI隐藏训练数据搜索能力",
+      "中国对Claude Code发出‘后门’安全警报",
+      "Context.dev YC S26项目：网页转结构化数据",
+      "Lucid工具可查看和编辑AI思考过程"
+    ],
+    "ai-arxiv": [
+      "OpenCoF：用视频生成器时序帧推理，开辟新路径",
+      "IdeaGene-Bench：科学思想谱系推理基准测试",
+      "量化模型‘等效错觉’：准确率掩盖行为改变",
+      "超权重并非通用，选择性训练也无法恢复性能",
+      "UltraX自适应程序化编辑突破数据瓶颈",
+      "WebSwarm多智能体深度搜索系统发布"
+    ],
+    "ai-hf": [
+      "GLM-5.2以3730点赞领跑语言模型榜",
+      "Qwen3.6系列社区微调版下载量动辄百万级",
+      "NVIDIA NVFP4量化格式在多个模型落地",
+      "Gemma-4代码微调版下载量高，专用场景受宠",
+      "Krea-2图像生成生态扩展：Turbo/LoRA/ControlNet",
+      "Nemotron-Audex 30B MoE专注推理场景"
+    ],
+    "ai-community": [
+      "AI供应商日志透明度寓言：别盲目信任外部输出",
+      "手写代码 vs AI输出辩论：效率与诚实之争",
+      "删除200行AI代码手动重写，学习不可外包",
+      "LLM自评价质量门被质疑，提出确定性路由替代",
+      "资深工程师拒绝AI正沦为Junior引热议",
+      "Agent需要不可变事件日志（Receipts）才可靠"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.206 stable release.",
+      "OpenAI Codex rust-v0.144.0 & alpha.",
+      "Top Claude Code issue: 642 👍 engagement.",
+      "Multi-agent permission models key challenge.",
+      "MCP integration stability issues persist.",
+      "3 PRs from same Claude Code contributor."
+    ],
+    "ai-agents": [
+      "500 issues, 500 PRs in 24h.",
+      "207 PRs merged, 185 issues closed.",
+      "Fix for xAI model catalog alignment.",
+      "Handled managed Chrome spawn errors.",
+      "Fix large chat messages stalling Gateway.",
+      "Computer Use plugin manifest contract added."
+    ],
+    "ai-trending": [
+      "MadsLorentzen/ai-job-search +3,716 stars today.",
+      "addyosmani/agent-skills +2,554 stars today.",
+      "asgeirtj/system_prompts_leaks 55k+ stars.",
+      "kyutai-labs/pocket-tts lightweight TTS model.",
+      "vllm-project/vllm 85,850 stars inference engine.",
+      "firecrawl/firecrawl 148,467 stars for LLMs."
+    ],
+    "ai-web": [
+      "Ben Bernanke joins Anthropic's trust board.",
+      "Anthropic partners with UST for manufacturing AI.",
+      "Dual-use knowledge off switch research published.",
+      "20,000 engineers to be trained on Claude.",
+      "OpenAI crawl suggests GPT-5.6 imminent.",
+      "Anthropic differentiates on governance & enterprise."
+    ],
+    "ai-hn": [
+      "GPT-5.6 launch dominates with 1082 points.",
+      "NYT accuses OpenAI of hiding evidence.",
+      "GLM 5.2 approaches human-level bookkeeping.",
+      "Claude Code 'Fable July 12th' mystery.",
+      "GPT-5.6 ARC-AGI benchmark results posted.",
+      "Community split on model's agentic gains."
+    ],
+    "ai-arxiv": [
+      "Quantization effects challenge accuracy metrics.",
+      "Super weight degradation not universal across LLMs.",
+      "BiSCo-LLM: lookup-free binary spherical coding.",
+      "Agentic AI systems for long-horizon tasks.",
+      "Video generation as alternative chain-of-thought.",
+      "Clinical reasoning LLM for cancer diagnosis."
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE gains 3.7K likes trending.",
+      "Qwen3.6 MoE quantized GGUF versions popular.",
+      "Community GGUF models of Qwen, Gemma, DeepSeek.",
+      "Mixture-of-Experts architectures dominate this week.",
+      "NVIDIA NV model family scales up.",
+      "Quantized deployment trend continues strong."
+    ],
+    "ai-community": [
+      "'Hand-typed slop isn't honest' debate.",
+      "Senior devs refusing AI risk becoming juniors.",
+      "Deterministic routing + sampling alternative to LLM gates.",
+      "Google AI-driven digital bloat climate impact.",
+      "Agents still can't loop reliably.",
+      "Security command injection in AI code."
+    ]
+  }
+}
