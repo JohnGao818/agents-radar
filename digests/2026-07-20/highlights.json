@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code VS 2026集成需求获403👍",
+      "OpenAI Codex macOS CPU飙升256👍",
+      "Claude Code v2.1.215版本发布",
+      "OpenAI Codex Windows 11卡顿问题",
+      "Claude Code要求实时引导功能",
+      "OpenAI Codex加密消息移除审计线索"
+    ],
+    "ai-agents": [
+      "345 Issues+500 PRs高活跃度",
+      "修复2026.7.1版本LLM请求失败回归",
+      "修复会话上下文用量计算错误",
+      "修复subagent深度嵌套provider绑定错误",
+      "Telegram 409冲突问题修复",
+      "Linux/Windows Clawdbot Apps需求80👍"
+    ],
+    "ai-trending": [
+      "ollama 176k star支持Kimi-K2.6等新模型",
+      "Hermes-Agent 217k star通用Agent框架",
+      "kimi-cli今日新增410 star终端代理",
+      "airllm单块4GB GPU即可跑70B模型",
+      "ktransformers异构推理优化框架",
+      "GitHub Copilot SDK正式开源"
+    ],
+    "ai-web": [
+      "Anthropic推出Claude Tag嵌入Slack协作",
+      "发布10个金融服务Agent模板",
+      "Claude for Teachers免费高级功能",
+      "投资1000万加元深耕加拿大AI研究",
+      "研究\"AI Agent内鬼\"安全问题",
+      "OpenAI仅4条标题信息高度受限"
+    ],
+    "ai-hn": [
+      "Claude Code切换Rust版Bun运行时引563评论",
+      "OpenAI Codex上下文从372k缩至272k",
+      "GPT-5.6可能意外删除用户文件",
+      "反AI抗议者前往OpenAI总部放尸袋",
+      "Dave Eggers指责ChatGPT沉默一代",
+      "Control reasoning effort in LLMs探讨"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE-DSA架构登顶4170赞",
+      "Bonsai-27B 1-bit量化下载量惊人",
+      "Qwythos-9B 1M上下文下载2.1M",
+      "百度Unlimited-OCR下载2.1M",
+      "腾讯Hy3第三代语言模型发布",
+      "月之暗面Kimi-K2.7-Code代码模型"
+    ],
+    "ai-community": [
+      "GPT-5.6 Sol攻克30年数学难题",
+      "METR报告指出严重规避行为",
+      "OneNote MCP Server TypeScript重写",
+      "AI Agent性能瓶颈成本失控",
+      "ELIZA发明与《Pangram》讨论",
+      "Hono.js构建社交媒体AI Agent"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.215 released",
+      "OpenAI Codex only bot PRs today",
+      "Claude Code human contributors visible",
+      "Agent reliability debated in both",
+      "Permission management key issue",
+      "Cross-platform friction highlighted"
+    ],
+    "ai-agents": [
+      "OpenClaw: 345 issues, 500 PRs today",
+      "147 PRs merged in last 24 hours",
+      "Escape code leak fix merged",
+      "LLM provider schema regression fixed",
+      "Telegram 409 cascade fix closed",
+      "Security hardening PRs merged"
+    ],
+    "ai-trending": [
+      "Local-first MCP-native tooling rising",
+      "ktransformers: heterogeneous inference",
+      "airllm: 70B on single 4GB GPU",
+      "MoonshotAI kimi-cli 410 stars today",
+      "vllm 86,659 total stars",
+      "ollama remains top local tool"
+    ],
+    "ai-web": [
+      "Anthropic: 12 new articles today",
+      "Claude Tag: proactive Slack agent",
+      "65% of Anthropic code via Claude Tag",
+      "Agentic misalignment research published",
+      "Models may resort to insider threats",
+      "OpenAI: 4 metadata-only articles"
+    ],
+    "ai-hn": [
+      "Claude Code adopts Bun (Rust): 398 pts",
+      "OpenAI reduces Codex context to 272k",
+      "Debate on speed vs capability",
+      "Dave Eggers protest at OpenAI HQ",
+      "Controlling reasoning effort article",
+      "GPT-5.6 accuracy concerns discussed"
+    ],
+    "ai-hf": [
+      "Gemma-4-31B-it leads 12.3M downloads",
+      "GLM-5.2: 4,170 likes, open MoE",
+      "Qwen3.6 ecosystem exploding",
+      "Prism-ml extreme quantization popular",
+      "Baidu OCR model tops 2M downloads",
+      "Inkling multimodal MoE emerges"
+    ],
+    "ai-community": [
+      "GPT-5.6 Sol solves 30-year math proof",
+      "METR flags severe evasion behaviors",
+      "AI agents: browser isolation lessons",
+      "Lobste.rs deep dive into ELIZA history",
+      "Builders share production agent tips",
+      "Hidden costs of orchestration debated"
+    ]
+  }
+}
