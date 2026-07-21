@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.216 含新沙箱配置",
+      "OpenAI Codex 发布 2 个 Rust Alpha 预发布版本",
+      "多账户切换 Issue 获 668 赞 148 评论",
+      "Token 消耗飙升 10-20 倍 Issue 获 358 赞",
+      "Windows 平台文本复制与服务启动问题突出",
+      "社区强烈要求 SSH 断线重连与 Diff 分支"
+    ],
+    "ai-agents": [
+      "OpenClaw 日处理 353 条 Issue 与 500 条 PR",
+      "P0 修复：npm 12 安装元数据读取崩溃",
+      "引导流程改进：用户可为 Agent 命名",
+      "工具输出渲染为图片附件致 Agent 无法读取",
+      "回归问题 #88312 已关闭但持续跟踪",
+      "子代理原生路由与 exec 脱敏 PR 接近就绪"
+    ],
+    "ai-trending": [
+      "AI Agent 书籍开源日增 4434+ star 引爆社区",
+      "Kimi Code CLI 开源首日获 410+ star",
+      "code-review-graph 日增 1833 star 本地优先代码图",
+      "wigolo 日增 689 star 零 API 费搜索工具",
+      "ktransformers 日增 458 star 异构 LLM 推理优化",
+      "fastmcp 日增 96 star 极速构建 MCP 服务器"
+    ],
+    "ai-web": [
+      "Anthropic 罕见病研究资助计划启动",
+      "主题式呼吁聚焦罕见遗传病",
+      "双轨制支持基础科学与生物技术",
+      "最高 5 万美元 API 额度资助",
+      "OpenAI 发布 Safety Alignment 新内容",
+      "长周期模型安全研究转向新范式"
+    ],
+    "ai-hn": [
+      "Kimi K3、Qwen 3.8 经济学分析获 295 分",
+      "GPT-5.6 vs Kimi K3 直播 Kerbal 太空程序",
+      "Anthropic 声称雅可比猜想为假引质疑",
+      "Claude Code 生成 10 分钟 AI 电影开源管线",
+      "自托管交易机器人 The0 支持多语言",
+      "Anthropic 版权诉讼和解与模型更新成焦点"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE 架构周赞 4226 登顶",
+      "腾讯开源 Hy3 文本生成模型获 847 赞",
+      "Hy3-GGUF 量化版下载量超原版 4 倍",
+      "Gemma-4-31B 下载量近 1200 万",
+      "百度 Unlimited-OCR 下载 212 万通用模型",
+      "Qwythos-9B 量化版下载 211 万融合 Claude 风格"
+    ],
+    "ai-community": [
+      "AI 生成代码法律归属与责任讨论获 38 赞",
+      "ReflectionCLI 2.0 本地优先思考 CLI 工具",
+      "smolagents 隐藏循环逻辑导致代码重试",
+      "CrewAI 部署 AWS Bedrock 踩坑全纪录",
+      "为未发布游戏打造不信任自身输出的 AI 框架",
+      "本地化解决数据流向而非 Agent 行为"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.216 fixes quadratic slowdown",
+      "Top issue: multi-account switching (668👍)",
+      "OpenAI Codex top issue: Linux desktop (802👍)",
+      "Codex focuses on secure scalable backend",
+      "Shared pain points: cost transparency",
+      "Data-loss bug in Claude Code #62272"
+    ],
+    "ai-agents": [
+      "353 issues, 500 PRs updated in 24h",
+      "110 PRs merged/closed today",
+      "Plugin host command cleanup #111602",
+      "Stuck-session recovery guard #111622",
+      "TTS text churn elimination #83988",
+      "MiniMax provider response fix #111696"
+    ],
+    "ai-trending": [
+      "bojieli/ai-agent-book +4,434 stars",
+      "OmniRoute gateway +1,107 stars",
+      "code-review-graph +1,833 stars",
+      "ktransformers +458 stars for LLM inference",
+      "kvcache-ai/ktransformers flexible framework",
+      "MoonshotAI/kimi-cli CLI agent"
+    ],
+    "ai-web": [
+      "Anthropic rare disease grant: $50k credits",
+      "OpenAI safety alignment for long-horizon",
+      "Thematic rounds for AI for Science",
+      "Grant targets rare genetic diseases",
+      "Two tracks: research and biotech",
+      "Community-building for grantees"
+    ],
+    "ai-hn": [
+      "Frontier lab economics top story (295 pts)",
+      "Political backlash against AI reported",
+      "Claude Fable 5 included in Max plans",
+      "Anthropic models may refute Jacobian Conjecture",
+      "OpenAI safety alignment post (25 pts)",
+      "Discussion: open vs closed source dominance"
+    ],
+    "ai-hf": [
+      "Gemma-4-31B-it 12M downloads dominant",
+      "Ternary and 1-bit quantization from prism-ml",
+      "GLM-5.2 MoE model trending",
+      "tencent/Hy3 Hunyuan 100B+ params",
+      "Cactus-Compute/needle JAX function-calling",
+      "Uncensored fine-tunes on Qwen3.6 MoE"
+    ],
+    "ai-community": [
+      "AI code ownership debate (38 reactions)",
+      "CrewAI debugging on AWS Bedrock",
+      "smolagents retry bug story",
+      "ReflectionCLI 2.0 local-first tool",
+      "Meta Garbage Collection for Rust",
+      "ELIZA chatbot legacy discussed"
+    ]
+  }
+}
