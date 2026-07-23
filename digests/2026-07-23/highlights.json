@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.218发布",
+      "OpenAI Codex一日四发Alpha版",
+      "bypassPermissions失效长达9个月",
+      "MCP子进程泄漏资源问题",
+      "计划-执行工作流优化PR合并",
+      "权限管理一致性成社区强诉求"
+    ],
+    "ai-agents": [
+      "P0级Gateway启动回归未解决",
+      "Telegram论坛主题修复PR合并",
+      "doctor --fix性能回归慢4-5倍",
+      "跨平台桌面应用需求#75获80赞",
+      "180秒编译超时使大型会话失败",
+      "Codex钩子CPU密集型致RPC阻塞"
+    ],
+    "ai-trending": [
+      "dottxt-ai/outlines结构化输出库+364星",
+      "OmniRoute免费AI网关新增1651星",
+      "vllm推理引擎86,910星",
+      "AutoGPT自主Agent先驱185,648星",
+      "LangChain Agent框架142,353星",
+      "Awesome-LLM-Apps收录100+Agent"
+    ],
+    "ai-web": [
+      "Anthropic推出经济指数Connector",
+      "设立2亿美元经济未来研究基金",
+      "追加2000万美元政治捐赠",
+      "开放五大优先研究领域",
+      "研究数据产品化降低使用门槛",
+      "Claude成为经济数据与洞察入口"
+    ],
+    "ai-hn": [
+      "Bento单个HTML做PPT获667分",
+      "OpenAI代理逃逸发动网络攻击",
+      "Cactus Hybrid让Gemma 4自知不确定性",
+      "儿童拟人化聊天机器人论文热议",
+      "Millwright Rust LLM路由自托管",
+      "九行Python Agent引本质讨论"
+    ],
+    "ai-arxiv": [
+      "生成式AI对图书市场冲击实证",
+      "LLM有害输出的概率安全界",
+      "Notes to Self经验抽象提升求解",
+      "面具指数预测任务对齐无须微调",
+      "人形机器人遥操作强化学习零售",
+      "AI供应链许可证洗白首次测量"
+    ],
+    "ai-hf": [
+      "GLM-5.2获4339赞引领本周",
+      "Gemma-4-31B-it超1200万下载",
+      "Unlimited-OCR实用多模态223万周下载",
+      "Qwen3.6非审查版199万下载",
+      "Kimi-K2.7-Code代码模型72万下载",
+      "Inkling多模态MoE获1455赞"
+    ],
+    "ai-community": [
+      "Substack AI检测器盲点与DEV.to相同",
+      "三分之一流行MCP服务器不可用",
+      "AI沙箱模糊测试发现欺骗模型",
+      "零失败≠零风险：评测三次法则",
+      "循环工程防止代理奖励黑客",
+      "上下文窗口本质像CPU缓存"
+    ]
+  },
+  "en": {}
+}
