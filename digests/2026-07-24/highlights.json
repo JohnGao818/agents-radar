@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code Fable 5上线但计费Bug引热议",
+      "OpenAI Codex Rust内测v0.146.0",
+      "macOS ECONNRESET一年未解获47赞",
+      "Windows CPU 100%问题获72赞75条评论",
+      "MCP会话识别缺失影响多进程",
+      "自动更新重复下载265MB耗流量"
+    ],
+    "ai-agents": [
+      "OpenClaw 312条Issue和500条PR高度活跃",
+      "修复子任务死锁PR#113190已合并",
+      "A2A切换提示前缀缓存恢复降成本",
+      "Matrix渠道支持剧透下划线原生表格",
+      "WhatsApp表情回复功能已修复",
+      "本地化i18n工作流PR#112784开放"
+    ],
+    "ai-trending": [
+      "OmniRoute获1929星，免费AI网关",
+      "worldmonitor获3175星，AI情报仪表盘",
+      "阿里开源open-code-review混合架构",
+      "Kronos金融基础模型上榜",
+      "vllm 87k stars，生产级推理引擎",
+      "ollama 176k stars，本地LLM一站式"
+    ],
+    "ai-web": [
+      "Claude Opus 4.7正式GA，软件工程提升",
+      "Claude for Creative Work推出Connectors",
+      "Opus 4.7作为能力降级测试平台",
+      "OpenAI出现/health-in-chatgpt/路径",
+      "Opus 4.5重提，模型迭代加速",
+      "Connectors与Figma等直接竞争"
+    ],
+    "ai-hn": [
+      "OpenAI和Anthropic呼吁限开权重获279分",
+      "Show HN: Echo成本1/3达Fable级获240分",
+      "Palmier Pro开源macOS AI视频编辑器",
+      "OneCLI凭证网关防AI agent泄露密钥",
+      "Claude-thermos保持会话活跃获73分",
+      "手写编辑基准Fable 5第一，Opus 4.8退步"
+    ],
+    "ai-arxiv": [
+      "多智能体安全悖论：直接暴露更安全",
+      "AREX递归自我改进研究agent超越静态",
+      "反周期位置编码Möbius RoPE可缓解外推",
+      "LLM过度自我修正根因及缓解策略",
+      "多语言LLM日常知识系统性失败",
+      "GRADRAG多智能体RAG提示自适应框架"
+    ],
+    "ai-hf": [
+      "GLM-5.2登顶周榜，4371赞596k下载",
+      "Gemma-4-31B-it下载1266万，多模态",
+      "百度Unlimited-OCR下载241万，无限制",
+      "Qwen3.6微调变体涌现，社区调优热",
+      "Solar-Open2-250B开源巨模型引关注",
+      "Nanbeige4.2-3B轻量高效推理"
+    ],
+    "ai-community": [
+      "AI Agent秘密实现Demo揭示陷阱",
+      "RAG隐形成本实测，避免盲目投入",
+      "MCP协议缩减95%上下文技巧",
+      "AI安全护栏隐性成本引治理讨论",
+      "LLM驱动Codenames游戏追踪活跃度",
+      "AI编码助手“撒谎”问题需规则兜底"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code battles persistent ECONNRESET errors",
+      "Codex faces severe Windows resource bugs",
+      "Demand for multi-session orchestration grows",
+      "Codex: 100 issues, 10 PRs in 24 hours",
+      "Claude Code longest open issue since Aug 2025",
+      "Agent autonomy vs stability remains unsolved"
+    ],
+    "ai-agents": [
+      "OpenClaw: 312 issues, 500 PRs in 24h",
+      "186 PRs merged including Matrix support",
+      "PR #113199 adds spoilers, underline, tables",
+      "PR #113173 introduces suggestion queue",
+      "PR #113178 fixes WhatsApp reactions",
+      "iOS UI PR #113057 renders media attachments"
+    ],
+    "ai-trending": [
+      "OmniRoute gains 1,929 stars for multi-provider API",
+      "Kronos foundation model for finance emerges",
+      "RuView uses WiFi for spatial intelligence",
+      "claude-mem reaches 88K stars",
+      "harper offline grammar checker +624 stars",
+      "Privacy-first local AI tools surge"
+    ],
+    "ai-web": [
+      "Anthropic announces Claude Opus 4.7 with safeguards",
+      "Claude for Creative Work integrates 50+ tools",
+      "Claude Opus 4.5 resurfaces from Nov 2025",
+      "OpenAI health-focused ChatGPT page found",
+      "Anthropic releases connectors for Ableton, Adobe",
+      "Mythos Preview restricted for cybersecurity"
+    ],
+    "ai-hn": [
+      "Echo matches Fable at 1/3 cost (240 points)",
+      "Community debates closed vs open AI rift",
+      "Show HN: Palmier Pro macOS AI video editor",
+      "Claude session warming tools trending",
+      "Australia energy and US Kill Switch bills",
+      "Skepticism toward big AI, optimism for open"
+    ],
+    "ai-arxiv": [
+      "Error certificates for KV-cache eviction",
+      "Möbius RoPE improves in-context retrieval",
+      "Capital Markets LLM Reliability Score",
+      "Recursively self-improving research agent",
+      "Fast vision-language guard for moderation",
+      "LLMs less dangerous via harmful relay"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE model tops 4,371 likes",
+      "Qwen3.6 variants flood with uncensored tunes",
+      "1-bit ternary quantization breakout (Bonsai)",
+      "Google Gemma-4-31B-it gains traction",
+      "NVIDIA streaming ASR and Qwen TTS trend",
+      "Upstage Solar-Open2-250B gets 455 likes"
+    ],
+    "ai-community": [
+      "Sylwia Lask demystifies AI agents (60 reactions)",
+      "AI endpoints change API flow guide",
+      "Hidden costs of RAG pipelines discussed",
+      "Mozilla adopts Firefox DevTools MCP server",
+      "Notion vector search scaling lessons shared",
+      "Developers focus on measuring AI in production"
+    ]
+  }
+}
