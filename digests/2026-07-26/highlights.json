@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code多模型支持引发兼容性阵痛",
+      "OpenAI Codex发布V0.146.0-alpha.10.1 Rust版",
+      "AGENTS.md标准化诉求获4451👍",
+      "Windows稳定性成两大工具普及瓶颈",
+      "MCP进程泄漏可达9GB+",
+      "Session持久化与恢复是共同短板"
+    ],
+    "ai-agents": [
+      "PR#110382隔离向导进程增强网关稳定性",
+      "PR#113883引入基于路径会话URL可书签化",
+      "#7707记忆信任标签防投毒获高关注",
+      "#78308 MCP工具调用审批机制讨论",
+      "社区高活跃但积压严重",
+      "多项修复合并，无新版本发布"
+    ],
+    "ai-trending": [
+      "Agent技能框架单日新增超3000 star",
+      "金融模型Kronos 0→319 stars登榜",
+      "阿里开源企业级AI代码审查工具",
+      "Claude生态持续扩张（awesome-claude-skills）",
+      "新型向量索引turbovec基于Rust量化",
+      "NousResearch/hermes-agent超220k stars"
+    ],
+    "ai-hn": [
+      "Claude 5上下文工程新规则获170分",
+      "Debian社区就LLM使用发起投票79分",
+      "ChatGPT与Codex全球性宕机引脆弱性",
+      "ESP32微控制器运行28.9M参数LLM",
+      "AMD公开ISA让AI自动生成GPU内核",
+      "社区热议AI泡沫反思文章"
+    ],
+    "ai-hf": [
+      "百度Unlimited-OCR登顶下载量256万",
+      "智谱GLM-5.2获4448点赞",
+      "通义千问Qwen3.6-35B-A3B下载640万",
+      "Laguna-S-2.1代码模型生态扩展",
+      "Solar-Open2-250B巨量开源模型",
+      "Motif-3-Beta用于特征提取趋势"
+    ],
+    "ai-community": [
+      "SigNoz观测AI代理发现行为错误",
+      "CLAUDE.md结构指南获实践讨论",
+      "Anthropic发布Opus 5降价并开源保卫",
+      "连3个MCP服务器到单代理速度惊人",
+      "MCP rug-pull安全警示：批准后变恶意",
+      "RAG系统生产环境失败案例与预防"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Codex PR rate 2x Claude Code",
+      "Claude Code issue gets 4,451 upvotes",
+      "Windows platform weak for both tools",
+      "Process storms and GPU crashes dominate",
+      "AGENTS.md standardization demand grows",
+      "Claude Code Skills repo added"
+    ],
+    "ai-agents": [
+      "OpenClaw: 341 issues, 500 PRs today",
+      "Critical regressions in 2026.7.1 release",
+      "223 PRs merged/closed in 24 hours",
+      "P0/P1 bugs: gateway, sessions, SQLite",
+      "Control UI gets CSS linting (#113971)",
+      "Qwen Token Plan constraints enforced (#113976)"
+    ],
+    "ai-trending": [
+      "mattpocock/skills +1,740 stars today",
+      "citrolabs/ego-lite: browser for AI agents",
+      "alphamoon/ECC agent framework +377",
+      "shiyu-coder/Kronos financial LLM +319",
+      "ollama now supports 30+ model families",
+      "vllm remains de-facto inference engine"
+    ],
+    "ai-hn": [
+      "Claude 5 context engineering rules (170 pts)",
+      "Run 28.9M param LLM on $8 microcontroller",
+      "Debian formal vote on LLM usage",
+      "Stanford policy brief questions AI job impact",
+      "Scathing critique of AI hype",
+      "Continual learning for LLMs debated"
+    ],
+    "ai-hf": [
+      "Qwen3.6-35B-A3B: 6.4M downloads",
+      "GLM-5.2 MoE model: 4.4K likes",
+      "1-bit Bonsai-27B GGUF tops 2.7M downloads",
+      "Uncensored Qwen3.6 variants rising",
+      "Ternary-Bonsai-27B 2-bit also popular",
+      "Robotics VLA models from openbmb and Microsoft"
+    ],
+    "ai-community": [
+      "MCP security: rug-pull tools after approval",
+      "Anthropic Opus 5 with steep price cuts",
+      "Multi-agent swarm postmortems shared",
+      "Microsoft open weights debate polarized",
+      "MLIR dialect stack deep dive",
+      "SigNoz telemetry debunks agent assumptions"
+    ]
+  }
+}
