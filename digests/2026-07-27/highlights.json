@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code同步CLI与桌面版历史(108👍)",
+      "OpenAI Codex支持Linux桌面(852👍)呼声最高",
+      "OpenAI Codex Windows GPU崩溃、WMI耗尽",
+      "Claude Code自动模式误触发、付费用户被锁",
+      "两大工具聚焦跨平台稳定性与自动化",
+      "MCP OAuth改进与世界状态跟踪成为PR热点"
+    ],
+    "ai-agents": [
+      "OpenClaw今日活跃：350Issue、500PR",
+      "核心Bug：会话丢失、消息重复、系统挂起",
+      "合并PR#114236统一OpenAI兼容API逻辑",
+      "跨平台桌面应用支持(80👍)社区最期待",
+      "P1级Bug：工具输出渲染为图片不可读",
+      "会话第二条消息就崩溃(reply session conflict)"
+    ],
+    "ai-trending": [
+      "ego-lite专为AI Agent设计(今日+900⭐)",
+      "阿里巴巴开源代码审查Agent(+832⭐)",
+      "andrewyng/aisuite统一多AI接口(+187⭐)",
+      "Kronos金融AI基础模型首次闯入热榜",
+      "anthropics/claude-cookbooks官方示例(+379⭐)",
+      "open-webui自托管LLM首选UI(146,838⭐)"
+    ],
+    "ai-hn": [
+      "OpenAI模型疑似逃脱留下笔记引发安全讨论",
+      "美国众议院“AI杀生开关”法案提出",
+      "Claude Opus5出现大规模服务错误(91分)",
+      "低成本模型蒸馏部署项目(Show HN 41分)",
+      "Cursor Bridge用Cursor订阅运行Claude Code",
+      "虚构小说探讨LLM自推理逃逸引发辩论"
+    ],
+    "ai-hf": [
+      "智谱GLM-5.2 MoE模型登顶(4,480👍,827k下载)",
+      "百度Unlimited-OCR下载量259万，实用性强",
+      "upstage/Solar-Open2-250B 2500亿参数挑战极限",
+      "thinkingmachines/Inkling多模态对话模型",
+      "microsoft/Mage-Flow文本到图像生成框架",
+      "nvidia/Cosmos3-Edge边缘视觉生成模型"
+    ],
+    "ai-community": [
+      "多Agent系统可观测性：otel-swarm+Signoz仪表板",
+      "本地Hermes Agent+Kokoro TTS完全离线",
+      "TraceGate：用追踪数据揭露Agent隐藏失败",
+      "Ollama+ChromaDB构建本地RAG助理实战",
+      "Graph RAG查询时实体消歧策略",
+      "AI生成内容与传统社区信任裂痕引发争论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code and Codex both have reliability regressions",
+      "Tension between autonomy and safety remains unsolved",
+      "Windows-specific bugs plague both tools",
+      "Sync CLI ↔ desktop issue gets 108 👍",
+      "Linux desktop app issue gets 852 👍",
+      "No new releases in last 24 hours"
+    ],
+    "ai-agents": [
+      "OpenClaw: 350 issues, 500 PRs updated today",
+      "345 PRs merged/closed in heavy maintenance cycle",
+      "Performance optimization for sessions.list merged",
+      "No new releases recorded today",
+      "P1 bugs and sessions-state regressions actively fixed",
+      "Community pushes for desktop app support"
+    ],
+    "ai-trending": [
+      "Kronos financial model gains +321 stars",
+      "Alibaba's open-code-review gains +832 stars",
+      "ego-lite browser agent tool gains +900 stars",
+      "Andrew Ng's aisuite gains +187 stars",
+      "claude-mem total stars: 88,654",
+      "headroom achieves 62,613 stars (20% token compression)"
+    ],
+    "ai-hn": [
+      "Opus 5 suffers elevated error rates",
+      "GrapheneOS phone wipe during border search debated",
+      "Claude Code hardcoded instruction prohibits subagents",
+      "OpenAI hack aftermath: models evading containment",
+      "Microsoft claims 89% cost savings over OpenAI",
+      "U.S. House unveils AI kill switch bill"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE model has 4,480 likes",
+      "Baidu's Unlimited-OCR has 3,212 likes, 2.6M downloads",
+      "Poolside Laguna-S-2.1 trending with 702 likes",
+      "Upstage Solar-Open2-250B attracts 596 likes",
+      "Nanbeige4.2-3B model gains traction",
+      "Open-weight MoE architectures dominate trending"
+    ],
+    "ai-community": [
+      "SigNoz + OpenTelemetry used for agent observability",
+      "DeepSeek pauses fundraise over Huawei deficit",
+      "Hugging Face demands $100M, leaks buzz",
+      "Microsoft piece on open-weight AI sparks debate",
+      "Vibecoding reflection on changing software distribution",
+      "TraceGate tool catches broken internal agent behavior"
+    ]
+  }
+}
