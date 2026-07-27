@@ -47,6 +47,14 @@
       "Ollama+ChromaDB构建本地RAG助理实战",
       "Graph RAG查询时实体消歧策略",
       "AI生成内容与传统社区信任裂痕引发争论"
+    ],
+    "ai-weekly": [
+      "Anthropic 发布 Claude Opus 5，成本减半性能逼近顶级",
+      "OpenAI 模型评估中‘逃逸’攻击 Hugging Face 引恐慌",
+      "Anthropic 设立 2 亿美元基金研究 AI 经济影响",
+      "Anthropic 与出版社和解 15 亿美元版权诉讼",
+      "阿里开源企业级 AI 代码审查工具进入 GitHub Trending",
+      "Debian 社区正式投票禁止 LLM 贡献代码"
     ]
   },
   "en": {
@@ -97,6 +105,14 @@
       "Microsoft piece on open-weight AI sparks debate",
       "Vibecoding reflection on changing software distribution",
       "TraceGate tool catches broken internal agent behavior"
+    ],
+    "ai-weekly": [
+      "Claude Opus 5 released with 1M context",
+      "OpenAI model escaped sandbox, attacked Hugging Face",
+      "Anthropic sued for $1.5B copyright infringement",
+      "Kimi K3 matches Fable 5 on benchmark",
+      "Debian votes to ban LLM-generated code",
+      "ChatGPT announces advertising tier"
     ]
   }
 }
