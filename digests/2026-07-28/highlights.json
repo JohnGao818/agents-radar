@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code Windows Cowork故障引66条评论",
+      "OpenAI Codex恢复/undo功能获362个赞",
+      "Codex发布Rust Alpha v0.146.0-alpha.x",
+      "Windows稳定性成两者共同最大痛点",
+      "社区强烈要求会话快照与跨设备恢复",
+      "计费与配额透明度问题引发关注"
+    ],
+    "ai-agents": [
+      "OpenClaw今日500 Issues和500 PR高度活跃",
+      "内存泄漏P0/P1级Bug暴露稳定性挑战",
+      "RFC 0026 Automations重命名持续推进",
+      "Durable Core PR#111464引入操作恢复机制",
+      "SQLite会话存储取代JSONL提升一致性",
+      "GitHub Copilot细粒度访问令牌修复"
+    ],
+    "ai-trending": [
+      "dify获150k stars成AI应用底座热门",
+      "AutoGPT以185k stars领跑自主Agent",
+      "browser-use破107k stars操作浏览器",
+      "Hermes Agent 221k stars支持技能进化",
+      "阿里开源代码审查Agent当日+979 stars",
+      "headroom token压缩库减少20%-95%输入"
+    ],
+    "ai-web": [
+      "Anthropic CEO公开反对保护主义禁令",
+      "与Cognizant合作培训3万名Claude员工",
+      "OpenAI发布6篇构建AI应用技术指南",
+      "GPT-5企业实践指南密集登场",
+      "Claude嵌入Cognizant三大核心平台",
+      "OpenAI指南系列强化开发者生态"
+    ],
+    "ai-hn": [
+      "Anthropic开放权重立场引650条评论",
+      "Claude Opus 5出现高错误率事故",
+      "共享聊天记录泄露至谷歌搜索引擎",
+      "Sam Altman宣称‘已身处奇点’",
+      "OpenAI与NVIDIA考虑2500亿美元融资",
+      "黄仁勋首次发推支持开放AI模型"
+    ],
+    "ai-arxiv": [
+      "E-Bench提出多步工具使用新基准",
+      "智能体授权漂移问题引发安全讨论",
+      "迭代重新提示缩小代码安全差距",
+      "LLM政治立场可控性审计方法创新",
+      "中文歇后语推理测试成高难度标杆",
+      "离线在线课程强化学习推进训练"
+    ],
+    "ai-hf": [
+      "Qwen3.6-35B-A3B成下载量冠军",
+      "Kimi K3点赞6326断层领先多模态",
+      "GLM-5.2获4552点赞成开源标杆",
+      "Unlimited-OCR下载量达264万",
+      "Bonsai-27B系列极低比特量化霸榜",
+      "微软Mage-Flow开源文生图方案"
+    ],
+    "ai-community": [
+      "初级开发者管道被AI打破引84赞热议",
+      "AI Agent技能供应链攻击模型曝光",
+      "‘无限上下文’被批为技术债营销",
+      "MCPRadar安全扫描工具专治MCP",
+      "7个AI OSINT Agent测试个人足迹",
+      "AgentForger可在组织内部伪造AI内鬼"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code stabilization, no releases",
+      "OpenAI Codex: 2 alpha releases today",
+      "Windows ARM64 Cowork VM failures",
+      "Account sync top-upvoted (#22648)",
+      "/undo restoration most commented (#9203)",
+      "7 high-impact bugs tracked"
+    ],
+    "ai-agents": [
+      "500 issues/PRs updated in 24h",
+      "No new releases published today",
+      "Critical memory leak (RSS 15.5 GB)",
+      "SQLite migration blocker under investigation",
+      "Matrix end-to-end encryption support added",
+      "Cron renamed to Automations"
+    ],
+    "ai-trending": [
+      "open-code-review +979 stars by Alibaba",
+      "claude-video +434 for video analysis",
+      "Kronos financial foundation model +441",
+      "ECC and hermes-agent dominate agent harness",
+      "caveman extreme token saving >60%",
+      "Ollama now supports Kimi-K2.6 and GLM"
+    ],
+    "ai-web": [
+      "Anthropic CEO open-weights policy clarification",
+      "Cognizant Global Premier Partner for Claude",
+      "30,000+ associates trained on Claude",
+      "OpenAI published 6 business guides today",
+      "GPT-5 and AI agents resource drop",
+      "Strategic battle: safety vs open vs enterprise"
+    ],
+    "ai-hn": [
+      "Anthropic open-weights stance ignites debate",
+      "Claude data privacy failures in search",
+      "Sam Altman 'singularity' claim met skepticism",
+      "Web scraper court win for training data",
+      "All major LLMs show lib-left bias",
+      "Let's Seal – Show HN on sealing tool"
+    ],
+    "ai-arxiv": [
+      "Iterative reprompting closes security gaps",
+      "Auditing alignment steerability across models",
+      "Diagrams improve LLM syllogistic reasoning",
+      "E-Bench and TLA+ Bench for agent reasoning",
+      "Offline-online curriculum RL for tools",
+      "Variational-Ising-Attention for scientific tasks"
+    ],
+    "ai-hf": [
+      "Kimi-K3 multimodal MoE tops at 6.3K likes",
+      "GLM-5.2 MoE trends with 4.5K likes",
+      "Unlimited-OCR production model 3.3K likes",
+      "Qwen3.6 35B-A3B base model popular",
+      "Fara1.5-27B introduces computer-use capability",
+      "Mage-Flow revives instruction image editing"
+    ],
+    "ai-community": [
+      "Junior pipeline broken by AI - top post",
+      "MCP tool vulnerabilities threat model",
+      "AgentForger creates AI insider from link",
+      "Credential leaks from coding agents",
+      "Open-weight models for American leadership",
+      "Notion vector search scaling discussion"
+    ]
+  }
+}
