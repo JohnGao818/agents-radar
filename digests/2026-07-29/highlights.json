@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code配额消耗异常引发信任危机",
+      "OpenAI Codex发布rust-v0.146.0版本",
+      "MCP协议标准化与可靠性成共同诉求",
+      "多代理模型控制权透明化要求强烈",
+      "Windows平台vk_swiftshader.dll崩溃问题",
+      "Claude Code社区热点Issues数10个"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.7.2-beta.5状态安全版本",
+      "P0级内存泄漏回归#91588成焦点",
+      "引入隔离存储与崩溃可恢复SQLite快照",
+      "核心重构移除运行时重复路径",
+      "沙箱故障不再耗尽模型回退",
+      "模型标签泄露凭证配置后缀被修复"
+    ],
+    "ai-trending": [
+      "自托管Grok伴侣Airi获近800今日Star",
+      "Agent性能优化系统ECC获636今日Star",
+      "微软agent-governance-toolkit登热榜",
+      "Hugging Face speech-to-speech本地语音助手",
+      "Andrew Ng发布aisuite统一API接口",
+      "headroomlabs-ai的headroom减20-60%Token"
+    ],
+    "ai-web": [
+      "Claude Mythos发现密码学数学缺陷",
+      "攻破后量子签名HAWK与截断轮AES",
+      "Dario Amodei反对全面禁止开源权重模型",
+      "OpenAI上线科学计算代理AI页面",
+      "两家公司同日释放内容战略重心差异",
+      "攻击不影响生产系统但具里程碑意义"
+    ],
+    "ai-hn": [
+      "OpenAI发布Codex Security仓库获351分",
+      "Claude辅助发现HAWK-256密钥恢复攻击",
+      "社区讨论AI生成代码安全风险激烈",
+      "Apple成第二家5万亿美元公司产业新闻",
+      "'Slopsquatting'攻击利用AI幻觉引关注",
+      "多模态医疗理解研究ClinFusion发布"
+    ],
+    "ai-arxiv": [
+      "ClinFusion提出以视觉为中心的多模态医学LLM",
+      "D-Score从隐藏态谱几何检测幻觉",
+      "DataOrchestra学习逐样本数据策展",
+      "多轮长程规划物理学从预训练到后训练",
+      "Agentic Permissions策略代数限制污点传播",
+      "MoE自推测解码DraftExpert提升效率"
+    ],
+    "ai-hf": [
+      "Kimi-K3以8035点赞登顶本周冠军",
+      "百度Unlimited-OCR下载量269万次",
+      "Qwen3.6-35B-A3B下载破615万",
+      "poolside Laguna-S-2.1代码生成模型",
+      "智谱GLM-5.2 MoE架构下载超百万",
+      "月之暗面Kimi-K3多模态图文理解"
+    ],
+    "ai-community": [
+      "'Slopsquatting'武器化AI幻觉的供应链攻击",
+      "公共仓库写权限AI Agent需立即审计",
+      "'Understanding Over Origin'倡导理性讨论",
+      "Vibe Coding从完全依赖到工程化实践",
+      "从零构建TypeScript MCP服务器教程",
+      "MCP服务器经验：好与demo的区别"
+    ]
+  },
+  "en": {}
+}
