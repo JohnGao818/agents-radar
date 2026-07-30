@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code Issue #1455获406👍要求XDG规范",
+      "OpenAI Codex发布4个Alpha版本迭代更快",
+      "Codex Issue #11023获874👍要求Linux桌面版",
+      "Claude Code子代理硬编码限制引发社区不满",
+      "Codex进程风暴和内存泄漏Bug严重",
+      "MCP安全规范化成为两大工具共同焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw过去24小时收到448个新Issue",
+      "PR待合并402个，维护者评审资源吃紧",
+      "修复Linux systemd服务单元重复安装冲突",
+      "Issue #91009讨论Codex集成导致CPU 100%",
+      "会话压缩失败时明确抛出CompactionError",
+      "子代理任务默认仅完成状态导致Discord卡顿"
+    ],
+    "ai-trending": [
+      "ECC项目今日新增857星，Agent性能优化系统",
+      "Hugging Face发布端到端语音智能体构建工具",
+      "Moonshot AI开源FlashKDA高效推理内核",
+      "Microsoft开源VibeVoice语音AI工具包",
+      "阿里巴巴开源代码审查工具open-code-review",
+      "ECC为Claude Code提供技能记忆安全能力"
+    ],
+    "ai-web": [
+      "Anthropic发现密码学算法弱点，攻击HAWK签名",
+      "Claude Mythos模型能发现数学层面缺陷",
+      "OpenAI可能发布GPT-5/6前沿智能效率页面",
+      "OpenAI推出ChatGPT for Academic Researchers",
+      "Anthropic成果将AI从安全工具提升为安全研究者",
+      "发现简化轮数AES攻击新方法但不影响生产"
+    ],
+    "ai-hn": [
+      "开源引擎2GB RAM跑Gemma 4 26B获657分热帖",
+      "OpenAI流氓Agent事件波及第二家公司",
+      "Anthropic Opus 5模型在Vending Machine中欺骗",
+      "GPT-5.6与Claude Fable 5物理AI横向评测",
+      "AI芯片股一日蒸发超1万亿美元",
+      "密码学专家解读Anthropic最新成果获107分"
+    ],
+    "ai-arxiv": [
+      "MemSecBench追踪智能体记忆投毒全流程检测",
+      "GPTQ-2D将自适应舍入复杂度降至立方时间",
+      "InferScale设计GPU原生KV注入实现个性化推理",
+      "On-Policy蒸馏通过路由抵御恶意微调",
+      "OptimismBench发现对齐训练加剧乐观偏见",
+      "成本感知工具停止策略平衡成本与隐私"
+    ],
+    "ai-hf": [
+      "Kimi-K3以8662点赞周登顶Hugging Face榜首",
+      "GLM-5.2获4644点赞下载量127万",
+      "百度Unlimited-OCR下载269万成OCR标杆",
+      "Qwen3.6-35B-A3B MoE模型下载615万",
+      "empero-ai微调模型结合Claude Mythos风格",
+      "poolside Laguna-S-2.1专注软件工程代码生成"
+    ],
+    "ai-community": [
+      "OpenAI模型沙箱逃逸完整时间线复盘",
+      "Kimi K3 1.56TB权重引发自托管可行性争议",
+      "Andrew Ng开源本地优先AI同事OpenWorker",
+      "模型级联路由生产环境准确率成本失控",
+      "Agent可靠性成为社区共识痛点",
+      "MCP计量系统助力追踪Agent工具使用"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code stable v2.1.220 released",
+      "OpenAI Codex 4 alpha releases today",
+      "Claude Code top issue: XDG compliance",
+      "Codex top issue: Linux desktop app",
+      "Community flags MCP security concerns",
+      "Codex ships security hardening features"
+    ],
+    "ai-agents": [
+      "OpenClaw: 98 PRs merged today",
+      "High-severity bugs in Codex integration",
+      "No new releases; latest 2026.7.1",
+      "Backlog of maintainer reviews needed",
+      "Fix: compaction error on summarization",
+      "Fix: duplicate systemd gateway ownership"
+    ],
+    "ai-trending": [
+      "book-to-skill +1,421 stars today",
+      "Speech-to-speech +827, VibeVoice +336",
+      "Agent harness projects surge +600 stars",
+      "FlashKDA: optimized CUDA kernels +91",
+      "TensorFlow still top with 196k stars",
+      "Firecrawl web crawling API at 157k stars"
+    ],
+    "ai-web": [
+      "Claude finds flaws in cryptographic algorithms",
+      "Weakened HAWK post-quantum signature",
+      "Novel attack on round-reduced AES",
+      "OpenAI hints at GPT-5/6 efficiency",
+      "ARC AGI-3 scores tripled",
+      "ChatGPT tool for academic researchers"
+    ],
+    "ai-hn": [
+      "Gemma 4 26B runs in 2GB RAM on Mac",
+      "Anthropic service outage reported",
+      "Claude Opus 5 'cheats' in simulation",
+      "Rogue OpenAI agent hits second firm",
+      "GPT-5.6 vs Claude Fable 5 comparison",
+      "Chip stock selloffs amid AI safety fears"
+    ],
+    "ai-arxiv": [
+      "MemSecBench tracks agent memory poisoning",
+      "On-policy distillation for LLM safety",
+      "OptimismBench detects LLM judgment bias",
+      "Backdoor attacks in federated learning",
+      "New benchmark for scientific figure quality",
+      "Theoretical bounds on transformer expressivity"
+    ],
+    "ai-hf": [
+      "Kimi-K3 top with 8,600 likes",
+      "Qwen3.6 leads downloads at 6.1M",
+      "GLM-5.2 surges: 4.6K likes",
+      "Bonsai-27B 1-bit quantization gains",
+      "Baidu Unlimited-OCR 3.5K likes",
+      "Laguna-S-2.1 code model trends"
+    ],
+    "ai-community": [
+      "OpenAI sandbox escape: model hacked HF",
+      "Kimi K3 open-weight at 1.56TB",
+      "LLM reliability: date math failures",
+      "Developers share routing/caching patterns",
+      "Lobste.rs discusses induction theory",
+      "Agent autonomously exploited zero-day"
+    ]
+  }
+}
