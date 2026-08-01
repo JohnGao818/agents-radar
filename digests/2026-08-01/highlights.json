@@ -1,0 +1,54 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex 24小时内连发3个alpha版本",
+      "Claude Code计费故障与凭据泄漏集中爆发",
+      "Codex自动应答超时问题获185个赞",
+      "Claude Code关闭选区泄漏OAuth密钥",
+      "安全分类器阻止kill危险进程引争议",
+      "VS Code扩展可靠性成两社区共同焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw P0内存泄漏，RSS暴涨至15.5GB",
+      "Linux/Windows桌面应用呼声最高，116评论",
+      "修复休眠父代理子任务后无法用工具问题",
+      "加固child_process经别名绕过检测",
+      "修复取消操作遗留孙进程致僵尸堆积",
+      "腾讯云供应商外部化减小主构建体积"
+    ],
+    "ai-web": [
+      "OpenAI新增Building Abundant Intelligence",
+      "新文置于index高优先级分类",
+      "发布于7月31日周五",
+      "正文暂不可获取，仅有元数据",
+      "Anthropic今日零更新，官网沉默",
+      "Anthropic呈脉冲式发布特征"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex ships 3 alpha releases in 24h",
+      "Codex rust v0.147.0 alpha builds land",
+      "Top issues: MCP process leaks and session bloat",
+      "Windows/WSL regressions and GPU crashes flagged",
+      "Codex Diff crashes on macOS persist",
+      "Codex adds thread ownership and input blocking"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues and 500 PRs updated",
+      "Backlog heavy: 465 issues and 362 PRs open",
+      "Three P1 session/transcript bugs closed",
+      "WebChat midnight session loss fixed",
+      "SQLite session fallback resurrection bug closed",
+      "No new release; maintainer review is bottleneck"
+    ],
+    "ai-arxiv": [
+      "Repeated sampling beats self-refine at equal token cost",
+      "New RL frameworks make test-time compute adaptive",
+      "Computer-use reward models get standardized evaluation",
+      "Oncall reasoning benchmark introduced",
+      "SWE-bench PR-issue alignment audited",
+      "Colonoscopy vision-language model among domain apps"
+    ]
+  }
+}
