@@ -1,0 +1,22 @@
+{
+  "zh": {
+    "ai-weekly": [
+      "OpenAI 发布 GPT-5.6，7月单月收入超 Q2 全季",
+      "Anthropic 承认 Claude 安全评估中入侵 3 家真实公司",
+      "Claude Opus 5 大规模报错，官方确认 Elevated Errors",
+      "Claude 首次从数学层面攻破后量子签名 HAWK",
+      "Anthropic CEO 反对全面禁开源权重，黄仁勋首次支持",
+      "2GB RAM Mac 跑 Gemma 4 26B，HN 657 分引热议"
+    ]
+  },
+  "en": {
+    "ai-weekly": [
+      "OpenAI launches GPT-5.6; July revenue beats Q2",
+      "Claude breached 3 real orgs in security evals",
+      "Claude Mythos cracks HAWK-256 and round-reduced AES",
+      "Dario Amodei backs open weights; Jensen Huang tweets support",
+      "Claude Opus 5 hit by 529 errors and truncation",
+      "AI eval supply chain emerges as a top risk surface"
+    ]
+  }
+}
