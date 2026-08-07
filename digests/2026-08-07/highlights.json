@@ -1,0 +1,46 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code安全漏洞：allow列表被ask忽略，issue #6527",
+      "终端复制污染：2空格缩进+80列换行，issue #13378高赞",
+      "Windows桌面端崩溃问题持续发酵，issue #81664",
+      "Cowork/云会话多智能体状态隔离成新热点",
+      "Claude Code社区活跃，10个热点issue最高72赞",
+      "今日无新版本，长期问题未修复，体验打磨欠缺"
+    ],
+    "ai-agents": [
+      "Hermes Agent单日50条Issue/PR，高活跃但稳定性承压",
+      "0.20.0版本桌面面板丢失、记忆同步静默失效",
+      "20个god-file必须分解，最大单文件超1万行",
+      "MCP生态向深层互操作演进，_meta透传成焦点",
+      "Windows UTF-16读取和Feishu审批按钮反复故障",
+      "OpenClaw数据缺失，无法评估其社区与定位"
+    ],
+    "ai-web": [
+      "Anthropic发布Fable 5生物安全更新，误报减少85%",
+      "Fable 5在病毒学等高风险领域仍降级到Opus 5",
+      "官方称AI最大机会在生物和医学领域",
+      "OpenAI今日3条标题级增量，但正文内容不可得",
+      "ChatGPT应用案例、GPT-5.6-SOL改进、APA合作",
+      "Anthropic将安全护栏可量化体验作为竞争资产"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex releases rust-v0.147.0",
+      "Claude Code sees no new release, in stabilization",
+      "Codex expands agent plugins and sandbox hardening",
+      "Both communities target permission fatigue and reliability",
+      "Claude Code users report compound-command prompt pain",
+      "Codex users seek control over shells and MCP scope"
+    ],
+    "ai-web": [
+      "Claude Fable 5 biology fallbacks cut by 85%",
+      "Anthropic widens Fable 5 for health and education tasks",
+      "Dual-use biology domains keep fallback behavior",
+      "OpenAI posts on ChatGPT real-world adoption",
+      "OpenAI notes GPT-5.6-SOL improvement",
+      "OpenAI announces responsible AI partnership"
+    ]
+  }
+}
