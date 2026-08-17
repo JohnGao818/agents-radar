@@ -1,0 +1,22 @@
+{
+  "zh": {
+    "ai-weekly": [
+      "Anthropic 披露黎曼猜想研究突破，零点下界提升至67.2%",
+      "Claude Code 密集发版，引入 Subagent forking 和跨会话提及",
+      "Claude Max 配额争议发酵，Issue 评论达832条",
+      "OpenClaw 发布 v2026.8.1-beta.2，引入 Secret egress 绑定",
+      "OpenAI Codex 单日连发3个 alpha，高频迭代",
+      "Anthropic 发布多智能体系统失败模式研究"
+    ]
+  },
+  "en": {
+    "ai-weekly": [
+      "Anthropic model improves Riemann bound to 67.2%",
+      "Claude Code v2.1.232 adds subagent forking by default",
+      "Claude Max quota issue draws 832 comments, 474 👍",
+      "Anthropic red team: multiagent failures can compound",
+      "Claude Code desktop adds cross-session @ mentions",
+      "External mathematicians validate Anthropic's Riemann result"
+    ]
+  }
+}
