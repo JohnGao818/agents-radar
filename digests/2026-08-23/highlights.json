@@ -1,0 +1,38 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.241/v2.1.240 维护版，聚焦稳定性",
+      "OpenAI Codex 发布 rust-v0.150.0-alpha.7 预发布版",
+      "Claude Code 多账号问题高赞超1100，成社区焦点",
+      "提示缓存失效致 Claude Code 浪费约5900万token",
+      "Claude Code 后台会话遭 SIGTERM，稳定性引热议",
+      "Codex Desktop 技能丢失，后台执行间歇性故障"
+    ],
+    "ai-agents": [
+      "Hermes Agent 48新开Issue，开发密集期",
+      "Hermes Agent 47条PR积压，合并效率偏低",
+      "控制套接字安全修复后数小时获快速跟进",
+      "本地模型与会话持久性成社区高频话题",
+      "更新机制缺陷追踪30+关联issue，健康度隐患",
+      "OpenClaw 数据管道失败，可观测性存疑"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code shipped stable patches v2.1.240 and v2.1.241",
+      "OpenAI Codex: 50 issues, 5 PRs, 2 alpha Rust releases",
+      "Ecosystem split: Claude Code stability vs Codex rapid iteration",
+      "Rate-limit accounting and OS resource runaway dominate issues",
+      "Top Claude Code demand: multi-account support",
+      "Windows/WSL parity remains persistent weakness across category"
+    ],
+    "ai-agents": [
+      "Hermes Agent: 50 issues updated in 24h, 47 PRs open",
+      "Hermes Agent closed 2 issues and 1 PR in window",
+      "Open-source agents shift from demos to dependable infrastructure",
+      "OpenClaw digest unavailable; position cannot be assessed",
+      "Hermes Agent health moderate with P1/P2 stability debt",
+      "No new releases for Hermes Agent in reporting window"
+    ]
+  }
+}
