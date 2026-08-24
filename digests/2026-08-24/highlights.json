@@ -1,4 +1,22 @@
 {
-  "zh": {},
-  "en": {}
+  "zh": {
+    "ai-weekly": [
+      "OpenClaw v2026.8.1-beta.2 发布，新增 Secret 出口绑定安全机制",
+      "OpenAI Codex rust-v0.148.0 正式版支持会话 Fork/归档/导出 Markdown",
+      "Anthropic：Claude 在蛋白质结合剂设计与化学分析中显著超行业水平",
+      "Claude Code 多账号管理需求爆发，两 issue 超 1100 点赞",
+      "OpenAI Codex 稳定版 rust-v0.149.1 发布，alpha 单日 6 更",
+      "OpenAI 推出前沿模型零数据保留选项，主攻企业数据合规"
+    ]
+  },
+  "en": {
+    "ai-weekly": [
+      "Anthropic protein design hits 22–35% binder success",
+      "OpenAI Codex ships stable rust v0.148.0 with session fork",
+      "OpenClaw beta adds fail-closed secret egress host binding",
+      "Claude Code multi-account demand passes 1,100 👍",
+      "59M tokens wasted on Claude Code cache misses",
+      "Cross-platform reliability tops Claude Code and Codex trackers"
+    ]
+  }
 }
