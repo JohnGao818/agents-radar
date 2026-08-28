@@ -1,0 +1,78 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 24小时两补丁，v2.1.248推--restricted安全模式",
+      "Windows文件锁问题炸锅：141条评论、70👍求修复",
+      "Zed集成请求获52👍，IDE生态成社区最热方向",
+      "Gen 5模型质量被指回归，附可复现数据引信任讨论",
+      "Session URL默认进commit引隐私反弹：53👍却遭关闭",
+      "沙箱权限精细化成焦点：excludedCommands无效、TLS验证失败"
+    ],
+    "ai-agents": [
+      "OpenClaw定位个人助理底座：端侧部署、本地数据存储",
+      "Hermes Agent背靠Nous Research，走重型研究框架路线",
+      "长期记忆跨会话持久化成智能体社区共同刚需",
+      "工具调用可靠性成竞争核心，开发者苦幻觉式调用久矣",
+      "本地优先与数据主权升温：敏感数据不出设备成硬要求",
+      "安全对齐受关注：沙箱执行与高危动作拦截讨论最多"
+    ],
+    "ai-web": [
+      "Anthropic推Model Hardware Standard：AI代理可操作显微镜和机械臂",
+      "MHS让设备集成时间从数周缩至数分钟，剑指物理世界",
+      "Anthropic为万名科学家提供免费Claude席位",
+      "AI for Science扩展：从生物到物理、数学计算科研领域",
+      "Claude Science工作台集成PubMed/Jupyter，构建科研基建",
+      "OpenAI今日11篇新内容，聚焦K-12教育、巴西扩张"
+    ],
+    "ai-community": [
+      "开发圈热议：AI交付变快但维护成本没降",
+      "NexPath提出提示质量层，在模糊指令变bug前拦截",
+      "实测：多数AI第二意见是假的，易被第一模型带偏",
+      "权威暗示效应：告诉LLM已标记它就全盘同意",
+      "Agent拒绝96次实验走红：正确输出恰恰是拒绝",
+      "并行编码Agent协作冲突与MCP网关治理成热点"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code adds enterprise `--restricted` mode",
+      "Codex ships 3 Rust alphas in 24h",
+      "Claude Code v2.1.250 stable patch released",
+      "Codex migrating TUI to app-server architecture",
+      "Session fidelity and auditability drive engagement",
+      "Codex encrypted audit trail issue gets 124 👍"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs updated",
+      "164 issues, 151 PRs closed/merged today",
+      "steipete lands maintainer-heavy PR batches",
+      "Perf fix for 90.6s plugin cache stall",
+      "New install-policy warning flow for plugins",
+      "Full session actions added to chat header"
+    ],
+    "ai-web": [
+      "Anthropic previews Model Hardware Standard (MHS)",
+      "10,000 free Claude seats for scientists",
+      "Frontier Red Team analyzes multiagent risks",
+      "MHS lets agents run lab instruments in parallel",
+      "OpenAI posts incident response re Hugging Face",
+      "OpenAI education cluster and infrastructure content"
+    ],
+    "ai-arxiv": [
+      "CritICL improves LLMs via weak-model failure modes",
+      "TTPO: test-time policy optimization without labels",
+      "Weak-model guidance boosts RLVR exploration",
+      "Agent research moves to experience-driven skill evolution",
+      "Code-review benchmarks target dynamic multi-turn workflows",
+      "Video world-model benchmarks demand probabilistic alignment"
+    ],
+    "ai-community": [
+      "Dev.to asks: can we verify AI agent output?",
+      "Cursor quietly migrated from SolidJS to React",
+      "Ryan Carniato post sparks AI homogenization debate",
+      "Prompt quality layer for Cursor/Windsurf/Claude Code",
+      "AI speed doesn't reduce maintenance costs",
+      "Lobste.rs debates Gates' turbulent AI era essay"
+    ]
+  }
+}
