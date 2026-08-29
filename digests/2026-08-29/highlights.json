@@ -1,0 +1,38 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.251发布，新增钩子事件与远程协作流式传输",
+      "Codex连发5个Rust alpha版，但无详细变更日志",
+      "Claude Code新增Pre/PostModelSwitch钩子，编程级控制模型切换",
+      "Windows成两家最大短板，Codex 8个热点Issue与Windows相关",
+      "Claude Code最热Issue#84352：安全策略与合规，164条评论",
+      "Codex PR#35050：显式批处理降低加权用量27%-45%"
+    ],
+    "ai-community": [
+      "Dev.to热文：AI记忆不可全信，需设计验证边界",
+      "电影类比解读GPU算力成本，引开发者思考基础设施",
+      "LLM自评器每次结果不一，开发者不信任其碰代码",
+      "Lobste.rs讨论'谣言即漏洞'，关注AI心理说服力",
+      "ARC-AGI新进展与MCP配置泄露API Key引关注",
+      "Gemini结构化输出实测获较高关注，开发者转向可验证设计"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.251 adds Pre/PostModelSwitch hooks",
+      "Top issue #84352: 164 comments, 25 upvotes",
+      "Security PR fixes ** glob in security-patterns rules",
+      "Cyber-safeguard false positives halt approved work",
+      "Windows desktop instability reported by community",
+      "Stealth restarts and Remote Control default-on worry users"
+    ],
+    "ai-web": [
+      "Claude can autonomously mitigate alignment failures",
+      "Claude for Teachers: free premium for K-12 educators",
+      "Anthropic offers 10,000 free/discounted scientist seats",
+      "Model Hardware Standard lets agents run lab instruments",
+      "OpenAI posts Cursor decision after SpaceX acquisition",
+      "OpenAI launches Thailand startup-support program"
+    ]
+  }
+}
