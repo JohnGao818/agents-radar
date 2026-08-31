@@ -6,7 +6,535 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 29 Aug 2026 05:31:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 06:55:10 +0000</lastBuildDate>
+    <item>
+      <title>AI 工具生态周报 2026-08-31</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-08-31/ai-weekly</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-31/ai-weekly</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <description>AI 工具生态周报 2026-W36 覆盖日期: 2026-08-18 ~ 2026-08-29 | 生成时间: 2026-08-31 06:53 UTC AI 工具生态周报（2026-W36） 统计周期：2026-08-18 ~ 2026-08-29 | 数据来源：Claude Code / OpenAI Codex / OpenClaw / Hermes Agent 社区动态，Anthropic 与 OpenAI 官方内容追踪，Hacker News 一、本周要闻 Anthropic 发布 Model Hardware Standard（MHS）研究预览（08-28）——联合 HHMI Janelia 推出统一 AI 代理操控物理设备的接口标准，将设备集成时间从数周压缩至数分钟，标志着 AI 竞争从数字世界延伸至物理实验室与工业场景。 Claude Code 连续发布三个正式版本（08-22 v2.1.239、08-28 v2.1.248/v2.1.250、08-29 v2.1.251）——其中 v2.1.248 引入 --restricted 最小权限执行模式，v2.1.251 ...</description>
+      <content:encoded><![CDATA[<h1>AI 工具生态周报 2026-W36</h1>
+<blockquote>
+<p>覆盖日期: 2026-08-18 ~ 2026-08-29 | 生成时间: 2026-08-31 06:53 UTC</p>
+</blockquote>
+<hr>
+<h1>AI 工具生态周报（2026-W36）</h1>
+<p><strong>统计周期</strong>：2026-08-18 ~ 2026-08-29 | <strong>数据来源</strong>：Claude Code / OpenAI Codex / OpenClaw / Hermes Agent 社区动态，Anthropic 与 OpenAI 官方内容追踪，Hacker News</p>
+<h2>一、本周要闻</h2>
+<ol>
+<li><p><strong>Anthropic 发布 Model Hardware Standard（MHS）研究预览</strong>（08-28）——联合 HHMI Janelia 推出统一 AI 代理操控物理设备的接口标准，将设备集成时间从数周压缩至数分钟，标志着 AI 竞争从数字世界延伸至物理实验室与工业场景。</p>
+</li>
+<li><p><strong>Claude Code 连续发布三个正式版本</strong>（08-22 v2.1.239、08-28 v2.1.248/v2.1.250、08-29 v2.1.251）——其中 v2.1.248 引入 <code>--restricted</code> 最小权限执行模式，v2.1.251 新增模型切换钩子（PreModelSwitch/PostModelSwitch）与远程协作流式传输，平台化趋势明显。</p>
+</li>
+<li><p><strong>OpenAI Codex 进入 Rust 高频迭代期</strong>（08-19 至 08-29）——发布正式版 rust-v0.148.0 及连续 10+ 个 alpha 版本，围绕沙箱权限、Guardian 安全审查、模型路由、Bedrock 支持等基础设施重构，但 Windows 端稳定性问题集中爆发（8/10 热点 Issue 与 Windows 直接相关）。</p>
+</li>
+<li><p><strong>Anthropic 宣布为 10,000 名科学家提供免费/折扣 Claude 席位</strong>（08-27/28）——AI for Science 计划从生物科学扩展至物理、数学等计算密集型领域，叠加此前发布的 Claude 蛋白质设计研究（成功率 22–35%，行业典型 10–15%），科研场景成为 Anthropic 重点战略方向。</p>
+</li>
+<li><p><strong>OpenClaw 供应链安全机制落地</strong>（08-18/19 合并）——安装策略警告需用户精确确认后方可继续，Control UI 同步新增审查界面。本月已有 119+132 个 PR 合并，但 P0/P1 积压问题（最早追溯至 3 月）与维护者审查吞吐瓶颈并存。</p>
+</li>
+<li><p><strong>多账号管理与用量透明化成为 CLI 工具社区最强诉求</strong>（08-23）——Claude Code 多账号相关 Issue 合计获 1100+ 👍；Codex 用户集中质疑周限额消耗速度与配额规则透明度。Token 成本优化从&quot;进阶需求&quot;变为&quot;核心诉求&quot;。</p>
+</li>
+<li><p><strong>OpenAI 推出前沿模型&quot;零数据保留&quot;选项</strong>（08-21/22）——面向企业级数据合规场景的产品化举措；同期 OpenAI 宣布加入 Ports Pike Project（08-18，细节未披露）。</p>
+</li>
+<li><p><strong>Agent 互操作性探索升温</strong>（08-24 HN）——开发者展示在 Claude Code 中调用 Codex 作为子 Agent 的编排器（harness-subagent），跨工具 Agent 协作成为社区自发实验方向。</p>
+</li>
+</ol>
+<h2>二、CLI 工具进展</h2>
+<h3>Claude Code —— Agentic Workflow 平台化</h3>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>本周动态</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>版本</strong></td>
+<td>v2.1.234 → v2.1.239 → v2.1.240/241 → v2.1.248 → v2.1.250 → v2.1.251，均为正式版</td>
+</tr>
+<tr>
+<td><strong>核心新增</strong></td>
+<td><code>--restricted</code> 最小权限模式（移除 shell/WebFetch，拒绝 bypassPermissions）；模型切换钩子；远程协作流式传输</td>
+</tr>
+<tr>
+<td><strong>持续痛点</strong></td>
+<td>Windows 文件锁致无法重启（141 评论）；Gen 5 模型质量回归（#83510，18 👍）；多账号切换导致会话丢失（1100+ 👍）</td>
+</tr>
+<tr>
+<td><strong>社区特征</strong></td>
+<td>高使用率、高抱怨率、快速打补丁；安全策略误报（#84352，164 评论）引发信任讨论</td>
+</tr>
+</tbody></table>
+<h3>OpenAI Codex —— 基础设施重构期</h3>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>本周动态</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>版本</strong></td>
+<td>rust-v0.148.0（正式版）→ 连续 10+ 个 alpha（至 v0.151.0-alpha.12），高频但碎片化</td>
+</tr>
+<tr>
+<td><strong>核心方向</strong></td>
+<td>Rust 原生重构、Guardian 安全审查升级、细粒度沙箱审批策略、MCP 配置治理、Amazon Bedrock 支持</td>
+</tr>
+<tr>
+<td><strong>持续痛点</strong></td>
+<td>Windows 桌面端启动失败（86 评论）、GUI 无法显示、DWM 句柄泄漏、WSL 路径误判；桌面端后台执行间歇性删除 <code>~/.codex/skills/.system</code></td>
+</tr>
+<tr>
+<td><strong>社区特征</strong></td>
+<td>24h 50 条 Issue 更新，PR 合并频繁，但 alpha 版无详细变更日志引发沟通不满</td>
+</tr>
+</tbody></table>
+<h3>共同趋势</h3>
+<ul>
+<li><strong>Windows 是两家共同软肋</strong>：均存在&quot;更新引入回归&quot;的恶性循环，桌面端适配成为竞争焦点</li>
+<li><strong>成本透明化不可逆</strong>：Claude Code 用量指示器与 /usage API、Codex 显式批处理降低 27–45% 加权用量——用量可见性+可编程优化成为标配</li>
+<li><strong>模型路由控制权</strong>：Claude Code 新增模型切换钩子，Codex 开发模型选择器实时拉取——开发者要求对&quot;何时用哪个模型&quot;拥有编程级控制</li>
+<li><strong>命令可观测性</strong>：Codex #39903 禁用命令折叠（65 👍）、Claude Code 终端 UI 消息队列增强——重度用户要求完整的执行透明度</li>
+</ul>
+<h2>三、AI Agent 生态</h2>
+<h3>OpenClaw</h3>
+<p>本周数据可用性有限（08-18、08-19、08-24 数据完整，其余日期摘要生成失败），已获取的关键动态：</p>
+<ul>
+<li><strong>供应链安全加固</strong>（08-18/19）：安装策略警告确认机制上线，外部 <code>security.installPolicy</code> 返回 warn 时需精确输入目标名确认，Control UI 提供警告审查界面</li>
+<li><strong>多代理调度可靠性</strong>（08-18）：共享容量调度器修复优先级反转与饥饿问题（#122764）</li>
+<li><strong>消息投递边界修复</strong>（08-24）：多 agent 操作者会话工具消息投递超出 agent 绑定的问题已修复，覆盖 Discord/Slack/Telegram 等主流渠道</li>
+<li><strong>已知 P0/P1 问题</strong>：SQLite 损坏复发、iOS 应用更新阻断、P1 消息投递与进程泄漏并存</li>
+<li><strong>社区健康度</strong>：PR 合并量大（单日 99~132 个），但大量长期积压 issue（最早 3 月）与 30 条高评论 PR 无一条合并并存，<strong>维护者审查吞吐是当前最大瓶颈</strong></li>
+</ul>
+<h3>Hermes Agent</h3>
+<ul>
+<li>背靠 Nous Research，历史社区活跃度较高；本周多次摘要生成失败，数据完整度不足</li>
+<li>从 08-23 可用数据看：50 条 Issue / 50 条 PR，47 条 PR 积压待合并，更新机制系统性缺陷（#91277 追踪 30+ 关联 issue）为最大健康度隐患</li>
+</ul>
+<h3>生态信号</h3>
+<ul>
+<li><strong>数据管道本身成为薄弱环节</strong>：OpenClaw 与 Hermes Agent 多日&quot;摘要生成失败&quot;、AI 开源趋势日报全周 7 天全部失败——开源生态的自动化监测能力亟需建设</li>
+<li>长期记忆持久化、工具调用可靠性、安全对齐仍是智能体赛道持续焦点</li>
+</ul>
+<h2>四、开源趋势</h2>
+<blockquote>
+<p>⚠️ <strong>数据说明</strong>：GitHub Trending 趋势报告本周连续 7 天全部生成失败（2026-08-18 至 08-29），无法提供 Trending 榜单数据。以下信号综合自 CLI 工具社区、HN 及官方动态：</p>
+</blockquote>
+<ul>
+<li><strong>AI Agent 基础设施化</strong>：从&quot;对话玩具&quot;转向&quot;可信操作层&quot;，沙箱执行、权限审批、可审计日志成为共性刚需</li>
+<li><strong>本地优先与数据主权</strong>：HN 上本地 Whisper 听写 + LLM 清理工具（Dictata）、本地隐私 LLM（Daimon）等获得关注，隐私敏感场景持续升温</li>
+<li><strong>Agent 互操作性</strong>：跨工具子 Agent 编排（Claude Code ↔ Codex）成为开发者自发探索方向</li>
+<li><strong>声明式配置与可复现性</strong>：AI Agent 环境配置漂移问题开始被重视（HN 相关 Show HN 项目）</li>
+</ul>
+<p><strong>建议</strong>：趋势报告管道连续失败，建议优先排查 GitHub Search API 配额/鉴权问题，否则下周仍无法获取 Trending 有效数据。</p>
+<h2>五、HN 社区热议</h2>
+<p>本周仅 08-24 有完整 HN 数据（30 条），整体热度偏低（最高分仅 34），但讨论集中度高：</p>
+<table>
+<thead>
+<tr>
+<th>话题方向</th>
+<th>代表内容</th>
+<th>社区情绪</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>AI 伦理与产业异化</strong></td>
+<td>AI 从业者拒绝参与 AI 开发并辞职；Palantir CEO Karp 批评前沿 AI 实验室&quot;试图让我们上瘾&quot;</td>
+<td>警惕与反思为主，对 AI 产业膨胀的质疑声量上升</td>
+</tr>
+<tr>
+<td><strong>嵌入式/低资源 AI</strong></td>
+<td>7 块 ESP32 搭建 0.4B LLM 实验</td>
+<td>趣味性关注，体现边缘推理兴趣</td>
+</tr>
+<tr>
+<td><strong>Agent 工具链</strong></td>
+<td>声明式配置物化器；Claude Code 调用 Codex 的子 Agent 编排器；本地听写工具</td>
+<td>务实、零散，未见大规模讨论</td>
+</tr>
+<tr>
+<td><strong>安全</strong></td>
+<td>开源模型&quot;时间释放后门&quot;技术文章</td>
+<td>小范围关注</td>
+</tr>
+</tbody></table>
+<p><strong>小结</strong>：本周 HN 缺少重大模型发布或突破性研究，社区注意力集中在风险、伦理与工程落地，风险情绪边际上升。</p>
+<h2>六、官方动态</h2>
+<h3>Anthropic</h3>
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>内容</th>
+<th>战略意义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>08-18/19</td>
+<td>Claude 蛋白质从头设计研究：15 靶点命中 14 个，成功率 22–35%（行业 10–15%）；Opus 5 约 20 分钟完成 NMR/LC-MS 数据解读</td>
+<td>AI 在生命科学从&quot;辅助工具&quot;迈向&quot;科研主力&quot;</td>
+</tr>
+<tr>
+<td>08-25</td>
+<td>500 万美元赠款计划：资助独立团队构建 AI 对用户福祉影响的开源评估工具</td>
+<td>针对 AI 陪伴关系/情感支持场景的安全护栏前瞻布局</td>
+</tr>
+<tr>
+<td>08-27</td>
+<td>Model Hardware Standard（MHS）研究预览：统一 AI 代理与物理设备接口</td>
+<td>首次以&quot;标准制定者&quot;身份切入物理实验室基础设施，平台级战略动作</td>
+</tr>
+<tr>
+<td>08-27</td>
+<td>为 10,000 名科学家提供免费/折扣 Claude 席位，AI for Science 扩展至物理/数学</td>
+<td>以生态锁定方式深度嵌入学术圈</td>
+</tr>
+</tbody></table>
+<h3>OpenAI</h3>
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>内容</th>
+<th>数据状态</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>08-18</td>
+<td>加入 Ports Pike Project</td>
+<td>仅元数据，无正文</td>
+</tr>
+<tr>
+<td>08-21</td>
+<td>前沿模型&quot;零数据保留&quot;（Zero Data Retention）选项</td>
+<td>仅元数据</td>
+</tr>
+<tr>
+<td>08-28</td>
+<td>官网增量 11 篇，方向含 K-12 教育扩展、巴西扩张、代号&quot;Jalapeno&quot;新项目、Hugging Face 事件回应</td>
+<td>仅元数据，无正文</td>
+</tr>
+</tbody></table>
+<p><strong>结论</strong>：Anthropic 本周以科研实证 + 标准制定 + 生态赠款组合拳建立话语权；OpenAI 官网可见信息以合规（零数据保留）与商业化（广告欧洲扩张）为主，但正文大量缺失，建议后续抓取补充。</p>
+<h2>七、下周信号</h2>
+<ol>
+<li><p><strong>Windows 稳定性修复节奏</strong>：两家头部工具 Windows 端问题集中爆发（文件锁、GUI 启动失败、句柄泄漏），下周是否有系统性修复版本值得关注——这直接决定 Windows 开发者能否将 AI CLI 纳入日常工具链。</p>
+</li>
+<li><p><strong>Claude Code restricted 模式生态反馈</strong>：v2.1.248 引入的最小权限模式（显式拒绝 bypassPermissions）是否获得企业/合规用户认可，以及社区对误报率的抱怨是否缓解，是判断 Anthropic 安全路线成败的早期指标。</p>
+</li>
+<li><p><strong>OpenAI Codex alpha 频繁迭代的收敛信号</strong>：连续 10+ 个 alpha 后是否迎来稳定版？若 Windows 启动失败（#40752，86 评论）等 P0 问题仍未解决，可能引发社区信任流失加速。</p>
+</li>
+<li><p><strong>OpenClaw 维护者审查吞吐</strong>：近两周 PR 积压持续加剧，下周是否调整合并策略或新增维护者；以及 SQLite 损坏、iOS 更新阻断两个 P0 问题的修复进展。</p>
+</li>
+<li><p><strong>Anthropic MHS 标准后续动作</strong>：研究预览发布后，是否有更多实验室/设备厂商跟进，以及是否推出配套 SDK/开发者工具。</p>
+</li>
+<li><p><strong>AI for Science 生态落地</strong>：10,000 个科学家席位如何分配/申请、与 Claude Science 工作台（PubMed/Jupyter/R 集成）的联动效果，可能在学术社区产生涟漪。</p>
+</li>
+<li><p><strong>数据管道恢复情况</strong>：趋势日报连续 7 天失败、多项目摘要多次生成失败——建议优先修复 agents-radar 数据采集管道，否则下周周报仍将面临数据缺口。</p>
+</li>
+</ol>
+<hr>
+<p><em>本报告由 agents-radar 自动生成，数据来源于公开 GitHub Issues/PR/Release、Hacker News 及各官方站点。部分日期存在数据缺失，已在对应章节明确标注。</em></p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Tools Weekly Digest 2026-08-31</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-08-31/ai-weekly-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-31/ai-weekly-en</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <description>AI Tools Ecosystem Weekly Report 2026-W36 Coverage: 2026-08-18 ~ 2026-08-29 | Generated: 2026-08-31 06:53 UTC AI Tools Ecosystem Weekly Report Period: August 18–29, 2026 (W36 digest cycle) Coverage: Claude Code, OpenAI Codex, Claude Code Skills, OpenClaw, Hermes Agent, Hacker News, Anthropic/OpenAI official channels 1. Week&amp;#39;s Top Stories Anthropic unveils Model Hardware Standard (MHS) research preview (Aug 27) — Developed with HHMI Janelia, MHS standardizes how AI agents operate physical lab...</description>
+      <content:encoded><![CDATA[<h1>AI Tools Ecosystem Weekly Report 2026-W36</h1>
+<blockquote>
+<p>Coverage: 2026-08-18 ~ 2026-08-29 | Generated: 2026-08-31 06:53 UTC</p>
+</blockquote>
+<hr>
+<h1>AI Tools Ecosystem Weekly Report</h1>
+<p><strong>Period:</strong> August 18–29, 2026 (W36 digest cycle)
+<strong>Coverage:</strong> Claude Code, OpenAI Codex, Claude Code Skills, OpenClaw, Hermes Agent, Hacker News, Anthropic/OpenAI official channels</p>
+<hr>
+<h2>1. Week&#39;s Top Stories</h2>
+<ol>
+<li><p><strong>Anthropic unveils Model Hardware Standard (MHS) research preview</strong> (Aug 27) — Developed with HHMI Janelia, MHS standardizes how AI agents operate physical lab equipment (microscopes, robotic arms, liquid handlers), compressing integration time from weeks to minutes. A platform-level move extending the AI agent race into the physical world.</p>
+</li>
+<li><p><strong>Anthropic awards 10,000 free Claude seats to scientists</strong> (Aug 27) — Standard seats free, 5×-usage premium seats at $15/mo. AI for Science expands beyond biology into physics and math, reinforcing Anthropic&#39;s &quot;research infrastructure&quot; strategy.</p>
+</li>
+<li><p><strong>Claude Code introduces <code>--restricted</code> mode</strong> (Aug 28, v2.1.248) — Minimal-privilege agent execution: shell and WebFetch removed, file operations bounded, <code>bypassPermissions</code> rejected. A clear enterprise/compliance positioning signal rather than a bolt-on afterthought.</p>
+</li>
+<li><p><strong>Claude demonstrates state-of-the-art protein design</strong> (Aug 18–22) — Clauses hit 22–35% protein-binder design success across 14/15 targets versus the 10–15% industry baseline; Opus 5 interpreted raw NMR/LC-MS contract-lab files in ~20 minutes with high accuracy.</p>
+</li>
+<li><p><strong>Windows stability emerges as the industry&#39;s shared weak point</strong> (all week) — Claude Code&#39;s file-lock issue (#42776) drew 141 comments; Codex&#39;s startup failure (#40752) drew 86. Codex saw a cluster of Windows+Android Remote failures and DWM handle leaks. Both tools&#39; top issues trace to Windows.</p>
+</li>
+<li><p><strong>OpenClaw hardens plugin supply-chain security</strong> (Aug 19–24) — <code>security.installPolicy</code> warnings now require explicit operator acknowledgement (PR #116489), with an admin UI review path (PR #120900). Merged alongside ~100 daily PRs during beta verification.</p>
+</li>
+<li><p><strong>OpenAI ships Zero Data Retention for frontier models</strong> (Aug 21) — Enterprise-grade privacy option announced, signaling OpenAI&#39;s push into compliance-driven segments alongside Anthropic&#39;s CVP/governance work.</p>
+</li>
+<li><p><strong>Codex v0.148.0 stable lands with Guardian V2 fail-closed security</strong> (Aug 19) — Risk scoring, Node REPL token-leak protection, and session fork/archive/recover capabilities mark Codex&#39;s maturation beyond a coding assistant.</p>
+</li>
+</ol>
+<hr>
+<h2>2. CLI Tools Progress</h2>
+<h3>Overall State</h3>
+<p>Both tools have moved from &quot;terminal code generators&quot; to <strong>agentic development platforms</strong> — with desktop apps, remote control, IDE extensions, and sandboxed execution. The week&#39;s shared theme: <strong>capability is ahead of stability</strong>, especially on Windows and in long-running unattended workflows. Token cost transparency and command observability shifted from &quot;nice-to-have&quot; to core demands.</p>
+<h3>Claude Code</h3>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>This Week</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Releases</strong></td>
+<td>v2.1.234 → v2.1.251 (7 versions; feature + patch cadence)</td>
+</tr>
+<tr>
+<td><strong>Key features</strong></td>
+<td><code>--restricted</code> mode; new <code>PreModelSwitch</code>/<code>PostModelSwitch</code> hooks (block/confirm/annotate model routing); remote collaboration streaming; conversation branching</td>
+</tr>
+<tr>
+<td><strong>Top community issues</strong></td>
+<td>#84352 security-policy false positives blocking CVP-approved orgs (164 comments); #42776 Windows desktop file lock (141 comments); multi-account management (1,100+ 👍 combined)</td>
+</tr>
+<tr>
+<td><strong>Cost pain</strong></td>
+<td>~59M wasted tokens from prompt-cache invalidation; <code>/usage</code> API and usage indicators requested (#80232, #83092)</td>
+</tr>
+</tbody></table>
+<p><strong>Signal:</strong> Claude Code is doubling down on <strong>programmable agent lifecycle</strong> (hooks, rules, restricted modes) rather than raw feature count. But community trust is strained by security-policy misfires and Gen 5 model quality regressions (#83510, with reproducible data).</p>
+<h3>OpenAI Codex</h3>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>This Week</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Releases</strong></td>
+<td>v0.148.0 stable; v0.149.1 stable; alpha train through v0.151.0-alpha.12 (5 alphas in a single day on Aug 29)</td>
+</tr>
+<tr>
+<td><strong>Key features</strong></td>
+<td>Guardian V2 fail-closed risk scoring; granular <code>sandbox_approval</code> policies; session fork/archive/recover; MCP thread types (<code>guardian_review</code>, <code>cua_repl</code>); model selector live-pull</td>
+</tr>
+<tr>
+<td><strong>Top community issues</strong></td>
+<td>#40752 Windows startup failure (86 comments); #39903 disable command folding (65 👍); #39170 desktop auth loss; #39392 <code>gpt-5.6-sol</code> <code>prompt_cache_retention</code> incompatibility</td>
+</tr>
+<tr>
+<td><strong>Architecture</strong></td>
+<td>Rust core; sandbox permission-system rebuild; Amazon Bedrock setup in app server</td>
+</tr>
+</tbody></table>
+<p><strong>Signal:</strong> Codex is iterating at very high velocity but with fragmented release communication. Community sentiment is &quot;powerful but rough around the edges&quot; — quota transparency and resource leaks (9+ GB MCP process RSS) are recurring themes.</p>
+<h3>Claude Code Skills</h3>
+<ul>
+<li><strong>Critical fix:</strong> skill-creator eval loop repaired (#1298) — <code>run_eval.py</code> reported <code>recall=0%</code> for all descriptions, meaning the optimization loop had been &quot;optimizing against noise.&quot; Multiple independent reproductions confirmed the severity.</li>
+<li><strong>New notable skills:</strong> document-typography (widow/orphan control), ODT/LibreOffice support, testing-patterns (Testing Trophy, AAA), ServiceNow platform coverage, self-audit (pre-delivery mechanical + reasoning audits), pyxel retro-game development (by Pyxel&#39;s original author).</li>
+</ul>
+<h3>Cross-Tool Comparison</h3>
+<table>
+<thead>
+<tr>
+<th>Direction</th>
+<th>Claude Code</th>
+<th>OpenAI Codex</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Release style</strong></td>
+<td>Low-frequency, semantic, changelog-rich</td>
+<td>High-frequency alphas, minimal changelogs</td>
+</tr>
+<tr>
+<td><strong>Differentiation</strong></td>
+<td>Agentic workflow platform (hooks, rules, governance)</td>
+<td>Local execution engine (sandbox, tool hosting, safety policies)</td>
+</tr>
+<tr>
+<td><strong>Maturity phase</strong></td>
+<td>Stable core + targeted fixes</td>
+<td>Rapid iteration, stability catch-up</td>
+</tr>
+<tr>
+<td><strong>Windows status</strong></td>
+<td>File locks, silent update session breakage</td>
+<td>GUI failures, spawn EINVAL, WSL path issues</td>
+</tr>
+<tr>
+<td><strong>Cost control</strong></td>
+<td>Usage API/indicators requested</td>
+<td>Batch processing cuts weighted usage 27–45%; cache-breakpoint gaps</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. AI Agent Ecosystem (OpenClaw &amp; Peers)</h2>
+<h3>OpenClaw</h3>
+<p>Sustained maximum-capacity activity: <strong>500 issues / 500 PRs updated daily</strong>, with 100–132 PRs merged or closed per day. Release <code>v2026.8.1-beta.2</code> is in maintainer-led verification.</p>
+<table>
+<thead>
+<tr>
+<th>Area</th>
+<th>Key Developments</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Messaging reliability</strong></td>
+<td>PR #126424 fixes cross-channel delivery escaping agent bindings (Discord/Slack/Telegram/WhatsApp); queue capacity arbitration (#122764) prevents priority inversion in shared lanes</td>
+</tr>
+<tr>
+<td><strong>Security</strong></td>
+<td>Install-policy warnings require explicit operator acknowledgement (#116489, merged); admin UI review path (#120900, merged)</td>
+</tr>
+<tr>
+<td><strong>CLI/UI polish</strong></td>
+<td>Composer drafts persist across restarts (#125332); collapse-aware sidebar; JSON output for trajectory export failures (#128351)</td>
+</tr>
+<tr>
+<td><strong>Integration fixes</strong></td>
+<td>Claude CLI OAuth refresh ownership preserved across gateway restarts (#125471); tsgo zombie process trees cleaned up (#123975)</td>
+</tr>
+<tr>
+<td><strong>P0/P1 concerns</strong></td>
+<td>SQLite corruption recurrence; iOS app update blockage; Telegram/Slack/WhatsApp delivery reliability; Codex PreToolUse hook spawning CPU-bound processes (#91009)</td>
+</tr>
+</tbody></table>
+<p><strong>Community signal:</strong> The #77598 observational thread (&quot;Track live dev agent behavior and trajectory&quot;) reflects growing demand for <strong>agent behavior transparency</strong> — users want to audit what their agents actually do over long horizons.</p>
+<h3>Hermes Agent</h3>
+<ul>
+<li>Daily volume ~50 issues / 50 PRs, but <strong>47 PRs pending merge</strong> — maintainer review throughput is the bottleneck.</li>
+<li><strong>#91277 is the top health risk:</strong> systematic update-mechanism defects tracking 30+ linked issues. Install/update reliability, gateway control-plane architecture, and cross-platform desktop compatibility dominate.</li>
+<li>Security fixes (control-socket hardening) get merged within hours; feature PRs (memory tiering, resumable approvals) languish — a deliberate &quot;stability-first&quot; posture.</li>
+</ul>
+<h3>Ecosystem Positioning</h3>
+<ul>
+<li><strong>OpenClaw</strong> = the &quot;agent operating system&quot; layer (Go daemon, environment/lifecycle management, multi-channel gateway).</li>
+<li><strong>Hermes Agent</strong> = the research-oriented framework (Python, tightly coupled to Hermes open models, agent-loop depth).</li>
+<li><strong>Shared trajectory:</strong> long-horizon memory, tool-call reliability, sandbox/permission boundaries, and full-trace observability are the ecosystem&#39;s collective agenda. The field is shifting from &quot;what agents can do&quot; to &quot;whether agents can be trusted to do it for hours, unattended.&quot;</li>
+</ul>
+<hr>
+<h2>4. Open Source Trends</h2>
+<p><strong>Data caveat:</strong> The GitHub Trending digest failed to generate on all seven days. This recurring failure is itself a signal — the ecosystem&#39;s monitoring tooling (<code>agents-radar</code> and similar) remains fragile, and &quot;observability of the observability layer&quot; is an open problem.</p>
+<p>Trends inferable from project-level data and community activity:</p>
+<ul>
+<li><strong>Agent interoperability via MCP is accelerating</strong> — Cross-tool orchestration appeared organically: an HN project (&quot;Harness Subagent&quot;) calls Codex from inside Claude Code; Codex added <code>cua_repl</code> as an MCP REPL and <code>guardian_review</code> thread types. MCP is becoming the USB-C of agent tooling.</li>
+<li><strong>Security hardening shipped across all three ecosystems in the same week</strong> — Claude Code&#39;s <code>--restricted</code> mode, Codex&#39;s fail-closed Guardian V2, and OpenClaw&#39;s install-policy acknowledgement. Expect security posture to be a primary selection criterion for enterprise adopters.</li>
+<li><strong>Local-first / privacy-preserving tools remain a strong undercurrent</strong> — Local Whisper dictation with LLM cleanup, local privacy LLMs, and OpenAI&#39;s Zero Data Retention all address the same demand from different angles.</li>
+<li><strong>Token economics is now a feature category</strong> — Cache-breakpoint controls, batch processing (-27–45% weighted usage), usage APIs, and cache-invalidation debugging are becoming first-class product surface, not back-office concerns.</li>
+<li><strong>Agent auditability is emerging as a research topic</strong> — Step-level credit assignment in LLM agents (arXiv) pairs with OpenClaw&#39;s trajectory-export JSON fix and the live-agent-behavior tracking thread.</li>
+</ul>
+<hr>
+<h2>5. HN Community Highlights</h2>
+<p><em>(Only Aug 24 data available in this digest cycle; HN was not tracked on other days.)</em></p>
+<ul>
+<li><strong>Overall tone:</strong> low heat (max score 34), no major model releases or breakthroughs. Attention skewed toward <strong>risk, ethics, and engineering pragmatics</strong>.</li>
+<li><strong>Most-discussed story:</strong> &quot;AI practitioners refusing AI development and resigning,&quot; followed closely by Palantir CEO Karp&#39;s criticism that frontier AI labs are &quot;trying to make us addicted.&quot; Community sentiment reflects growing unease about AI ethics and industry alienation.</li>
+<li><strong>Security:</strong> A technical article on <strong>time-release backdoors in open-source models</strong> drew small but focused attention — a reminder that model-supply-chain integrity is an unresolved issue.</li>
+<li><strong>Tooling signals:</strong><ul>
+<li>&quot;Call Codex from Claude Code&quot; harness — agent interop interest confirmed</li>
+<li>Declarative, reproducible configuration materializer for AI agents (environment drift problem)</li>
+<li>Local Whisper dictation with LLM cleanup — privacy-preserving workflow</li>
+</ul>
+</li>
+<li><strong>Research threads:</strong> step-level credit assignment for agent auditing; the Economist&#39;s &quot;consciousness inside LLMs&quot; long-read; a critique that multimodal models hit a &quot;reality asymptote.&quot;</li>
+</ul>
+<hr>
+<h2>6. Official Announcements</h2>
+<h3>Anthropic</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Announcement</th>
+<th>Significance</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Aug 27</td>
+<td><strong>Model Hardware Standard (MHS) research preview</strong> (with HHMI Janelia)</td>
+<td>First attempt to standardize AI-agent interfaces to physical devices; parallel multi-instrument orchestration; self-recovery from hardware errors</td>
+</tr>
+<tr>
+<td>Aug 27</td>
+<td><strong>10,000 free/discounted Claude seats for scientists</strong>; AI for Science expanded to physics/math</td>
+<td>Ecosystem lock-in with academic research; builds on Claude Science workbench (PubMed, Jupyter, R)</td>
+</tr>
+<tr>
+<td>Aug 25</td>
+<td><strong>$5M grant program</strong> for open-source AI wellbeing evaluation tools</td>
+<td>AI-as-companion safety; long-horizon conversational risk assessment</td>
+</tr>
+<tr>
+<td>Aug 18</td>
+<td><strong>Protein design &amp; analytical chemistry results</strong> (22–35% binder success; NMR/LC-MS in ~20 min)</td>
+<td>Positions Claude as a scientific discovery engine, not just a coding tool</td>
+</tr>
+<tr>
+<td>Aug 13 (circulating)</td>
+<td><strong>Multiagent systems patterns and problems</strong> research</td>
+<td>Directly relevant to the agent orchestration trends seen in CLI tools all week</td>
+</tr>
+<tr>
+<td>—</td>
+<td>EU AI Act text-watermarking compliance approach</td>
+<td>Regulatory readiness narrative</td>
+</tr>
+</tbody></table>
+<h3>OpenAI</h3>
+<p><em>Note: All OpenAI items were captured in metadata-only mode this week (no full text retrieved). Direction verifiable from titles/URLs only.</em></p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Announcement</th>
+<th>Significance</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Aug 21</td>
+<td><strong>Zero Data Retention for frontier models</strong></td>
+<td>Enterprise privacy productization; counters Anthropic&#39;s compliance narrative</td>
+</tr>
+<tr>
+<td>Aug 22</td>
+<td>ChatGPT ads expansion into Europe</td>
+<td>Commercialization continues</td>
+</tr>
+<tr>
+<td>Aug 18</td>
+<td><strong>OpenAI Joins Ports Pike Project</strong></td>
+<td>Unknown scope — metadata only</td>
+</tr>
+<tr>
+<td>Aug 19</td>
+<td>Partnership with Codeai; &quot;Pacing Model Development Cyber Capabilities&quot;; &quot;ChatGPT for Teens&quot;</td>
+<td>Policy, education, and partnership tracks</td>
+</tr>
+<tr>
+<td>Aug 28</td>
+<td>K-12 education expansion; Brazil expansion; &quot;Jalapeno&quot; project codename</td>
+<td>Geographic + segment growth</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>7. Next Week&#39;s Signals</h2>
+<ol>
+<li><p><strong>Windows stability sprint imminent</strong> — Both Claude Code (#42776) and Codex (#40752) face high-visibility Windows failures with heavy community pressure. Expect dedicated fixes and regression tests in the coming releases.</p>
+</li>
+<li><p><strong>MHS adoption watch</strong> — After the research preview, watch for early partner labs or instrument manufacturers announcing MHS alignment. Any named adopter would validate the standard&#39;s platform ambitions.</p>
+</li>
+<li><p><strong>Codex alpha consolidation</strong> — The v0.151.0-alpha train (5 alphas on Aug 29) suggests an approaching stable release. Watch for a proper changelog — the community has been vocal about fragmented release communication.</p>
+</li>
+<li><p>**OpenClaw v2026.</p>
+</li>
+</ol>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI CLI 工具社区动态日报 2026-08-29</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-08-29/ai-cli</link>
@@ -3757,433 +4285,6 @@ An academic paper examining why people believe AI predictions about their own be
 </ol>
 <hr>
 <p><em>报告基于 2026-W35 公开社区动态生成，部分数据源存在缺失，已尽力标注供参考。</em></p>
-<hr>
-<p><em>本日报由 <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI Tools Weekly Digest 2026-08-24</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-24/ai-weekly-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-24/ai-weekly-en</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      <description>AI Tools Ecosystem Weekly Report 2026-W35 Coverage: 2026-08-16 ~ 2026-08-24 | Generated: 2026-08-24 02:25 UTC AI Tools Ecosystem Weekly Report — 2026-W35 (Aug 18–24) Data sources: daily digests covering Claude Code, OpenAI Codex, Claude Code Skills, OpenClaw, Hermes Agent, Hacker News, and Anthropic/OpenAI official channels. 1. Week&amp;#39;s Top Stories # Story Date 1 Anthropic publishes protein-design research: Claude achieves 22–35% binder design success (vs. 10–15% industry baseline) and interpr...</description>
-      <content:encoded><![CDATA[<h1>AI Tools Ecosystem Weekly Report 2026-W35</h1>
-<blockquote>
-<p>Coverage: 2026-08-16 ~ 2026-08-24 | Generated: 2026-08-24 02:25 UTC</p>
-</blockquote>
-<hr>
-<h1>AI Tools Ecosystem Weekly Report — 2026-W35 (Aug 18–24)</h1>
-<p><em>Data sources: daily digests covering Claude Code, OpenAI Codex, Claude Code Skills, OpenClaw, Hermes Agent, Hacker News, and Anthropic/OpenAI official channels.</em></p>
-<hr>
-<h2>1. Week&#39;s Top Stories</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>Story</th>
-<th>Date</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td><strong>Anthropic publishes protein-design research</strong>: Claude achieves 22–35% binder design success (vs. 10–15% industry baseline) and interprets raw NMR/LC-MS files in ~20 minutes, positioning scientific discovery as a flagship use case</td>
-<td>Aug 18 (updated Aug 20, captured Aug 22)</td>
-</tr>
-<tr>
-<td>2</td>
-<td><strong>OpenAI Codex ships stable rust-v0.148.0</strong> (session fork/archive/restore) followed by v0.149.1 stable a week later, with continuous alpha releases in between — a high-velocity &quot;platform-ification&quot; sprint</td>
-<td>Aug 19 / Aug 24</td>
-</tr>
-<tr>
-<td>3</td>
-<td><strong>OpenClaw releases v2026.8.1-beta.2</strong> with Secret egress host binding (fail-closed credential exfiltration prevention) and GPT-5.6 Ultra support; supply-chain security PRs (#116489, #120900) merge throughout the week</td>
-<td>Aug 16</td>
-</tr>
-<tr>
-<td>4</td>
-<td><strong>Claude Code multi-account demand crosses 1,100 👍</strong> across two issues; v2.1.239–241 maintenance releases focus on reliability, not features</td>
-<td>Aug 22–23</td>
-</tr>
-<tr>
-<td>5</td>
-<td><strong>Cache &amp; cost transparency becomes a cross-tool battleground</strong>: ~59M wasted tokens from Claude Code cache misses, Codex Bedrock cache-write overhead, and silent weekly-quota consumption all draw heavy community fire</td>
-<td>Aug 22–23</td>
-</tr>
-<tr>
-<td>6</td>
-<td><strong>Cross-platform reliability is the week&#39;s dominant pain point</strong>: Windows sandbox failures, WSL path misjudgment, macOS Remote connection clusters, and desktop file locks top both Claude Code and Codex trackers simultaneously</td>
-<td>All week</td>
-</tr>
-<tr>
-<td>7</td>
-<td><strong>HN community shows AI ethics fatigue</strong>: &quot;AI practitioner resigns&quot; report and Palantir Karp&#39;s &quot;trying to make us addicted&quot; critique dominate an otherwise low-engagement day</td>
-<td>Aug 24</td>
-</tr>
-<tr>
-<td>8</td>
-<td><strong>Hermes Agent&#39;s update mechanism declared a systemic failure</strong>: P1 tracking issue #91277 now links 30+ related issues; PR backlog (47 pending) signals a maintainer bottleneck</td>
-<td>Aug 23</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>2. CLI Tools Progress</h2>
-<h3>OpenAI Codex — &quot;Platform-grade agent infrastructure&quot;</h3>
-<p><strong>Releases:</strong> stable <code>rust-v0.148.0</code> (Aug 19) → stable <code>rust-v0.149.1</code> (Aug 24); alphas <code>v0.149.0-alpha.x</code>, <code>v0.150.0-alpha.x</code> throughout.</p>
-<p><strong>Feature velocity:</strong></p>
-<ul>
-<li>Session lifecycle: Markdown export, fork/archive/restore (#2880, v0.148.0)</li>
-<li>Guardian V2 risk scoring with fail-closed behavior; strict MCP auto-review keeps full rejection reasons (PR #40031)</li>
-<li>Fine-grained <code>sandbox_approval</code> policy (PR #40024); bubblewrap permission hardening (PR #40302)</li>
-<li>Amazon Bedrock setup integrated into app server (PR #40007); typed config for browser/Computer Use (PR #40018)</li>
-<li>Multi-agent standardization: <code>guardian_review</code> thread type (PR #40221), <code>cua_repl</code> as MCP REPL (PR #40257)</li>
-</ul>
-<p><strong>Sharpest community pain:</strong></p>
-<ul>
-<li><code>gpt-5.6-sol</code> fails on unsupported <code>prompt_cache_retention</code> (#39392); context window mismatch (272K vs. advertised 872K) (#34619)</li>
-<li>Windows sandbox startup failures (#38290); Desktop deletes <code>~/.codex/skills/.system</code> during background execution</li>
-<li>Windows + Android Remote connection failure cluster (5 issues); macOS <code>syspolicyd</code>/<code>trustd</code> resource exhaustion</li>
-<li>WSL path normalization breaks Pets loading (#35119, 394 👍)</li>
-<li>MCP server process leaks (9+ GB RSS); untrusted <code>approval_policy</code> removed without deprecation (#39973)</li>
-<li>Silent weekly quota consumption on Desktop app open (#37445); unauthorized auto-pause of scheduled tasks (#38350)</li>
-</ul>
-<p><strong>Takeaway:</strong> Codex is building the infrastructure (sandbox, threads, MCP, remote control) faster than it can stabilize it. Expect alpha churn to continue.</p>
-<h3>Claude Code — &quot;Enterprise orchestration, stability grind&quot;</h3>
-<p><strong>Releases:</strong> v2.1.234 (Aug 18), v2.1.239 (Aug 22), v2.1.240/241 (Aug 23) — all maintenance, no detailed changelogs.</p>
-<p><strong>Community demand:</strong></p>
-<ul>
-<li>Multi-account / multi-Connector management is the #1 request (combined 1,100+ 👍; #27302, #18435)</li>
-<li>Background agent reliability: <code>claude --bg</code> sessions terminate quickly, workers crash, SIGTERM every 5 minutes</li>
-<li>Cache efficiency: ~59M wasted tokens from prompt-cache invalidation — cost control is now a front-page issue</li>
-<li>CVP approval org still blocked despite approval status (#84352, 133 comments — week&#39;s most-commented issue)</li>
-<li>Model tool-selection bias: model prefers Bash over Read/Grep/Edit (#19649, 101 👍); auto-mode <code>&quot;bashFirst&quot;</code> hardcoding regressed (#88041)</li>
-</ul>
-<p><strong>Skills ecosystem (Aug 18 snapshot):</strong></p>
-<ul>
-<li><code>skill-creator</code> eval chain broken — <code>run_eval.py</code> reports <code>recall=0%</code> for all descriptions (#1298); multiple independent fixes submitted, indicating a systemic quality-verification gap</li>
-<li>New skills gaining traction: document-typography, ODT format support, testing-patterns, self-audit, ServiceNow enterprise platform, pyxel retro-game MCP integration</li>
-</ul>
-<p><strong>Takeaway:</strong> Claude Code is maturing into a workflow orchestration layer (connectors, background jobs, remote/mobile), but session persistence and multi-account isolation are gating adoption.</p>
-<h3>Gemini CLI / others</h3>
-<p>No coverage in this week&#39;s data pipeline. The &quot;two-horse race&quot; narrative (Claude Code vs. Codex) remains unverified against broader CLI competition.</p>
-<hr>
-<h2>3. AI Agent Ecosystem</h2>
-<h3>OpenClaw</h3>
-<ul>
-<li><strong>Volume:</strong> hit the 500-issue / 500-PR daily caps on most days; 56–132 PRs merged daily. However, ~30 high-comment PRs sat unmerged and ~40 P0/P1 bugs accumulated — maintainer throughput is the bottleneck.</li>
-<li><strong>v2026.8.1-beta.2</strong> (Aug 16): Secret egress host binding (fail-closed sentinel replacement), GPT-5.6 Ultra runtime support. Release validation ongoing (#125626).</li>
-<li><strong>Security theme of the week:</strong> install-policy warnings now require explicit operator acknowledgement of the exact target name (#116489), plus a Control UI review flow (#120900). Plugins/skills installs are now gated behind human confirmation.</li>
-<li><strong>Reliability pain:</strong> message delivery across Telegram/Slack/WhatsApp fixed for multi-agent bindings (#126424); but silent reply failures recurred after a &quot;fixed&quot; close (#121058, 96 comments — community angry about close-without-fix); SQLite corruption recidivism; iOS app update blocking; realtime voice holding unbounded provider state (#116201).</li>
-<li><strong>Notable fixes:</strong> tsgo process-tree cleanup (#123975), Claude CLI OAuth refresh survival across gateway restarts (#125471), composer draft persistence (#125332), trajectory export JSON output (#128351).</li>
-</ul>
-<h3>Hermes Agent</h3>
-<ul>
-<li>50 issues / 50 PRs per day; 47 PRs pending merge — same maintainer bottleneck as OpenClaw.</li>
-<li>Systemic update-mechanism failure (#91277, 30+ linked issues) is the top health risk; Linux updates failing repeatedly (#58593).</li>
-<li>Architecture work: own control plane replacing process-scanning heuristics (#92091), control-socket hardening (#92595); cross-platform desktop fixes (Linux .desktop, Windows Docker sandbox paths, macOS remote sessions).</li>
-</ul>
-<h3>Ecosystem structural trend</h3>
-<p>A clear three-layer architecture is consolidating as the sector standard: <strong>Gateway (control plane + state) → Agent core (reasoning loop) → Multi-endpoint (desktop/mobile/webhook/CLI)</strong>. Both OpenClaw and Hermes are investing in it. Shared priorities across projects: long-task memory/state recovery, function-call reliability, sandboxing/audit, and full observability of agent actions.</p>
-<hr>
-<h2>4. Open Source Trends</h2>
-<p>⚠️ <strong>Data pipeline failure:</strong> the GitHub Trending/Search feed failed on all 7 days this week. No quantitative trend data is available.</p>
-<p>Qualitative signals from adjacent sources (HN Show HNs and community discussion):</p>
-<ul>
-<li><strong>Agent interoperability is an emerging pattern</strong>: a &quot;harness orchestrator&quot; allows calling Codex from Claude Code as a sub-agent — cross-vendor agent orchestration is becoming a user-level need.</li>
-<li><strong>Declarative, reproducible agent configuration</strong> (e.g., <code>enozunu</code>) — addressing environment drift in agent setups.</li>
-<li><strong>Local/privacy-first tooling gains traction</strong>: local Whisper dictation with LLM cleanup (Dictata), local privacy LLMs (Daimon).</li>
-<li><strong>Low-resource / embedded LLM experiments</strong> (7x ESP32 running a 0.4B LLM) continue to push the hardware floor.</li>
-</ul>
-<p><strong>Recommendation:</strong> restore the GitHub Trending pipeline before next week; this was the week&#39;s largest blind spot.</p>
-<hr>
-<h2>5. HN Community Highlights</h2>
-<p><em>Only one day of HN data captured (Aug 24) — limited sample.</em></p>
-<ul>
-<li><strong>Overall engagement was low</strong> (top score 34), but sentiment was sharp: an &quot;AI practitioner resigns over AI development&quot; story and Palantir CEO Karp&#39;s accusation that frontier labs are &quot;trying to make us addicted&quot; both reflect rising <strong>ethics fatigue and industry alienation</strong>.</li>
-<li><strong>Security thread:</strong> a technical article on time-release backdoors in open-source models drew focused attention.</li>
-<li><strong>Pragmatic undercurrent:</strong> local Whisper dictation, privacy LLMs, agent configuration tooling, and the Codex↔Claude Code harness all signal a developer preference for <strong>sovereign, self-hosted AI tooling</strong> that contrasts with the ethics backlash above.</li>
-</ul>
-<hr>
-<h2>6. Official Announcements</h2>
-<h3>Anthropic</h3>
-<ul>
-<li><strong>&quot;How Claude is accelerating protein design and analytical chemistry&quot;</strong> (research; captured Aug 22, page dated Aug 18):<ul>
-<li>Protein binder de novo design: 14 of 15 targets positive; 22–35% single-design success vs. 10–15% industry typical; strongest designs bound several times tighter than prior published bests.</li>
-<li>Claude Opus 5 read raw NMR/LC-MS files from a contract lab and returned results in 19–23 minutes — hydrogen counts matched, purity within 0.07% (96.4% vs. 96.33%).</li>
-<li>Strategic signal: Anthropic is explicitly claiming <strong>&quot;AI-enabled discovery speed&quot;</strong> as a frontier-model killer use case.</li>
-</ul>
-</li>
-</ul>
-<h3>OpenAI</h3>
-<p><em>All items captured in metadata-only mode; no bodies retrieved. Titles may contain auto-inference artifacts from URL slugs.</em></p>
-<ul>
-<li><strong>Aug 18:</strong> &quot;OpenAI Joins Ports Pike Project&quot; (unknown project; verify directly).</li>
-<li><strong>Aug 19:</strong> Codeai partnership; &quot;Pacing Model Development Cyber Capabilities&quot;; &quot;ChatGPT for Teens&quot; (repeated).</li>
-<li><strong>Aug 22:</strong> &quot;Offering Zero Data Retention for Frontier Models&quot; — appears to be an enterprise data-compliance offering; ChatGPT ads expanding to Europe.</li>
-<li><strong>Net read:</strong> OpenAI&#39;s visible week was about <strong>enterprise compliance (ZDR), commercialization (ads), and policy/security positioning</strong>, while Anthropic captured the technical narrative with life-science results.</li>
-</ul>
-<hr>
-<h2>7. Next Week&#39;s Signals</h2>
-<ol>
-<li><strong>Multi-account &amp; profile isolation goes first-class.</strong> The 1,100+ 👍 demand on Claude Code and Codex&#39;s multi-account feature request (107 👍) make profile-level isolation a likely near-term release item on both sides.</li>
-<li><strong>Cache/cost tooling will differentiate.</strong> Expect configurable cache breakpoints, cache-hit metrics, and token-waste audits to move from feature requests to shipped capabilities — cost transparency is now a competitive weapon.</li>
-<li><strong>OpenClaw release validation concludes.</strong> Watch #125626 for v2026.8.1 stable. The ~30-PR review backlog and ~40 P0/P1 bugs will test whether the maintainer team can convert validation momentum into backlog cleanup.</li>
-<li><strong>Desktop/remote hardening continues on Windows &amp; macOS.</strong> Both CLI tools treat cross-platform stability as the main blocker to production adoption; expect more sandbox and Remote-connection fixes next week.</li>
-<li><strong>Scientific discovery becomes a marketing battleground.</strong> Anthropic&#39;s protein-design results may provoke OpenAI (or others) to publish counter-evidence or competing research narratives.</li>
-<li><strong>AI ethics sentiment will surface in more venues.</strong> Given HN&#39;s reaction, expect community pushback on &quot;addictive&quot; product patterns (e.g., silent quota consumption) to spill into issue trackers and press coverage.</li>
-<li><strong>OpenAI&#39;s Zero Data Retention offering</strong> is positioned as an enterprise differentiator — watch for pricing/availability details and competitive responses from Anthropic.</li>
-</ol>
-<hr>
-<p><em>Caveats: Claude Code (Aug 19/24), Codex (Aug 16), and OpenClaw (Aug 22/23) daily digests failed summary generation on some days — quantitative comparisons for those days are partial. GitHub Trending failed all week. All OpenAI official items are metadata-only and should be verified from primary sources.</em></p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI CLI 工具社区动态日报 2026-08-23</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-23/ai-cli</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-23/ai-cli</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <description>AI CLI 工具社区动态日报 2026-08-23 生成时间: 2026-08-23 01:03 UTC | 覆盖工具: 2 个 Claude Code OpenAI Codex Claude Code Skills 横向对比 AI CLI 工具横向对比分析报告（2026-08-23） 1. 生态全景 当前 AI CLI 工具正进入“高频维护 + 强度打磨”阶段，各工具在快速迭代功能的同时，稳定性问题开始成为社区核心关注焦点。多账号管理、后台长时运行、缓存效率与跨平台一致性是共同痛点。版本发布密集但多为维护性更新，说明工具已具备基础能力，竞争重心转向可靠性与成本控制。同时，移动端控制、桌面应用等新交互场景逐步被纳入用户工作流，推动工具链向“全栈”形态演进。 2. 各工具活跃度对比 工具 Issues 动态 PR 动态 Release 情况 Claude Code 今日热点 Issue 8 个；多账号相关两案合计超 1100 👍 未披露具体 PR，但版本更新聚焦 Bug 修复与可靠性 v2.1.241、v2.1.240（均为维护版，无详细变更日志） OpenAI Codex 过去 2...</description>
-      <content:encoded><![CDATA[<h1>AI CLI 工具社区动态日报 2026-08-23</h1>
-<blockquote>
-<p>生成时间: 2026-08-23 01:03 UTC | 覆盖工具: 2 个</p>
-</blockquote>
-<ul>
-<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
-<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
-<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
-</ul>
-<hr>
-<h2>横向对比</h2>
-<h1>AI CLI 工具横向对比分析报告（2026-08-23）</h1>
-<h2>1. 生态全景</h2>
-<p>当前 AI CLI 工具正进入“高频维护 + 强度打磨”阶段，各工具在快速迭代功能的同时，稳定性问题开始成为社区核心关注焦点。多账号管理、后台长时运行、缓存效率与跨平台一致性是共同痛点。版本发布密集但多为维护性更新，说明工具已具备基础能力，竞争重心转向可靠性与成本控制。同时，移动端控制、桌面应用等新交互场景逐步被纳入用户工作流，推动工具链向“全栈”形态演进。</p>
-<h2>2. 各工具活跃度对比</h2>
-<table>
-<thead>
-<tr>
-<th>工具</th>
-<th>Issues 动态</th>
-<th>PR 动态</th>
-<th>Release 情况</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Claude Code</strong></td>
-<td>今日热点 Issue 8 个；多账号相关两案合计超 1100 👍</td>
-<td>未披露具体 PR，但版本更新聚焦 Bug 修复与可靠性</td>
-<td>v2.1.241、v2.1.240（均为维护版，无详细变更日志）</td>
-</tr>
-<tr>
-<td><strong>OpenAI Codex</strong></td>
-<td>过去 24 小时更新 50 条 Issue，筛选出 10 个热点；最热 Issue 394 👍</td>
-<td>已合并/推进：修复 TUI 光标闪烁、<code>codex exec</code> 线程来源分类、MCP 连接状态上报</td>
-<td>rust-v0.150.0-alpha.7、rust-v0.149.0-alpha.7.2（预发布版）</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>注：Claude Code 未提供 Issue/PR 总数，OpenAI Codex 的 PR 数量未明确，仅统计摘要中提及的动态。</p>
-</blockquote>
-<h2>3. 共同关注的功能方向</h2>
-<table>
-<thead>
-<tr>
-<th>共同方向</th>
-<th>Claude Code 诉求</th>
-<th>OpenAI Codex 诉求</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>缓存与成本控制</strong></td>
-<td>提示缓存失效导致约 5900 万多余 token 浪费</td>
-<td>Bedrock 通道缺少 <code>prompt_cache_breakpoint</code>，产生高额 cache-write 开销</td>
-</tr>
-<tr>
-<td><strong>后台/长时运行稳定性</strong></td>
-<td><code>claude --bg</code> 会话快速终止、worker 崩溃、任务记录丢失；进程每 5 分钟被 SIGTERM</td>
-<td>Desktop 后台执行间歇性删除 <code>~/.codex/skills/.system</code>，导致内置技能丢失</td>
-</tr>
-<tr>
-<td><strong>多账号与配额管理</strong></td>
-<td>多 Connector 账号切换（#27302）、Desktop 多账号管理（#18435）</td>
-<td>周限额消耗速度异常、5 小时用量桶消失，用户对配额规则透明性不满</td>
-</tr>
-<tr>
-<td><strong>跨平台/客户端一致性</strong></td>
-<td>macOS 登录未调用系统默认浏览器；移动端远程控制挂起</td>
-<td>WSL 路径规范化导致 Pets 无法加载；Desktop 在 macOS 触发 <code>syspolicyd</code>/<code>trustd</code> 资源失控</td>
-</tr>
-</tbody></table>
-<h2>4. 差异化定位分析</h2>
-<ul>
-<li><strong>Claude Code</strong>：功能深度优先，强调与 Claude 生态的深度集成（Connector、Claude Desktop、远程控制），支持后台代理（<code>claude --bg</code>）、移动端排队等高级工作流。目标用户为需要长时运行、复杂任务编排的开发者。技术路线基于 TypeScript/Node，版本稳定（v2.1.x），变更谨慎。</li>
-<li><strong>OpenAI Codex</strong>：迭代速度更快，Rust 核心，仍处于 alpha 阶段（v0.150.0-alpha.7）。重点打磨桌面体验与跨平台兼容（WSL、macOS），并开放 MCP 运行时状态上报等可观测能力。目标用户覆盖更广，从桌面端到 API 调用者，但可靠性和资源管理问题暴露较多，尚需时间成熟。</li>
-</ul>
-<h2>5. 社区热度与成熟度</h2>
-<ul>
-<li><strong>Claude Code</strong> 社区更注重“功能需求”和“稳定性”，高赞 Issue 集中于多账号（1100+ 👍），表明用户基础较大且重度使用，对产品演进有明确预期。版本发布频繁但均为维护版，整体成熟度较高，处于“稳定期 + 局部优化”阶段。</li>
-<li><strong>OpenAI Codex</strong> 社区互动活跃（24h 更新 50 条 Issue），但高赞问题多为资源失控、配额不透明等体验问题，且版本仍为 alpha，说明产品处于快速迭代的早期阶段，功能变化快但稳定性待加强。PR 侧积极修复 UI 和可观测性问题，显示团队在同频响应社区反馈。</li>
-</ul>
-<h2>6. 值得关注的趋势信号</h2>
-<ol>
-<li><strong>多账号管理成为刚需</strong>：用户不再满足于单一账号，期待个人/工作区/多平台账号的快速切换，工具需内置 profile 级别的隔离能力。</li>
-<li><strong>后台与远程控制场景崛起</strong>：后台代理、移动端控制被广泛使用，但“挂起、SIGTERM、删除系统目录”等问题频繁，说明无人值守工作流的可靠性需重点保障。</li>
-<li><strong>缓存效率直接影响成本</strong>：大规模 token 浪费与 cache-write 开销成为用户痛点，未来缓存策略的可配置性、前缀稳定性将是差异化竞争力。</li>
-<li><strong>跨平台一致性仍是短板</strong>：WSL 路径、macOS 系统安全进程、默认浏览器唤起等问题在两家工具均出现，跨平台适配需更细致的系统级处理。</li>
-<li><strong>配额与用量透明度缺失</strong>：用户对周限额、用量桶的变更感到困惑，工具需要提供可审计、可预期的计量机制，否则易引发信任危机。</li>
-</ol>
-<p>对开发者而言：选用工具时需评估长时任务的稳定性，配置缓存控制参数以控制成本，关注多账号支持能力；同时，若工具出现系统级进程失控或目录被删，应及时备份并反馈给官方，推动生态走向成熟。</p>
-<hr>
-<h2>各工具详细报告</h2>
-<details>
-<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
-
-<h2>Claude Code Skills 社区热点</h2>
-<blockquote>
-<p>数据来源: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
-</blockquote>
-<h1>Claude Code Skills 社区热点报告</h1>
-<p><strong>数据源</strong>：github</p>
-<hr>
-<h1>Claude Code 社区动态日报</h1>
-<p><strong>2026 年 8 月 23 日</strong></p>
-<h2>今日速览</h2>
-<ul>
-<li>过去 24 小时连续发布 v2.1.241 与 v2.1.240 两个维护版本，均为 Bug 修复与可靠性改进。</li>
-<li>多账号管理与一键切换需求持续升温，两条高赞 Issue 合计收获超过 1100 👍，是当前社区最关注的功能方向。</li>
-<li>稳定性问题集中爆发：后台会话丢失、远程控制挂起、进程被周期性 SIGTERM、提示缓存失效导致近 6000 万 token 浪费。</li>
-</ul>
-<h2>版本发布</h2>
-<table>
-<thead>
-<tr>
-<th>版本</th>
-<th>内容</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>v2.1.241</strong></td>
-<td>Bug fixes and reliability improvements</td>
-<td>未披露具体变更；推测与近期会话持久化回归及缓存问题相关</td>
-</tr>
-<tr>
-<td><strong>v2.1.240</strong></td>
-<td>Bug fixes and reliability improvements</td>
-<td>同上</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>两个版本均为维护性发布，Change Log 信息有限，建议关注后续 issue 关联的修复确认。</p>
-</blockquote>
-<h2>社区热点 Issues</h2>
-<ol>
-<li><p><strong>支持多个 Connector 账号切换</strong> — <a href="https://github.com/anthropics/claude-code/issues/27302">#27302</a>
-允许在 claude.ai/code 中为同一 Connector 配置多个账号并自由切换。234 条评论、357 👍，多账号工作流是社区刚需。</p>
-</li>
-<li><p><strong>Claude Desktop 多账号管理与快速切换</strong> — <a href="https://github.com/anthropics/claude-code/issues/18435">#18435</a>
-请求桌面应用支持多 Claude 账号并存及 profile 级快速切换。748 👍、168 条评论，是当前点赞数最高的功能请求。</p>
-</li>
-<li><p><strong>macOS 登录未调用系统默认浏览器</strong> — <a href="https://github.com/anthropics/claude-code/issues/64630">#64630</a>
-登录流程没有使用 macOS 默认浏览器，导致 OAuth 体验断裂。18 条评论、26 👍，影响所有 macOS 用户。</p>
-</li>
-<li><p><strong>移动端远程控制：会话静默挂起且无法远程恢复</strong> — <a href="https://github.com/anthropics/claude-code/issues/51267">#51267</a>
-Windows 平台移动端远程控制会话会执行中静默挂起，仅本地 Esc 可恢复，且缺少远程解卡机制。17 条评论。</p>
-</li>
-<li><p><strong>后台代理会话（claude --bg）多重稳定性问题</strong> — <a href="https://github.com/anthropics/claude-code/issues/75037">#75037</a>
-后台会话快速终止、attach 时 worker 崩溃循环、后台任务完成记录丢失三大问题并存，严重影响长时运行工作流。</p>
-</li>
-<li><p><strong>Desktop 与 VS Code 扩展中进程每 5 分钟被 SIGTERM 杀死</strong> — <a href="https://github.com/anthropics/claude-code/issues/62202">#62202</a>
-子进程被精确按 300 秒周期杀死（exit 143），终端 CLI 不受影响，已定位为 wrapper 层问题。</p>
-</li>
-<li><p><strong>移动端排队文本被静默丢弃</strong> — <a href="https://github.com/anthropics/claude-code/issues/85924">#85924</a>
-&quot;Queue feedback…&quot;模式下输入的内容在 Claude 轮次切换时被静默丢弃，移动端交互体验受损。</p>
-</li>
-<li><p><strong>提示缓存查找失败：89 次全上下文重写、约 5900 万多余 token</strong> — <a href="https://github.com/anthropics/claude-code/issues/87966">#87966</a>
-缓存读取被固定在稳定前缀边界</p>
-</li>
-</ol>
-</details>
-
-<details>
-<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
-
-<h1>OpenAI Codex 社区动态日报（2026-08-23）</h1>
-<h2>今日速览</h2>
-<ul>
-<li>发布两个 Rust 预发布版本：<code>rust-v0.150.0-alpha.7</code> 与 <code>rust-v0.149.0-alpha.7.2</code>，未附带详细变更说明。  </li>
-<li>最受关注 Issue 为 macOS 上 Codex Desktop 触发 <code>syspolicyd</code>/<code>trustd</code> 进程 CPU 与内存失控（85 条评论、394 👍），社区反应强烈。  </li>
-<li>PR 侧主要修复 TUI 光标闪烁问题，并为 <code>codex exec</code> 增加线程来源分类能力，同时补全 MCP 运行时连接状态上报。</li>
-</ul>
-<h2>版本发布</h2>
-<p>过去 24 小时共发布 2 个预发布版本：</p>
-<ul>
-<li><a href="https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.7">rust-v0.150.0-alpha.7</a>：<code>0.150.0-alpha.7</code></li>
-<li><a href="https://github.com/openai/codex/releases/tag/rust-v0.149.0-alpha.7.2">rust-v0.149.0-alpha.7.2</a>：<code>0.149.0-alpha.7.2</code></li>
-</ul>
-<p>二者均为常规 alpha 迭代，暂无额外更新日志。</p>
-<h2>社区热点 Issues</h2>
-<p>从过去 24 小时更新的 50 条 Issue 中，按评论热度筛选出以下 10 个值得关注的问题：</p>
-<ol>
-<li><p><strong>[#25719] Codex Desktop for macOS 反复触发 <code>syspolicyd</code> / <code>trustd</code> 资源失控</strong>  </p>
-<ul>
-<li>热度：85 评论 / 394 👍  </li>
-<li>系统级安全进程被持续唤起，CPU 和内存被耗尽，严重影响 macOS 用户正常使用。  </li>
-<li><a href="https://github.com/openai/codex/issues/25719">https://github.com/openai/codex/issues/25719</a></li>
-</ul>
-</li>
-<li><p><strong>[#33685] 周限额消耗速度疑似与旧 5 小时限制一致</strong>  </p>
-<ul>
-<li>热度：28 评论 / 15 👍  </li>
-<li>用户反馈升级为周限额后，消耗速度并未放缓，质疑配额计算逻辑存在偏差。  </li>
-<li><a href="https://github.com/openai/codex/issues/33685">https://github.com/openai/codex/issues/33685</a></li>
-</ul>
-</li>
-<li><p><strong>[#20730] WSL 环境下自定义 Pets 无法加载（路径规范化问题）</strong>  </p>
-<ul>
-<li>热度：23 评论 / 28 👍  </li>
-<li>Windows/WSL 路径转换导致 Pets 目录无法被正确识别，影响跨平台一致性。  </li>
-<li><a href="https://github.com/openai/codex/issues/20730">https://github.com/openai/codex/issues/20730</a></li>
-</ul>
-</li>
-<li><p><strong>[#34227] Windows 宠物叠加层命中区域与可见形象不同步</strong>  </p>
-<ul>
-<li>热度：14 评论 / 1 👍  </li>
-<li>叠加层点击区域随时间偏移，属于 UI 交互层面的明显缺陷。  </li>
-<li><a href="https://github.com/openai/codex/issues/34227">https://github.com/openai/codex/issues/34227</a></li>
-</ul>
-</li>
-<li><p><strong>[#37674] Bedrock 通道缺少显式缓存控制，产生高额 cache-write 开销</strong>  </p>
-<ul>
-<li>热度：13 评论 / 12 👍  </li>
-<li>使用 Amazon Bedrock 调用 GPT-5.6 Sol 时无法指定 <code>prompt_cache_breakpoint</code>，实际生产环境成本显著上升。  </li>
-<li><a href="https://github.com/openai/codex/issues/37674">https://github.com/openai/codex/issues/37674</a></li>
-</ul>
-</li>
-<li><p><strong>[#30816] 订阅 ChatGPT Plus 后周用量重置日期意外变化</strong>  </p>
-<ul>
-<li>热度：11 评论 / 4 👍  </li>
-<li>用户反映订阅后重置规则发生变化，缺乏透明解释，影响配额管理预期。  </li>
-<li><a href="https://github.com/openai/codex/issues/30816">https://github.com/openai/codex/issues/30816</a></li>
-</ul>
-</li>
-<li><p><strong>[#32707] Pro 账户的 5 小时用量桶从 App 和接口中消失</strong>  </p>
-<ul>
-<li>热度：10 评论 / 3 👍  </li>
-<li>与 #30816 相关，用户对用量统计口径的变更感到困惑。  </li>
-<li><a href="https://github.com/openai/codex/issues/32707">https://github.com/openai/codex/issues/32707</a></li>
-</ul>
-</li>
-<li><p><strong>[#19265] Desktop 后台执行间歇性删除 <code>~/.codex/skills/.system</code></strong>  </p>
-<ul>
-<li>热度：10 评论 / 6 👍  </li>
-<li>系统技能目录反复消失，导致内置技能（如 <code>imagegen</code>）在后续对话中不可用。  </li>
-<li><a href="https://github.com">https://github.com</a></li>
-</ul>
-</li>
-</ol>
-</details>
-
 <hr>
 <p><em>本日报由 <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a> 自动生成。</em></p>
 ]]></content:encoded>
