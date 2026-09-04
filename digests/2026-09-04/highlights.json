@@ -1,0 +1,38 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.260 发布，新增 /diff 面板与 /cost 诊断增强",
+      "OpenAI Codex 当日发布多版本，含 rust-v0.153.2 稳定版",
+      "Claude Code Windows 桌面窗口置顶缺陷获 167👍成最热议题",
+      "Codex 原生 /rewind 功能请求获 211👍，存储膨胀受关注",
+      "Codex 当日合并 10 条 PR，含 #42632、#42605 已合入",
+      "两工具共同短板：Windows/WSL 稳定性与会话数据治理"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.9.1，首发 2026.9.x 系列",
+      "Control UI 与原生应用支持 Mermaid 图表渲染",
+      "88 条 PR 被合并/关闭，合并节奏较好",
+      "修复 Windows 2026.8.2 Doctor --fix 服务身份检查失败",
+      "关闭 Codex app-server 因缺失 node_modules 无法启动问题",
+      "项目健康度警示：P0 稳定性问题与积压 Issue 待清理"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Enterprise Frontier Safeguards 企业防护方案",
+      "EFS 数据存客户云基础设施，实现零数据保留+滥用检测",
+      "OpenAI 集中新增 9 篇页面，疑围绕 Gpt 6 Astra 发布",
+      "Anthropic 新增 6 篇内容，聚焦安全加固与政策研究",
+      "EFS 覆盖 Claude Code、Bedrock、Azure 等多平台",
+      "Anthropic 与 AWS、Azure、Google Cloud 三家云厂商协作"
+    ]
+  },
+  "en": {
+    "ai-community": [
+      "Self-improving agents fail to improve: 4 models tested",
+      "Agent memory needs state tracking, not history logs",
+      "Deterministic gates around LLM tool calls become mandatory",
+      "Bug rumour can enable exploits in LLM-assisted code",
+      "ARC-AGI progress reportedly costs 67 cents",
+      "US government backs OpenAI in NYT copyright case"
+    ]
+  }
+}
