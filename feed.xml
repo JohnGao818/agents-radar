@@ -6,7 +6,1048 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 29 Sep 2026 04:02:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 03:53:23 +0000</lastBuildDate>
+    <item>
+      <title>AI CLI 工具社区动态日报 2026-10-02</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-02/ai-cli</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-02/ai-cli</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description>AI CLI 工具社区动态日报 2026-10-02 生成时间: 2026-10-02 03:49 UTC | 覆盖工具: 2 个 Claude Code OpenAI Codex Claude Code Skills 横向对比 数据口径：以下基于你提供的 2026-10-02 摘要；未披露仓库总 Issue/PR 数时，以“摘要中重点/新增条目”统计，避免虚构总量。 1. 生态全景 2026-10-02 的 AI CLI 工具生态呈现“代理平台化 + 快速迭代 + 稳定性债务”并行。Claude Code 通过 Claude Mods 把插件能力下沉到更深层行为，Codex 则以 Rust 多端、Worktree、MCP、委派任务推进自动化工作流。双方共同痛点集中在 MCP/权限认证、工具装配一致性、长任务连续性与跨平台稳定性。社区对“可编程代理”期待很高，但对静默失败、能力缺失、桌面崩溃的容忍度极低。整体看，功能竞赛仍在加速，成熟度竞争已转向可靠性与工作流连续性。 2. 各工具活跃度对比 | 工具 | Release 各工具详细报告 Claude Code — anthropics...</description>
+      <content:encoded><![CDATA[<h1>AI CLI 工具社区动态日报 2026-10-02</h1>
+<blockquote>
+<p>生成时间: 2026-10-02 03:49 UTC | 覆盖工具: 2 个</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
+<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
+<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
+</ul>
+<hr>
+<h2>横向对比</h2>
+<blockquote>
+<p>数据口径：以下基于你提供的 2026-10-02 摘要；未披露仓库总 Issue/PR 数时，以“摘要中重点/新增条目”统计，避免虚构总量。</p>
+</blockquote>
+<h2>1. 生态全景</h2>
+<p>2026-10-02 的 AI CLI 工具生态呈现“代理平台化 + 快速迭代 + 稳定性债务”并行。Claude Code 通过 Claude Mods 把插件能力下沉到更深层行为，Codex 则以 Rust 多端、Worktree、MCP、委派任务推进自动化工作流。双方共同痛点集中在 MCP/权限认证、工具装配一致性、长任务连续性与跨平台稳定性。社区对“可编程代理”期待很高，但对静默失败、能力缺失、桌面崩溃的容忍度极低。整体看，功能竞赛仍在加速，成熟度竞争已转向可靠性与工作流连续性。</p>
+<h2>2. 各工具活跃度对比</h2>
+<p>| 工具 | Release </p>
+<hr>
+<h2>各工具详细报告</h2>
+<details>
+<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
+
+<h2>Claude Code Skills 社区热点</h2>
+<blockquote>
+<p>数据来源: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
+</blockquote>
+<p>⚠️ Skills 摘要生成失败。</p>
+<hr>
+<h1>Claude Code 社区动态日报（2026-10-02）</h1>
+<h2>1. 今日速览</h2>
+<ul>
+<li>v2.1.287 发布，正式引入 <strong>Claude Mods</strong> 与内置 mod <strong>“You should know”</strong>，插件可修改更深层行为；相关讨论 Issue #91870 已达 229 评论 / 130 👍。</li>
+<li>高影响问题持续发酵：GitHub connector 无法访问仓库内容、CLAUDE.md 强制规则被忽略、Artifact 公共分享失败、MCP/Chrome 权限与认证异常。</li>
+<li>过去 24 小时 PR 更新仅 5 条，主要集中在 diff 面板行为、Mods 回滚与 shell 操作审批修复。</li>
+</ul>
+<h2>2. 版本发布</h2>
+<h3>v2.1.287</h3>
+<ul>
+<li>新增 <strong>Claude Mods</strong>：插件现在可以修改更深层行为。</li>
+<li>新增 <strong>You should know</strong>：内置 mod，由 side agent 监视并提示可能被用户或 Claude 遗漏的事项。可通过 <code>/plugin enable cc-plugin-you-should-know@builtin</code> 启用（</li>
+</ul>
+</details>
+
+<details>
+<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
+
+<h1>OpenAI Codex 社区动态日报 · 2026-10-02</h1>
+<blockquote>
+<p>数据来源：<a href="https://github.com/openai/codex">github.com/openai/codex</a></p>
+</blockquote>
+<hr>
+<h2>一、今日速览</h2>
+<p>今日 Codex 仓库发布节奏密集，<code>rust-v0.162.0-alpha.x</code> 系列持续迭代，同时 <code>rust-v0.160.0</code> 正式版落地了任务中心分页浏览、Linux X11 全屏中键粘贴等体验改进。社区侧最突出的矛盾仍集中在 <strong>Windows 桌面客户端的稳定性</strong>（启动卡死、渲染器崩溃、dot 任务工具缺失）以及 <strong>dot/委派任务与 Computer Use、浏览器工具之间的能力断层</strong>。此外，两条高赞功能诉求——<strong>用量限额重置后自动恢复 CLI 会话</strong>（70👍）和 <strong>恢复 Codex App 的分支选择</strong>（45👍）——持续发酵，反映用户对&quot;无人值守长任务&quot;与&quot;工作流连续性&quot;的强烈期待。</p>
+<hr>
+<h2>二、版本发布</h2>
+<p>过去 24 小时内共 9 个 Release，其中 <strong><code>rust-v0.160.0</code> 为唯一正式版</strong>，其余为 alpha 通道滚动发布。</p>
+<p><strong>rust-v0.160.0 主要更新：</strong></p>
+<ul>
+<li><strong>Agent 命令中心支持分页浏览历史任务</strong>：新增键盘可访问的 &quot;Show more&quot; 操作，便于在大量任务中回溯。（#49106）</li>
+<li><strong>Linux X11 终端全屏模式增强</strong>：支持选中转录文本并用中键粘贴。（#49112）</li>
+<li><strong>支持在项目外启动会话</strong>：可基于 workspace 默认配置启动，降低跨项目使用的摩擦。</li>
+</ul>
+<p><strong>Alpha 通道：</strong> <code>rust-v0.162.0-alpha.1 ~ alpha.3</code>、<code>rust-v0.161.0-alpha.7 ~ alpha.13</code>、<code>rust-v0.161.0-alpha.8/9/12/13</code> 均为版本号递增的例行发布，Release Note 未附变更说明。alpha 版本号已推进至 0.162，说明 0.161 分支接近收敛。</p>
+<hr>
+<h2>三、社区热点 Issues</h2>
+<ol>
+<li><p><strong><a href="https://github.com/openai/codex/issues/21073">#21073</a> 功能请求：用量限额重置后自动恢复 CLI 会话</strong>（16 评论 / 70👍）
+当 Codex 在任务中途触达用量上限时，错误信息已明确给出重置时间（如 &quot;try again at 6:34 AM&quot;），但用户仍需手动回来续跑，夜间时间被浪费。这是今日<strong>点赞数最高</strong>的 Issue，触及长时异步任务的核心体验，企业/rate-limits 标签也暗示其潜在商业价值。</p>
+</li>
+<li><p><strong><a href="https://github.com/openai/codex/issues/49532">#49532</a> 请求把分支选择（Branch selection）加回 Codex App</strong>（13 评论 / 45👍）
+用户在启动会话时无法再选择 Git 分支，配图直指 UI 缺口。45 个赞表明这是<strong>明显的功能回退（regression）</strong>，而非新增诉求，对多分支工作流的开发者影响直接。</p>
+</li>
+<li><p><strong><a href="https://github.com/openai/codex/issues/49458">#49458</a> [Windows] dot 启动的本地任务缺失 Computer Use 工具</strong>（21 评论 / 13👍）
+普通本地 Codex 会话正常，但经 dot 委派启动的任务无法调用 Computer Use。今日<strong>评论数最多</strong>的 Issue，与下面多条 dot 相关报错共同指向委派链路的能力注入缺陷。</p>
+</li>
+<li><p><strong><a href="https://github.com/openai/codex/issues/48938">#48938</a> [Windows] 更新后渲染器反复崩溃、白屏重载与严重输入延迟</strong>（12 评论）
+发帖者为 20x Codex 计划的 ChatGPT Pro 付费用户，措辞激烈，强调对工作、假期与已付费额度造成的实质损失。付费重度用户的强烈反弹值得官方优先响应。</p>
+</li>
+<li><p><strong><a href="https://github.com/openai/codex/issues/49488">#49488</a> [Windows][dot/Work] Computer 任务缺失浏览器/桌面工具，MCP 启动持久失败</strong>（11 评论 / 5👍）
+与 #49458 同源但更深一层：定位到 MCP 启动失败与后续路径错误。两条 Issue 叠加，说明 Windows 上 dot 任务链路的<strong>工具装配是系统性而非偶发问题</strong>。</p>
+</li>
+<li><p><strong><a href="https://github.com/openai/codex/issues/48377">#48377</a> [Windows] 更新后无尽启动转圈，bundle version 未定义</strong>（10 评论）
+About 对话框因启动不完成而无法访问，属典型的启动阻塞类故障，用户几乎无法自助获取诊断信息。</p>
+</li>
+<li><p><strong><a href="https://github.com/openai/codex/issues/47041">#47041</a> GPT-5.6 Sol 与 GPT-6 Astra 以 invalid_prompt 拒绝无害提示</strong>（9 评论 / 2👍）
+两个新模型在 Codex Desktop 上对无害提示返回 <code>invalid_prompt</code>，属<strong>模型行为（model-behavior）层面</strong>的问题，对模型可用性影响广泛，需与模型侧联动排查。</p>
+</li>
+<li><p><strong><a href="https://github.com/openai/codex/issues/49988">#49988</a> VS Code 扩展更新后间歇性丢失已提交消息</strong>（7 评论 / 7👍）
+10 月 1 日更新后，按 Enter 会清空输入框但消息未进入会话，重复发送数次才成功。<strong>消息静默丢失</strong>是编辑器集成中最伤信任的缺陷类型，点赞密度高。</p>
+</li>
+<li><p><strong><a href="https://github.com/openai/codex/issues/49551">#49551</a> [macOS] dot 委派任务缺少 Chrome 工具，手动创建的 Chat 却正常</strong>（7 评论 / 5👍）
+同一台机器上手动 Chat 可用 Chrome，dot 委派任务缺少 <code>node_repl js</code> 工具。这条 <strong>macOS 对照实验</strong>更具说服力，证明问题出在委派任务的能力继承，而非平台环境。</p>
+</li>
+<li><p><strong><a href="https://github.com/openai/codex/issues/50127">#50127</a> [DOT] 任务创建返回 UNKNOWN、断开通知过期、任务读取语义模糊、Luna schema 失败</strong>（6 评论，今日新建）
+一份聚合式报告，涵盖任务生命周期状态机的多个薄弱点。今日创建即获得讨论，说明 dot 工作流的可观测性问题正在被系统性地收集。</p>
+</li>
+</ol>
+<blockquote>
+<p>其他值得留意：<a href="https://github.com/openai/codex/issues/50139">#50139</a>（VS Code 需保留并显式排队工作中的后续提示，4 评论）、<a href="https://github.com/openai/codex/issues/50156">#50156</a>（Windows 11 build 26200 永久卡在 OpenAI logo，今日新建）、<a href="https://github.com/openai/codex/issues/45701">#45701</a>（macOS 活跃会话被重置回开始屏）。</p>
+</blockquote>
+<hr>
+<h2>四、重要 PR 进展</h2>
+<blockquote>
+<p>说明：本批次 PR 多为 <code>copyberry[bot]</code> 提交并已 CLOSED，推测为内部变更经公开镜像同步，评论数未公开。</p>
+</blockquote>
+<ol>
+<li><p><strong><a href="https://github.com/openai/codex/pull/50148">#50148</a> 向 TUI 暴露托管 Worktree 工具</strong>
+在启用 worktrees 特性的受信本地项目中，通过 MCP 暴露 <code>create_worktree</code>、<code>get_worktree_creation_status</code>、<code>list_worktrees</code>，兼容嵌入式与本地 daemon 会话。为多分支并行开发铺路。</p>
+</li>
+<li><p><strong><a href="https://github.com/openai/codex/pull/50129">#50129</a> 为远程 MCP 服务器保留 Windows 环境变量</strong>
+修复 Unix 侧启动 Windows 执行器上的 stdio MCP server 时，因 allowlist 基于 Unix 默认值而过滤掉 Windows 运行时与临时目录变量的问题。直接对应前述 Windows MCP 启动失败类 Issue。</p>
+</li>
+<li><p>**[#50128](<a href="https://github.com">https://github.com</a></p>
+</li>
+</ol>
+</details>
+
+<hr>
+<p><em>本日报由 <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI CLI Tools Digest 2026-10-02</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-02/ai-cli-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-02/ai-cli-en</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description>AI CLI Tools Community Digest 2026-10-02 Generated: 2026-10-02 03:49 UTC | Tools covered: 2 Claude Code OpenAI Codex Claude Code Skills Cross-Tool Comparison Scope note: This comparison covers the two tools with provided 2026-10-02 digests: Claude Code and OpenAI Codex. Issue/PR counts below are digest-listed counts, not full repository totals; Claude Code’s digest is partially truncated. 1. Ecosystem Overview On 2026-10-02, the AI CLI tool landscape is splitting between deep extensibility and o...</description>
+      <content:encoded><![CDATA[<h1>AI CLI Tools Community Digest 2026-10-02</h1>
+<blockquote>
+<p>Generated: 2026-10-02 03:49 UTC | Tools covered: 2</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
+<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
+<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
+</ul>
+<hr>
+<h2>Cross-Tool Comparison</h2>
+<p><strong>Scope note:</strong> This comparison covers the two tools with provided 2026-10-02 digests: <strong>Claude Code</strong> and <strong>OpenAI Codex</strong>. Issue/PR counts below are <strong>digest-listed counts</strong>, not full repository totals; Claude Code’s digest is partially truncated.</p>
+<h2>1. Ecosystem Overview</h2>
+<p>On 2026-10-02, the AI CLI tool landscape is splitting between <strong>deep extensibility</strong> and <strong>operational reliability</strong>. Anthropic is pushing Claude Code toward a plugin/mod platform with <strong>Claude Mods</strong> and a built-in side-agent, while OpenAI Codex is heavily focused on <strong>Windows stability, MCP/sandbox hardening, and cloud/dot orchestration</strong>. Both communities show strong demand for MCP/plugin ecosystems, permission consistency, and reliable agent delegation. The main adoption blocker is no longer model capability alone, but <strong>trust in daily workflows</strong>: crashes, silent message loss, auth/MCP failures, and inconsistent tool access across local, delegated, and cloud sessions.</p>
+<h2>2. Activity Comparison</h2>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th align="right">Digest-listed Issues</th>
+<th align="right">Digest-listed PRs</th>
+<th>Release status today</th>
+<th>Top engagement signal</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Claude Code</strong></td>
+<td align="right">1 detailed hot issue (#91870) + active bug clusters not itemized: GitHub connector, artifact public sharing, MCP/auth</td>
+<td align="right"><strong>5 PRs updated in last 24h</strong></td>
+<td><strong>v2.1.287 stable</strong>: Claude Mods</td>
+<td></td>
+</tr>
+</tbody></table>
+<hr>
+<h2>Per-Tool Reports</h2>
+<details>
+<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
+
+<h2>Claude Code Skills Highlights</h2>
+<blockquote>
+<p>Source: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
+</blockquote>
+<h1>Claude Code Skills — Community Highlights</h1>
+<p><em>Data snapshot: 2026-10-02 · Source: <code>anthropics/skills</code></em></p>
+<blockquote>
+<p><strong>Methodology note:</strong> All 50 sampled PRs report <code>Comments: undefined</code> and <code>👍: 0</code>, so ranking below uses a composite signal — update recency, cross-referenced Issues, breadth of scope, and whether the Skill touches shared infrastructure (eval harness, packaging, security). Issue comment counts <em>are</em> available and are cited directly.</p>
+</blockquote>
+<hr>
+<h2>1. Top Skills Ranking</h2>
+<p><strong>1. skill-creator: trigger-eval isolation + Windows/runtime failures</strong> — <a href="https://github.com/anthropics/skills/pull/1298">PR #1298</a>
+<em>Author: MartinCajiao · OPEN · updated 2026-09-16</em>
+Hardens the trigger-evaluation harness: per-worker command probes racing each other, <code>select()</code> on subprocess pipes breaking on Windows, and unrelated tools aborting scans. Runtime failures were being silently reclassified as &quot;non-triggers,&quot; which made negative examples pass falsely. This is the direct PR-side counterpart to Issue <a href="https://github.com/anthropics/skills/issues/1383">#1383</a> and <a href="https://github.com/anthropics/skills/issues/556">#556</a> — the single most-cited reliability problem in the repo.</p>
+<p><strong>2. mcp-builder: <code>mcp&gt;=2</code> streamable HTTP client + custom headers</strong> — <a href="https://github.com/anthropics/skills/pull/1742">PR #1742</a>
+<em>Author: Kuldeeep18 · OPEN · updated 2026-09-29</em>
+Fixes breakage from the <code>streamablehttp_client</code> → <code>streamable_http_client</code> rename and moves custom headers to <code>create_mcp_http_client</code>. Closes <a href="https://github.com/anthropics/skills/issues/1668">#1668</a> and pairs with Issue <a href="https://github.com/anthropics/skills/issues/1390">#1390</a>, which reports the MCP evaluation harness scoring 0/N against real servers.</p>
+<p><strong>3. notion-spec-to-implementation + quantitative-resume-auditor</strong> — <a href="https://github.com/anthropics/skills/pull/1245">PR #1245</a>
+<em>Author: mrdesouzaphd-cmyk · OPEN · updated 2026-09-30 (most recently touched PR)</em>
+Turns product/tech specs into Notion implementation tasks with acceptance criteria and progress tracking. Still under review — the <code>notion-spec-to-implementation</code> half of the PR dominates attention.</p>
+<p><strong>4. docx: report LibreOffice timeout as an error + verify output</strong> — <a href="https://github.com/anthropics/skills/pull/1792">PR #1792</a>
+<em>Author: TINGyu123644 · OPEN · updated 2026-09-25</em>
+<code>accept_changes.py</code> now fails loudly on <code>soffice</code> timeout and only reports success after confirming no <code>w:ins</code>/<code>w:del</code>/<code>w:moveFrom</code>/<code>w:moveTo</code> remain in <code>word/*.xml</code>. A correctness fix for a widely used document Skill.</p>
+<p><strong>5. claude-api: mark four retired model IDs as retired</strong> — <a href="https://github.com/anthropics/skills/pull/1607">PR #1607</a>
+<em>Author: adi-IL · OPEN · updated 2026-09-28</em>
+Closes <a href="https://github.com/anthropics/skills/issues/1603">#1603</a>; corrects <code>claude-opus-4-1</code>, <code>claude-sonnet-4-0</code>, <code>claude-opus-4-0</code>, <code>claude-3-haiku-20240307</code>. Notable because <code>claude-api</code> is also the subject of Issue <a href="https://github.com/anthropics/skills/issues/1487">#1487</a> (≈156k tokens injected in one tool call).</p>
+<p><strong>6. skill-creator: standalone execution of <code>package_skill.py</code></strong> — <a href="https://github.com/anthropics/skills/pull/1681">PR #1681</a>
+<em>Author: Kuldeeep18 · OPEN · updated 2026-09-27</em>
+Fixes <code>ModuleNotFoundError: No module named &#39;scripts.quick_validate&#39;</code> when running the packager directly, plus stale docstrings/CLI paths. Low-risk, high-friction-removal fix for anyone authoring Skills.</p>
+<p><strong>7. proofcore-contract-auditor (Web3 smart-contract notarization)</strong> — <a href="https://github.com/anthropics/skills/pull/1771">PR #1771</a>
+<em>Author: ProofCore-Protocol · OPEN · updated 2026-09-16</em>
+Static analysis of Solidity/Rust contracts with cryptographic audit proofs anchored to TON via a zero-storage Merkle protocol. The most ambitious <em>new-domain</em> Skill in the top set — and the kind of third-party/vendor-flavored submission Issue <a href="https://github.com/anthropics/skills/issues/492">#492</a> warns about.</p>
+<p><strong>8. testing-patterns (full testing stack)</strong> — <a href="https://github.com/anthropics/skills/pull/723">PR #723</a>
+<em>Author: 4444J99 · OPEN · updated 2026-09-21</em>
+Testing Trophy model, AAA unit patterns, React Testing Library, and what <em>not</em> to test. Representative of the strongest new-Skill demand cluster (test generation), alongside <code>awt</code> E2E testing (<a href="https://github.com/anthropics/skills/pull/822">PR #822</a>).</p>
+<p><strong>Honorable mentions:</strong> <code>pyxel</code> retro game dev (<a href="https://github.com/anthropics/skills/pull/525">#525</a>), <code>md2video-audio</code> Markdown→MP4 (<a href="https://github.com/anthropics/skills/pull/1703">#1703</a>), <code>document-typography</code> QC (<a href="https://github.com/anthropics/skills/pull/514">#514</a>), <code>scnet-hpc</code> Slurm workflows (<a href="https://github.com/anthropics/skills/pull/1615">#1615</a>).</p>
+<hr>
+<h2>2. Community Demand Trends</h2>
+<p>Distilled from the top-15 Issues:</p>
+<table>
+<thead>
+<tr>
+<th>Direction</th>
+<th>Evidence</th>
+<th>Signal</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Security, provenance &amp; trust boundaries</strong></td>
+<td><a href="https://github.com/anthropics/skills/issues/492">#492</a> — 43 comments (highest in repo)</td>
+<td>Community skills shipping under the <code>anthropic/</code> namespace impersonate official ones; demands for signing, namespacing, and a security-analyzer Skill.</td>
+</tr>
+<tr>
+<td><strong>Skill distribution &amp; org-scale sharing</strong></td>
+<td><a href="https://github.com/anthropics/skills/issues/228">#228</a> — 16 comments, 8 👍</td>
+<td>Users manually Slack <code>.skill</code> files today; want a shared library and direct sharing links in Claude.ai.</td>
+</tr>
+<tr>
+<td><strong>Evaluation &amp; trigger reliability</strong></td>
+<td><a href="https://github.com/anthropics/skills/issues/556">#556</a> (12c, 7👍), <a href="https://github.com/anthropics/skills/issues/1383">#1383</a>, <a href="https://github.com/anthropics/skills/issues/1394">#1394</a>, <a href="https://github.com/anthropics/skills/issues/1390">#1390</a></td>
+<td><code>run_eval.py</code> reports 0% trigger rate; benchmark layouts silently mismatch; XSS in the eval viewer; MCP evaluation fabricates tool errors.</td>
+</tr>
+<tr>
+<td><strong>Context-window economy</strong></td>
+<td><a href="https://github.com/anthropics/skills/issues/1487">#1487</a>, <a href="https://github.com/anthropics/skills/issues/1329">#1329</a>, <a href="https://github.com/anthropics/skills/issues/189">#189</a> (9👍), <a href="https://github.com/anthropics/skills/issues/202">#202</a></td>
+<td>Over-eager token injection, duplicate skills across plugins, and skill-creator&#39;s prose-heavy, token-inefficient style.</td>
+</tr>
+<tr>
+<td><strong>Agent governance &amp; reasoning quality</strong></td>
+<td><a href="https://github.com/anthropics/skills/issues/412">#412</a>, <a href="https://github.com/anthropics/skills/issues/1385">#1385</a></td>
+<td>Proposal-level demand for policy enforcement, audit trails, and pre-task calibration → adversarial review → delivery verification gates.</td>
+</tr>
+<tr>
+<td><strong>Skill lifecycle &amp; portability</strong></td>
+<td><a href="https://github.com/anthropics/skills/issues/62">#62</a>, <a href="https://github.com/anthropics/skills/issues/29">#29</a>, <a href="https://github.com/anthropics/skills/issues/1175">#1175</a></td>
+<td>Lost skills, Bedrock compatibility, and data-residency concerns for SPO/enterprise document handling.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. High-Potential Pending Skills</h2>
+<p>All are OPEN, but these show the most recent maintainer/author activity and the smallest surface area to merge:</p>
+<ul>
+<li><a href="https://github.com/anthropics/skills/pull/1245">PR #1245</a> — <code>notion-spec-to-implementation</code> (+ resume auditor) · updated 2026-09-30</li>
+<li><a href="https://github.com/anthropics/skills/pull/1742">PR #1742</a> — mcp-builder <code>mcp&gt;=2</code> compatibility · updated 2026-09-29 · closes an existing issue</li>
+<li><a href="https://github.com/anthropics/skills/pull/1607">PR #1607</a> — claude-api retired model IDs · updated 2026-09-28 · closes an existing issue</li>
+<li><a href="https://github.com/anthropics/skills/pull/1681">PR #1681</a> — skill-creator standalone packaging · updated 2026-09-27</li>
+<li><a href="https://github.com/anthropics/skills/pull/1792">PR #1792</a> — docx LibreOffice timeout handling · updated 2026-09-25</li>
+<li><a href="https://github.com/anthropics/skills/pull/1734">PR #1734</a> — detect orphaned docx comments · updated 2026-09-25</li>
+<li><a href="https://github.com/anthropics/skills/pull/525">PR #525</a> — <code>pyxel</code> retro game development · updated 2026-09-22</li>
+<li><a href="https://github.com/anthropics/skills/pull/723">PR #723</a> — <code>testing-patterns</code> · updated 2026-09-21</li>
+</ul>
+<p><strong>Highest-conviction bets:</strong> #1742 and #1607 (both close open bugs), and #1792/#1681 (narrow, verifiable, low-review-cost fixes to existing first-party Skills).</p>
+<hr>
+<h2>4. Skills Ecosystem Insight</h2>
+<p><strong>The community&#39;s demand has shifted from &quot;what new Skill should exist?&quot; to &quot;can I trust the Skills that already exist?&quot;</strong> — the dominant, cross-cutting pressure is on correctness and trust infrastructure (trigger/eval accuracy, context budget, security provenance, packaging reliability) rather than on new Skill domains.</p>
+<hr>
+<h1>Claude Code Community Digest — 2026-10-02</h1>
+<h2>Today’s Highlights</h2>
+<p>Claude Code <strong>v2.1.287</strong> introduces <strong>Claude Mods</strong>, allowing plugins to modify deeper Claude Code behavior, plus the built-in <strong>“You should know”</strong> mod that runs a side agent to flag missed issues. Community attention is heavily focused on the Mods extensibility thread <strong>#91870</strong> (229 comments, 130 👍), while high-impact bugs around <strong>GitHub connector access</strong>, <strong>artifact public sharing</strong>, and <strong>MCP/auth</strong> remain active. PR activity is light, with only five PRs updated in the last 24h, mostly around diff/dialog behavior and Mods cleanup.</p>
+<h2>Releases</h2>
+<ul>
+<li><strong><a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.287">v2.1.287</a></strong> — Adds <strong>Claude Mods</strong>: plugins may now modify deeper behavior. Introduces <strong>“You should know”</strong>, a built-in mod where a side agent watches for things you or Claude might miss. Enable with:<br><code>/plugin enable cc-plugin-you-should-know@builtin</code><br><em>(for first-party sessions; release note truncated in snapshot)</em></li>
+</ul>
+<h2>Hot Issues</h2>
+<ul>
+<li><strong><a href="https://github.com/anthropics/claude-code/issues/91870">#91870 — Mods: make Claude 10x more extensible</a></strong> — OPEN | 229 comments | 130 👍<br>Central thread for the new Mods/plugin extensibility system. Maintainers have</li>
+</ul>
+</details>
+
+<details>
+<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
+
+<h1>OpenAI Codex Community Digest — 2026-10-02</h1>
+<h2>1. Today&#39;s Highlights</h2>
+<p>Windows desktop reliability continues to dominate the tracker: startup hangs, renderer crashes, and missing Computer Use/browser tools in dot-delegated tasks account for most of today&#39;s highest-engagement issues. On the release side, <code>rust-v0.160.0</code> shipped stable with agent-command-center pagination and Linux fullscreen paste improvements, while the <code>0.161</code>/<code>0.162</code> alpha trains keep moving with terse, note-free builds. The PR queue shows heavy backend hardening — worktree MCP tools, server-driven permission catalogs, Windows MCP env handling, and a new native gRPC cloud-thread client.</p>
+<h2>2. Releases</h2>
+<ul>
+<li><strong>rust-v0.160.0 (stable)</strong> — Notable features:<ul>
+<li>Keyboard-accessible &quot;Show more&quot; to browse older tasks in the agent command center (#49106)</li>
+<li>Transcript text selection + middle-click paste in fullscreen on supported local Linux X11 terminals (#49112)</li>
+<li>Ability to start sessions outside a project using a workspace default</li>
+</ul>
+</li>
+<li><strong>rust-v0.162.0-alpha.3 / alpha.2 / alpha.1</strong> — Alpha builds, no detailed notes.</li>
+<li><strong>rust-v0.161.0-alpha.7 through alpha.13</strong> — Rapid alpha cadence, no detailed notes.</li>
+<li><a href="https://github.com/openai/codex/releases">https://github.com/openai/codex/releases</a></li>
+</ul>
+<p><strong>Takeaway:</strong> The 0.16x line is iterating quickly in alpha while stable users get incremental TUI/workflow polish. No breaking migrations are flagged in the release notes.</p>
+<h2>3. Hot Issues</h2>
+<ol>
+<li><strong><a href="https://github.com/openai/codex/issues/49458">#49458</a> — [Windows] dot-started local tasks lack Computer Use tools (OPEN, 21 comments, 13 👍)</strong> — Local Codex sessions get Computer Use tools, but dot-originated tasks on the same machine don&#39;t. High engagement because it breaks the core &quot;delegate to my PC&quot; workflow.</li>
+<li><strong><a href="https://github.com/openai/codex/issues/21073">#21073</a> — Auto-resume CLI session when usage limit resets (OPEN, 16 comments, 70 👍)</strong> — The single highest-upvoted item in this batch. Long-running since May; requests using the known reset timestamp to automatically resume mid-task work overnight.</li>
+<li><strong><a href="https://github.com/openai/codex/issues/49532">#49532</a> — Put the Branch selection BACK in codex app (OPEN, 13 comments, 45 👍)</strong> — A regression complaint about removed branch-selection UI at session start. Strong upvote signal indicates a widely used workflow.</li>
+<li><strong><a href="https://github.com/openai/codex/issues/48938">#48938</a> — [Windows] Repeated renderer crashes, white-screen reloads, severe input lag (OPEN, 12 comments)</strong> — Reported by a Pro 20x user with significant productivity impact; representative of a broader Windows stability cluster.</li>
+<li><strong><a href="https://github.com/openai/codex/issues/49488">#49488</a> — [Windows][dot/Work] Computer tasks lack browser/desktop tools; durable MCP startup failures (OPEN, 11 comments)</strong> — Companion to #49458 with additional MCP startup and path errors. Suggests a systemic dot/Windows tool-binding problem rather than a one-off.</li>
+<li><strong><a href="https://github.com/openai/codex/issues/48377">#48377</a> — [Windows] Endless startup spinner after update (OPEN, 10 comments)</strong> — App never finishes startup; logs show <code>awaiting-framework</code> with an undefined bundle version. Blocks all usage when hit.</li>
+<li><strong><a href="https://github.com/openai/codex/issues/49718">#49718</a> — [Windows] Stuck on logo splash + sandbox setup always fails (OPEN, 9 comments)</strong> — Renderer misses the app-server &quot;connected&quot; state, and the Windows sandbox rejects non-managed permission profiles. Two independent blockers bundled in one report.</li>
+<li><strong><a href="https://github.com/openai/codex/issues/47041">#47041</a> — GPT-5.6 Sol / GPT-6 Astra reject harmless prompts with <code>invalid_prompt</code> (OPEN, 9 comments)</strong> — Model-behavior issue affecting newer models; relevant as teams adopt GPT-6 generation models.</li>
+<li><strong><a href="https://github.com/openai/codex/issues/49988">#49988</a> — VS Code extension intermittently drops submitted messages (OPEN, 7 comments, 7 👍)</strong> — A silent data-loss class bug: composer clears, message never appears, no response. High 👍-to-comment ratio signals broad impact.</li>
+<li><strong><a href="https://github.com/openai/codex/issues/50127">#50127</a> — DOT: UNKNOWN task creation, stale disconnect notifications, Luna schema failures (OPEN, 6 comments)</strong> — Fresh report tying together several dot orchestration failure modes; may be the umbrella for the dot/cloud-task issues below.</li>
+</ol>
+<p><em>Also worth watching:</em> <a href="https://github.com/openai/codex/issues/25962">#25962</a> (Computer Use plugins unavailable on Windows, open since June), <a href="https://github.com/openai/codex/issues/49551">#49551</a> (macOS dots lack <code>node_repl js</code>), <a href="https://github.com/openai/codex/issues/50156">#50156</a> (Windows splash hang on build 26200), and <a href="https://github.com/openai/codex/issues/49033">#49033</a> (CLI freeze after input).</p>
+<h2>4. Key PR Progress</h2>
+<ol>
+<li><strong><a href="https://github.com/openai/codex/pull/50162">#50162</a> — Bound in-flight file opens in exec-server</strong> — Reserves a semaphore permit <em>before</em> polling the file-open future, closing a gap where pending opens escaped the 128-handle per-connection cap. Resource-exhaustion hardening.</li>
+<li><strong><a href="https://github.com/openai/codex/pull/50148">#50148</a> — Add managed worktree tools to the TUI</strong> — Exposes <code>create_worktree</code>, <code>get_worktree_creation_status</code>, and <code>list_worktrees</code> via MCP for trusted local projects, with embedded and daemon session support. Enables parallel branch workflows.</li>
+<li><strong><a href="https://github.com/openai/codex/pull/50140">#50140</a> — Use server permission catalog for TUI permission shortcuts</strong> — Shortcuts now respect the connected server&#39;s catalog and model-specific auto-review requirements instead of local config. Fixes permission mismatches.</li>
+<li><strong><a href="https://github.com/openai/codex/pull/50131">#50131</a> — Opt-in JSON diagnostics for TCP tunnels</strong> — Adds <code>codex tcp-tunnel --diagnostics-json</code>, emitting versioned NDJSON on stderr with credential/address redaction. Improves remote/network debuggability.</li>
+<li><strong><a href="https://github.com/openai/codex/pull/50129">#50129</a> — Preserve Windows environment variables for remote MCP servers</strong> — Prevents Unix-default allowlists from filtering out Windows runtime and temp-dir variables when launching stdio MCP servers on a Windows executor.</li>
+<li><strong><a href="https://github.com/openai/codex/pull/50128">#50128</a> — Expose the model selected for a running turn&#39;s next step</strong> — Adds <code>CodexThread::current_turn_model</code>, decoupling in-flight model selection from future-turn settings. Useful for UI/telemetry accuracy.</li>
+<li><strong><a href="https://github.com/openai/codex/pull/50113">#50113</a> — Native gRPC client for cloud thread resume and attach</strong> — New reusable <code>codex-cloud-client</code> crate for <code>ThreadService.Resume</code> and live <code>Attach</code> over HTTP/2. Infrastructure for cloud-thread continuity.</li>
+<li><strong><a href="https://github.com/openai/codex/pull/50109">#50109</a> — Keep fullscreen prompts bounded and scrollable</strong> — Caps the fullscreen composer at two-thirds height (including padding/hints) and ensures remote image attachments leave an editable prompt row visible.</li>
+<li><strong><a href="https://github.com/openai/codex/pull/50082">#50082</a> — Dynamic tool inheritance for fresh V2 subagents</strong> — Subagents spawned without forked history now inherit the parent&#39;s client-defined dynamic tools (behind <code>multi_agent_v2_dynamic_tools</code>). Directly relevant to delegated/browser-tool gaps in issues above.</li>
+<li><strong><a href="https://github.com/openai/codex/pull/50059">#50059</a> — Fix Linux sandbox startup with multiple denied files</strong> — Bubblewrap closes the fd after each <code>--ro-bind-data</code>; the fix opens a separate <code>/dev/null</code> descriptor per file mask. Fixes a hard startup failure.</li>
+</ol>
+<p><em>Also landed:</em> <a href="https://github.com/openai/codex/pull/50058">#50058</a> (<code>windows-sys</code> 0.61.2 upgrade with <code>OwnedHandle</code>), <a href="https://github.com/openai/codex/pull/50087">#50087</a> (queued agent mail preserved across session eviction), <a href="https://github.com/openai/codex/pull/50093">#50093</a> (instruction-provider self-delegation recursion fix), <a href="https://github.com/openai/codex/pull/50066">#50066</a> (bounded Decisions transport for Guardian comparison).</p>
+<h2>5. Feature Request Trends</h2>
+<ul>
+<li><strong>Session resilience &amp; quota automation:</strong> Auto-resume after usage-limit reset (#21073, 70 👍) is the clearest ask — turn the known reset timestamp into automatic continuation.</li>
+<li><strong>Restoring removed/regressed UI affordances:</strong> Branch selection at session start (#49532, 45 👍), persistent user-defined tab names (#48992), and stable manual conversation titles (#50159) all point to frustration with UI churn and auto-renaming.</li>
+<li><strong>Multi-client state consistency:</strong> Project/sidebar sync between desktop and ChatGPT web (#50161), and consistent cloud-task visibility across desktop/web/iOS/dot (#50136).</li>
+<li><strong>Better queued-input handling:</strong> Visibly queue and preserve follow-up prompts while Codex is working in VS Code (#50139).</li>
+<li><strong>Dot/agent delegation controls:</strong> Explicit main-chat authorization propagating to delegated executors (#50119), plus reliable dot read/create/resume of remote and cloud sessions (#50157, #50015).</li>
+</ul>
+<h2>6. Developer Pain Points</h2>
+<ul>
+<li><strong>Windows desktop instability is the dominant theme.</strong> Repeated renderer crashes and white screens (#48938), infinite startup spinners (#48377), logo-splash hangs (#49718, #50156), and renderer-state resets (#32917) collectively make the Windows app feel unreliable for daily work.</li>
+<li><strong>Computer Use / browser tooling fails specifically in delegated (dot) tasks.</strong> Multiple reports (#49458, #49488, #49551, #25962, #49521) show manually created chats getting tools that dot-originated tasks on the same machine do not — including MCP startup failures and missing <code>node_repl js</code>.</li>
+<li><strong>Silent message loss erodes trust.</strong> VS Code extension drops submitted messages with no error (#49988), and Mac app returns to the start screen mid-session (#45701).</li>
+<li><strong>Dot/cloud orchestration surfaces generic <code>UNKNOWN</code> errors.</strong> <code>AppServerBackendRequestError: UNKNOWN</code> recurs across task creation, resume, and remote session reads (#50015, #49566, #50127, #50157, #50136), making failures hard to triage.</li>
+<li><strong>Windows sandbox/permission friction.</strong> Non-managed permission profiles are rejected by the Windows sandbox (#49718), blocking sandboxed execution entirely for those users.</li>
+<li><strong>Model-behavior regressions on new models.</strong> <code>invalid_prompt</code> rejections of harmless prompts on GPT-5.6 Sol / GPT-6 Astra (#47041) raise concerns for adopters of the latest models.</li>
+<li><strong>CLI/TUI edges:</strong> Input freezes after message submission (#49033), archived subagents still listed in <code>/subagents</code> (#49085), and fullscreen composer/draft ergonomics (prompt scroll bounding, #50109) remain active polish areas.</li>
+</ul>
+<p><em>Overall signal:</em> Maintainers are actively shipping backend and platform hardening (sandbox, MCP env, permissions, worktrees, cloud gRPC), but front-end Windows stability and dot tool-binding gaps are outpacing fixes in community perception. The top-voted enhancement (#21073) has been open since May — a candidate for near-term delivery.</p>
+</details>
+
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Agents 生态日报 2026-10-02</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-02/ai-agents</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-02/ai-agents</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description>OpenClaw 生态日报 2026-10-02 Issues: 500 | PRs: 500 | 覆盖项目: 2 个 | 生成时间: 2026-10-02 03:49 UTC OpenClaw Hermes Agent OpenClaw 项目深度报告 ⚠️ 摘要生成失败。 横向生态对比 2026-10-02 个人 AI 助手/自主智能体开源生态横向对比分析报告 数据质量声明： 本次输入中，OpenClaw 与 Hermes Agent 的社区动态摘要均显示“摘要生成失败”。因此，Issues、PR、Release、社区讨论等关键数据均为缺失状态。以下报告不进行推断性补全或排名，无法验证项统一标注为 N/A / 不可评估。本日有效数据覆盖率：0/2 = 0%。 1. 生态全景 2026-10-02 的输入未能提供任何可验证的个人 AI 助手/自主智能体社区动态。OpenClaw 作为核心参照、Hermes Agent 作为对比项目，二者摘要同时失败，说明当前情报采集链路存在断点。在此情况下，无法判断生态整体是处于加速迭代、路线分化还是质量收敛阶段。唯一可确认的事实是：本日无法形成有数据...</description>
+      <content:encoded><![CDATA[<h1>OpenClaw 生态日报 2026-10-02</h1>
+<blockquote>
+<p>Issues: 500 | PRs: 500 | 覆盖项目: 2 个 | 生成时间: 2026-10-02 03:49 UTC</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
+<li><a href="https://github.com/nousresearch/hermes-agent">Hermes Agent</a></li>
+</ul>
+<hr>
+<h2>OpenClaw 项目深度报告</h2>
+<p>⚠️ 摘要生成失败。</p>
+<hr>
+<h2>横向生态对比</h2>
+<h1>2026-10-02 个人 AI 助手/自主智能体开源生态横向对比分析报告</h1>
+<p><strong>数据质量声明：</strong> 本次输入中，OpenClaw 与 Hermes Agent 的社区动态摘要均显示“摘要生成失败”。因此，Issues、PR、Release、社区讨论等关键数据均为缺失状态。以下报告不进行推断性补全或排名，无法验证项统一标注为 <strong>N/A / 不可评估</strong>。本日有效数据覆盖率：<strong>0/2 = 0%</strong>。</p>
+<hr>
+<h2>1. 生态全景</h2>
+<p>2026-10-02 的输入未能提供任何可验证的个人 AI 助手/自主智能体社区动态。<br>OpenClaw 作为核心参照、Hermes Agent 作为对比项目，二者摘要同时失败，说明当前情报采集链路存在断点。<br>在此情况下，无法判断生态整体是处于加速迭代、路线分化还是质量收敛阶段。<br>唯一可确认的事实是：本日无法形成有数据支撑的生态态势判断。<br>建议先修复摘要与数据采集管道，再执行横向对比。</p>
+<hr>
+<h2>2. 各项目活跃度对比</h2>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th align="right">今日 Issues 数</th>
+<th align="right">今日 PR 数</th>
+<th>Release 情况</th>
+<th>健康度评估</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>OpenClaw</td>
+<td align="right">N/A（摘要失败）</td>
+<td align="right">N/A（摘要失败）</td>
+<td>N/A</td>
+<td>⚪ 不可评估：无有效指标</td>
+</tr>
+<tr>
+<td>Hermes Agent</td>
+<td align="right">N/A（摘要失败）</td>
+<td align="right">N/A（摘要失败）</td>
+<td>N/A</td>
+<td>⚪ 不可评估：无有效指标</td>
+</tr>
+<tr>
+<td><strong>汇总</strong></td>
+<td align="right"><strong>0 条有效记录</strong></td>
+<td align="right"><strong>0 条有效记录</strong></td>
+<td><strong>0 条有效记录</strong></td>
+<td><strong>数据覆盖率 0%</strong></td>
+</tr>
+</tbody></table>
+<p><strong>说明：</strong> 健康度通常应结合 Issues/PR 响应速度、Release 频率、贡献者增长、讨论活跃度等指标。当前无任何可验证数据，不能给出“高/中/低”或“快速迭代/质量巩固”等结论。</p>
+<hr>
+<h2>3. OpenClaw 在生态中的定位</h2>
+<p>当前无法对 OpenClaw 进行有效生态定位。</p>
+<ul>
+<li><strong>优势对比：</strong> 无 Issues、PR、Release、社区规模数据，无法与 Hermes Agent 或同类项目比较。</li>
+<li><strong>技术路线差异：</strong> 无架构、插件、工具调用、模型接入、部署形态等输入，无法判断。</li>
+<li><strong>社区规模对比：</strong> 无 stars、forks、contributors、discussions 等数据，无法判断。</li>
+<li><strong>唯一可读信息：</strong> OpenClaw 在本次分析框架中被标记为“核心参照”，但这是报告设定，不等同于其社区规模或技术优势的客观事实。</li>
+</ul>
+<p><strong>结论：</strong> OpenClaw 的生态定位为 <strong>N/A</strong>。需补充架构文档、版本节奏、贡献者结构、生态集成与用户反馈后，才能形成可靠判断。</p>
+<hr>
+<h2>4. 共同关注的技术方向</h2>
+<p>基于当前输入，<strong>无法识别任何共同关注的技术方向</strong>。</p>
+<ul>
+<li><strong>涉及项目：</strong> 无有效数据。</li>
+<li><strong>具体诉求：</strong> 无有效社区反馈。</li>
+<li><strong>可能方向：</strong> 若后续摘要恢复，建议按主题聚类检查：工具调用、长期记忆、多智能体编排、本地模型支持、权限与安全、MCP/连接器、可观测性、评测体系、桌面/移动端体验、成本控制。</li>
+<li><strong>当前结论：</strong> 上述仅为补数后的分析框架，不是 2026-10-02 的实际发现。</li>
+</ul>
+<hr>
+<h2>5. 差异化定位分析</h2>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>OpenClaw</th>
+<th>Hermes Agent</th>
+<th>关键差异</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>功能侧重</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>无法判断</td>
+</tr>
+<tr>
+<td>目标用户</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>无法判断</td>
+</tr>
+<tr>
+<td>技术架构</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>无法判断</td>
+</tr>
+<tr>
+<td>社区治理</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>无法判断</td>
+</tr>
+<tr>
+<td>生态集成</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>无法判断</td>
+</tr>
+</tbody></table>
+<p>当前仅能确认：OpenClaw 被设为“核心参照”，Hermes Agent 被设为对比对象。二者在功能、用户、架构上的真实差异缺乏数据支撑，不能进行有效差异化分析。</p>
+<hr>
+<h2>6. 社区热度与成熟度</h2>
+<ul>
+<li><strong>活跃度分层：</strong> 无法分层。</li>
+<li><strong>快速迭代阶段：</strong> 无法判定。</li>
+<li><strong>质量巩固阶段：</strong> 无法判定。</li>
+<li><strong>可确认问题：</strong> 本日情报采集层失败，两个目标项目均未产出有效摘要。</li>
+<li><strong>注意：</strong> 摘要失败反映的是监测管道问题，不等同于项目本身不活跃或不成熟。</li>
+</ul>
+<p>因此，社区热度与成熟度评估结论为：<strong>数据不足，暂不可评估</strong>。</p>
+<hr>
+<h2>7. 值得关注的趋势信号</h2>
+<p>从本次输入中可提炼的唯一信号是：<strong>AI 智能体开源生态的情报监测与自动摘要管道存在单点故障风险。</strong></p>
+<p>对 AI 智能体开发者的参考价值：</p>
+<ol>
+<li><strong>不要基于缺失数据做选型判断。</strong> 摘要失败不等于项目停滞，也不等于项目活跃。</li>
+<li><strong>建立多源采集机制。</strong> 至少覆盖 GitHub Issues、PR、Releases、Discussions、Commits、Contributors、Stars/Forks 变化。</li>
+<li><strong>设计降级策略。</strong> 摘要失败时应输出原始链接与基础计数，而不是空报告。</li>
+<li><strong>定义健康度指标。</strong> 如 Issue 关闭率、PR 合并时长、Release 间隔、贡献者留存、讨论响应速度。</li>
+<li><strong>保留可追溯性。</strong> 所有判断应能回溯到具体 issue、PR 或 release，避免二次幻觉。</li>
+</ol>
+<p><strong>本日结论：</strong> 2026-10-02 无法形成有效的横向对比分析。建议优先修复 OpenClaw 与 Hermes Agent 的摘要采集链路，再按同一模板重新生成生态对比报告。</p>
+<hr>
+<h2>同赛道项目详细报告</h2>
+<details>
+<summary><strong>Hermes Agent</strong> — <a href="https://github.com/nousresearch/hermes-agent">nousresearch/hermes-agent</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<hr>
+<p><em>本日报由 <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Agents Ecosystem Digest 2026-10-02</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-02/ai-agents-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-02/ai-agents-en</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description>OpenClaw Ecosystem Digest 2026-10-02 Issues: 500 | PRs: 500 | Projects covered: 2 | Generated: 2026-10-02 03:49 UTC OpenClaw Hermes Agent OpenClaw Deep Dive OpenClaw Project Digest — 2026-10-02 1. Today&amp;#39;s Overview OpenClaw is operating at very high velocity: 500 issues and 500 PRs were touched in the last 24 hours, with 303 issues still open/active and 319 PRs open (181 PRs merged/closed, 197 issues closed). Activity is dominated by the extended-stable/2026.9.x lines, and the day&amp;#39;s signa...</description>
+      <content:encoded><![CDATA[<h1>OpenClaw Ecosystem Digest 2026-10-02</h1>
+<blockquote>
+<p>Issues: 500 | PRs: 500 | Projects covered: 2 | Generated: 2026-10-02 03:49 UTC</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
+<li><a href="https://github.com/nousresearch/hermes-agent">Hermes Agent</a></li>
+</ul>
+<hr>
+<h2>OpenClaw Deep Dive</h2>
+<h1>OpenClaw Project Digest — 2026-10-02</h1>
+<h2>1. Today&#39;s Overview</h2>
+<p>OpenClaw is operating at very high velocity: 500 issues and 500 PRs were touched in the last 24 hours, with 303 issues still open/active and 319 PRs open (181 PRs merged/closed, 197 issues closed). Activity is dominated by the <em>extended-stable</em>/2026.9.x lines, and the day&#39;s signal is mixed — a healthy flow of closed regressions alongside a cluster of P0 crash-loop, memory-leak, and disk-growth reports that are increasingly Windows- and large-fleet-centric. Overall project health reads as <strong>high-throughput but stability-strained</strong>: maintainers are shipping a security/reliability-focused LTS patch while a backlog of long-lived (Feb–Jul) defects still awaits product decisions. The clawsweeper triage bot is visibly gatekeeping with labels like <code>needs-product-decision</code>, <code>needs-security-review</code>, and <code>manual-only</code>, which is slowing some fixes to a crawl.</p>
+<hr>
+<h2>2. Releases</h2>
+<h3>v2026.8.34 — gateway-only <code>extended-stable</code> (LTS equivalent)</h3>
+<ul>
+<li><strong>What it is:</strong> A snapshot of OpenClaw from the end of August 2026, re-cut today with critical security updates plus reliability and performance fixes, and new model support.</li>
+<li><strong>Scope:</strong> Gateway-only (no client/app bundles).</li>
+<li><strong>Breaking changes:</strong> None explicitly declared in the release note.</li>
+<li><strong>Migration notes:</strong> Positioned as the current LTS track — users on unstable 2026.9.x lines can treat this as the conservative fallback. Verify plugin compatibility before downgrading, given the number of 2026.9.x-only regressions currently in flight (see §5).</li>
+<li><strong>Links:</strong> no release URL was supplied in the dataset.</li>
+</ul>
+<blockquote>
+<p>Note: The digest snapshot contains no separate patch release for the <code>2026.9.x</code> line today, despite several release-blocker bugs reported against 2026.9.5–9.7 (<code>impact:ux-release-blocker</code>). PR #163074 (&quot;backport release-critical update and session repairs&quot;) indicates a <code>2026.9.8</code> release candidate is being stabilized.</p>
+</blockquote>
+<hr>
+<h2>3. Project Progress</h2>
+<p><strong>Closed today (selection of the 197 closed items):</strong></p>
+<ul>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/161953">#161953</a></strong> — Windows <code>sessions.create</code> deterministic failure (&quot;publication owner is no longer current&quot;) from <code>win32 \\?\</code> SQLite path leaking into the creation guard. P0 release blocker, now closed.</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/161828">#161828</a></strong> — Windows <code>chat.send</code>/heartbeat <code>DataCloneError</code> via nested <code>input.request.env</code> Proxy. P0.</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/161654">#161654</a></strong> — Windows cron/agent <code>WorkerTaskError &#39;unavailable&#39;</code> (DataCloneError), the top-level <code>readExactEntries</code> variant.</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/157067">#157067</a></strong> — Windows isolated cron passing an uncloneable <code>process.env</code> Proxy to the session-history worker.</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/85030">#85030</a></strong> — MCP tools not injected into <code>sessions_spawn</code> subagents (diamond-lobster rated, 6 👍).</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/112160">#112160</a></strong> — SSH sandbox not staging inbound media into an existing remote workspace.</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/141102">#141102</a></strong> — Collection-review jobs remaining enabled for ineligible rooted execution.</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/55694">#55694</a></strong> — Agent infinite tool-call retry loop flooding chats (Feishu).</li>
+</ul>
+<p><strong>PRs advancing (open but active today):</strong></p>
+<ul>
+<li><strong><a href="https://github.com/openclaw/openclaw/pull/163195">PR #163195</a></strong> (P1) — Fix finished subagents failing to wake parents on overlapping registry writes; ready for maintainer look.</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/pull/163074">PR #163074</a></strong> (P1) — Backport of release-critical update, Windows copy, performance, memory, and delegated-work fixes into the <code>2026.9.8</code> RC.</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/pull/161105">PR #161105</a></strong> (P1) — Run scheduled work with current agent tools (cron tool-inventory drift).</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/pull/163171">PR #163171</a></strong> — Retain Doctor repair for July provider aliases.</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/pull/161421">PR #161421</a></strong> (P1, security-sensitive) — Fix paired clients timing out behind queued connection metadata.</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/pull/163164">PR #163164</a></strong> / <strong><a href="https://github.com/openclaw/openclaw/pull/163230">PR #163230</a></strong> / <strong><a href="https://github.com/openclaw/openclaw/pull/163225">PR #163225</a></strong> — macOS sidebar filtering, Codex init-timeout diagnostics, and incognito actor session facts.</li>
+</ul>
+<p><strong>Assessment:</strong> The Windows <code>DataCloneError</code> family — the single largest coherent regression cluster — appears largely closed on the issue side today, which is a meaningful stability win for the 2026.9.x line.</p>
+<hr>
+<h2>4. Community Hot Topics</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Comments</th>
+<th>Signal</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/openclaw/openclaw/issues/143524">#143524</a> — SQLite WAL grows to 1.4–2.8 GB despite <code>wal_autocheckpoint=1000</code>; blocks gateway startup (Windows)</td>
+<td>103</td>
+<td><strong>Hottest issue.</strong> P0, gold-shrimp, release blocker. Unbounded WAL is a foundational storage-engine problem.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/openclaw/openclaw/issues/153257">#153257</a> — 2026.9.5 turned a stable environment into an 8-hour failure recovery session</td>
+<td>40</td>
+<td>Strong emotional signal; upgrade regret from the 2026.9.x line.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/openclaw/openclaw/issues/149538">#149538</a> — Gateway reaches ready but never serves; <code>/health</code> starves on a <strong>632-agent fleet</strong></td>
+<td>23</td>
+<td>Enterprise-scale/scaling concern.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/openclaw/openclaw/issues/157067">#157067</a> — Windows cron env Proxy (now closed)</td>
+<td>21</td>
+<td>Windows cluster.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/openclaw/openclaw/issues/139710">#139710</a> — Plugin-generation supersede kills system-agent turn + planner fallback</td>
+<td>18</td>
+<td>Misleading <code>openclaw onboard</code> remedy surfaces a real DX problem.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/openclaw/openclaw/issues/148707">#148707</a> — Reply lost: &quot;no active tool authority snapshot&quot; on session displacement (2026.9.4 regression)</td>
+<td>17</td>
+<td>Message-loss, needs product decision.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/openclaw/openclaw/issues/97616">#97616</a> — Unreaped hook/tool child processes → zombie accumulation</td>
+<td>16</td>
+<td><strong>Open since June 29.</strong></td>
+</tr>
+<tr>
+<td><a href="https://github.com/openclaw/openclaw/issues/85030">#85030</a> — MCP tools not injected into subagents (closed today)</td>
+<td>16</td>
+<td>6 👍.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/openclaw/openclaw/issues/114612">#114612</a> — <code>memory-core</code> SQLite tables have no retention policy, will fill disk</td>
+<td>15</td>
+<td>Long-running storage-growth theme.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/openclaw/openclaw/issues/159662">#159662</a> — <code>prepared-model-catalog.worker.js</code> leaks ~4–5 GB/h, provider-agnostic</td>
+<td>14</td>
+<td>Fresh P0 leak.</td>
+</tr>
+</tbody></table>
+<p><strong>Underlying needs:</strong> (1) <strong>Storage-lifecycle discipline</strong> — WAL, <code>memory_index_chunks</code>, <code>memory_embedding_cache</code> all grow without bound; users want retention/compaction defaults. (2) <strong>Windows parity</strong> — an outsized share of regressions are win32-only. (3) <strong>Large-scale reliability</strong> — the 632-agent fleet and large-session-store reports point to architectural limits in the state DB and event loop. (4) <strong>Honest error surfaces</strong> — multiple issues complain that user-facing errors misattribute cause (inference &quot;unreachable&quot; when it&#39;s a supersede bug).</p>
+<hr>
+<h2>5. Bugs &amp; Stability</h2>
+<p>Ranked by severity (P0 first), with fix-PR presence where known:</p>
+<p><strong>P0 / crash-loop / release blockers</strong></p>
+<ol>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/143524">#143524</a></strong> — SQLite WAL unbounded growth, gateway startup blocked (Windows). <em>No fix PR.</em></li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/149538">#149538</a></strong> — Gateway ready but never serves; event loop starved; RSS climbs (632-agent fleet). <em>Needs info.</em></li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/159662">#159662</a></strong> — <code>prepared-model-catalog.worker.js</code> ~4–5 GB/h leak. <em>No fix PR.</em> Related: <strong><a href="https://github.com/openclaw/openclaw/issues/160522">#160522</a></strong> (1.15 GB despite 512 MB cap).</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/160521">#160521</a></strong> — Gateway crash: read-admission seal → unhandled rejection in <code>reconcileActive</code>. <em>Needs live repro.</em></li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/158239">#158239</a></strong> — Gateway fails to start on kernels &lt; 5.6 (no <code>openat2</code>, JS fs-safe fallback). <em>No fix PR.</em></li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/160386">#160386</a></strong> — 2026.9.6 severe SQLite I/O pressure, WebUI RPC timeouts, <code>STATE_DATABASE_READ_ADMISSION_INVALIDATED</code> on large stores.</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/155859">#155859</a></strong> — Startup wall-time scales with plugin count; discord/codex/weixin dominate 120 s budget.</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/115642">#115642</a></strong> — Billing cooldown outlives provider outage on subscription auth (~5 h lockout).</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/115256">#115256</a></strong> — Desktop app boot-loops the gateway; <code>doctor</code> fix is reverted by the app.</li>
+</ol>
+<p><strong>P1 / regressions</strong></p>
+<ul>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/97616">#97616</a></strong> — Zombie child-process leak (Jun 29, still open).</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/84037">#84037</a></strong> — Codex app-server steady-state CPU/helper overhead.</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/114234">#114234</a></strong> — Usage-cost refresh lock unreleasable after PID-reusing restart (containers).</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/114211">#114211</a></strong> — Matrix room agents loop on no-reply output / stale replay.</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/148707">#148707</a></strong> — Message loss on session displacement.</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/161976">#161976</a></strong> — WhatsApp DM replies fail at durable registry handoff post-restart.</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/157126">#157126</a></strong> — claude-cli MCP bridge inherits first-request scope; owner turns lose <code>operator.admin</code> (security).</li>
+<li><strong><a href="https://github.com/openclaw/openclaw/issues/91804">#91804</a></strong> — Internal reasoning leakage (privacy regression since 2026.6.5).</li>
+</ul>
+<p><strong>Windows cluster (largely closed today):</strong> <a href="https://github.com/openclaw/openclaw/issues/161953">#161953</a>, <a href="https://github.com/openclaw/openclaw/issues/161828">#161828</a>, <a href="https://github.com/openclaw/openclaw/issues/161654">#161654</a>, <a href="https://github.com/openclaw/openclaw/issues/157067">#157067</a> — all closed; backport tracked in <strong><a href="https://github.com/openclaw/openclaw/pull/163074">PR #163074</a></strong>.</p>
+<p><strong>Fix-PR status:</strong> Most open P0s have <code>clawsweeper:no-new-fix-pr</code>. PRs exist for <code>exec</code> approval replay (<a href="https://github.com/openclaw/openclaw/pull/138396">#138396</a>), domain/IMAP routing (<a href="https://github.com/openclaw/openclaw/pull/138120">#138120</a>), and Codex concurrency (<a href="https://github.com/openclaw/openclaw/pull/138089">#138089</a>) — all marked <code>stale</code> and awaiting maintainer review.</p>
+<hr>
+<h2>6. Feature Requests &amp; Roadmap Signals</h2>
+<table>
+<thead>
+<tr>
+<th>Request</th>
+<th>Issue</th>
+<th>Status / Prediction</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Denylist mode for <code>exec-approvals</code></strong> (&quot;allow all except X&quot;)</td>
+<td><a href="https://github.com/openclaw/openclaw/issues/6615">#6615</a> (8 👍, since Feb 1), <a href="https://github.com/openclaw/openclaw/issues/71097">#71097</a></td>
+<td>Duplicate-tracked, <code>needs-security-review</code>. <strong>Likely candidate for a security-focused minor</strong> — low blast radius, clear ask, twice-filed.</td>
+</tr>
+<tr>
+<td><strong>Audit log for agent memory changes</strong> (append-only, tamper detection)</td>
+<td><a href="https://github.com/openclaw/openclaw/issues/20935">#20935</a></td>
+<td><code>needs-product-decision</code>. Pairs naturally with the <code>memory-core</code> retention bugs; <strong>plausible next-cycle roadmap item</strong> if the storage rework lands.</td>
+</tr>
+<tr>
+<td><strong>Short-term recall retention / dreaming promotion</strong> fixes</td>
+<td><a href="https://github.com/openclaw/openclaw/issues/150635">#150635</a>, <a href="https://github.com/openclaw/openclaw/issues/121232">#121232</a></td>
+<td>Ranker/applier disagreement is a functional gap; strong signal for a memory-core overhaul.</td>
+</tr>
+<tr>
+<td><strong>MCP tool exposure into subagents</strong></td>
+<td><a href="https://github.com/openclaw/openclaw/issues/85030">#85030</a> (closed), <a href="https://github.com/openclaw/openclaw/issues/114154">#114154</a></td>
+<td>Closed-then-residual; keep watching for regressions in <code>bundle-mcp</code>.</td>
+</tr>
+<tr>
+<td><strong>Doctor/update hygiene</strong></td>
+<td><a href="https://github.com/openclaw/openclaw/pull/138040">#138040</a>, <a href="https://github.com/openclaw/openclaw/pull/137944">#137944</a>,</td>
+<td></td>
+</tr>
+</tbody></table>
+<hr>
+<h2>Cross-Ecosystem Comparison</h2>
+<p><strong>Caveat:</strong> Only the OpenClaw digest was successfully generated. Hermes Agent’s summary failed, so no Hermes issue/PR/release metrics are available. This report is therefore an OpenClaw-centric benchmark with a Hermes visibility gap; no Hermes numbers have been inferred.</p>
+<hr>
+<h2>1. Ecosystem Overview</h2>
+<p>The personal AI assistant / agent open-source ecosystem in late 2026 is shifting from “does it run?” to “does it run safely, cheaply, and at fleet scale?” OpenClaw shows a high-velocity core gateway project under stability strain: massive issue/PR throughput, an LTS-style backport process, and growing enterprise-scale concerns around storage lifecycle, Windows parity, memory leaks, and multi-agent authority. Hermes Agent data is unavailable, so cross-project comparison is limited, but the OpenClaw signals likely generalize: MCP/subagent orchestration, auditability, exec approvals, memory retention, and honest error surfaces are becoming table stakes. The ecosystem is maturing, but maintainer triage and release engineering are now visible bottlenecks.</p>
+<hr>
+<h2>2. Activity Comparison</h2>
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>Issues</th>
+<th>PRs</th>
+<th>Release Status</th>
+<th>Health Score</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>OpenClaw</strong></td>
+<td>500 touched in 24h; 303 open/active; 197 closed</td>
+<td>500 touched in 24h; 319 open; 181 merged/closed</td>
+<td><strong>v2026.8.34</strong> gateway-only <code>extended-stable</code> LTS patch; <strong>2026.9.8 RC</strong> backport in progress via PR #163074; no separate 2026.9.x patch today</td>
+<td>No formal numeric score in source. Qualitative: <strong>high-throughput, stability-strained</strong>; mature release governance but elevated production risk</td>
+</tr>
+<tr>
+<td><strong>Hermes Agent</strong></td>
+<td>Summary generation failed; no data</td>
+<td>Summary generation failed; no data</td>
+<td>Unknown</td>
+<td>Unknown</td>
+</tr>
+</tbody></table>
+<p><strong>OpenClaw signal:</strong> Activity is extremely high but bifurcated — healthy closure of Windows regression clusters, alongside unresolved P0 crash-loop, memory-leak, and disk-growth reports.</p>
+<hr>
+<h2>3. OpenClaw’s Position</h2>
+<p><strong>Advantages vs. available peer data:</strong> OpenClaw is the clearest reference implementation in this dataset. It has a large community surface — 500 issues and 500 PRs touched in 24h, with a hot issue at 103 comments — and a mature release ladder: conservative <code>extended-stable</code> LTS plus fast-moving <code>2026.9.x</code> lines. It supports broad platform and integration coverage: Windows/macOS/Linux, SSH sandboxing, cron/scheduled agents, MCP, plugin generation, and IM bridges such as Feishu, Matrix, and WhatsApp.</p>
+<p><strong>Technical approach differences:</strong> OpenClaw is gateway-centric, with a gateway-only LTS artifact, SQLite WAL/state DB persistence, worker processes, plugin inventory drift fixes, MCP subagent injection, and a triage bot (<code>clawsweeper</code>) applying labels like <code>needs-product-decision</code>, <code>needs-security-review</code>, and <code>manual-only</code>. This is closer to an operations-grade assistant platform than a lightweight agent framework.</p>
+<p><strong>Community size:</strong> By the available data, OpenClaw is very large and highly active. However, without Hermes metrics, direct peer comparison is impossible. OpenClaw’s scale is also its stress point: a 632-agent fleet report, large-session SQLite pressure</p>
+<hr>
+<h2>Peer Project Reports</h2>
+<details>
+<summary><strong>Hermes Agent</strong> — <a href="https://github.com/nousresearch/hermes-agent">nousresearch/hermes-agent</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI 官方内容追踪报告 2026-10-02</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-02/ai-web</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-02/ai-web</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description>AI 官方内容追踪报告 2026-10-02 今日更新 | 新增内容: 14 篇 | 生成时间: 2026-10-02 03:49 UTC 数据来源: Anthropic: anthropic.com — 新增 6 篇（sitemap 共 454 条） OpenAI: openai.com — 新增 8 篇（sitemap 共 1046 条） AI 官方内容追踪报告（2026-10-02 增量） 报告说明：本次为增量更新。Anthropic 抓取到 6 篇新内容，含正文节选，可进行内容提炼；OpenAI 抓取到 8 条记录，但均为仅元数据模式，标题由 URL 路径推断、无正文。因此，OpenAI 部分仅做客观列举，不推测标题含义，不编造摘要。若后续需要完整判断，需补抓正文。 1. 今日速览 Anthropic 在 9/29–10/1 形成密集发布组合拳：覆盖科学加速、金融企业落地、生命科学验证、机器人/LLM 劳动力影响、公众 AI 态度、前沿网络能力扩散六大主题。 商业化最强信号来自 Barclays：Barclays 将 Claude 扩展至全行，并预计 Claude Code 到...</description>
+      <content:encoded><![CDATA[<h1>AI 官方内容追踪报告 2026-10-02</h1>
+<blockquote>
+<p>今日更新 | 新增内容: 14 篇 | 生成时间: 2026-10-02 03:49 UTC</p>
+</blockquote>
+<p>数据来源:</p>
+<ul>
+<li>Anthropic: <a href="https://www.anthropic.com">anthropic.com</a> — 新增 6 篇（sitemap 共 454 条）</li>
+<li>OpenAI: <a href="https://openai.com">openai.com</a> — 新增 8 篇（sitemap 共 1046 条）</li>
+</ul>
+<hr>
+<h1>AI 官方内容追踪报告（2026-10-02 增量）</h1>
+<blockquote>
+<p><strong>报告说明</strong>：本次为增量更新。Anthropic 抓取到 6 篇新内容，含正文节选，可进行内容提炼；OpenAI 抓取到 8 条记录，但均为仅元数据模式，标题由 URL 路径推断、无正文。因此，OpenAI 部分仅做客观列举，不推测标题含义，不编造摘要。若后续需要完整判断，需补抓正文。</p>
+</blockquote>
+<hr>
+<h2>1. 今日速览</h2>
+<ol>
+<li><strong>Anthropic 在 9/29–10/1 形成密集发布组合拳</strong>：覆盖科学加速、金融企业落地、生命科学验证、机器人/LLM 劳动力影响、公众 AI 态度、前沿网络能力扩散六大主题。</li>
+<li><strong>商业化最强信号来自 Barclays</strong>：Barclays 将 Claude 扩展至全行，并预计 Claude Code 到 2026 年底覆盖 50% 开发者，2027 年覆盖多数软件工程师。</li>
+<li><strong>安全与专业化并进</strong>：Anthropic 推出 Life Sciences Verification Program，向通过验证的生命科学团队提供 Mythos、Opus、Sonnet 更宽松生物安全工作流；同时 Frontier Red Team 点名 GLM-5.3 缺乏有效保障，安全绕过率高达 64%–100%。</li>
+<li><strong>研究侧提出新方法论</strong>： “Claude-shaped science” 主张让模型寻找最适合自身能力的问题，并构建 BootLoops 定量计算工具包；机器人暴露指数称约 80% 任务工时已暴露于机器人或 LLM。</li>
+<li><strong>OpenAI 同期有 DevDay 2026 Recap、若干 introducing 条目、零售合作和安全训练条目</strong>，但仅有元数据，无法评估实质内容，因此不纳入内容级战略判断。</li>
+</ol>
+<hr>
+<h2>2. Anthropic / Claude 内容精选</h2>
+<h3>2.1 News / 企业与合作</h3>
+<h4>1. Barclays scales Claude to upgrade operations and improve client experience</h4>
+<ul>
+<li><strong>发布日期</strong>：2026-10-01</li>
+<li><strong>链接</strong>：<a href="https://www.anthropic.com/news/barclays-scales-claude">https://www.anthropic.com/news/barclays-scales-claude</a></li>
+<li><strong>核心内容</strong>：Barclays 扩大与 Anthropic 的战略合作，将 Claude 集成到全球业务中，用于加速软件开发、现代化遗留系统、提升运营效率。作为 rollout 的一部分，Barclays 预计 Claude Code 采用率在 2026 年底达到其开发者群体的 50%，2027 年达到软件工程师的大多数。</li>
+<li><strong>业务意义</strong>：这是 Anthropic 在高度监管的金融行业拿下的标杆性企业规模化案例。它强调的不只是模型能力，还包括治理、安全、客户体验和流程重塑，说明 Claude Code 正从个人开发者工具进入大型银行的核心工程流程。</li>
+</ul>
+<h4>2. Introducing the Life Sciences Verification Program</h4>
+<ul>
+<li><strong>抓取标注日期</strong>：2026-09-30；节选正文标注 Sep 17, 2026</li>
+<li><strong>链接</strong>：<a href="https://www.anthropic.com/news/life-sciences-verification-program">https://www.anthropic.com/news/life-sciences-verification-program</a></li>
+<li><strong>核心内容</strong>：Anthropic 推出 Life Sciences Verification Program（LSVP），面向生命科学专业团队和机构开放 Mythos、Opus、Sonnet 模型，并提供对生物学工作更宽松的安全保障。该计划支持药物发现、研究生物学、临床开发和制造等当前在通用 Fable 模型中受限的任务。</li>
+<li><strong>准入机制</strong>：申请者需经过研究资质、安全标准和伦理研究监督验证。通过后可申请 “Standard Use” 或 “High-risk Use” 两类授权，并可通过 Claude Science、Claude.ai、Claude Code 和 API 使用。早期已 onboard 数十家组织，未来将扩展至 Pro 和 Max 个人计划。</li>
+<li><strong>战略意义</strong>：这是 Anthropic 在生命科学垂直领域的制度化尝试：通过验证与分级授权，在释放高价值专业能力的同时控制生物安全风险。</li>
+</ul>
+<hr>
+<h3>2.2 Research / 研究与方法论</h3>
+<h4>3. Claude-shaped science</h4>
+<ul>
+<li><strong>发布日期</strong>：2026-10-01</li>
+<li><strong>链接</strong>：<a href="https://www.anthropic.com/research/claude-shaped-science">https://www.anthropic.com/research/claude-shaped-science</a></li>
+<li><strong>核心内容</strong>：客座作者 Prof. Matthew Schwartz 描述了一种 AI 加速科学的新方法。他不再“对抗” Claude，而是让 Claude 寻找 “Claude-shaped” 问题，即最适合当前一代 LLM 能力的问题。由此构建了 BootLoops，一个用于定量科学精确计算的工具包。</li>
+<li><strong>关键发现</strong>：类似计算常出现在差异很大的科学领域，Claude 因此发现生态学、群体遗传学等十多个领域的连接。但这些连接起初技术正确却科学上不显著，Schwartz 随后与领域专家合作，将 BootLoops 导向这些领域真正关心的问题。</li>
+<li><strong>隐含信号</strong>：Anthropic 正在推动从“通用聊天助手”向“科学发现 agent 与工具链”延伸。文中也承认学术科学家使用模型时存在落差：当前成功多为有明确边界、对既有技术的扩展应用。</li>
+</ul>
+<h4>4. Can we predict the jobs robots will do? / What work can robots do?</h4>
+<ul>
+<li><strong>发布日期</strong>：2026-09-30</li>
+<li><strong>链接</strong>：<a href="https://www.anthropic.com/research/what-work-can-robots-do">https://www.anthropic.com/research/what-work-can-robots-do</a></li>
+<li><strong>核心内容</strong>：Anthropic 提出 “robot exposure index”，衡量当前机器人能执行哪些岗位任务。机器人可执行美国四分之三的物理任务，占 34% 工作小时，但大多限于受控环境。</li>
+<li><strong>关键数据</strong>：暴露于机器人风险的工人更可能为男性、受教育程度较低、薪酬较低。驾驶和仓储岗位高度暴露；护理和一般维修岗位暴露低。总体看，约 80% 工作任务工时已暴露于机器人或 LLM。</li>
+<li><strong>成本与趋势</strong>：机器人目前仅对 0.3% 岗位任务具备成本竞争力；若价格按过去趋势下降，需 40 年该比例才达 10%。过去 50 年，高机器人暴露岗位的工资和就业下降更明显；每年机器人可多做约 2% 的物理工作。</li>
+<li><strong>战略意义</strong>：这是 Anthropic 经济影响研究的一部分，可能为 AI 劳动力政策、再培训政策和监管讨论提供数据基础。</li>
+</ul>
+<h4>5. What do you want from AI?</h4>
+<ul>
+<li><strong>抓取标注日期</strong>：2026-09-30；节选正文标注 Sep 29, 2026</li>
+<li><strong>链接</strong>：<a href="https://www.anthropic.com/research/your-thoughts-on-ai">https://www.anthropic.com/research/your-thoughts-on-ai</a></li>
+<li>**</li>
+</ul>
+<hr>
+<p><em>本日报由 <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Official AI Content Report 2026-10-02</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-02/ai-web-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-02/ai-web-en</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Official AI Content Report 2026-10-02 Today&amp;#39;s update | New content: 14 articles | Generated: 2026-10-02 03:49 UTC Sources: Anthropic: anthropic.com — 6 new articles (sitemap total: 454) OpenAI: openai.com — 8 new articles (sitemap total: 1046) AI Official Content Tracking Report Crawl date: 2026-10-02Scope: Incremental update — Anthropic (claude.com / anthropic.com) and OpenAI (openai.com)Analyst note: Anthropic items include article excerpts. OpenAI items are metadata-only; titles are deriv...</description>
+      <content:encoded><![CDATA[<h1>Official AI Content Report 2026-10-02</h1>
+<blockquote>
+<p>Today&#39;s update | New content: 14 articles | Generated: 2026-10-02 03:49 UTC</p>
+</blockquote>
+<p>Sources:</p>
+<ul>
+<li>Anthropic: <a href="https://www.anthropic.com">anthropic.com</a> — 6 new articles (sitemap total: 454)</li>
+<li>OpenAI: <a href="https://openai.com">openai.com</a> — 8 new articles (sitemap total: 1046)</li>
+</ul>
+<hr>
+<h1>AI Official Content Tracking Report</h1>
+<p><strong>Crawl date:</strong> 2026-10-02<br><strong>Scope:</strong> Incremental update — Anthropic (claude.com / anthropic.com) and OpenAI (openai.com)<br><strong>Analyst note:</strong> Anthropic items include article excerpts. OpenAI items are metadata-only; titles are derived from URL slugs and may be inaccurate. No OpenAI content summaries are inferred.</p>
+<hr>
+<h2>1. Today’s Highlights</h2>
+<p>Anthropic’s update is dominated by enterprise and regulated-market scaling: Barclays is expanding Claude across global operations, with Claude Code adoption targeted at 50% of its developer population by end-2026 and a majority of software engineers in 2027. The new Life Sciences Verification Program opens tiered, verified access to Mythos, Opus, and Sonnet models for biology-related work, including drug discovery and clinical development. Anthropic also published a frontier cyber analysis warning that Zhipu AI’s GLM-5.3 can autonomously build end-to-end exploits and has weak safeguards, with 64–100% bypass rates in simulated tests. On the science side, a guest post introduces “Claude-shaped” problem selection and BootLoops, a toolkit for exact quantitative calculations. OpenAI’s crawl is metadata-only: eight index entries around Oct 1–2, including duplicate posts for Dots, GPT 6.1 Sol, and DevDay 2026 Recap, plus a Sep 29 safety-cases URL; no article text is available for verification.</p>
+<hr>
+<h2>2. Anthropic / Claude Content Highlights</h2>
+<h3>News</h3>
+<h4>Barclays scales Claude to upgrade operations and improve client experience</h4>
+<ul>
+<li><strong>Published/Updated:</strong> 2026-10-01  </li>
+<li><strong>Link:</strong> <a href="https://www.anthropic.com/news/barclays-scales-claude">https://www.anthropic.com/news/barclays-scales-claude</a>  </li>
+<li><strong>Core insights:</strong> Barclays is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across global operations. The bank is extending Claude to accelerate software development, modernize legacy systems, and improve operational efficiency. A concrete adoption KPI is disclosed: Claude Code is expected to reach 50% of Barclays’ developer population by the end of 2026, rising to a majority of software engineers in 2027. The announcement emphasizes disciplined governance inside a large, complex, and highly regulated organization, with customer support and process transformation as intended outcomes.</li>
+</ul>
+<h4>Introducing the Life Sciences Verification Program</h4>
+<ul>
+<li><strong>Published/Updated:</strong> Crawl lists 2026-09-30; article excerpt states Sep 17, 2026  </li>
+<li><strong>Link:</strong> <a href="https://www.anthropic.com/news/life-sciences-verification-program">https://www.anthropic.com/news/life-sciences-verification-program</a>  </li>
+<li><strong>Core insights:</strong> The Life Sciences Verification Program (LSVP) gives verified life-science professionals access to Mythos, Opus, and Sonnet models with safeguards that are more permissive for biology-related work. It is designed to unlock tasks blocked in generally available Fable models, such as drug discovery, research biology, clinical development, and manufacturing. Applicants undergo verification of research credentials, security standards, and ethical research oversight, then may apply for “Standard Use” or “High-risk Use” grants. Access spans Claude Science, Claude.ai, Claude Code, and the API; the beta initially targets teams and institutions, with individual Pro and Max plans planned for later expansion.</li>
+</ul>
+<h3>Research</h3>
+<h4>Claude-shaped science</h4>
+<ul>
+<li><strong>Published/Updated:</strong> 2026-10-01  </li>
+<li><strong>Link:</strong> <a href="https://www.anthropic.com/research/claude-shaped-science">https://www.anthropic.com/research/claude-shaped-science</a>  </li>
+<li><strong>Core insights:</strong> In a guest post, Prof. Matthew Schwartz describes allowing Claude to find “Claude-shaped” problems — problems best suited to the current generation of LLM tools — rather than forcing the model into traditional scientific workflows. This led to BootLoops, a toolkit for exact calculations in quantitative science. Claude found cross-domain connections to ecology, population genetics, and other fields; these were often technically correct but scientifically unremarkable until domain experts steered the toolkit toward questions those fields care about. The strategic signal is that AI-accelerated science may require capability-aware problem formulation plus expert-in-the-loop steering, not just raw model scaling.</li>
+</ul>
+<h4>Can we predict the jobs robots will do?</h4>
+<ul>
+<li><strong>Published/Updated:</strong> 2026-09-30  </li>
+<li><strong>Link:</strong> <a href="https://www.anthropic.com/research/what-work-can-robots-do">https://www.anthropic.com/research/what-work-can-robots-do</a>  </li>
+<li><strong>Core insights:</strong> Anthropic presents a robot exposure index based on how well current robots can perform job tasks. It finds robots can perform three-quarters of physical tasks in the US, making up 34% of working hours, but mostly in limited settings; driving and warehouse jobs are highly exposed, while nursing and general repair are not. Overall, about 80% of job tasks by working time are exposed to either robots or LLMs. Cost remains a major barrier: robots are cost-competitive for just 0.3% of job tasks, and if price declines follow past trends, it would take 40 years for that share to reach 10%. The paper also notes that over the past 50 years, jobs more exposed to robots saw greater declines in wages and employment, with exposure growing by about 2% of physical work per year.</li>
+</ul>
+<h4>What do you want from AI?</h4>
+<ul>
+<li><strong>Published/Updated:</strong> Crawl lists 2026-09-30; excerpt states Sep 29, 2026  </li>
+<li><strong>Link:</strong> <a href="https://www.anthropic.com/research/your-thoughts-on-ai">https://www.anthropic.com/research/your-thoughts-on-ai</a>  </li>
+<li><strong>Core insights:</strong> Anthropic is launching a new study using “Anthropic Interviewer” to collect public experiences with AI. Participants can choose to make their interviews public, allowing anyone — not just Anthropic — to read and learn from them. The study asks about meaningful positive and negative experiences, what people want AI to change in work, school, healthcare, or government, and what they want from AI companies. It builds on a December study in which 81,000 people shared hopes and worries; that earlier work shaped the Anthropic Institute’s agenda, was presented at the World Economic Forum, and continues to guide societal-impact work.</li>
+</ul>
+<h4>GLM-5.3 and the spread of advanced cyber capabilities</h4>
+<ul>
+<li><strong>Published/Updated:</strong> Crawl lists 2026-09-30; excerpt states Sep 29, 2026  </li>
+<li><strong>Link:</strong> [<a href="https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities%5D">https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities]</a>(<a href="https://www.anthropic.com">https://www.anthropic.com</a></li>
+</ul>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI 开源趋势日报 2026-10-02</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-02/ai-trending</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-02/ai-trending</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description>AI 开源趋势日报 2026-10-02 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-10-02 03:49 UTC AI 开源趋势日报（2026-10-02） 过滤说明：Trending 中 firebase-ios-sdk、yoinks、GhostTrack 与 AI/ML 无明确关系，已略去。Trending 源总星标显示为 0，以下以“今日新增”为主；主题搜索项目标注总星标。 1. 今日速览 今日 AI 热榜几乎被“Agent 工程化”占领：skills、runtime、context、multi-agent、plugin 全线升温。 NVIDIA/OpenShell 以 +2456 成为最高新增，安全、私有的 Agent 运行时成为刚需基建。 编码代理生态持续外溢：Claude Code、Codex、Cursor、Pi 周边催 本日报由 agents-radar 自动生成。</description>
+      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-10-02</h1>
+<blockquote>
+<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-10-02 03:49 UTC</p>
+</blockquote>
+<hr>
+<h1>AI 开源趋势日报（2026-10-02）</h1>
+<blockquote>
+<p>过滤说明：Trending 中 <code>firebase-ios-sdk</code>、<code>yoinks</code>、<code>GhostTrack</code> 与 AI/ML 无明确关系，已略去。Trending 源总星标显示为 0，以下以“今日新增”为主；主题搜索项目标注总星标。</p>
+</blockquote>
+<h2>1. 今日速览</h2>
+<ul>
+<li>今日 AI 热榜几乎被“Agent 工程化”占领：skills、runtime、context、multi-agent、plugin 全线升温。</li>
+<li><a href="https://github.com/NVIDIA/OpenShell">NVIDIA/OpenShell</a> 以 +2456 成为最高新增，安全、私有的 Agent 运行时成为刚需基建。</li>
+<li>编码代理生态持续外溢：Claude Code、Codex、Cursor、Pi 周边催</li>
+</ul>
+<hr>
+<p><em>本日报由 <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Open Source Trends 2026-10-02</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-02/ai-trending-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-02/ai-trending-en</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description>AI Open Source Trends 2026-10-02 Sources: GitHub Trending + GitHub Search API | Generated: 2026-10-02 03:49 UTC ⚠️ Trending report generation failed. This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>AI Open Source Trends 2026-10-02</h1>
+<blockquote>
+<p>Sources: GitHub Trending + GitHub Search API | Generated: 2026-10-02 03:49 UTC</p>
+</blockquote>
+<hr>
+<p>⚠️ Trending report generation failed.</p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>ArXiv AI Research Digest 2026-10-02</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-02/ai-arxiv-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-02/ai-arxiv-en</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description>ArXiv AI Research Digest 2026-10-02 Source: ArXiv (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-10-02 03:49 UTC ArXiv AI Research Digest — 2026-10-01 1. Today&amp;#39;s Highlights Today&amp;#39;s submissions are dominated by a coordinated push on post-training efficiency and reliability: new optimizers (TACO, SoftServe, ZFO, LoRA gain normalization) attack optimizer-state memory and step-size sensitivity, while several papers interrogate what RLVR and SFT actually do to a model&amp;#39;s language, rea...</description>
+      <content:encoded><![CDATA[<h1>ArXiv AI Research Digest 2026-10-02</h1>
+<blockquote>
+<p>Source: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-10-02 03:49 UTC</p>
+</blockquote>
+<hr>
+<h1>ArXiv AI Research Digest — 2026-10-01</h1>
+<h2>1. Today&#39;s Highlights</h2>
+<p>Today&#39;s submissions are dominated by a coordinated push on <strong>post-training efficiency and reliability</strong>: new optimizers (TACO, SoftServe, ZFO, LoRA gain normalization) attack optimizer-state memory and step-size sensitivity, while several papers interrogate what RLVR and SFT actually do to a model&#39;s language, reasoning, and retention. A second cluster scrutinizes <strong>agent infrastructure</strong> — context compaction, non-destructive long-term memory, and new enterprise/security/tool-use benchmarks that expose false-positive evaluation. A third, quieter thread is <strong>methodological skepticism</strong>: work on self-repair, circuit-discovery objectives, and novelty judging suggests the field is increasingly auditing its own interpretability and evaluation claims. Finally, generative modeling advances span hierarchical continuous diffusion LMs, equivariant/3D generation, and chemistry-aware molecular representations.</p>
+<hr>
+<h2>2. Key Papers</h2>
+<h3>🧠 Large Language Models</h3>
+<ul>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02193v1">Hierarchical Continuous Diffusion Language Models</a></strong> — H. Ren, Z. Li, C. Liu et al.
+Proposes hierarchical continuous diffusion to fix the independent-marginal sampling bottleneck of parallel decoding, potentially improving global-constraint satisfaction in non-autoregressive generation.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02140v1">Finetuning with Sampling: SFT Learns Better Than You Think</a></strong> — A. Karan, S. Chen, Y. Du
+Challenges the conventional wisdom that RL generalizes to new tasks better than SFT, with implications for how post-training budgets should be allocated.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02015v1">On Language Drift during RLVR Post-Training</a></strong> — M. Sullivan, A. Koller
+Documents systematic language degradation accompanying RLVR-driven reasoning gains — an important capability/faithfulness trade-off for reasoning models.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02179v1">From Gradients to Capabilities: Understanding Multi-Teacher On-Policy Distillation</a></strong> — S. Zhu, S. Huang, K. Zhang et al.
+Traces how individual RL-trained teacher signals map to parameter changes in a distilled student, moving multi-teacher distillation from heuristic to analysis-driven.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02191v1">The Missing Primitive: Diagnosing and Repairing Mathematical Reasoning in LLMs</a></strong> — S. Xing, Z. Dai, C. Qian et al.
+Separates surface-level answer accuracy from structural mathematical understanding, offering a diagnostic-and-repair protocol for reasoning failures.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02199v1">TACO: Ternary Absolute-max Column-wise One-sparse Optimizer for LLM Fine-Tuning</a></strong> — J. Jiang, C. McGee, E. H. Bergou et al.
+Compresses optimizer state to ternary, column-wise one-sparse form, targeting the memory wall that limits full-parameter fine-tuning on modern GPUs.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02067v1">Learn the Directions, Normalize the Gains: Post-Training Normalization for LoRA</a></strong> — Z. Tian, Y. Chen, Z. Han et al.
+Identifies &quot;adaptation imbalance&quot; in LoRA updates — a few dominant singular directions — and normalizes gains to preserve out-of-task capabilities.</p>
+</li>
+</ul>
+<h3>🤖 Agents &amp; Reasoning</h3>
+<ul>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02163v1">AutoCompact: Learning When to Compact Context in Long-Horizon Coding Agents</a></strong> — X. Zhang, L. Zheng, C. Du et al.
+Reframes context management as a learned decision of <em>when</em> and <em>what</em> to compact, rather than a fixed overflow-triggered heuristic for repository-scale coding.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02002v1">Mem++: Non-Destructive Memory for Long-Term Organizational LLM Agents</a></strong> — A. Yehia, A. O. Abdelkareem, I. Ahmed et al.
+Preserves versioned decisions across months of documents so agents can answer time-indexed questions instead of overwriting prior organizational memory.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02206v1">KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards</a></strong> — P. Li, N. Suryanto, S. Zhang et al.
+Directly measures LLMs&#39; ability to emit executable security tool commands with verifiable rewards, filling a gap between knowledge QA and end-to-end agentic tests.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02202v1">ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research</a></strong> — S. Kim, Y. Lee, B. Liu et al.
+Shifts retrieval evaluation from topical relevance to <em>inspiration</em> — which prior work a new problem actually needs — grounded in researchers&#39; first-hand judgments.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02142v1">Keyword Harnesses Fail Open: A Cheap Diagnostic Ladder for Tool-Use Claims in Small Language Models</a></strong> — J. S. Santillana
+Documents a concrete false positive in keyword-matching tool-use benchmarks and supplies a cheap, strict diagnostic ladder to catch such failures.</p>
+</li>
+</ul>
+<h3>🔧 Methods &amp; Frameworks</h3>
+<ul>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02173v1">Every Ablation Is a Dose: Counterweights and the Semblance of Self-Repair</a></strong> — A. Ahmad, P. Seth, V. K. Sankarapu
+Argues apparent &quot;self-repair&quot; in ablated language models is largely a dose-response artifact of counterweights, challenging a widely cited mechanistic explanation.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02098v1">Are We Recovering Mechanisms? Objective-Level Recovery Gaps in Mechanistic Interpretability</a></strong> — C. Geng, L. Zhang, H. Ye et al.
+Shows that better scores on circuit-discovery objectives need not mean better mechanism recovery — a foundational caveat for automated interpretability.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02198v1">FERPO: Forward Entropy-Regularized Policy Optimization</a></strong> — S. Sanokowski, A. Sarmadi, M. Khadiv
+Targets the mismatch between accurate value predictions and accurate action <em>derivatives</em> in continuous-control critics, improving on-policy policy gradients.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02203v1">Embedding Prediction Helps Image Generation</a></strong> — S. Xu, J. Xie, Z. Wang et al.
+Introduces NEPA, replacing static per-step conditioning with predicted embeddings in diffusion transformers — a simple, transferable conditioning idea.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02126v1">Local Support Learning</a></strong> — A. Ben-Kish, A. Kumar, J. Glass et al.
+Reframes catastrophic forgetting geometrically in each weight matrix&#39;s input space and derives a retention objective that standard gradient updates handle suboptimally.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02159v1">When Do Intrinsic Rewards Lead to Exploration?</a></strong> — S. W. Viteri, L. Gomezjurado Gonzalez, C. Barrett
+Provides a formal criterion distinguishing intrinsic rewards that genuinely drive informative exploration from those merely maximized as objectives.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02043v1">Distributionally Robust Schrödinger Bridge</a></strong> — J. Sul, P. Theodoropoulos, V. Pacelli et al.
+Extends Schrödinger bridges to test-time shift in the initial distribution, learning transport dynamics that still recover the target under perturbation.</p>
+</li>
+</ul>
+<h3>📊 Applications</h3>
+<ul>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02117v1">Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes</a></strong> — S. Sirko-Galouchenko, M. Wysoczanska, A. Bursuc et al.
+Brings privileged-information self-distillation to multimodal models using synthetic scenes with known spatial ground truth, improving grounded reasoning.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02207v1">One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars</a></strong> — R. Fazylov, S. Lefkimmiatis, I. Laptev
+Replaces costly neural inference in 3D Gaussian avatar animation with identity-independent blendshape bases, enabling genuinely real-time rendering.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02189v1">Generative modeling of intrinsically disordered protein regions by reinforcing sparse autoencoder features</a></strong> — J. X. Liu, S. Ibarraran, F. Hu et al.
+Applies sparse-autoencoder feature reinforcement to design IDRs, where structure-based protein design methods do not readily apply.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02186v1">Higher-Order Molecular Grammars for Generative and Foundation Models in Chemistry</a></strong> — Y. Huang, Y. Zeng, V. P. Dwivedi et al.
+Encodes ring systems and recurring motifs explicitly as higher-order grammars, addressing a representational blind spot of sequential and graph molecular formalisms.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02019v1">Controllable Multi-label Video Safety Detection via Adaptive Tversky Policy Optimization</a></strong> — G. Yang, J. Mei, M. Sun et al.
+Uses an adaptive Tversky-based objective to let operators tune the precision/recall trade-off in VLM-based harmful video detection.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02058v1">Foundations without Fundamentals: Zero-Shot Blind Spots in Time Series FMs</a></strong> — N. Ghoroghchian, H. Zhang, S. Han et al.
+Introduces SimpleTimeBench, a &quot;unit test&quot; suite revealing that time series foundation models fail basic temporal logic, especially with exogenous covariates.</p>
+</li>
+</ul>
+<hr>
+<h2>3. Research Trend Signal</h2>
+<p>Three signals stand out from today&#39;s batch. First, <strong>post-training is being re-litigated from first principles</strong>: RLVR is shown to cause language drift, SFT is argued to generalize better than assumed, and multi-teacher distillation is analyzed at the gradient level. Second, <strong>agent infrastructure is maturing from prompts to systems engineering</strong> — learned context compaction, versioned non-destructive memory, and domain benchmarks (Kali Linux, enterprise data, paper retrieval) suggest the field is building the scaffolding that turns tool-using LLMs into deployable systems. Third, and most notably, <strong>the field is auditing itself</strong>: papers on self-repair artifacts, objective-level gaps in mechanistic interpretability, keyword-harness false positives, and novelty-judge instability all argue that headline metrics can systematically mislead. Optimization remains a live frontier too, with ternary optimizer states, quasi-Newton scaling, and decoupled direction/step selection all targeting the memory and stability limits of large-scale fine-tuning.</p>
+<hr>
+<h2>4. Worth Deep Reading</h2>
+<ol>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02015v1">On Language Drift during RLVR Post-Training</a></strong> — If RLVR reliably degrades language quality while boosting reasoning, this affects essentially every reasoning-model deployment. The paper&#39;s framing of the capability/faithfulness trade-off deserves careful reading for anyone doing RL post-training.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02173v1">Every Ablation Is a Dose: Counterweights and the Semblance of Self-Repair</a></strong> — A rare example of dismantling a popular mechanistic claim with a concrete alternative explanation. Read alongside <strong><a href="http://arxiv.org/abs/2610.02098v1">Are We Recovering Mechanisms?</a></strong> for a paired methodological warning about interpretability evaluation.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2610.02140v1">Finetuning with Sampling: SFT Learns Better Than You Think</a></strong> — A direct challenge to the &quot;RL generalizes, SFT memorizes&quot; narrative that shapes most modern post-training pipelines; the theoretical framing and sampling-based argument are worth the full read.</p>
+</li>
+</ol>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI CLI 工具社区动态日报 2026-09-29</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-09-29/ai-cli</link>
@@ -3362,1266 +4403,6 @@ v2.1.274 主动加入内存临界告警；用户侧则有 #94981（outbox retry 
 
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI Agents 生态日报 2026-09-17</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-09-17/ai-agents</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-09-17/ai-agents</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <description>OpenClaw 生态日报 2026-09-17 Issues: 500 | PRs: 500 | 覆盖项目: 2 个 | 生成时间: 2026-09-17 03:09 UTC OpenClaw Hermes Agent OpenClaw 项目深度报告 ⚠️ 摘要生成失败。 横向生态对比 数据可用性声明：本次输入中，OpenClaw 与 Hermes Agent 的摘要均生成失败，可用社区动态为 0 条。因此无法生成有事实数据支撑的横向对比；以下报告不编造 Issues/PR/Release 数字，所有需量化判断的结论均标注为“不可评估”。 1. 生态全景 2026-09-17 快照中，两个观察样本均未产出可用摘要，无法量化个人 AI 助手/自主智能体生态的整体活跃度。因此无法判断当前生态处于扩张、整合还是质量巩固阶段。唯一可确认的是分析框架设定：OpenClaw 被列为核心参照，Hermes Agent 作为对照项目。本次样本可用率为 0/2，任何趋势性结论都缺乏证据。建议摘要恢复后，按统一指标重跑生态对比。 2. 各项目活跃度对比 项目 今日 Issues 数 今日 PR 数 Re...</description>
-      <content:encoded><![CDATA[<h1>OpenClaw 生态日报 2026-09-17</h1>
-<blockquote>
-<p>Issues: 500 | PRs: 500 | 覆盖项目: 2 个 | 生成时间: 2026-09-17 03:09 UTC</p>
-</blockquote>
-<ul>
-<li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
-<li><a href="https://github.com/nousresearch/hermes-agent">Hermes Agent</a></li>
-</ul>
-<hr>
-<h2>OpenClaw 项目深度报告</h2>
-<p>⚠️ 摘要生成失败。</p>
-<hr>
-<h2>横向生态对比</h2>
-<blockquote>
-<p><strong>数据可用性声明</strong>：本次输入中，OpenClaw 与 Hermes Agent 的摘要均生成失败，可用社区动态为 <strong>0 条</strong>。因此无法生成有事实数据支撑的横向对比；以下报告不编造 Issues/PR/Release 数字，所有需量化判断的结论均标注为“不可评估”。</p>
-</blockquote>
-<h2>1. 生态全景</h2>
-<p>2026-09-17 快照中，两个观察样本均未产出可用摘要，无法量化个人 AI 助手/自主智能体生态的整体活跃度。<br>因此无法判断当前生态处于扩张、整合还是质量巩固阶段。<br>唯一可确认的是分析框架设定：OpenClaw 被列为核心参照，Hermes Agent 作为对照项目。<br>本次样本可用率为 <strong>0/2</strong>，任何趋势性结论都缺乏证据。<br>建议摘要恢复后，按统一指标重跑生态对比。</p>
-<h2>2. 各项目活跃度对比</h2>
-<table>
-<thead>
-<tr>
-<th>项目</th>
-<th align="right">今日 Issues 数</th>
-<th align="right">今日 PR 数</th>
-<th>Release 情况</th>
-<th>健康度评估</th>
-<th>数据状态</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>OpenClaw</td>
-<td align="right">未获取</td>
-<td align="right">未获取</td>
-<td>未获取</td>
-<td>不可评估</td>
-<td>摘要失败</td>
-</tr>
-<tr>
-<td>Hermes Agent</td>
-<td align="right">未获取</td>
-<td align="right">未获取</td>
-<td>未获取</td>
-<td>不可评估</td>
-<td>摘要失败</td>
-</tr>
-</tbody></table>
-<p><strong>汇总</strong>：今日无可比活跃度数据；健康度评分缺少基线，不能给出“高/中/低”判断。</p>
-<h2>3. OpenClaw 在生态中的定位</h2>
-<ul>
-<li><strong>基准角色</strong>：仅可确认其在本次分析中被设定为“核心参照”，但这属于报告框架设定，不是社区指标。</li>
-<li><strong>同类优势</strong>：无 Issues/PR/Release/贡献者数据，无法比较。</li>
-<li><strong>技术路线差异</strong>：无摘要、无 roadmap、无 release notes，无法判断。</li>
-<li><strong>社区规模对比</strong>：缺少 stars、贡献者数、Issue/PR 速率、下游集成等指标，无法评估。</li>
-<li><strong>最低补数需求</strong>：stars/forks、周/月活跃贡献者、Issue 开放/关闭比、PR 合并率、Release 频率、集成与协议支持。</li>
-</ul>
-<h2>4. 共同关注的技术方向</h2>
-<p>本日未能从摘要中提取任何共同关注项。</p>
-<table>
-<thead>
-<tr>
-<th>技术方向</th>
-<th>涉及项目</th>
-<th>具体诉求</th>
-<th>证据强度</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>暂无可用项</td>
-<td>暂无</td>
-<td>暂无</td>
-<td>0</td>
-</tr>
-</tbody></table>
-<p>不能将通用行业议题如记忆、工具调用、多智能体、本地部署等当作本日项目动态，因为它们未被输入数据证实。</p>
-<h2>5. 差异化定位分析</h2>
-<ul>
-<li><strong>功能侧重</strong>：不可评估。</li>
-<li><strong>目标用户</strong>：不可评估。</li>
-<li><strong>技术架构</strong>：不可评估。</li>
-<li><strong>原因</strong>：缺少 README、roadmap、Release notes、Issue labels、PR diff、文档与部署说明。</li>
-</ul>
-<p>在数据恢复前，不建议对 OpenClaw 与 Hermes Agent 的定位差异作事实判断。</p>
-<h2>6. 社区热度与成熟度</h2>
-<ul>
-<li><strong>活跃度分层</strong>：无法分层。</li>
-<li><strong>快速迭代阶段项目</strong>：无法识别。</li>
-<li><strong>质量巩固阶段项目</strong>：无法识别。</li>
-<li><strong>建议判定指标</strong>：Issue/PR 日增速、merged PR 数、Release cadence、bug/security 标签占比、首次响应时长、贡献者集中度、关闭率。</li>
-</ul>
-<p>当前结论：两个项目均处于“数据不足，不可评估”状态。</p>
-<h2>7. 值得关注的趋势信号</h2>
-<p>本日无可用社区反馈，不能提炼行业趋势。<br>对 AI 智能体开发者而言，当前最重要的信号不是技术路线，而是<strong>数据管道可靠性</strong>：摘要生成失败会直接导致生态监测失效。<br>摘要恢复后，建议优先扫描以下待验证信号：breaking changes、安全公告、权限与沙箱机制、工具调用/MCP 支持、多智能体编排、本地/云部署、模型供应商适配、评测与可观测性。<br>但需强调：这些是监控清单，不代表 2026-09-17 已出现相关社区动态。</p>
-<p><strong>总体结论</strong>：由于两个项目摘要均失败，本次无法形成有数据支撑的横向对比。建议先补充 Issues、PR、Release、贡献者、标签分布和讨论摘要，再重新生成正式报告。</p>
-<hr>
-<h2>同赛道项目详细报告</h2>
-<details>
-<summary><strong>Hermes Agent</strong> — <a href="https://github.com/nousresearch/hermes-agent">nousresearch/hermes-agent</a></summary>
-
-<p>⚠️ 摘要生成失败。</p>
-</details>
-
-<hr>
-<p><em>本日报由 <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI Agents Ecosystem Digest 2026-09-17</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-09-17/ai-agents-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-09-17/ai-agents-en</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <description>OpenClaw Ecosystem Digest 2026-09-17 Issues: 500 | PRs: 500 | Projects covered: 2 | Generated: 2026-09-17 03:09 UTC OpenClaw Hermes Agent OpenClaw Deep Dive OpenClaw Project Digest — 2026-09-17 1. Today&amp;#39;s Overview OpenClaw remains in a high-velocity, high-churn state: 500 issues and 500 pull requests were updated in the last 24 hours, with 331 issues still open/active (169 closed) and 296 PRs open (204 merged or closed). No new releases shipped, so the entire day&amp;#39;s work is concentrated o...</description>
-      <content:encoded><![CDATA[<h1>OpenClaw Ecosystem Digest 2026-09-17</h1>
-<blockquote>
-<p>Issues: 500 | PRs: 500 | Projects covered: 2 | Generated: 2026-09-17 03:09 UTC</p>
-</blockquote>
-<ul>
-<li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
-<li><a href="https://github.com/nousresearch/hermes-agent">Hermes Agent</a></li>
-</ul>
-<hr>
-<h2>OpenClaw Deep Dive</h2>
-<h1>OpenClaw Project Digest — 2026-09-17</h1>
-<h2>1. Today&#39;s Overview</h2>
-<p>OpenClaw remains in a high-velocity, high-churn state: 500 issues and 500 pull requests were updated in the last 24 hours, with 331 issues still open/active (169 closed) and 296 PRs open (204 merged or closed). No new releases shipped, so the entire day&#39;s work is concentrated on stabilizing the 2026.9.3 → 2026.9.4 upgrade path and the Gateway runtime. The dominant signal is a cluster of <strong>P0/P1 Gateway stability defects</strong> — memory leaks, crash-loops, zombie processes, and starvation on large agent fleets — several of which already have maintainer-authored fix PRs in review. On the positive side, maintainer throughput is strong (many <code>steipete</code>-authored fixes landed in the top PR set), and a number of long-standing bugs (#146265, #31331, #145929, #87407, #111985, #111578, #146719) were closed. Overall health: <strong>active but strained</strong>, with reliability of updates and large-fleet operation as the critical path.</p>
-<h2>2. Releases</h2>
-<p><strong>No new releases in this window.</strong> The most recent shipped line referenced throughout the dataset is <strong>2026.9.4</strong> (with 2026.9.3 as the prior stable), both of which are the subject of extensive update-failure and regression reports. No breaking-change or migration notes are available from this data.</p>
-<h2>3. Project Progress</h2>
-<p>No PR details were provided for the 204 merged/closed PRs, but the open PR pipeline shows a coordinated stabilization push, largely by maintainers:</p>
-<ul>
-<li><strong>Gateway crash theory → fix:</strong> <a href="https://github.com/openclaw/openclaw/pull/150427">PR #150427</a> &quot;keep child cleanup failures from crashing the Gateway&quot; (related to #144911, #144941).</li>
-<li><strong>Large-fleet memory growth:</strong> <a href="https://github.com/openclaw/openclaw/pull/150354">PR #150354</a> &quot;curb Gateway memory growth after large fleets start&quot; (related to #149538).</li>
-<li><strong>Reply-loop / duplicate-answer fixes:</strong> <a href="https://github.com/openclaw/openclaw/pull/150527">PR #150527</a> (P1, repeated <code>REPLY_SKIP</code> and child reply loops) and <a href="https://github.com/openclaw/openclaw/pull/150539">PR #150539</a> (closes #150410).</li>
-<li><strong>Update/upgrade recovery:</strong> <a href="https://github.com/openclaw/openclaw/pull/150494">PR #150494</a> &quot;continue when service inspection is unavailable,&quot; <a href="https://github.com/openclaw/openclaw/pull/150153">PR #150153</a> &quot;keep task recovery working across shared Gateway updates.&quot;</li>
-<li><strong>Agent/model selection correctness:</strong> <a href="https://github.com/openclaw/openclaw/pull/150423">PR #150423</a> (fixes #149796), <a href="https://github.com/openclaw/openclaw/pull/149916">PR #149916</a> (fixes #149867).</li>
-</ul>
-<p>Notable <strong>closed issues</strong> signaling resolved work: <a href="https://github.com/openclaw/openclaw/issues/146265">#146265</a> (AsyncWorkScope closed process-wide), <a href="https://github.com/openclaw/openclaw/issues/31331">#31331</a> (Docker workspaceAccess), <a href="https://github.com/openclaw/openclaw/issues/145929">#145929</a> (auth profile lock), <a href="https://github.com/openclaw/openclaw/issues/90098">#90098</a> (large attachments), <a href="https://github.com/openclaw/openclaw/issues/87407">#87407</a> (Anthropic socket fallback), <a href="https://github.com/openclaw/openclaw/issues/111985">#111985</a> (<strong>security</strong>: memory-core OAuth token to embeddings API), <a href="https://github.com/openclaw/openclaw/issues/111578">#111578</a> (gateway auth token dropped on update), <a href="https://github.com/openclaw/openclaw/issues/146719">#146719</a> (Windows updater path).</p>
-<h2>4. Community Hot Topics</h2>
-<table>
-<thead>
-<tr>
-<th>Item</th>
-<th>Comments</th>
-<th>Signal</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://github.com/openclaw/openclaw/issues/97616">#97616</a> — zombie child-process leak</td>
-<td>30</td>
-<td>P1, message-loss + crash-loop</td>
-</tr>
-<tr>
-<td><a href="https://github.com/openclaw/openclaw/issues/91588">#91588</a> — Gateway RSS 350MB → 15.5GB OOM</td>
-<td>25</td>
-<td>P1, session-state</td>
-</tr>
-<tr>
-<td><a href="https://github.com/openclaw/openclaw/issues/144911">#144911</a> — MCP init timeout crashes Gateway</td>
-<td>24</td>
-<td>Diamond-lobster triage, fix PR #150427 exists</td>
-</tr>
-<tr>
-<td><a href="https://github.com/openclaw/openclaw/issues/126360">#126360</a> — <code>AgentSelectionRequiredError</code> log flood</td>
-<td>17</td>
-<td>Multi-agent <code>explicit</code> ownership</td>
-</tr>
-<tr>
-<td><a href="https://github.com/openclaw/openclaw/issues/150201">#150201</a> — Windows snapshot update failure</td>
-<td>14</td>
-<td>P0, ux-release-blocker</td>
-</tr>
-<tr>
-<td><a href="https://github.com/openclaw/openclaw/issues/137332">#137332</a> — requester-settle batches retry forever</td>
-<td>13</td>
-<td>Diamond-lobster, queueable fix</td>
-</tr>
-<tr>
-<td><a href="https://github.com/openclaw/openclaw/issues/149538">#149538</a> — Gateway ready but starved (632 agents)</td>
-<td>12</td>
-<td>P0</td>
-</tr>
-<tr>
-<td><a href="https://github.com/openclaw/openclaw/issues/146394">#146394</a> — npm global-install update failure</td>
-<td>11</td>
-<td>P0</td>
-</tr>
-</tbody></table>
-<p><strong>Underlying needs:</strong> operators running <em>large, multi-agent fleets</em> on long-lived Gateways are hitting resource leaks and event-loop starvation; <em>single-user</em> operators are blocked by update/upgrade failures and session-state loss. There is also a clear demand for <strong>observability</strong> — dispatch telemetry (<a href="https://github.com/openclaw/openclaw/issues/76247">#76247</a>) and diagnosis-friendly logs (the <code>AgentSelectionRequiredError</code> flood).</p>
-<h2>5. Bugs &amp; Stability (ranked by severity)</h2>
-<p><strong>P0</strong></p>
-<ul>
-<li><a href="https://github.com/openclaw/openclaw/issues/150201">#150201</a> — Windows update candidate snapshot fails on 2026.9.3; Gateway SQLite check times out. <em>No fix PR shown.</em></li>
-<li><a href="https://github.com/openclaw/openclaw/issues/149538">#149538</a> — <code>main</code> reaches ready but never serves; <code>/health</code> times out. <strong>Fix in flight:</strong> PR #150354.</li>
-<li><a href="https://github.com/openclaw/openclaw/issues/146394">#146394</a> — <code>global-install-failed</code> on 2026.9.3 (linux/arm64).</li>
-<li><a href="https://github.com/openclaw/openclaw/issues/144739">#144739</a> — 2026.9.3 → 2026.9.4 runs old version against schema-17 state.</li>
-<li><a href="https://github.com/openclaw/openclaw/issues/148681">#148681</a> — update failure at <code>finalize:doctor</code> (2026.9.4).</li>
-<li><a href="https://github.com/openclaw/openclaw/issues/145252">#145252</a> — maintainer tracking issue for 2026.9.3/9.4 update reliability.</li>
-</ul>
-<p><strong>P1</strong></p>
-<ul>
-<li><a href="https://github.com/openclaw/openclaw/issues/97616">#97616</a> — unreaped hook/tool child processes → zombie accumulation. <em>No fix PR shown.</em></li>
-<li><a href="https://github.com/openclaw/openclaw/issues/91588">#91588</a> — Gateway memory leak to 15.5GB, repeated OOM restarts. <em>No fix PR shown.</em></li>
-<li><a href="https://github.com/openclaw/openclaw/issues/144911">#144911</a> — MCP init timeout crashes Gateway via unhandled rejection. <strong>Fix PR #150427.</strong></li>
-<li><a href="https://github.com/openclaw/openclaw/issues/148529">#148529</a> — start→ready ~12 min on a 632-agent fleet (vs ~2s previously).</li>
-<li><a href="https://github.com/openclaw/openclaw/issues/148707">#148707</a> — lost reply: &quot;no active tool authority snapshot&quot; (2026.9.4 regression).</li>
-<li><a href="https://github.com/openclaw/openclaw/issues/137332">#137332</a> — requester-settle batches retry forever after ownership check.</li>
-<li><a href="https://github.com/openclaw/openclaw/issues/101929">#101929</a> — context-overflow estimator over-counts 2.3–2.6×.</li>
-<li><a href="https://github.com/openclaw/openclaw/issues/136311">#136311</a> — reindex lock never released; 19GB of orphaned temp DBs.</li>
-<li><a href="https://github.com/openclaw/openclaw/issues/134925">#134925</a> — main thread ~100% CPU per turn on ARM64/Pi.</li>
-<li><a href="https://github.com/openclaw/openclaw/issues/119411">#119411</a> — memory file watcher never reindexes; <code>Dirty: no</code> misreports.</li>
-</ul>
-<p><strong>Notable closed regressions:</strong> <a href="https://github.com/openclaw/openclaw/issues/118018">#118018</a> (stale subagent completion), <a href="https://github.com/openclaw/openclaw/issues/146265">#146265</a> (AsyncWorkScope), <a href="https://github.com/openclaw/openclaw/issues/146719">#146719</a> (Windows updater).</p>
-<p><strong>Assessment:</strong> the pattern points to lifecycle/resource management in the Gateway (child processes, memory, async work scope, locks) as the top systemic risk, compounded by a fragile self-update pipeline that spans npm, launchd/systemd, and Windows extended-path handling.</p>
-<h2>6. Feature Requests &amp; Roadmap Signals</h2>
-<ul>
-<li><strong>Deterministic/gateway-lite mode</strong> — <a href="https://github.com/openclaw/openclaw/issues/86881">#86881</a> (closed this window) asked for a no-AI-harness channel/webhook gateway.</li>
-<li><strong>One-way A2A dispatch mode</strong> — <a href="https://github.com/openclaw/openclaw/issues/44309">#44309</a> to stop reply-back</li>
-</ul>
-<hr>
-<h2>Cross-Ecosystem Comparison</h2>
-<h1>Cross-Project Comparison Report — AI Agent / Personal AI Assistant OSS</h1>
-<p><strong>Date:</strong> 2026-09-17<br><strong>Projects in scope:</strong> OpenClaw, Hermes Agent<br><strong>Scope caveat:</strong> Hermes Agent’s digest failed to generate. All Hermes metrics below are <strong>N/A / unknown</strong>, so cross-project comparison is asymmetric. OpenClaw data is complete.</p>
-<hr>
-<h2>1. Ecosystem Overview</h2>
-<p>Only OpenClaw provided a usable community digest, limiting true cross-project comparison. The personal AI assistant / agent OSS landscape remains high-velocity and infrastructure-heavy: OpenClaw alone recorded <strong>1,000 issue/PR updates in 24 hours</strong>. The critical path is no longer basic agent capability but operational reliability: Gateway runtime lifecycle, memory/process leaks, self-update, and large multi-agent fleet scaling. Community demand is shifting toward observability, protocol interop (MCP/A2A), and safer upgrades. Runtime stability is now the main gating factor for production adoption.</p>
-<hr>
-<h2>2. Activity Comparison</h2>
-<table>
-<thead>
-<tr>
-<th>Project</th>
-<th align="right">Issues Updated (24h)</th>
-<th align="right">Open/Active Issues</th>
-<th align="right">Closed Issues</th>
-<th align="right">PRs Updated (24h)</th>
-<th align="right">Open PRs</th>
-<th align="right">Merged/Closed PRs</th>
-<th>Release Status</th>
-<th>Health Score*</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>OpenClaw</strong></td>
-<td align="right">500</td>
-<td align="right">331</td>
-<td align="right">169</td>
-<td align="right">500</td>
-<td align="right">296</td>
-<td align="right">204</td>
-<td>No new release; latest referenced line <strong>2026.9.4</strong>, prior stable <strong>2026.9.3</strong></td>
-<td><strong>6/10 — Active but strained (Amber)</strong></td>
-</tr>
-<tr>
-<td></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-<hr>
-<h2>Peer Project Reports</h2>
-<details>
-<summary><strong>Hermes Agent</strong> — <a href="https://github.com/nousresearch/hermes-agent">nousresearch/hermes-agent</a></summary>
-
-<p>⚠️ Summary generation failed.</p>
-</details>
-
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI 官方内容追踪报告 2026-09-17</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-09-17/ai-web</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-09-17/ai-web</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <description>AI 官方内容追踪报告 2026-09-17 今日更新 | 新增内容: 58 篇 | 生成时间: 2026-09-17 03:09 UTC 数据来源: Anthropic: anthropic.com — 新增 0 篇（sitemap 共 443 条） OpenAI: openai.com — 新增 58 篇（sitemap 共 1017 条） AI 官方内容追踪报告 报告日期：2026-09-17 数据来源：Anthropic（claude.com / anthropic.com）、OpenAI（openai.com）官网增量抓取 1. 今日速览 Anthropic 今日增量更新为 0 篇，无新增内容可供分析，可能处于发布间歇期。 OpenAI 今日抓取到 58 篇增量页面，其中绝大多数为 Disrupting Malicious Uses Of AI 系列，集中在 9-16 和 9-17 两个日期批量出现，显示其在 AI 安全与滥用治理议题上有密集动作。 除安全系列外，OpenAI 还更新了 Model Misalignment Reporting Framework（9-17，重...</description>
-      <content:encoded><![CDATA[<h1>AI 官方内容追踪报告 2026-09-17</h1>
-<blockquote>
-<p>今日更新 | 新增内容: 58 篇 | 生成时间: 2026-09-17 03:09 UTC</p>
-</blockquote>
-<p>数据来源:</p>
-<ul>
-<li>Anthropic: <a href="https://www.anthropic.com">anthropic.com</a> — 新增 0 篇（sitemap 共 443 条）</li>
-<li>OpenAI: <a href="https://openai.com">openai.com</a> — 新增 58 篇（sitemap 共 1017 条）</li>
-</ul>
-<hr>
-<h1>AI 官方内容追踪报告</h1>
-<p><strong>报告日期：2026-09-17</strong>
-<strong>数据来源：Anthropic（claude.com / anthropic.com）、OpenAI（openai.com）官网增量抓取</strong></p>
-<hr>
-<h2>1. 今日速览</h2>
-<ul>
-<li><strong>Anthropic 今日增量更新为 0 篇</strong>，无新增内容可供分析，可能处于发布间歇期。</li>
-<li><strong>OpenAI 今日抓取到 58 篇增量页面</strong>，其中绝大多数为 <code>Disrupting Malicious Uses Of AI</code> 系列，集中在 9-16 和 9-17 两个日期批量出现，显示其在 AI 安全与滥用治理议题上有密集动作。</li>
-<li>除安全系列外，OpenAI 还更新了 <code>Model Misalignment Reporting Framework</code>（9-17，重复出现两次）、<code>How To Connect AI Usage To Business Value</code>（9-17）、<code>Reimagining Advertising With AI</code>（9-16）以及 <code>Gartner 2026 Enterprise AI Assistants Leader</code>（9-15）。</li>
-<li>⚠️ <strong>OpenAI 数据均为仅元数据模式</strong>：标题由 URL 路径推断，无正文内容。本报告对 OpenAI 部分仅基于 URL、分类和日期进行客观列举，不对标题含义作推测性解读或编造摘要。</li>
-</ul>
-<hr>
-<h2>2. Anthropic / Claude 内容精选</h2>
-<h3>今日增量：0 篇</h3>
-<p>本次抓取未发现 Anthropic 新增内容。无 news / research / engineering / learn 等分类的新条目。</p>
-<p><strong>官网链接：</strong></p>
-<ul>
-<li>Claude：<a href="https://claude.com/">https://claude.com/</a></li>
-<li>Anthropic：<a href="https://www.anthropic.com/">https://www.anthropic.com/</a></li>
-</ul>
-<p><strong>说明：</strong> 今日无新增内容可供分析。建议持续关注其官方博客、研究页面和工程博客，以捕捉后续发布节奏。</p>
-<hr>
-<h2>3. OpenAI 内容精选</h2>
-<p>⚠️ <strong>重要提示：</strong> 以下所有 OpenAI 条目均为仅元数据模式，标题由 URL 路径推断，可能不准确，且无正文内容。本节仅作客观列举，不进行含义推测或内容摘要。</p>
-<h3>3.1 安全与滥用治理：<code>Disrupting Malicious Uses Of AI</code> 系列</h3>
-<p>该系列 URL 均以 <code>https://openai.com/index/disrupting-malicious-uses-of-ai-</code> 开头（其中一篇无后缀），分类为 <code>index</code>。共 <strong>53 篇</strong>，分布在 2026-09-17（7 篇）和 2026-09-16（46 篇）。</p>
-<h4>2026-09-17 发布/更新（7 篇）</h4>
-<ul>
-<li>Disrupting Malicious Uses Of AI — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai/">https://openai.com/index/disrupting-malicious-uses-of-ai/</a></li>
-<li>Disrupting Malicious Uses Of AI Bad Grammar — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-bad-grammar/">https://openai.com/index/disrupting-malicious-uses-of-ai-bad-grammar/</a></li>
-<li>Disrupting Malicious Uses Of AI Doppelganger — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-doppelganger/">https://openai.com/index/disrupting-malicious-uses-of-ai-doppelganger/</a></li>
-<li>Disrupting Malicious Uses Of AI Data Center Bandwagon — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-data-center-bandwagon/">https://openai.com/index/disrupting-malicious-uses-of-ai-data-center-bandwagon/</a></li>
-<li>Disrupting Malicious Uses Of AI Criminal Scam Operation — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation/">https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation/</a></li>
-<li>Disrupting Malicious Uses Of AI Tech And Tariffs — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-tech-and-tariffs/">https://openai.com/index/disrupting-malicious-uses-of-ai-tech-and-tariffs/</a></li>
-<li>Disrupting Malicious Uses Of AI Spamouflage — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-spamouflage/">https://openai.com/index/disrupting-malicious-uses-of-ai-spamouflage/</a></li>
-</ul>
-<h4>2026-09-16 发布/更新（46 篇）</h4>
-<ul>
-<li>Disrupting Malicious Uses Of AI Silver Lining Playbook — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-silver-lining-playbook/">https://openai.com/index/disrupting-malicious-uses-of-ai-silver-lining-playbook/</a></li>
-<li>Disrupting Malicious Uses Of AI Romance Scam — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-romance-scam/">https://openai.com/index/disrupting-malicious-uses-of-ai-romance-scam/</a></li>
-<li>Disrupting Malicious Uses Of AI Trolling Stone — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-trolling-stone/">https://openai.com/index/disrupting-malicious-uses-of-ai-trolling-stone/</a></li>
-<li>Disrupting Malicious Uses Of AI No Bell — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-no-bell/">https://openai.com/index/disrupting-malicious-uses-of-ai-no-bell/</a></li>
-<li>Disrupting Malicious Uses Of AI Fish Food — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-fish-food/">https://openai.com/index/disrupting-malicious-uses-of-ai-fish-food/</a></li>
-<li>Disrupting Malicious Uses Of AI False Witness — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-false-witness/">https://openai.com/index/disrupting-malicious-uses-of-ai-false-witness/</a></li>
-<li>Disrupting Malicious Uses Of AI Date Bait — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-date-bait/">https://openai.com/index/disrupting-malicious-uses-of-ai-date-bait/</a></li>
-<li>Disrupting Malicious Uses Of AI Cyber Special Operations — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-special-operations/">https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-special-operations/</a></li>
-<li>Disrupting Malicious Uses Of AI Tort Report — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-tort-report/">https://openai.com/index/disrupting-malicious-uses-of-ai-tort-report/</a></li>
-<li>Disrupting Malicious Uses Of AI Korean Language Malware Support — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-korean-language-malware-support/">https://openai.com/index/disrupting-malicious-uses-of-ai-korean-language-malware-support/</a></li>
-<li>Disrupting Malicious Uses Of AI Rwandan Election Content — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-rwandan-election-content/">https://openai.com/index/disrupting-malicious-uses-of-ai-rwandan-election-content/</a></li>
-<li>Disrupting Malicious Uses Of AI A2z — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-a2z/">https://openai.com/index/disrupting-malicious-uses-of-ai-a2z/</a></li>
-<li>Disrupting Malicious Uses Of AI Stop News 2024 — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2024/">https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2024/</a></li>
-<li>Disrupting Malicious Uses Of AI Cyberav3ngers — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-cyberav3ngers/">https://openai.com/index/disrupting-malicious-uses-of-ai-cyberav3ngers/</a></li>
-<li>Disrupting Malicious Uses Of AI Sweetspecter — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-sweetspecter/">https://openai.com/index/disrupting-malicious-uses-of-ai-sweetspecter/</a></li>
-<li>Disrupting Malicious Uses Of AI Sponsored Discontent — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-sponsored-discontent/">https://openai.com/index/disrupting-malicious-uses-of-ai-sponsored-discontent/</a></li>
-<li>Disrupting Malicious Uses Of AI Ghana Election — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-ghana-election/">https://openai.com/index/disrupting-malicious-uses-of-ai-ghana-election/</a></li>
-<li>Disrupting Malicious Uses Of AI Peer Review — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review/">https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review/</a></li>
-<li>Disrupting Malicious Uses Of AI Wrong Number — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-wrong-number/">https://openai.com/index/disrupting-malicious-uses-of-ai-wrong-number/</a></li>
-<li>Disrupting Malicious Uses Of AI Storm 2035 2025 — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2025/">https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2025/</a></li>
-<li>Disrupting Malicious Uses Of AI High Five — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-high-five/">https://openai.com/index/disrupting-malicious-uses-of-ai-high-five/</a></li>
-<li>Disrupting Malicious Uses Of AI Sneer Review — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-sneer-review/">https://openai.com/index/disrupting-malicious-uses-of-ai-sneer-review/</a></li>
-<li>Disrupting Malicious Uses Of AI Stop News 2025 — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2025/">https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2025/</a></li>
-<li>Disrupting Malicious Uses Of AI Scam Operations — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-scam-operations/">https://openai.com/index/disrupting-malicious-uses-of-ai-scam-operations/</a></li>
-<li>Disrupting Malicious Uses Of AI It Workers — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-it-workers/">https://openai.com/index/disrupting-malicious-uses-of-ai-it-workers/</a></li>
-<li>Disrupting Malicious Uses Of AI Helgoland Bite — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-helgoland-bite/">https://openai.com/index/disrupting-malicious-uses-of-ai-helgoland-bite/</a></li>
-<li>Disrupting Malicious Uses Of AI Phishing And Scripting Support — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-phishing-and-scripting-support/">https://openai.com/index/disrupting-malicious-uses-of-ai-phishing-and-scripting-support/</a></li>
-<li>Disrupting Malicious Uses Of AI Deceptive Employment Scheme — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-deceptive-employment-scheme/">https://openai.com/index/disrupting-malicious-uses-of-ai-deceptive-employment-scheme/</a></li>
-<li>Disrupting Malicious Uses Of AI Corrupt Comment — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-corrupt-comment/">https://openai.com/index/disrupting-malicious-uses-of-ai-corrupt-comment/</a></li>
-<li>Disrupting Malicious Uses Of AI Storm 0817 — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817/">https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817/</a></li>
-<li>Disrupting Malicious Uses Of AI Task Scam — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam/">https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam/</a></li>
-<li>Disrupting Malicious Uses Of AI Cyber Threat Actors — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-threat-actors/">https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-threat-actors/</a></li>
-<li>Disrupting Malicious Uses Of AI Iranian Influence Nexus — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-iranian-influence-nexus/">https://openai.com/index/disrupting-malicious-uses-of-ai-iranian-influence-nexus/</a></li>
-<li>Disrupting Malicious Uses Of AI Romance Baiting Scam — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-romance-baiting-scam/">https://openai.com/index/disrupting-malicious-uses-of-ai-romance-baiting-scam/</a></li>
-<li>Disrupting Malicious Uses Of AI Vixen Keyhole Panda — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda/">https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda/</a></li>
-<li>Disrupting Malicious Uses Of AI Scopecreep — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-scopecreep/">https://openai.com/index/disrupting-malicious-uses-of-ai-scopecreep/</a></li>
-<li>Disrupting Malicious Uses Of AI Russian Speaking Malware Tooling — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-russian-speaking-malware-tooling/">https://openai.com/index/disrupting-malicious-uses-of-ai-russian-speaking-malware-tooling/</a></li>
-<li>Disrupting Malicious Uses Of AI Iuvm — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-iuvm/">https://openai.com/index/disrupting-malicious-uses-of-ai-iuvm/</a></li>
-<li>Disrupting Malicious Uses Of AI Storm 2035 2024 — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2024/">https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2024/</a></li>
-<li>Disrupting Malicious Uses Of AI Hoax Russian Troll — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll/">https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll/</a></li>
-<li>Disrupting Malicious Uses Of AI Bet Bot — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot/">https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot/</a></li>
-<li>Disrupting Malicious Uses Of AI Prc Linked Abuse — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-prc-linked-abuse/">https://openai.com/index/disrupting-malicious-uses-of-ai-prc-linked-abuse/</a></li>
-<li>Disrupting Malicious Uses Of AI Vague Focus — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-vague-focus/">https://openai.com/index/disrupting-malicious-uses-of-ai-vague-focus/</a></li>
-<li>Disrupting Malicious Uses Of AI Uncle Spam — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-uncle-spam/">https://openai.com/index/disrupting-malicious-uses-of-ai-uncle-spam/</a></li>
-<li>Disrupting Malicious Uses Of AI Nine Emdash Line — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-nine-emdash-line/">https://openai.com/index/disrupting-malicious-uses-of-ai-nine-emdash-line/</a></li>
-<li>Disrupting Malicious Uses Of AI Zero Zeno — <a href="https://openai.com/index/disrupting-malicious-uses-of-ai-zero-zeno/">https://openai.com/index/disrupting-malicious-uses-of-ai-zero-zeno/</a></li>
-</ul>
-<h3>3.2 安全与对齐框架</h3>
-<ul>
-<li><strong>Model Misalignment Reporting Framework</strong>（分类：index，日期：2026-09-17，重复出现两次）<ul>
-<li>链接：<a href="https://openai.com/index/model-misalignment-reporting-framework/">https://openai.com/index/model-misalignment-reporting-framework/</a></li>
-<li>备注：仅元数据，标题由 URL 推断。重复出现可能表示该页面被多次抓取或更新。</li>
-</ul>
-</li>
-</ul>
-<h3>3.3 商业与企业</h3>
-<ul>
-<li><p><strong>How To Connect AI Usage To Business Value</strong>（分类：index，日期：2026-09-17）</p>
-<ul>
-<li>链接：<a href="https://openai.com/index/how-to-connect-ai-usage-to-business-value/">https://openai.com/index/how-to-connect-ai-usage-to-business-value/</a></li>
-</ul>
-</li>
-<li><p><strong>Reimagining Advertising With AI</strong>（分类：index，日期：2026-09-16）</p>
-<ul>
-<li>链接：<a href="https://openai.com/index/reimagining-advertising-with-ai/">https://openai.com/index/reimagining-advertising-with-ai/</a></li>
-</ul>
-</li>
-<li><p><strong>Gartner 2026 Enterprise AI Assistants Leader</strong>（分类：business，日期：2026-09-15）</p>
-<ul>
-<li>链接：<a href="https://openai.com/business/learn/gartner-2026-enterprise-ai-assistants-leader/">https://openai.com/business/learn/gartner-2026-enterprise-ai-assistants-leader/</a></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2>4. 战略信号解读</h2>
-<h3>4.1 发布节奏与议题优先级</h3>
-<p><strong>OpenAI：</strong></p>
-<ul>
-<li><strong>安全与滥用治理成为绝对重心。</strong> 58 篇增量中，53 篇属于 <code>Disrupting Malicious Uses Of AI</code> 系列，且集中在 9-16 和 9-17 两天发布。这种批量、系列化的发布方式，通常意味着一次集中的安全报告披露、案例库更新或政策倡议。子主题名称覆盖范围极广，从选举干预（Rwandan Election、Ghana Election）、诈骗（Scam Operations、Task Scam）、网络攻击（Cyber Threat Actors、Russian Speaking Malware Tooling）到地缘政治关联（PRC Linked Abuse、Iranian Influence Nexus），显示 OpenAI 正在系统性地梳理和公开其平台上发现的滥用行为。</li>
-<li><strong>安全框架同步更新。</strong> <code>Model Misalignment Reporting Framework</code> 在 9-17 出现两次，可能是一个新的对齐/报告框架发布，值得后续关注。</li>
-<li><strong>商业化并行推进。</strong> 同日及前一日还有 <code>How To Connect AI Usage To Business Value</code>、<code>Reimagining Advertising With AI</code> 以及 <code>Gartner 2026 Enterprise AI Assistants Leader</code>。这表明 OpenAI 在强化安全治理透明度的同时，也在积极向企业客户传递商业价值信号，并探索广告等新变现模式。</li>
-</ul>
-<p><strong>Anthropic：</strong></p>
-<ul>
-<li><strong>今日静默。</strong> 无新增内容，无法判断其当前议题优先级。但结合其过往节奏，Anthropic 通常以研究论文、模型卡、安全政策长文等形式发布，发布频率相对较低，可能正处于下一个重要发布前的蓄力期。</li>
-</ul>
-<h3>4.2 竞争态势</h3>
-<ul>
-<li><strong>OpenAI 在安全治理议题上主动设置议程。</strong> 通过批量发布滥用治理案例，OpenAI 试图塑造“负责任 AI 领导者”的形象，并可能借此影响监管讨论和公众认知。这种高密度的安全披露，在同行中并不常见。</li>
-<li><strong>Anthropic 今日未跟进。</strong> 但在安全研究和对齐领域，Anthropic 历来有深厚积累，其静默可能只是时间错位。竞争焦点正在从单纯的模型能力，转向“能力+安全+商业化”的综合叙事。</li>
-</ul>
-<h3>4.3 对开发者和企业用户的潜在影响</h3>
-<ul>
-<li><strong>企业客户：</strong> OpenAI 连续发布企业 AI 助手获 Gartner 认可、AI 使用与商业价值连接、广告 AI 等内容，表明其正在强化企业级市场的信任</li>
-</ul>
-<hr>
-<p><em>本日报由 <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Official AI Content Report 2026-09-17</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-09-17/ai-web-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-09-17/ai-web-en</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Official AI Content Report 2026-09-17 Today&amp;#39;s update | New content: 58 articles | Generated: 2026-09-17 03:09 UTC Sources: Anthropic: anthropic.com — 0 new articles (sitemap total: 443) OpenAI: openai.com — 58 new articles (sitemap total: 1017) AI Official Content Tracking Report Coverage window: incremental update crawled 2026-09-17 Sources: claude.com / anthropic.com (Anthropic) · openai.com (OpenAI) Analyst note: OpenAI entries in this batch are metadata-only (slug-derived titles, no body...</description>
-      <content:encoded><![CDATA[<h1>Official AI Content Report 2026-09-17</h1>
-<blockquote>
-<p>Today&#39;s update | New content: 58 articles | Generated: 2026-09-17 03:09 UTC</p>
-</blockquote>
-<p>Sources:</p>
-<ul>
-<li>Anthropic: <a href="https://www.anthropic.com">anthropic.com</a> — 0 new articles (sitemap total: 443)</li>
-<li>OpenAI: <a href="https://openai.com">openai.com</a> — 58 new articles (sitemap total: 1017)</li>
-</ul>
-<hr>
-<h1>AI Official Content Tracking Report</h1>
-<p><strong>Coverage window:</strong> incremental update crawled 2026-09-17
-<strong>Sources:</strong> claude.com / anthropic.com (Anthropic) · openai.com (OpenAI)
-<strong>Analyst note:</strong> OpenAI entries in this batch are <strong>metadata-only</strong> (slug-derived titles, no body text). All OpenAI analysis below is restricted to observable metadata structure, URL patterns, categories, and dates. See §3 for explicit data limitations.</p>
-<hr>
-<h2>1. Today&#39;s Highlights</h2>
-<ul>
-<li><strong>Anthropic published zero new articles</strong> in this crawl window, producing no incremental signal from claude.com or anthropic.com.</li>
-<li><strong>OpenAI&#39;s crawl returned 58 new items</strong>, but the distribution is highly abnormal: 55 of 58 URLs share a single path prefix, <code>/index/disrupting-malicious-uses-of-ai-*</code>, suggesting a <strong>bulk index/crawl event around one trust-and-safety surface rather than 58 independently authored pieces</strong>.</li>
-<li>The batch is split across three publication dates — <strong>2026-09-17 (10 items), 2026-09-16 (47 items), 2026-09-15 (1 item)</strong> — with the largest cluster arriving a day before the crawl, consistent with a sitemap or index regeneration.</li>
-<li>Three items sit outside the malicious-use cluster and point at <strong>commercial/enterprise positioning</strong>: <code>how-to-connect-ai-usage-to-business-value</code> (09-17), <code>reimagining-advertising-with-ai</code> (09-16), and a Gartner recognition page under <code>/business/learn/</code> (09-15).</li>
-<li>One governance-themed slug, <code>model-misalignment-reporting-framework</code>, appears <strong>twice on the same date</strong>, and several slugs resemble stylized codenames (e.g. &quot;Sneer Review&quot;, &quot;Nine Emdash Line&quot;, &quot;Zero Zeno&quot;) — a <strong>data-quality flag</strong> that should be resolved before any of this is treated as confirmed editorial output.</li>
-</ul>
-<hr>
-<h2>2. Anthropic / Claude Content Highlights</h2>
-<p><strong>Status: no new content (0 new articles today).</strong></p>
-<p>This is an incremental crawl, not a first full crawl, so no milestone timeline is reconstructed here. Two precise statements are warranted:</p>
-<ol>
-<li><strong>No incremental release signal.</strong> No news, research, engineering, or learn-track items were detected on claude.com or anthropic.com during this window. Nothing can be said about Anthropic&#39;s technical priorities from today&#39;s data.</li>
-<li><strong>Absence of signal ≠ signal of absence.</strong> A zero-item crawl can result from publishing cadence, crawl scheduling, sitemap behavior, or indexing lag. No inference about Anthropic&#39;s roadmap, deprioritization of safety work, or competitive position should be drawn from this single window.</li>
-</ol>
-<p>If the next crawl returns a backlog of Anthropic items, that batch should be treated as a <strong>first-look milestone trace</strong> and ordered chronologically by publication date.</p>
-<hr>
-<h2>3. OpenAI Content Highlights</h2>
-<p>⚠️ <strong>Data limitation (applies to every entry in this section):</strong> All 58 OpenAI items are metadata-only. Titles are derived from URL slugs and may be inaccurate. <strong>No article text, no abstracts, no metadata beyond category and date.</strong> Accordingly, this section lists items objectively and does <strong>not</strong> interpret, summarize, or infer the substance of any page.</p>
-<h3>3.1 Safety / Trust &amp; Integrity track</h3>
-<p>All items below are category <code>index</code>. The dominant pattern is the shared prefix <code>https://openai.com/index/disrupting-malicious-uses-of-ai-</code> — 55 of 58 URLs.</p>
-<p><strong>Published 2026-09-17 (10 items)</strong></p>
-<table>
-<thead>
-<tr>
-<th>URL</th>
-<th>Date</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-bad-grammar/">https://openai.com/index/disrupting-malicious-uses-of-ai-bad-grammar/</a></td>
-<td>2026-09-17</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-doppelganger/">https://openai.com/index/disrupting-malicious-uses-of-ai-doppelganger/</a></td>
-<td>2026-09-17</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-data-center-bandwagon/">https://openai.com/index/disrupting-malicious-uses-of-ai-data-center-bandwagon/</a></td>
-<td>2026-09-17</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation/">https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation/</a></td>
-<td>2026-09-17</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-tech-and-tariffs/">https://openai.com/index/disrupting-malicious-uses-of-ai-tech-and-tariffs/</a></td>
-<td>2026-09-17</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-spamouflage/">https://openai.com/index/disrupting-malicious-uses-of-ai-spamouflage/</a></td>
-<td>2026-09-17</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai/">https://openai.com/index/disrupting-malicious-uses-of-ai/</a></td>
-<td>2026-09-17</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/how-to-connect-ai-usage-to-business-value/">https://openai.com/index/how-to-connect-ai-usage-to-business-value/</a></td>
-<td>2026-09-17</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/model-misalignment-reporting-framework/">https://openai.com/index/model-misalignment-reporting-framework/</a></td>
-<td>2026-09-17</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/model-misalignment-reporting-framework/">https://openai.com/index/model-misalignment-reporting-framework/</a> <em>(duplicate record)</em></td>
-<td>2026-09-17</td>
-</tr>
-</tbody></table>
-<p><strong>Published 2026-09-16 (47 items)</strong></p>
-<table>
-<thead>
-<tr>
-<th>URL</th>
-<th>Date</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://openai.com/index/reimagining-advertising-with-ai/">https://openai.com/index/reimagining-advertising-with-ai/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-silver-lining-playbook/">https://openai.com/index/disrupting-malicious-uses-of-ai-silver-lining-playbook/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-romance-scam/">https://openai.com/index/disrupting-malicious-uses-of-ai-romance-scam/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-trolling-stone/">https://openai.com/index/disrupting-malicious-uses-of-ai-trolling-stone/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-no-bell/">https://openai.com/index/disrupting-malicious-uses-of-ai-no-bell/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-fish-food/">https://openai.com/index/disrupting-malicious-uses-of-ai-fish-food/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-false-witness/">https://openai.com/index/disrupting-malicious-uses-of-ai-false-witness/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-date-bait/">https://openai.com/index/disrupting-malicious-uses-of-ai-date-bait/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-special-operations/">https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-special-operations/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-tort-report/">https://openai.com/index/disrupting-malicious-uses-of-ai-tort-report/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-korean-language-malware-support/">https://openai.com/index/disrupting-malicious-uses-of-ai-korean-language-malware-support/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-rwandan-election-content/">https://openai.com/index/disrupting-malicious-uses-of-ai-rwandan-election-content/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-a2z/">https://openai.com/index/disrupting-malicious-uses-of-ai-a2z/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2024/">https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2024/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-cyberav3ngers/">https://openai.com/index/disrupting-malicious-uses-of-ai-cyberav3ngers/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-sweetspecter/">https://openai.com/index/disrupting-malicious-uses-of-ai-sweetspecter/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-sponsored-discontent/">https://openai.com/index/disrupting-malicious-uses-of-ai-sponsored-discontent/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-ghana-election/">https://openai.com/index/disrupting-malicious-uses-of-ai-ghana-election/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review/">https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-wrong-number/">https://openai.com/index/disrupting-malicious-uses-of-ai-wrong-number/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2025/">https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2025/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-high-five/">https://openai.com/index/disrupting-malicious-uses-of-ai-high-five/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-sneer-review/">https://openai.com/index/disrupting-malicious-uses-of-ai-sneer-review/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2025/">https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2025/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-scam-operations/">https://openai.com/index/disrupting-malicious-uses-of-ai-scam-operations/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-it-workers/">https://openai.com/index/disrupting-malicious-uses-of-ai-it-workers/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-helgoland-bite/">https://openai.com/index/disrupting-malicious-uses-of-ai-helgoland-bite/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-phishing-and-scripting-support/">https://openai.com/index/disrupting-malicious-uses-of-ai-phishing-and-scripting-support/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-deceptive-employment-scheme/">https://openai.com/index/disrupting-malicious-uses-of-ai-deceptive-employment-scheme/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-corrupt-comment/">https://openai.com/index/disrupting-malicious-uses-of-ai-corrupt-comment/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817/">https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam/">https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-threat-actors/">https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-threat-actors/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-iranian-influence-nexus/">https://openai.com/index/disrupting-malicious-uses-of-ai-iranian-influence-nexus/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-romance-baiting-scam/">https://openai.com/index/disrupting-malicious-uses-of-ai-romance-baiting-scam/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda/">https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-scopecreep/">https://openai.com/index/disrupting-malicious-uses-of-ai-scopecreep/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-russian-speaking-malware-tooling/">https://openai.com/index/disrupting-malicious-uses-of-ai-russian-speaking-malware-tooling/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-iuvm/">https://openai.com/index/disrupting-malicious-uses-of-ai-iuvm/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2024/">https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2024/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll/">https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot/">https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-prc-linked-abuse/">https://openai.com/index/disrupting-malicious-uses-of-ai-prc-linked-abuse/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-vague-focus/">https://openai.com/index/disrupting-malicious-uses-of-ai-vague-focus/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-uncle-spam/">https://openai.com/index/disrupting-malicious-uses-of-ai-uncle-spam/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-nine-emdash-line/">https://openai.com/index/disrupting-malicious-uses-of-ai-nine-emdash-line/</a></td>
-<td>2026-09-16</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-zero-zeno/">https://openai.com/index/disrupting-malicious-uses-of-ai-zero-zeno/</a></td>
-<td>2026-09-16</td>
-</tr>
-</tbody></table>
-<h3>3.2 Company / Enterprise track</h3>
-<table>
-<thead>
-<tr>
-<th>URL</th>
-<th>Category</th>
-<th>Date</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://openai.com/business/learn/gartner-2026-enterprise-ai-assistants-leader/">https://openai.com/business/learn/gartner-2026-enterprise-ai-assistants-leader/</a></td>
-<td>business</td>
-<td>2026-09-15</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/how-to-connect-ai-usage-to-business-value/">https://openai.com/index/how-to-connect-ai-usage-to-business-value/</a></td>
-<td>index</td>
-<td>2026-09-17</td>
-</tr>
-<tr>
-<td><a href="https://openai.com/index/reimagining-advertising-with-ai/">https://openai.com/index/reimagining-advertising-with-ai/</a></td>
-<td>index</td>
-<td>2026-09-16</td>
-</tr>
-</tbody></table>
-<h3>3.3 Research / Release track</h3>
-<p><strong>No items</strong> in this batch fall into a <code>research</code> or <code>release</code>/product-announcement category with available text. The only research-adjacent slug, <code>model-misalignment-reporting-framework</code>, is a metadata record appearing twice with no body content; <strong>no assessment of its scope, methodology, or publication venue is possible.</strong></p>
-<p><strong>Bottom line for §3:</strong> this batch is <strong>not analyzable at the content level</strong>. It is analyzable only as an index/cadence artifact, which is what §4 and §5 do.</p>
-<hr>
-<h2>4. Strategic Signal Analysis</h2>
-<p><em>Constrained by the data limitation above: this section analyzes <strong>cadence, taxonomy structure, and packaging</strong>, not substance.</em></p>
-<h3>4.1 OpenAI — observable technical priorities (from metadata only)</h3>
-<ul>
-<li><strong>Trust &amp; Safety is the single most visible surface today</strong>, by an order of magnitude: ~95% of new URLs sit under one malicious-use prefix. Whatever the underlying artifact is, OpenAI&#39;s public web surface is currently front-loading integrity and abuse-disruption content.</li>
-<li><strong>A governance-layer term appears in the metadata</strong>: <code>model-misalignment-reporting-framework</code>. The tokens &quot;misalignment&quot;, &quot;reporting&quot;, and &quot;framework&quot; belong to the evaluation/disclosure vocabulary rather than the abuse-disruption vocabulary. If this is a real published artifact, it would be a <strong>model-level (not user-level) safety mechanism</strong> — a distinct category from the malicious-use cluster. <em>Confirmation requires the page body, which is unavailable.</em></li>
-<li><strong>Commercial/enterprise packaging is present but thin</strong> (3 URLs): a Gartner recognition page under <code>/business/learn/</code>, a usage-to-value measurement piece, and an advertising-themed slug. Two of the three concern <strong>measurement and procurement justification</strong> rather than capability — the classic signature of an enterprise sales motion.</li>
-</ul>
-<h3>4.2 Anthropic — observable priorities</h3>
-<p><strong>None extractable from this window.</strong> With zero new items, no statement about Anthropic&#39;s priorities is supportable.</p>
-<h3>4.3 Competitive dynamics</h3>
-<ul>
-<li><strong>Agenda-setting cannot be assigned from this data.</strong> Both companies&#39; relative influence is a function of content substance, which is present for neither party today (Anthropic: nothing; OpenAI: titles only).</li>
-<li>What <em>is</em> observable is a <strong>cadence asymmetry</strong>: OpenAI&#39;s index generated 58 new URLs in a three-day window while Anthropic&#39;s generated none. Treat this as a <strong>crawl/indexing phenomenon first, and a publishing-volume claim second</strong> — the URL-pattern clustering makes the alternative explanation (one underlying artifact exposed as many paths) at least as plausible as 58 discrete publications.</li>
-<li><strong>Caveat for downstream consumers:</strong> if these counts feed a &quot;release velocity&quot; or &quot;safety investment&quot; metric, they will be inflated by an unknown factor. Retire the count until de-duplicated and text-confirmed.</li>
-</ul>
-<h3>4.4 Impact on developers and enterprise users</h3>
-<ul>
-<li><strong>Developers:</strong> no actionable engineering change in this batch. No API, model, SDK, or pricing signal is present.</li>
-<li><strong>Enterprise/governance buyers:</strong> the aggregate shape of the metadata — heavy abuse-disruption plus a misalignment-reporting framework — is consistent with <strong>vendor-supplied evidence for procurement and compliance review</strong>. Buyers who track AI governance artifacts should watch <code>model-misalignment-reporting-framework</code> specifically, since reporting frameworks tend to become contractual or audit inputs. <em>Do not cite it externally until the page body is verified.</em></li>
-<li><strong>Media/analysts:</strong> this batch is a <strong>trap for automated summarization</strong>. Fifty-plus slug-derived titles with no body text are exactly the input that produces confident, fabricated summaries. Recommend a hard rule: no OpenAI claim in this batch may be published without body-text confirmation.</li>
-</ul>
-<hr>
-<h2>5. Notable Details</h2>
-<p><strong>A. Classification anomaly — likely one artifact, not 58 articles.</strong>
-55 of 58 URLs share the exact prefix <code>disrupting-malicious-uses-of-ai-</code>, and a root page (<code>.../disrupting-malicious-uses-of-ai/</code>) appears alongside them. This is the structural signature of <strong>a single report or hub page with many anchored/sub-paths</strong>, or of a sitemap regeneration, rather than a burst of independent posts. Highest-priority verification task for the next crawl.</p>
-<p><strong>B. Duplicate record.</strong> <code>model-misalignment-reporting-framework</code> is listed <strong>twice with the identical URL and identical date</strong>. Either two distinct assets share a path (unlikely) or the crawler emitted a duplicate. Flag for de-duplication.</p>
-<p><strong>C. Slug tokens that look like entity/cluster designations.</strong> A large subset of slugs consists of hyphenated label-like tokens, e.g. <code>spamouflage</code>, <code>cyberav3ngers</code>, <code>sweetspecter</code>, <code>vixen-keyhole-panda</code>, <code>storm-2035-2024</code>, <code>storm-2035-2025</code>, <code>storm-0817</code>, <code>iuvm</code>. Several resemble established threat-cluster naming conventions (including year-suffixed and vendor-style &quot;Storm-####&quot; forms). <strong>These are string observations only</strong> — no mapping to actors, campaigns, or regions is asserted here, and none should be asserted until body text is available.</p>
-<p><strong>D. Paired/near-paired slugs suggesting auto-generation.</strong> <code>stop-news-2024</code> / <code>stop-news-2025</code>, <code>peer-review</code> / <code>sneer-review</code>, <code>romance-scam</code> / <code>romance-baiting-scam</code>, <code>scam-operations</code> / <code>criminal-scam-operation</code> / <code>task-scam</code>, and <code>storm-2035-2024</code> / <code>storm-2035-2025</code>. Year-suffixed and near-homophone pairs indicate <strong>template-driven or programmatic URL generation</strong>, reinforcing the §5A classification anomaly.</p>
-<p><strong>E. Semantically incoherent slugs — strongest data-quality warning.</strong> Tokens such as <code>bad-grammar</code>, <code>data-center-bandwagon</code>, <code>tech-and-tariffs</code>, <code>trolling-stone</code>, <code>no-bell</code>, <code>fish-food</code>, <code>tort-report</code>, <code>nine-emdash-line</code>, <code>zero-zeno</code>, <code>helgoland-bite</code>, <code>vague-focus</code>, <code>high-five</code>, <code>silver-lining-playbook</code> do not cohere with the surrounding malicious-use taxonomy. Two competing explanations: (i) stylized operation codenames, or (ii) <strong>slug-generation/crawl artifacts</strong>. Until resolved, no inference should be drawn from them.</p>
-<p><strong>F. Geographic and electoral tokens.</strong> <code>ghana-election</code>, <code>rwandan-election-content</code>, <code>korean-language-malware-support</code>, <code>iranian-influence-nexus</code>, <code>prc-linked-abuse</code>, <code>hoax-russian-troll</code>, <code>russian-speaking-malware-tooling</code>. Observed as tokens only. If confirmed, this would indicate a <strong>localized, jurisdiction-specific integrity taxonomy</strong> — a notable evolution for transparency reporting, which has historically been more aggregate.</p>
-<p><strong>G. Safety-vocabulary stratification.</strong> The metadata shows two distinct safety lexicons coexisting: <strong>abuse/misuse</strong> (<code>disrupting-malicious-uses-of-ai-*</code>) and <strong>alignment/evaluation</strong> (<code>model-misalignment-reporting-framework</code>). This is the most strategically interesting structure in the batch, because it implies parallel disclosure tracks — user-level enforcement and model-level assurance.</p>
-<p><strong>H. Advertising appears as a business-model token.</strong> <code>reimagining-advertising-with-ai</code> is the only slug in the batch that points at a monetization surface rather than a capability or safety surface. Noted as a token observation; <strong>no claim about an ads product is made or supported here.</strong></p>
-<p><strong>I. Gartner placement under <code>/business/learn/</code> (2026-09-15).</strong> The oldest item in the batch sits on the enterprise-marketing path rather than the <code>/index/</code> news path. Third-party-validated positioning content is typically used in <strong>enterprise procurement cycles</strong>, which aligns with the two usage/value-measurement URLs — the coherent mini-cluster in an otherwise heterogeneous batch.</p>
-<p><strong>J. Timing pattern.</strong> 47 items dated 09-16, 10 dated 09-17, 1 dated 09-15. A 47-item single-day spike followed by a 10-item tail is characteristic of a <strong>bulk index event plus incremental catch-up</strong>, not a sustained editorial cadence.</p>
-<hr>
-<h3>Recommended next actions</h3>
-<ol>
-<li><strong>Fetch full text</strong> for <code>disrupting-malicious-uses-of-ai/</code> (root) — it likely disambiguates §5A.</li>
-<li><strong>Fetch full text</strong> for <code>model-misalignment-reporting-framework</code> and resolve the duplicate.</li>
-<li><strong>De-duplicate and re-count</strong> the OpenAI total before any cadence metric is published.</li>
-<li><strong>Do not summarize</strong> any OpenAI item in this batch from its slug.</li>
-<li><strong>Re-crawl Anthropic</strong> to distinguish publishing cadence from crawl gap.</li>
-</ol>
-<p><em>Report compiled from metadata-only crawl data dated 2026-09-17. All OpenAI characterizations above are limited to URL structure, categories, and timestamps; no page content was available at analysis time.</em></p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI 开源趋势日报 2026-09-17</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-09-17/ai-trending</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-09-17/ai-trending</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <description>AI 开源趋势日报 2026-09-17 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-09-17 03:09 UTC ⚠️ 趋势报告生成失败。 本日报由 agents-radar 自动生成。</description>
-      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-09-17</h1>
-<blockquote>
-<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-09-17 03:09 UTC</p>
-</blockquote>
-<hr>
-<p>⚠️ 趋势报告生成失败。</p>
-<hr>
-<p><em>本日报由 <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI Open Source Trends 2026-09-17</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-09-17/ai-trending-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-09-17/ai-trending-en</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <description>AI Open Source Trends 2026-09-17 Sources: GitHub Trending + GitHub Search API | Generated: 2026-09-17 03:09 UTC ⚠️ Trending report generation failed. This digest is auto-generated by agents-radar.</description>
-      <content:encoded><![CDATA[<h1>AI Open Source Trends 2026-09-17</h1>
-<blockquote>
-<p>Sources: GitHub Trending + GitHub Search API | Generated: 2026-09-17 03:09 UTC</p>
-</blockquote>
-<hr>
-<p>⚠️ Trending report generation failed.</p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>技术社区 AI 动态日报 2026-09-17</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-09-17/ai-community</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-09-17/ai-community</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <description>技术社区 AI 动态日报 2026-09-17 数据来源: Dev.to (30 篇) + Lobste.rs (7 条) | 生成时间: 2026-09-17 03:09 UTC 技术社区 AI 动态日报｜2026-09-17 今日速览 今日社区焦点从“哪个 AI 编码工具更强”转向代理进入真实工程流程后的可靠性、审查与治理：Claude Code/Cursor/Codex/Copilot 对比仍热，但更多文章讨论审查瓶颈、SDLC 门禁、权限撤销和代理协议。模型与平台侧，Gemini Live/Transcribe、工具调用/MCP、扩散文本生成等基础能力继续吸引开发者。组织与职业层面，Scrum、临时人机混编团队、AI 是否把技术人员“推出”行业引发讨论。Lobste.rs 更偏治理与基础设施：前沿 AI 节奏、ML 工程师来信、Apple Neural Engine 逆向、开源机械臂等。 Dev.to 精选 Claude Code vs Cursor: a task-by-task breakdown of which one to actually reach for原文链接...</description>
-      <content:encoded><![CDATA[<h1>技术社区 AI 动态日报 2026-09-17</h1>
-<blockquote>
-<p>数据来源: <a href="https://dev.to/">Dev.to</a> (30 篇) + <a href="https://lobste.rs/">Lobste.rs</a> (7 条) | 生成时间: 2026-09-17 03:09 UTC</p>
-</blockquote>
-<hr>
-<h1>技术社区 AI 动态日报｜2026-09-17</h1>
-<h2>今日速览</h2>
-<p>今日社区焦点从“哪个 AI 编码工具更强”转向代理进入真实工程流程后的可靠性、审查与治理：Claude Code/Cursor/Codex/Copilot 对比仍热，但更多文章讨论审查瓶颈、SDLC 门禁、权限撤销和代理协议。模型与平台侧，Gemini Live/Transcribe、工具调用/MCP、扩散文本生成等基础能力继续吸引开发者。组织与职业层面，Scrum、临时人机混编团队、AI 是否把技术人员“推出”行业引发讨论。Lobste.rs 更偏治理与基础设施：前沿 AI 节奏、ML 工程师来信、Apple Neural Engine 逆向、开源机械臂等。</p>
-<hr>
-<h2>Dev.to 精选</h2>
-<ol>
-<li><p><strong>Claude Code vs Cursor: a task-by-task breakdown of which one to actually reach for</strong><br><a href="https://dev.to/infoinlet1/claude-code-vs-cursor-a-task-by-task-breakdown-of-which-one-to-actually-reach-for-3km8">原文链接</a> — 20 赞 / 1 评<br>核心价值：按任务类型拆解两者适用边界，帮助开发者避免“二选一”式工具焦虑。</p>
-</li>
-<li><p><strong>Build real-time voice applications with Gemini 3.8 Live and 3.5 Transcribe</strong><br><a href="https://dev.to/googleai/build-real-time-voice-applications-with-gemini-38-live-and-35-transcribe-4nb5">原文链接</a> — 19 赞 / 4 评<br>核心价值：实时语音应用与语音代理开发的官方实践入口。</p>
-</li>
-<li><p><strong>The Best Thing AI Did to Tech Might Be Pushing Us Out of It</strong><br><a href="https://dev.to/james_anderson_h/the-best-thing-ai-did-to-tech-might-be-pushing-us-out-of-it-1278">原文链接</a> — 13 赞 / 5 评<br>核心价值：讨论 AI 对技术职业、心理健康与行业退出路径的冲击，适合职业反思。</p>
-</li>
-<li><p><strong>Temp Squads: How to Organize Ephemeral and Mixed Teams for Hyper-Performance with AI</strong><br><a href="https://dev.to/felipperegazio/temp-squads-how-to-organize-ephemeral-and-mixed-teams-for-hyper-performance-with-ai-50nj">原文链接</a> — 13 赞 / 1 评<br>核心价值：提出人类+AI 临时混编团队框架，适合团队管理者和组织设计者。</p>
-</li>
-<li><p><strong>Building PoCs with Codex and GitHub Copilot while they try to adjust my PoC requirements along the way</strong></p>
-</li>
-</ol>
-<hr>
-<p><em>本日报由 <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Tech Community AI Digest 2026-09-17</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-09-17/ai-community-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-09-17/ai-community-en</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Tech Community AI Digest 2026-09-17 Sources: Dev.to (30 articles) + Lobste.rs (7 stories) | Generated: 2026-09-17 03:09 UTC Tech Community AI Digest — 2026-09-17 Today&amp;#39;s Highlights Today&amp;#39;s AI conversation across Dev.to and Lobste.rs clusters around a single uncomfortable realization: AI agents can now produce work faster than humans can review, govern, or trust it. Dev.to writers are wrestling with the practical fallout — review bottlenecks, SDLC gates agents silently skip, and how to or...</description>
-      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-09-17</h1>
-<blockquote>
-<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (7 stories) | Generated: 2026-09-17 03:09 UTC</p>
-</blockquote>
-<hr>
-<h1>Tech Community AI Digest — 2026-09-17</h1>
-<h2>Today&#39;s Highlights</h2>
-<p>Today&#39;s AI conversation across Dev.to and Lobste.rs clusters around a single uncomfortable realization: <strong>AI agents can now produce work faster than humans can review, govern, or trust it.</strong> Dev.to writers are wrestling with the practical fallout — review bottlenecks, SDLC gates agents silently skip, and how to organize ephemeral human-AI &quot;temp squads.&quot; On Lobste.rs, the tone is more policy-minded, with Dario Amodei&#39;s &quot;We Must Pace the Frontier&quot; drawing the most debate (35 comments) and a widely-upvoted &quot;Letter from a Machine Learning Engineer&quot; reflecting on the human cost of the field. Meanwhile, hands-on tutorials keep proliferating: tool calling from scratch, Gemini Live voice apps, K8s MCP servers, and fine-tuning on a MacBook Air. The through-line: developers are moving past &quot;which model is best?&quot; toward &quot;how do we safely operate the systems these models build?&quot;</p>
-<hr>
-<h2>Dev.to Highlights</h2>
-<ol>
-<li><p><strong><a href="https://dev.to/infoinlet1/claude-code-vs-cursor-a-task-by-task-breakdown-of-which-one-to-actually-reach-for-3km8">Claude Code vs Cursor: a task-by-task breakdown of which one to actually reach for</a></strong> — 20 reactions, 1 comment
-Reframes the tool debate: they&#39;re not competitors but complements, like &quot;terminal vs editor&quot; — pick per task, not per loyalty.</p>
-</li>
-<li><p><strong><a href="https://dev.to/googleai/build-real-time-voice-applications-with-gemini-38-live-and-35-transcribe-4nb5">Build real-time voice applications with Gemini 3.8 Live and 3.5 Transcribe</a></strong> — 19 reactions, 4 comments
-Official walkthrough of the newly released Gemini Live models for developers building voice-first apps.</p>
-</li>
-<li><p><strong><a href="https://dev.to/james_anderson_h/the-best-thing-ai-did-to-tech-might-be-pushing-us-out-of-it-1278">The Best Thing AI Did to Tech Might Be Pushing Us Out of It</a></strong> — 13 reactions, 5 comments
-A candid career-and-mental-health take on what leaving tech behind AI might actually look like — and why that could be a good thing.</p>
-</li>
-<li><p><strong><a href="https://dev.to/robertadam987_/ai-can-write-code-faster-than-we-can-review-it-and-thats-becoming-the-real-bottleneck-25ee">AI Can Write Code Faster Than We Can Review It — And That&#39;s Becoming the Real Bottleneck</a></strong> — 7 reactions, 3 comments
-The core operational problem of 2026: generation scaled, verification didn&#39;t.</p>
-</li>
-<li><p><strong><a href="https://dev.to/tamizuddin/beyond-vibe-coding-10-critical-sdlc-gates-ai-agents-will-silently-skip-unless-you-enforce-them-2nbb">Beyond Vibe Coding: 10 Critical SDLC Gates AI Agents Will Silently Skip Unless You Enforce Them</a></strong> — 5 reactions, 1 comment
-Concrete checklist for embedding quality, security, and compliance checks into agent-driven pipelines.</p>
-</li>
-<li><p><strong><a href="https://dev.to/sholajegede/how-to-auto-revoke-a-claude-agents-access-when-a-user-is-offboarded-with-kinde-webhooks-1ccf">How to Auto-Revoke a Claude Agent&#39;s Access When a User Is Offboarded With Kinde Webhooks</a></strong> — 5 reactions, 0 comments
-Practical identity-lifecycle pattern for agents: an offboarded employee&#39;s agent shouldn&#39;t keep working mid-task.</p>
-</li>
-<li><p><strong><a href="https://dev.to/robswierk/anthropics-grammar-compiler-counts-properties-not-characters-5el6">Anthropic&#39;s grammar compiler counts properties, not characters</a></strong> — 5 reactions, 1 comment
-Debugging gem: the structured-output ceiling is 42 schema properties across all objects, not a character budget.</p>
-</li>
-<li><p><strong><a href="https://dev.to/moksh/what-gpt-6-astra-actually-costs-and-what-its-system-card-admits-33i7">What GPT-6 Astra Actually Costs, and What Its System Card Admits</a></strong> — 5 reactions, 0 comments
-A system-card-literate model evaluation — read the fine print, not the benchmark charts.</p>
-</li>
-<li><p><strong><a href="https://dev.to/discgolfdev/small-models-strong-guardrails-2087">Small Models, Strong Guardrails</a></strong> — 5 reactions, 0 comments
-Repository constraints can make smaller coding models outperform bigger ones on scoped tasks.</p>
-</li>
-<li><p><strong><a href="https://dev.to/sara_mo/openais-software-factory-can-skip-human-review-who-evaluates-that-decision-21bf">OpenAI&#39;s Software Factory Can Skip Human Review. Who Evaluates That Decision?</a></strong> — 3 reactions, 9 comments
-   Highest-comment-count piece of the day — the governance question nobody has answered yet.</p>
-</li>
-</ol>
-<hr>
-<h2>Lobste.rs Highlights</h2>
-<ol>
-<li><p><strong><a href="https://nemin.hu/llm-letter/index.html">A Letter from a Machine Learning Engineer</a></strong> — Score: 27, 11 comments | <a href="https://lobste.rs/s/ta2ojd/letter_from_machine_learning_engineer">Discussion</a>
-Top-scoring story of the day; a reflective, personal account of what working in ML actually feels like now.</p>
-</li>
-<li><p><strong><a href="https://darioamodei.com/post/we-must-pace-the-frontier">We Must Pace the Frontier</a></strong> — Score: 10, 35 comments | <a href="https://lobste.rs/s/zuhv4b/we_must_pace_frontier">Discussion</a>
-The most debated story by far — Anthropic&#39;s frontier-pacing argument and the community&#39;s sharp pushback.</p>
-</li>
-<li><p><strong><a href="https://eiln.github.io/posts/ane.html">Retrospectively Reverse-Engineering Apple&#39;s Neural Engine</a></strong> — Score: 5, 0 comments | <a href="https://lobste.rs/s/mzgtjg/retrospectively_reverse_engineering">Discussion</a>
-Deep technical hardware reversing — valuable for anyone curious how on-device inference really works.</p>
-</li>
-<li><p><strong><a href="https://github.com/enactic/OpenArm">openarm: A fully open-source humanoid arm for physical AI research</a></strong> — Score: 4, 0 comments | <a href="https://lobste.rs/s/lizqwo/openarm_fully_open_source_humanoid_arm">Discussion</a>
-Open hardware for embodied AI — a rare non-LLM direction in the feed.</p>
-</li>
-<li><p><strong><a href="https://taggart-tech.com/lying/">Model Training Incidents are Negligence</a></strong> — Score: 1, 0 comments | <a href="https://lobste.rs/s/ujnlm5/model_training_incidents_are_negligence">Discussion</a>
-Provocative rant arguing that training-run failures are accountability failures, not bad luck.</p>
-</li>
-<li><p><strong><a href="https://maggieappleton.com/planning-agents">Planning with Agents: Divided Worlds, Boundary Objects, and Thicker Interfaces</a></strong> — Score: 1, 0 comments | <a href="https://lobste.rs/s/klbjuj/planning_with_agents_divided_worlds">Discussion</a>
-Design-thinking lens on how humans and agents coordinate — interfaces as negotiation surfaces.</p>
-</li>
-<li><p><strong><a href="https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit">Why don&#39;t machine learning research agents overfit?</a></strong> — Score: 0, 0 comments | <a href="https://lobste.rs/s/qv2enu/why_don_t_machine_learning_research">Discussion</a>
-Amazon Science on an under-explored phenomenon — worth a read before the score catches up.</p>
-</li>
-</ol>
-<hr>
-<h2>Community Pulse</h2>
-<p>Both communities are converging on the same tension: <strong>agent capability has outrun the human systems around it.</strong> Dev.to&#39;s most engaged posts — review bottlenecks, skipped SDLC gates, agent offboarding, software factories without human review — are all operational hygiene questions. Developers aren&#39;t asking whether agents work; they&#39;re asking who audits them, who revokes their credentials, and what happens when they quietly bypass a security gate. On Lobste.rs, that same anxiety shows up at the policy layer, where frontier-pacing arguments draw intense scrutiny and &quot;model training incidents are negligence&quot; frames failures as accountability problems rather than technical ones.</p>
-<p>Practical patterns are emerging: repo-level constraints to keep small models honest, progressive disclosure for agent context, test coverage as agent fuel, and webhook-driven credential lifecycle management. The tutorial pipeline (tool calling from scratch, Gemini Live voice, K8s MCP servers) shows infrastructure is maturing fast. Notable sub-theme: the human side — career exits, mental health, and what ML engineering feels like day-to-day — is getting as much attention as the tooling.</p>
-<hr>
-<h2>Worth Reading</h2>
-<ol>
-<li><p><strong><a href="https://dev.to/robertadam987_/ai-can-write-code-faster-than-we-can-review-it-and-thats-becoming-the-real-bottleneck-25ee">AI Can Write Code Faster Than We Can Review It</a></strong> — The clearest articulation of the defining engineering constraint of the agent era; pair it with the SDLC gates piece for a full mitigation playbook.</p>
-</li>
-<li><p><strong><a href="https://darioamodei.com/post/we-must-pace-the-frontier">We Must Pace the Frontier</a></strong> — Regardless of where you land, the 35-comment discussion is the most substantive AI governance debate on either platform today.</p>
-</li>
-<li><p><strong><a href="https://nemin.hu/llm-letter/index.html">A Letter from a Machine Learning Engineer</a></strong> — The highest-scored story for a reason: a human counterweight to the tooling firehose, and a useful gut-check on why people stay in — or leave — this field.</p>
-</li>
-</ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI CLI 工具社区动态日报 2026-09-15</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-09-15/ai-cli</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-09-15/ai-cli</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <description>AI CLI 工具社区动态日报 2026-09-15 生成时间: 2026-09-15 03:09 UTC | 覆盖工具: 2 个 Claude Code OpenAI Codex Claude Code Skills 横向对比 AI CLI 工具社区动态横向对比分析报告 样本：Claude Code vs OpenAI Codex · 2026-09-15 说明：本轮摘要未披露两个仓库的 Issue/PR 总数，以下“数据”均基于摘要中可见的热点条目与发布记录统计。 1. 生态全景 当前 AI CLI 工具正从“能用”进入“可扩展、可治理、可生产化”阶段。Claude Code 与 OpenAI Codex 的社区焦点已不只是模型能力，而是 hooks/插件体系、成本控制、Windows 稳定性、MCP 集成与自动化可靠性。Claude Code 的社区讨论更聚焦插件化路线与成本治理，官方已对 function hooks 给出交付预期；Codex 则处于 0.155.0 alpha 高频迭代期，底层工程重构密集，但 Windows 桌面稳定性与第三方 provider 兼容性问题集...</description>
-      <content:encoded><![CDATA[<h1>AI CLI 工具社区动态日报 2026-09-15</h1>
-<blockquote>
-<p>生成时间: 2026-09-15 03:09 UTC | 覆盖工具: 2 个</p>
-</blockquote>
-<ul>
-<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
-<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
-<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
-</ul>
-<hr>
-<h2>横向对比</h2>
-<h1>AI CLI 工具社区动态横向对比分析报告</h1>
-<p><strong>样本：Claude Code vs OpenAI Codex · 2026-09-15</strong></p>
-<blockquote>
-<p>说明：本轮摘要未披露两个仓库的 Issue/PR 总数，以下“数据”均基于摘要中可见的热点条目与发布记录统计。</p>
-</blockquote>
-<hr>
-<h2>1. 生态全景</h2>
-<p>当前 AI CLI 工具正从“能用”进入“可扩展、可治理、可生产化”阶段。Claude Code 与 OpenAI Codex 的社区焦点已不只是模型能力，而是 hooks/插件体系、成本控制、Windows 稳定性、MCP 集成与自动化可靠性。Claude Code 的社区讨论更聚焦插件化路线与成本治理，官方已对 function hooks 给出交付预期；Codex 则处于 0.155.0 alpha 高频迭代期，底层工程重构密集，但 Windows 桌面稳定性与第三方 provider 兼容性问题集中暴露。整体看，Agent 平台的竞争点正在从“谁更强”转向“谁更可管、更可靠、更容易接入”。</p>
-<hr>
-<h2>2. 各工具活跃度对比</h2>
-<table>
-<thead>
-<tr>
-<th>工具</th>
-<th>今日 Issues 情况（摘要可见）</th>
-<th>PR 更新</th>
-<th>Release 情况</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Claude Code</strong></td>
-<td>Top 10 热点 + 3 条补充关注；最高 #91870：174 评论 / 105 👍；#92984：113 评论 / 58 👍</td>
-<td><strong>3 条</strong>：1 个 Mods diff 已关闭、1 个沙箱文档待合并、1 个 pylint CI 已关闭</td>
-<td><strong>2 个稳定版本</strong>：v2.1.272 仅修复；v2.1.271 支持 Remote 会话 fast mode、全屏 <code>/config</code> 鼠标操作</td>
-</tr>
-<tr>
-<td><strong>OpenAI Codex</strong></td>
-<td>10+ 条热点；最高 #44781：31 评论 / 37 👍；#43410：29 评论 / 17 👍；schema 兼容问题形成系列</td>
-<td>摘要称“集中落地一批底层 PR”：daemon 与 CLI 解耦、附件 API、Windows 沙箱、Unix socket 权限等，未给具体数量</td>
-<td><strong>4 个预发布 tag</strong>：<code>rust-v0.155.0-alpha.2.4</code> 至 <code>alpha.6</code>，无变更说明；稳定版仍为 0.153.4 / 0.154.0</td>
-</tr>
-</tbody></table>
-<p><strong>结论</strong>：Claude Code 讨论深度与社区互动更强，单 Issue 声量显著更高；Codex 发布节奏更快，但 alpha 说明缺失，社区问题更多集中在稳定版集成与平台故障。</p>
-<hr>
-<h2>3. 共同关注的功能方向</h2>
-<table>
-<thead>
-<tr>
-<th>方向</th>
-<th>Claude Code</th>
-<th>OpenAI Codex</th>
-<th>共同诉求</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Hooks / 插件扩展与安全边界</strong></td>
-<td>#91870 Mods/function hooks 主导讨论；#92533 hooks 破坏 worktree 隔离；#94424 需要用量事件</td>
-<td>#27833 <code>PreToolUse</code> deny 对 <code>apply_patch</code> 不生效，安全策略形同虚设</td>
-<td>可扩展，但 hook 决策必须强制执行；事件模型需覆盖用量、权限、隔离</td>
-</tr>
-<tr>
-<td><strong>Windows 平台稳定性</strong></td>
-<td>KB5124008 导致 Plan9 挂载失败；本地 MCP、Bash 转义、IME 候选窗遮挡</td>
-<td>app-server 队列消息错误、浏览器控制 API-key 不可用、WMI 轮询延迟、<code>cua_node</code> EPERM 死循环占 59 GB</td>
-<td>系统更新兼容、认证路径全覆盖、无死循环重试、资源不泄漏</td>
-</tr>
-<tr>
-<td><strong>成本 / 用量 / 容量治理</strong></td>
-<td>Opus 5 xhigh 档 token 涨 2–7 倍；请求运行时熔断、分源归因、per-call effort</td>
-<td>模型频繁报 <code>Selected model is at capacity</code>；自动化注入缺 <code>call_id</code> 永久破坏会话</td>
-<td>硬止损、分源账单、容量退避、按调用调整推理算力</td>
-</tr>
-<tr>
-<td><strong>MCP / 第三方工具集成</strong></td>
-<td>本地 MCP 就绪检测、沙箱网络批准作用域不清</td>
-<td>MCP server 启动失败；严格 provider 拒绝 <code>oneOf</code> schema、空 schema 工具</td>
-<td>兼容性、schema 严格合规、认证与沙箱语义清晰</td>
-</tr>
-<tr>
-<td><strong>会话 / 自动化可靠性</strong></td>
-<td>自归档静默无效、跨设备续接无提示、长会话 400 不可恢复</td>
-<td>queued follow-up 竞态、Automations 缺 <code>call_id</code> 导致永久 400</td>
-<td>状态一致性、幂等、自愈或降级路径</td>
-</tr>
-<tr>
-<td><strong>沙箱 / 权限 / 隔离</strong></td>
-<td>seccomp 间歇失败、worktree 隔离与 hooks 耦合、权限模式指示符</td>
-<td>PreToolUse deny 失效、Windows 沙箱注册机制</td>
-<td>安全策略必须生效，作用域和失败行为要明确</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>4. 差异化定位分析</h2>
-<p>**Claude Code：CLI/T</p>
-<hr>
-<h2>各工具详细报告</h2>
-<details>
-<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
-
-<h2>Claude Code Skills 社区热点</h2>
-<blockquote>
-<p>数据来源: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
-</blockquote>
-<p>⚠️ Skills 摘要生成失败。</p>
-<hr>
-<h1>Claude Code 社区动态日报 · 2026-09-15</h1>
-<blockquote>
-<p>数据来源：github.com/anthropics/claude-code
-说明：过去 24 小时内 PR 侧仅有 3 条更新记录，故 PR 部分按实际数据完整列出，不做凑数。</p>
-</blockquote>
-<hr>
-<h2>一、今日速览</h2>
-<p>社区讨论继续被 <strong>#91870「Mods — make Claude 10x more extensible」</strong> 主导（174 评论 / 105 👍），官方在该帖中承诺 function hooks 将在&quot;数周内&quot;落地，围绕它的周边需求（用量事件、隔离兼容）已开始成批出现。与此同时，<strong>Windows 平台问题集中爆发</strong>：Cowork 的 Plan9 共享挂载因系统更新 KB5124008 全面失效（113 评论），本地 MCP、Bash 反斜杠转义等多条 Windows 缺陷仍在活跃。<strong>成本治理</strong>成为第二大声量主线，从 Opus 5 的 token 异常放大到运行时消费熔断请求，触及真实账单。</p>
-<hr>
-<h2>二、版本发布</h2>
-<p><strong>v2.1.272</strong></p>
-<ul>
-<li>仅包含 Bug 修复与可靠性改进，无功能变更。</li>
-</ul>
-<p><strong>v2.1.271</strong></p>
-<ul>
-<li><strong>Remote 会话支持 fast mode</strong>：云端与自托管 runner 均可用，主机侧 fast-mode 设置或会话内输入 <code>/fast</code> 生效（受组织策略限制）。</li>
-<li><strong>全屏模式 <code>/config</code> 面板支持鼠标操作</strong>：滚轮可直接滚动设置项。</li>
-</ul>
-<blockquote>
-<p>发布节奏平稳，功能增量集中在 Remote 体验与 TUI 交互，与社区近期对 TUI/终端体验的反馈方向一致。</p>
-</blockquote>
-<hr>
-<h2>三、社区热点 Issues（Top 10）</h2>
-<ol>
-<li><p><strong>#91870 [OPEN] Mods — make Claude 10x more extensible</strong> · 174 评论 / 105 👍
-本周绝对焦点。帖内发布 Community Update，官方表示已&quot;以周而非天为单位&quot;承诺交付 function hooks，且承认社区高信号反馈已实质影响设计。这是 Claude Code 插件化路线的方向标。
-<a href="https://github.com/anthropics/claude-code/issues/91870">https://github.com/anthropics/claude-code/issues/91870</a></p>
-</li>
-<li><p><strong>#92984 [OPEN] Cowork (Windows)：KB5124008 后所有 Plan9 共享挂载失败</strong> · 113 评论 / 58 👍
-报错 <code>Plan9 mount failed: invalid argument</code>，卸载该 Windows 更新即恢复。已定位到外部系统更新与 Cowork 虚拟化层的冲突，属于硬阻塞级平台问题，企业用户受影响面大。
-<a href="https://github.com/anthropics/claude-code/issues/92984">https://github.com/anthropics/claude-code/issues/92984</a></p>
-</li>
-<li><p><strong>#93596 [OPEN] Opus 5 在 xhigh 档位几乎 100% 触发 thinking，输出 token 涨 2–7 倍</strong> · 3 评论
-自 9-11 01:30 UTC 起复现，模型、effort、设置均未变更。客户端无感知的成本突增，是当前最实际的经济性风险点。
-<a href="https://github.com/anthropics/claude-code/issues/93596">https://github.com/anthropics/claude-code/issues/93596</a></p>
-</li>
-<li><p><strong>#85422 [OPEN] Token-burn 熔断器：带来源归因的运行时消费上限</strong> · 15 评论
-要求对 hooks / plugins / subagents 分源统计并<strong>强制</strong>止损，而不仅是警告。虽然 👍 为 0，但切中&quot;没有任何机制能阻止失控消耗&quot;的结构性空白。
-<a href="https://github.com/anthropics/claude-code/issues/85422">https://github.com/anthropics/claude-code/issues/85422</a></p>
-</li>
-<li><p><strong>#92533 [OPEN] function-hook 的 tool.call 挂到 Bash 即破坏 Agent worktree 隔离</strong> · 1 评论
-启用 <code>CLAUDE_CODE_ENABLE_FUNCTION_HOOKS=1</code> 后，带 <code>isolation: &quot;worktree&quot;</code> 的子代理<strong>所有</strong> Bash 调用（含 <code>pwd</code>、<code>true</code>）都被拒：&quot;isolation context lost&quot;。属 Mods 生态早期必经的机制冲突，值得提前关注。
-<a href="https://github.com/anthropics/claude-code/issues/92533">https://github.com/anthropics/claude-code/issues/92533</a></p>
-</li>
-<li><p><strong>#94424 [OPEN] Function hooks：需要会话用量 / 速率窗口变更事件</strong> · 9-15 新提
-作者在做 context 填充度、5h/7d 计划窗口倒计时与逐轮成本账本，但只能靠轮询 <code>$.session.usage()</code>。反映 hooks 事件模型正在向&quot;可观测性&quot;方向细化。
-<a href="https://github.com/anthropics/claude-code/issues/94424">https://github.com/anthropics/claude-code/issues/94424</a></p>
-</li>
-<li><p><strong>#93782 [OPEN] 2.1.269 回归：VS Code 集成终端（WSL2）听写工具粘贴失效</strong> · 7 评论
-剪贴板 + 模拟 Ctrl+V 的输入不再进入 prompt，2.1.268 正常。回归窗口明确、复现路径清晰，是典型的版本回退类修复优先项。
-<a href="https://github.com/anthropics/claude-code/issues/93782">https://github.com/anthropics/claude-code/issues/93782</a></p>
-</li>
-<li><p><strong>#86928 [OPEN] 沙箱 Bash 间歇失败：<code>unshare(CLONE_NEWUSER): Invalid argument</code></strong> · 16 评论
-<code>sandbox.enabled: true</code> 下约 <strong>1/10</strong> 的 Bash 调用直接失败，同命令重试可过。间歇性导致难以稳定复现，但已标记 reproduced。
-<a href="https://github.com/anthropics/claude-code/issues/86928">https://github.com/anthropics/claude-code/issues/86928</a></p>
-</li>
-<li><p><strong>#77298 [OPEN] 为 Agent (Task) 工具增加 per-call effort 参数</strong> · 4 评论 / 13 👍
-目前 model 可逐调用覆盖，effort 却必须预先写死 agent 定义文件。与成本治理主线叠加，是&quot;按需投放推理算力&quot;的关键缺口。
-<a href="https://github.com/anthropics/claude-code/issues/77298">https://github.com/anthropics/claude-code/issues/77298</a></p>
-</li>
-<li><p><strong>#44933 [OPEN] Cowork：设置默认项目文件夹，会话启动时自动加载</strong> · 9 评论 / 20 👍
-4 月提出、至今持续活跃的长期高赞需求，反映桌面端多项目工作流的日常摩擦。
-<a href="https://github.com/anthropics/claude-code/issues/44933">https://github.com/anthropics/claude-code/issues/44933</a></p>
-</li>
-</ol>
-<p><strong>值得补充关注</strong>：#90004（条件 <code>paths:</code> skills 在 auto 模式下永远无法激活——触发只挂在 Read/Edit/Write，而 bashFirst 又叫模型别用它们）、#94418（计划任务调用 <code>archive_session(&quot;self&quot;)</code> 静默无效）、#85021（权限模式指示符用 U+23F5，常见等宽字体缺字形渲染成豆腐块，同类问题半年来第 5 次被提）。</p>
-<hr>
-<h2>四、重要 PR 进展</h2>
-<blockquote>
-<p>过去 24 小时仅 3 条 PR 更新，以下为全部内容。</p>
-</blockquote>
-<ol>
-<li><p><strong>#94184 [CLOSED] <code>mods/diff</code>：固定表头 + 仅正文滚动</strong> · 作者 poteat
-使 docked 面板与内置 <code>/diff</code> 逐帧对齐：表头、base 行与 8 行文件列表保持固定，滚轮以 3 行/格滚动 hunks；指针悬停溢出列表时按文件滚动；<code>ctrl/opt+↑↓</code> 与 <code>ctrl+x b</code> 可从 prompt 直接生效。与 #91870 的 Mods 提案同源，展示社区自建扩展已达内置体验水准。
-<a href="https://github.com/anthropics/claude-code/pull/94184">https://github.com/anthropics/claude-code/pull/94184</a></p>
-</li>
-<li><p><strong>#71627 [OPEN] docs(sandbox)：补充说明&quot;提示期批准的 host 为会话级&quot;</strong> · 作者 mahirhir
-在 <code>examples/settings/README.md</code> 的 Tips 增加一条：经 prompt 批准的网络域名仅当前会话有效，恢复会话后需重新批准。6 月提交至今仍未合并，但恰好回应了大量沙箱网络困惑。
-<a href="https://github.com/anthropics/claude-code/pull/71627">https://github.com/anthropics/claude-code/pull/71627</a></p>
-</li>
-<li><p><strong>#83890 [CLOSED] 新增 pylint.yml</strong> · 作者 KrypticKode007
-仓库 CI 静态检查配置，已关闭。
-<a href="https://github.com/anthropics/claude-code/pull/83890">https://github.com/anthropics/claude-code/pull/83890</a></p>
-</li>
-</ol>
-<hr>
-<h2>五、功能需求趋势</h2>
-<ol>
-<li><strong>可扩展性 / 插件化（最强主线）</strong>：Mods、function hooks、插件作用域设计占据最高声量与最高赞。官方已给出交付时间承诺，社区正在从&quot;要不要 hooks&quot;转向&quot;hooks 应有哪些事件&quot;。</li>
-<li><strong>成本与用量治理</strong>：运行时消费熔断、per-source 归因、用量变更事件、per-call effort、异常 token 放大排查——正在从零散诉求汇聚成一条产品线。</li>
-<li><strong>Windows 平台健壮性</strong>：系统更新兼容（Plan9）、本地 MCP 就绪检测、Bash 反斜杠吞噬、IME 候选窗遮挡、MSIX 打包限制等，是当前缺陷密度最高的平台。</li>
-<li><strong>IDE 集成打磨</strong>：VS Code 扩展的会话删除、diff 双开、<code>initialPermissionMode</code> 在更新后静默失效、终端粘贴回归。</li>
-<li><strong>会话生命周期与跨设备续接</strong>：自归档失效、跨设备续接在源机器执行且无提示、恢复会话连接卡死。</li>
-<li><strong>沙箱与隔离</strong>：seccomp 间歇失败、hooks 与 worktree 隔离的耦合冲突、后台任务被内存压力回收器批量误杀。</li>
-<li><strong>终端渲染与可访问性</strong>：字形兼容（U+23F5 → U+25B6）、鼠标支持、全屏面板交互。</li>
-</ol>
-<hr>
-<h2>六、开发者关注点</h2>
-<ul>
-<li><strong>回归比新功能更痛</strong>：2.1.269 的粘贴回归、扩展更新后权限模式被重置（#85077），都属于&quot;静默改变既有行为&quot;，比功能缺失更侵蚀信任。</li>
-<li><strong>长会话脆弱性</strong>：二进制工具输出导致会话陷入永久 <code>400 unexpected end of data</code>（#94408，含 fork 也无法恢复），缺乏会话自愈或降级路径。</li>
-<li><strong>失败静默</strong>：自归档无报错、权限模式变 undefined、跨设备执行无提示——开发者反复强调&quot;宁可报错也不要无声失败&quot;。</li>
-<li><strong>资源回收策略争议</strong>：Linux 上以 MemFree 而非 MemAvailable/PSI 判定内存压力，导致 39 GB 可用时仍批量杀死后台任务（#78674）。</li>
-<li><strong>配置语义不清</strong>：沙箱网络批准的作用域（会话级）、条件 skills 的触发机制与 bashFirst 策略相互矛盾（#90004），文档与实现之间存在解释成本。</li>
-<li><strong>成本可预期性缺口</strong>：没有硬性止损、没有分源账单、effort 不可逐调用调整——在 agent 自主性提高的同时，开发者希望保有&quot;刹车&quot;。</li>
-</ul>
-<hr>
-<p>*日报生成时间：2026-09-15 ·</p>
-</details>
-
-<details>
-<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
-
-<h1>OpenAI Codex 社区动态日报 · 2026-09-15</h1>
-<p>数据来源：<a href="https://github.com/openai/codex">github.com/openai/codex</a></p>
-<hr>
-<h2>一、今日速览</h2>
-<ol>
-<li>0.155.0 系列 alpha 版本在 24 小时内密集迭代到 <code>alpha.6</code>，主线仍在快速推进，但 release 说明极简，无公开变更明细。</li>
-<li>社区讨论高度集中在 <strong>Windows 桌面端稳定性</strong>（app-server 队列、浏览器控制、WMI 轮询、cua_node 文件系统异常）与 <strong>自定义 OpenAI 兼容 provider 的 schema 严格性问题</strong>（DeepSeek 相关 Issue 已形成系列）。</li>
-<li>PR 侧集中落地一批底层工程改造：daemon 包与 CLI 解耦、附件上传/解析 API、Windows 沙箱注册机制、Unix socket 权限修复——多为基础设施级铺垫。</li>
-</ol>
-<hr>
-<h2>二、版本发布</h2>
-<p>过去 24 小时共 4 个 tag，<strong>全部为 <code>rust-v0.155.0-alpha.*</code> 预发布版本</strong>，release note 仅包含版本号本身，无可读变更说明：</p>
-<table>
-<thead>
-<tr>
-<th>版本</th>
-<th>链接</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>rust-v0.155.0-alpha.6</td>
-<td><a href="https://github.com/openai/codex/releases">release</a></td>
-</tr>
-<tr>
-<td>rust-v0.155.0-alpha.5</td>
-<td><a href="https://github.com/openai/codex/releases">release</a></td>
-</tr>
-<tr>
-<td>rust-v0.155.0-alpha.4</td>
-<td><a href="https://github.com/openai/codex/releases">release</a></td>
-</tr>
-<tr>
-<td>rust-v0.155.0-alpha.2.4</td>
-<td><a href="https://github.com/openai/codex/releases">release</a></td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>观察：一天内连续 4 个 alpha 且跨 <code>.2.4</code> / <code>.4</code> / <code>.5</code> / <code>.6</code> 等非连续编号，说明 0.155.0 正处于高频内部验证阶段。当前用户侧稳定版仍为 0.153.4 / 0.154.0，社区反馈的多数问题均基于这两个稳定版。</p>
-</blockquote>
-<hr>
-<h2>三、社区热点 Issues</h2>
-<h3>1. [Windows] 编辑并重发队列消息触发 app-server 错误 — 本日最热</h3>
-<p><a href="https://github.com/openai/codex/issues/44781">#44781</a> · 31 评论 · 👍 37 · OPEN</p>
-<p>Codex Desktop Windows 包 <code>26.903.9818.0</code>，内嵌 codex-cli 0.153.4。用户编辑一条已排队的 follow-up 消息并重发时，提示 <code>App-server queued follow-up no longer exists</code>。<strong>这是今日评论数与点赞数双高的 Issue</strong>，说明 queued follow-up 的消息生命周期管理存在真实竞态，且 37 个 👍 表明影响面不小。</p>
-<h3>2. [Windows] 浏览器控制在 API-key 认证下完全不可用</h3>
-<p><a href="https://github.com/openai/codex/issues/43410">#43410</a> · 29 评论 · 👍 17 · OPEN</p>
-<p>Edge 插件与 native host 均连接成功，但首次浏览器操作即报 <code>unsupported Codex auth method: apikey</code>。<strong>这是一个认证路径覆盖不全的实现缺口</strong>：ChatGPT 订阅登录可用、API key 登录不可用。issue 已持续一周多仍在更新，属于跨模块（auth + browser + app-server）的硬骨头。</p>
-<h3>3. GPT-6 Astra 在 CLI 上连 <code>hi</code> 都被拒绝</h3>
-<p><a href="https://github.com/openai/codex/issues/43237">#43237</a> · 14 评论 · OPEN</p>
-<p>Linux/macOS 上用 ChatGPT 订阅登录的 CLI 0.153.4，向 <code>gpt-6-astra</code> 发送 <code>hi</code> 返回 <code>invalid_prompt</code>，作者提供了 CLI 与最小后端复现。<strong>模型侧 prompt 校验与 CLI 请求构造之间的不匹配</strong>，直接影响新模型的可用性，值得官方优先定位。</p>
-<h3>4. macOS CLI 0.154.0 实验能力破坏 Messages / Computer History MCP 启动</h3>
-<p><a href="https://github.com/openai/codex/issues/44458">#44458</a> · 12 评论 · 👍 5 · OPEN</p>
-<p>Homebrew 安装的 0.154.0，ChatGPT Pro 20x，两个 MCP server 在启动阶段双双失败。<strong>实验性开关默认打开导致既有 MCP 集成回归</strong>，是典型的&quot;新功能破坏老能力&quot;问题，也提示 MCP 生态对 CLI 版本升级比较敏感。</p>
-<h3>5. [Windows] Powershell/WMI 全量轮询造成全局输入延迟（已关闭）</h3>
-<p><a href="https://github.com/openai/codex/issues/36176">#36176</a> · 13 评论 · 👍 5 · CLOSED</p>
-<p>从 26.721 版本一路跟踪到 9 月，作者甚至本地打了 patch 验证原因，最终本日关闭。<strong>这是本周少见的&quot;长期性能问题收敛&quot;信号</strong>，对 Windows 桌面版用户是好消息，也说明进程/系统信息采集策略在重新设计。</p>
-<h3>6. Automations 注入缺失 <code>call_id</code> 的函数输出，永久破坏会话</h3>
-<p><a href="https://github.com/openai/codex/issues/44723">#44723</a> · 7 评论 · OPEN</p>
-<p>Windows 桌面版 + 自定义 provider（DeepSeek，<code>wire_api = &quot;responses&quot;</code>）。heartbeat/cron 自动化触发时注入的 <code>function_call_output</code> 缺少 <code>call_id</code>，导致该 session 之后<strong>每一轮</strong>都返回 400 missing field call_id。<strong>这是数据/状态一致性问题，一旦触发不可自愈</strong>，对使用自动化的用户杀伤力很大。</p>
-<h3>7. PreToolUse hook 的 deny 对 <code>apply_patch</code> 不生效（安全边界失效）</h3>
-<p><a href="https://github.com/openai/codex/issues/27833">#27833</a> · 4 评论 · OPEN</p>
-<p>项目级 <code>.codex/hooks.json</code> 注册的 <code>PreToolUse</code> hook 在 <code>apply_patch</code> 上确实被触发，但通过文档规定的两种渠道（exit code 2 + stderr，或 <code>permissionDecision</code> JSON）发出的 deny <strong>均未阻止写入</strong>。<strong>hook 被触发但决策被忽略，等于安全策略形同虚设</strong>，属于最高优先级类型的问题。</p>
-<h3>8. <code>automation_update</code> / <code>tool_search</code> schema 被严格 provider 全面拒绝（系列问题）</h3>
-<p><a href="https://github.com/openai/codex/issues/45585">#45585</a>（今日新增）· <a href="https://github.com/openai/codex/issues/37786">#37786</a> · <a href="https://github.com/openai/codex/issues/39848">#39848</a> · 均 OPEN</p>
-<p>同一根因的多个报道：<code>automation_update</code> 使用根级 <code>oneOf</code> 而<strong>缺少顶层 <code>&quot;type&quot;: &quot;object&quot;</code></strong>，严格校验函数 schema 的 OpenAI 兼容服务会直接拒绝整个请求；<code>tool_search</code> 则暴露空 schema 的延迟工具，一旦被调用该线程后续所有轮次全部失败。OpenAI 自家 Responses 端点容忍这种写法，第三方不容忍。<strong>这是一个&quot;隐式依赖自家服务宽容度&quot;的兼容性债</strong>，已积累成跨 8 月的长尾系列。</p>
-<h3>9. Windows <code>cua_node</code> rename_staging EPERM 死循环，占用约 59 GB 并冻结 UI</h3>
-<p><a href="https://github.com/openai/codex/issues/42484">#42484</a> · 5 评论 · OPEN</p>
-<p>Windows 11 Pro 25H2，桌面版 26.901.1978.0。文件重定位失败后无限重试，磁盘占用飙升至 ~59 GB 且桌面 UI 卡死。<strong>这是资源泄漏 + 无退避重试的组合故障</strong>，对用户机器有实际破坏性。</p>
-<h3>10. 模型容量错误频发：<code>Selected model is at capacity</code></h3>
-<p><a href="https://github.com/openai/codex/issues/44395">#44395</a> · 9 评论 · <a href="https://github.com/openai/codex/issues/44531">#44531</a> · 4 评论 · 均 OPEN</p>
-<p>ChatGPT Pro (20x) 用户反馈模型频繁报容量</p>
-</details>
-
-<hr>
-<p><em>本日报由 <a href="https://github.com/JohnGao818/agents-radar">agents-radar</a> 自动生成。</em></p>
 ]]></content:encoded>
     </item>
   </channel>
