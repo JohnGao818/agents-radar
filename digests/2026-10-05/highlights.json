@@ -1,0 +1,21 @@
+{
+  "zh": {},
+  "en": {
+    "ai-cli": [
+      "Claude Code sees 50 issues, 5 PRs updated today.",
+      "No new Claude Code release in last 24h.",
+      "Issue #69238 leads with 67 comments and 112 likes.",
+      "Issue #14920 gains 95 likes for plugin granularity.",
+      "Codex digest failed; no verifiable Codex data.",
+      "Advisor/API failures and quota fallbacks under fire."
+    ],
+    "ai-agents": [
+      "OpenClaw logs 500 issues and 500 PRs in 24h.",
+      "129 issues closed; 208 PRs merged or closed.",
+      "Backlog stands at 371 open issues, 292 open PRs.",
+      "No new OpenClaw release shipped today.",
+      "Build 2026.9.8 reported rollback in field incident.",
+      "P0/P1 update and session-state bugs dominate."
+    ]
+  }
+}
